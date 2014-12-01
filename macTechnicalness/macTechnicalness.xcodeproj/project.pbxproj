@@ -103,9 +103,9 @@
 		740EF56D1A2C89D300735C4E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				740EF5731A2C8E4C00735C4E /* ViewController */,
 				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
 				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
+				740EF5731A2C8E4C00735C4E /* ViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
