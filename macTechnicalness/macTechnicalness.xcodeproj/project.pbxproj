@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740EF5711A2C8E4900735C4E /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* TopViewController.m */; };
+		740EF5721A2C8E4900735C4E /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* TopViewController.m */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
-		ECDC65371A2BD58B0080C608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65361A2BD58B0080C608 /* ViewController.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
 		ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDC653B1A2BD58B0080C608 /* Images.xcassets */; };
 		ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */; };
@@ -40,13 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		740EF56F1A2C8E4900735C4E /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopViewController.h; path = Controller/ViewController/TopViewController.h; sourceTree = "<group>"; };
+		740EF5701A2C8E4900735C4E /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopViewController.m; path = Controller/ViewController/TopViewController.m; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECDC65321A2BD58B0080C608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECDC65331A2BD58B0080C608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECDC65351A2BD58B0080C608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECDC65361A2BD58B0080C608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ECDC65391A2BD58B0080C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECDC653B1A2BD58B0080C608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ECDC653E1A2BD58B0080C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -99,6 +100,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740EF56D1A2C89D300735C4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				740EF5731A2C8E4C00735C4E /* ViewController */,
+				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
+				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		740EF56E1A2C89E300735C4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */,
+				ECDC65381A2BD58B0080C608 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		740EF5731A2C8E4C00735C4E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				740EF56F1A2C8E4900735C4E /* TopViewController.h */,
+				740EF5701A2C8E4900735C4E /* TopViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
@@ -124,13 +153,9 @@
 		ECDC652D1A2BD58B0080C608 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
-				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
-				ECDC65351A2BD58B0080C608 /* ViewController.h */,
-				ECDC65361A2BD58B0080C608 /* ViewController.m */,
-				ECDC65381A2BD58B0080C608 /* Main.storyboard */,
+				740EF56E1A2C89E300735C4E /* View */,
+				740EF56D1A2C89D300735C4E /* Controller */,
 				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
-				ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
 			);
 			path = iOSApp;
@@ -361,9 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDC65371A2BD58B0080C608 /* ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
+				740EF5711A2C8E4900735C4E /* TopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EF5721A2C8E4900735C4E /* TopViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -841,6 +867,7 @@
 				ECDC65741A2BD5AC0080C608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECDC65781A2BD5AC0080C608 /* Build configuration list for PBXNativeTarget "OSXAppTests" */ = {
 			isa = XCConfigurationList;
@@ -849,6 +876,7 @@
 				ECDC65761A2BD5AC0080C608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
