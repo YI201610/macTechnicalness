@@ -36,7 +36,7 @@
 
 - (void) loadView
 {
-    self.navigationItem.title = NSLocalizedString(@"mock-ups", nil);
+    self.navigationItem.title = NSLocalizedString(@"項目一覧", nil);
     
     CGRect app_frame = [[UIScreen mainScreen] applicationFrame];
     

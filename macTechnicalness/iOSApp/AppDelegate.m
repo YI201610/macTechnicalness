@@ -28,7 +28,9 @@
     /*!
      @comment
      */
-    _window.rootViewController = [TopViewController new];
+    TopViewController* topViewController = [TopViewController new];
+    _myNavigationController = [[UINavigationController alloc] initWithRootViewController:topViewController];
+    _window.rootViewController = _myNavigationController;
     
     /*!
      @comment
