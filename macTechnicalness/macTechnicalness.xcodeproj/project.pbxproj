@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		740EF5711A2C8E4900735C4E /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* TopViewController.m */; };
 		740EF5721A2C8E4900735C4E /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* TopViewController.m */; };
+		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
+		740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
+		740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
+		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -43,6 +47,7 @@
 /* Begin PBXFileReference section */
 		740EF56F1A2C8E4900735C4E /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopViewController.h; path = Controller/ViewController/TopViewController.h; sourceTree = "<group>"; };
 		740EF5701A2C8E4900735C4E /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopViewController.m; path = Controller/ViewController/TopViewController.m; sourceTree = "<group>"; };
+		740EF5791A2DD4A300735C4E /* topMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenu.plist; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,9 +133,27 @@
 			name = ViewController;
 			sourceTree = "<group>";
 		};
+		740EF5761A2DD4A300735C4E /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				740EF5771A2DD4A300735C4E /* plist */,
+			);
+			name = Resouce;
+			path = ../Resouce;
+			sourceTree = "<group>";
+		};
+		740EF5771A2DD4A300735C4E /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				740EF5791A2DD4A300735C4E /* topMenu.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
+				740EF5761A2DD4A300735C4E /* Resouce */,
 				ECDC652D1A2BD58B0080C608 /* iOSApp */,
 				ECDC65471A2BD58B0080C608 /* iOSAppTests */,
 				ECDC65571A2BD5AC0080C608 /* OSXApp */,
@@ -306,6 +329,7 @@
 		EC03CCBC1A2BD234009C741E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MT;
 				LastUpgradeCheck = 0610;
 				TargetAttributes = {
 					ECDC652A1A2BD58B0080C608 = {
@@ -352,6 +376,7 @@
 			files = (
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
+				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +395,7 @@
 			files = (
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
+				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

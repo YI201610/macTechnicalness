@@ -34,6 +34,9 @@
 }
 */
 
+/*!
+ @abstract
+ */
 - (void) loadView
 {
     self.navigationItem.title = NSLocalizedString(@"項目一覧", nil);
@@ -45,7 +48,6 @@
     self.view = baseview;
     self.view.multipleTouchEnabled = NO;
     self.view.exclusiveTouch = YES;
-    
 }
 
 
