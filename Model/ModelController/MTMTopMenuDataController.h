@@ -13,4 +13,11 @@
  */
 @interface MTMTopMenuDataController : NSObject
 
+
+/*!
+ @abstract  topメニューのplistを読み込む
+ */
+- (void) initWithPlistName:(NSString*) plistNameString;
+
+
 @end
