@@ -17,7 +17,7 @@
 /*!
  @abstract  topメニューのplistを読み込む
  */
-- (void) initWithPlistName:(NSString*) plistNameString;
+- (instancetype) initWithPlistName:(NSString*) plistNameString;
 
 
 @end
