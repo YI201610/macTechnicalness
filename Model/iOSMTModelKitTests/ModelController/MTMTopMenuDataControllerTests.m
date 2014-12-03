@@ -26,9 +26,14 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
     /*!
-     @comment   テストバンドルからリソース取得したい。
+     @comment   テストバンドルから、テスト用のplistパスを求める
      */
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"topMenu" ofType:@"plist"];
+    NSBundle* testBundle = [NSBundle bundleForClass:[self class]];
+    NSString* plistPath = [testBundle pathForResource:@"topMenu" ofType:@"plist"];
+    
+    /*!
+     @comment   テスト用plistから、オブジェクトを作成する。
+     */
     modelController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
 }
 
@@ -37,9 +42,27 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testThatControllerHasMenuSpec {
+    XCTAssertTrue([modelController numberOfSection] > 0, @"複数のセクションをもつこと");
+}
+
+- (void) testThatControllerCanReturnSectionKeyString
+{
+    NSInteger countOfSection = [modelController numberOfSection];
+    XCTAssertGreaterThan(countOfSection, 0, "必ず１つ以上のセクションをもつこと");
+
+    for(int i = 0; i < countOfSection; i++){
+        NSString* sectionNameString = [modelController sectionNameStringWithIndex:i];
+        XCTAssertNotNil(sectionNameString, @"全てのセクションは名称をもつこと");
+    }
+}
+
+/*!
+ @abstract セクションが保持するアイテム数を返すこと
+ */
+- (void) testThatControllerCanReturnCountOfItemsInSection
+{
+    NSInteger countOfItem = [modelController numberOfItemForSection:]
 }
 
 /*!

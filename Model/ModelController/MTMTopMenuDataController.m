@@ -9,26 +9,51 @@
 #import "MTMTopMenuDataController.h"
 #import "CommonHeader.h"
 
+@interface MTMTopMenuDataController() {
+    
+    /*!
+     @abstract
+     */
+    NSMutableArray* _sectionKeyStringArray;
+    
+    /*!
+     @abstract
+     */
+    NSMutableArray* _menuIndexStringArray;
+    
+    /*!
+     @abstract
+     */
+    NSDictionary* _topMenuDictionary;
+}
+
+@end
+
 @implementation MTMTopMenuDataController
 
 - (instancetype)initWithPlistName:(NSString*) plistNameString
 {
     self = [super init];
     if (self) {
-        //
-        NSMutableArray* menuIndexArray__ = [[NSMutableArray alloc] init];
-        NSMutableArray* sectionKeyArray__ = [[NSMutableArray alloc] init];
         
         /*!
          @comment   topMenu plist
          */
+        _sectionKeyStringArray = [[NSMutableArray alloc] init];
+        _menuIndexStringArray = [[NSMutableArray alloc] init];
+        
+        /*!
+         @comment
+         */
         NSMutableArray* topMenuArray = [[NSMutableArray alloc] init];
         
-        //
+        /*!
+         @comment
+         */
         NSError* errorDesc = nil;
         if([plistNameString length] > 0)
         {
-            NSData* plistXML = [[NSFileManager defaultManager] contentsAtPath:plistNameString];
+            NSData* plistXML = [NSData dataWithContentsOfFile:plistNameString];
             NSPropertyListFormat format;
             NSDictionary* propertyListDic = [NSPropertyListSerialization propertyListWithData:plistXML
                                                                                       options:NSPropertyListImmutable
@@ -42,8 +67,8 @@
                 for(NSString* key in propertyListKeyArray) {
                     debugout(@"key: %@, value: %@", key, [propertyListDic objectForKey:key]);
                     
-                    [menuIndexArray__  addObject: key];
-                    [sectionKeyArray__ addObject: key];
+                    [_sectionKeyStringArray addObject: key];
+                    [_menuIndexStringArray  addObject: key];
                     
                     NSArray* itemDataArray = [propertyListDic objectForKey:key];
                     [topMenuArray addObject: itemDataArray];
@@ -53,11 +78,29 @@
             }
         }
         
-        //
-        NSDictionary* menuDictionary__ = [[NSDictionary alloc] initWithObjects:topMenuArray forKeys:sectionKeyArray__];
-
+        /*!
+         @comment
+         */
+        _topMenuDictionary = [[NSDictionary alloc] initWithObjects:topMenuArray forKeys:_sectionKeyStringArray];
     }
+    
     return self;
 }
+
+- (NSString*) sectionNameStringWithIndex:(NSInteger)indexNo
+{
+    return nil;
+}
+
+- (NSInteger) numberOfSection
+{
+    return 0;
+}
+
+- (NSString*) itemForSection:(NSString*)section index:(NSInteger)indexValue
+{
+    return nil;
+}
+
 
 @end
