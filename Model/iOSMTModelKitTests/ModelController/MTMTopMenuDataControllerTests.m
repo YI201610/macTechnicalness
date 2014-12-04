@@ -29,7 +29,7 @@
      @comment   テストバンドルから、テスト用のplistパスを求める
      */
     NSBundle* testBundle = [NSBundle bundleForClass:[self class]];
-    NSString* plistPath = [testBundle pathForResource:@"topMenu" ofType:@"plist"];
+    NSString* plistPath = [testBundle pathForResource:@"topMenuTestData" ofType:@"plist"];
     
     /*!
      @comment   テスト用plistから、オブジェクトを作成する。
@@ -65,14 +65,6 @@
     NSString* sectionNameString = @"WWW";
     NSInteger countOfItem = [modelController numberOfItemForSection:sectionNameString];
     XCTAssertGreaterThanOrEqual(countOfItem, 0, @"セクションが保持するアイテム数を取得することができる");
-}
-
-/*!
- @abstract  Controllerは、
- */
-- (void)testThatControllerCanLoadMenu
-{
-//    XCTAssertEqualObjects(<#expression1#>, <#expression2, ...#>)
 }
 
 - (void)testPerformanceExample {

@@ -18,10 +18,12 @@
 		740EF5C51A2DD7EB00735C4E /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5851A2DD77E00735C4E /* MTMTopMenuDataController.m */; };
 		740EF5C61A2DD7EC00735C4E /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5851A2DD77E00735C4E /* MTMTopMenuDataController.m */; };
 		740EF5C81A2DD86000735C4E /* MTMTopMenuDataControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5C71A2DD86000735C4E /* MTMTopMenuDataControllerTests.m */; };
-		740EF5CF1A2DDA1500735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5CC1A2DDA1500735C4E /* topMenu.plist */; };
-		740EF5D01A2DDA1500735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5CC1A2DDA1500735C4E /* topMenu.plist */; };
 		740EF5D21A2E7D9700735C4E /* CommonHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 740EF5D11A2E7D9700735C4E /* CommonHeader.h */; };
 		740EF5D31A2E7D9700735C4E /* CommonHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 740EF5D11A2E7D9700735C4E /* CommonHeader.h */; };
+		740EF5DF1A2FE75000735C4E /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5DE1A2FE75000735C4E /* topMenuTestData.plist */; };
+		740EF5E01A2FE75000735C4E /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5DE1A2FE75000735C4E /* topMenuTestData.plist */; };
+		740EF5E71A3080AF00735C4E /* MTMTopMenuDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 740EF5841A2DD77E00735C4E /* MTMTopMenuDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740EF5E81A3080B300735C4E /* MTMTopMenuDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 740EF5841A2DD77E00735C4E /* MTMTopMenuDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +59,8 @@
 		740EF5BA1A2DD7D400735C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740EF5BB1A2DD7D400735C4E /* OSXMTModelKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXMTModelKitTests.m; sourceTree = "<group>"; };
 		740EF5C71A2DD86000735C4E /* MTMTopMenuDataControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTMTopMenuDataControllerTests.m; path = ModelController/MTMTopMenuDataControllerTests.m; sourceTree = "<group>"; };
-		740EF5CC1A2DDA1500735C4E /* topMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenu.plist; sourceTree = "<group>"; };
 		740EF5D11A2E7D9700735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		740EF5DE1A2FE75000735C4E /* topMenuTestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenuTestData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,19 +193,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		740EF5C91A2DDA1500735C4E /* Resouce */ = {
+		740EF5DC1A2FE75000735C4E /*  TestResouce */ = {
 			isa = PBXGroup;
 			children = (
-				740EF5CA1A2DDA1500735C4E /* plist */,
+				740EF5DD1A2FE75000735C4E /* plist */,
 			);
-			name = Resouce;
-			path = ../Resouce;
+			name = " TestResouce";
+			path = "../ TestResouce";
 			sourceTree = "<group>";
 		};
-		740EF5CA1A2DDA1500735C4E /* plist */ = {
+		740EF5DD1A2FE75000735C4E /* plist */ = {
 			isa = PBXGroup;
 			children = (
-				740EF5CC1A2DDA1500735C4E /* topMenu.plist */,
+				740EF5DE1A2FE75000735C4E /* topMenuTestData.plist */,
 			);
 			path = plist;
 			sourceTree = "<group>";
@@ -211,8 +213,8 @@
 		ECDC65791A2BD61A0080C608 = {
 			isa = PBXGroup;
 			children = (
+				740EF5DC1A2FE75000735C4E /*  TestResouce */,
 				740EF5D11A2E7D9700735C4E /* CommonHeader.h */,
-				740EF5C91A2DDA1500735C4E /* Resouce */,
 				740EF5831A2DD67600735C4E /* ModelController */,
 				740EF5821A2DD66A00735C4E /* Entity */,
 				740EF58D1A2DD7BF00735C4E /* iOSMTModelKit */,
@@ -232,6 +234,7 @@
 			files = (
 				740EF5D21A2E7D9700735C4E /* CommonHeader.h in Headers */,
 				740EF5911A2DD7BF00735C4E /* iOSMTModelKit.h in Headers */,
+				740EF5E71A3080AF00735C4E /* MTMTopMenuDataController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +244,7 @@
 			files = (
 				740EF5D31A2E7D9700735C4E /* CommonHeader.h in Headers */,
 				740EF5AF1A2DD7D400735C4E /* OSXMTModelKit.h in Headers */,
+				740EF5E81A3080B300735C4E /* MTMTopMenuDataController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740EF5CF1A2DDA1500735C4E /* topMenu.plist in Resources */,
+				740EF5DF1A2FE75000735C4E /* topMenuTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740EF5D01A2DDA1500735C4E /* topMenu.plist in Resources */,
+				740EF5E01A2FE75000735C4E /* topMenuTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

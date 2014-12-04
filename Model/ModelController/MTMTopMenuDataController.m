@@ -61,12 +61,8 @@
                                                                                         error:&errorDesc];
             //
             if (propertyListDic) {
-                debugout(@"propertyListDic: %@", propertyListDic);
-                
                 NSArray* propertyListKeyArray = [propertyListDic allKeys];
                 for(NSString* key in propertyListKeyArray) {
-                    debugout(@"key: %@, value: %@", key, [propertyListDic objectForKey:key]);
-                    
                     [_sectionKeyStringArray addObject: key];
                     [_menuIndexStringArray  addObject: key];
                     
@@ -89,22 +85,27 @@
 
 - (NSString*) sectionNameStringWithIndex:(NSInteger)indexNo
 {
-    return nil;
+    NSString *sectionName = [_sectionKeyStringArray objectAtIndex:indexNo];
+    return sectionName;
 }
 
 - (NSInteger) numberOfSection
 {
-    return 0;
+    NSInteger count = [_sectionKeyStringArray count];
+    return count;
 }
 
 - (NSString*) itemForSection:(NSString*)section index:(NSInteger)indexValue
 {
-    return nil;
+    NSArray* itemArray = [_topMenuDictionary objectForKey:section];
+    NSString* itemString = [itemArray objectAtIndex:indexValue];
+    return itemString;
 }
 
 - (NSInteger) numberOfItemForSection:(NSString*)sectionNameString
 {
-    return 0;
+    NSArray* itemArray = [_topMenuDictionary objectForKey:sectionNameString];
+    return [itemArray count];
 }
 
 @end

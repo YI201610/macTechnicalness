@@ -19,22 +19,22 @@
 - (instancetype) initWithPlistName:(NSString*) plistNameString;
 
 /*!
- @abstract
+ @abstract  指定した番号に対応するセクションの名称を返す
  */
 - (NSString*) sectionNameStringWithIndex:(NSInteger)indexNo;
 
 /*!
- @abstract
+ @abstract  セクションの総数を返す
  */
 - (NSInteger) numberOfSection;
 
 /*!
- @abstract
+ @abstract  指定したセクション、指定した番号に対応する「OSX/iOS検証項目名」を返す
  */
 - (NSString*) itemForSection:(NSString*)section index:(NSInteger)indexValue;
 
 /*!
- @abstract
+ @abstract  指定したセクションに含まれる検証項目名の総数を返す
  */
 - (NSInteger) numberOfItemForSection:(NSString*)sectionNameString;
 

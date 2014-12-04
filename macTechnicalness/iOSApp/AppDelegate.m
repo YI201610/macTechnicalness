@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TopViewController.h"
+#import "MTTopViewController.h"
 
 
 @interface AppDelegate ()
@@ -28,7 +28,7 @@
     /*!
      @comment
      */
-    TopViewController* topViewController = [TopViewController new];
+    MTTopViewController* topViewController = [MTTopViewController new];
     _myNavigationController = [[UINavigationController alloc] initWithRootViewController:topViewController];
     _window.rootViewController = _myNavigationController;
     
