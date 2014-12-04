@@ -102,5 +102,9 @@
     return nil;
 }
 
+- (NSInteger) numberOfItemForSection:(NSString*)sectionNameString
+{
+    return 0;
+}
 
 @end

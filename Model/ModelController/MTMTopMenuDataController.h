@@ -33,5 +33,9 @@
  */
 - (NSString*) itemForSection:(NSString*)section index:(NSInteger)indexValue;
 
+/*!
+ @abstract
+ */
+- (NSInteger) numberOfItemForSection:(NSString*)sectionNameString;
 
 @end

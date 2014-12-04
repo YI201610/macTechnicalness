@@ -58,11 +58,13 @@
 }
 
 /*!
- @abstract セクションが保持するアイテム数を返すこと
+ @abstract セクションが保持するアイテム数を返すメソッドがあること
  */
 - (void) testThatControllerCanReturnCountOfItemsInSection
 {
-    NSInteger countOfItem = [modelController numberOfItemForSection:]
+    NSString* sectionNameString = @"WWW";
+    NSInteger countOfItem = [modelController numberOfItemForSection:sectionNameString];
+    XCTAssertGreaterThanOrEqual(countOfItem, 0, @"セクションが保持するアイテム数を取得することができる");
 }
 
 /*!
