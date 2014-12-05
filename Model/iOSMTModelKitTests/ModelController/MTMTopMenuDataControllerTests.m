@@ -67,6 +67,25 @@
     XCTAssertGreaterThanOrEqual(countOfItem, 0, @"セクションが保持するアイテム数を取得することができる");
 }
 
+/*!
+ @abstract  全てのセクションの項目数を取得することができること
+ */
+- (void) testThatControllerCanReturnEachSectionCount
+{
+    NSInteger countOfSection = [modelController numberOfSection];
+    for(int i = 0; i < countOfSection; i++){
+        NSString* sectionNameString = [modelController sectionNameStringWithIndex:i];
+        NSInteger countOfItem = [modelController numberOfItemForSection:sectionNameString];
+
+        XCTAssertGreaterThanOrEqual(countOfItem, 0, @"全てのセクションの項目数を知ることができること");
+    }
+}
+
+/*!
+ @abstract  コントローラーは、検証項目のエンティティを返すことができる
+ */
+
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

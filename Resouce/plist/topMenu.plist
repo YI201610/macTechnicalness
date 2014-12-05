@@ -100,15 +100,15 @@
 		</dict>
 	</array>
 	<key>Objective-C</key>
-	<string></string>
+	<array/>
 	<key>Storage</key>
-	<string></string>
+	<array/>
 	<key>Network</key>
-	<string></string>
+	<array/>
 	<key>Sound</key>
-	<string></string>
+	<array/>
 	<key>OpenGL</key>
-	<string></string>
+	<array/>
 	<key>Devices</key>
 	<array>
 		<dict>
@@ -119,9 +119,9 @@
 		</dict>
 	</array>
 	<key>Core Graphics</key>
-	<string></string>
+	<array/>
 	<key>Core Animation</key>
-	<string></string>
+	<array/>
 	<key>Data</key>
 	<array>
 		<array>

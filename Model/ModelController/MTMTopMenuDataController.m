@@ -8,6 +8,7 @@
 
 #import "MTMTopMenuDataController.h"
 #import "CommonHeader.h"
+#import "MTMTopMenuEntity.h"
 
 @interface MTMTopMenuDataController() {
     
@@ -95,10 +96,12 @@
     return count;
 }
 
-- (NSString*) itemForSection:(NSString*)section index:(NSInteger)indexValue
+- (MTMTopMenuEntity*) itemForSection:(NSString*)section index:(NSInteger)indexValue
 {
     NSArray* itemArray = [_topMenuDictionary objectForKey:section];
-    NSString* itemString = [itemArray objectAtIndex:indexValue];
+    NSDictionary* itemDictionary = [itemArray objectAtIndex:indexValue];
+    MTMTopMenuEntity* entity = [MTMTopMenuEntity new];
+    entity.titleString = 
     return itemString;
 }
 

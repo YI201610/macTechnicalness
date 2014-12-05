@@ -22,17 +22,23 @@
 
 @implementation MTTopViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSBundle* testBundle = [NSBundle bundleForClass:[self class]];
+        NSString* plistPath = [testBundle pathForResource:@"topMenu" ofType:@"plist"];
+        _dataController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
+        
+        _dataSource = [MTTopViewTableDataSource new];
+        _dataSource.dataController = _dataController;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    NSBundle* testBundle = [NSBundle bundleForClass:[self class]];
-    NSString* plistPath = [testBundle pathForResource:@"topMenu" ofType:@"plist"];
-    _dataController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
-    
-    _dataSource = [MTTopViewTableDataSource new];
-    _dataSource.dataController = _dataController;
-
 }
 
 - (void)didReceiveMemoryWarning {
