@@ -40,10 +40,10 @@
 		EC3D0BD01A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
 		EC3D0BD11A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
 		EC3D0BD91A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */; };
-		EC3D0BDD1A32EF840097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BDC1A32EF840097C9E2 /* topMenuTestData.plist */; };
-		EC3D0BDE1A32EF840097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BDC1A32EF840097C9E2 /* topMenuTestData.plist */; };
-		EC3D0BDF1A32EF840097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BDC1A32EF840097C9E2 /* topMenuTestData.plist */; };
-		EC3D0BE01A32EF840097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BDC1A32EF840097C9E2 /* topMenuTestData.plist */; };
+		EC3D0BE21A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
+		EC3D0BE31A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
+		EC3D0BE41A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
+		EC3D0BE51A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -168,7 +168,7 @@
 		EC3D0BC41A32EB1E0097C9E2 /* MTMTopMenuDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMTopMenuDataController.h; sourceTree = "<group>"; };
 		EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMTopMenuDataController.m; sourceTree = "<group>"; };
 		EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTMTopMenuDataControllerTests.m; path = iOSEmbeddedModelKitTests/ModelController/MTMTopMenuDataControllerTests.m; sourceTree = SOURCE_ROOT; };
-		EC3D0BDC1A32EF840097C9E2 /* topMenuTestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenuTestData.plist; sourceTree = "<group>"; };
+		EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = topMenuTestData.plist; path = ../../TestResouce/plist/topMenuTestData.plist; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -311,13 +311,17 @@
 			isa = PBXGroup;
 			children = (
 				740EF5ED1A30844D00735C4E /* CommonHeader.h */,
-				EC3D0B9A1A32E9C10097C9E2 /* ModelKit */,
-				EC3D0BDA1A32EF840097C9E2 /*  TestResouce */,
+				EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */,
+				EC3D0BDA1A32EF840097C9E2 /* TestResouce */,
 				740EF5761A2DD4A300735C4E /* Resouce */,
 				ECDC652D1A2BD58B0080C608 /* iOSApp */,
 				ECDC65471A2BD58B0080C608 /* iOSAppTests */,
 				ECDC65571A2BD5AC0080C608 /* OSXApp */,
 				ECDC656E1A2BD5AC0080C608 /* OSXAppTests */,
+				EC3D0BA11A32EAAA0097C9E2 /* OSXEmbededdModelKit */,
+				EC3D0BB01A32EAAB0097C9E2 /* OSXEmbededdModelKitTests */,
+				EC3D0B581A32E99A0097C9E2 /* iOSEmbeddedModelKit */,
+				EC3D0B671A32E99B0097C9E2 /* iOSEmbeddedModelKitTests */,
 				ECDC652C1A2BD58B0080C608 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -357,17 +361,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC3D0B9A1A32E9C10097C9E2 /* ModelKit */ = {
+		EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */ = {
 			isa = PBXGroup;
 			children = (
 				EC3D0BC01A32EB1E0097C9E2 /* Entity */,
 				EC3D0BC31A32EB1E0097C9E2 /* ModelController */,
-				EC3D0BA11A32EAAA0097C9E2 /* OSXEmbededdModelKit */,
-				EC3D0BB01A32EAAB0097C9E2 /* OSXEmbededdModelKitTests */,
-				EC3D0B581A32E99A0097C9E2 /* iOSEmbeddedModelKit */,
-				EC3D0B671A32E99B0097C9E2 /* iOSEmbeddedModelKitTests */,
 			);
-			name = ModelKit;
+			name = EmbeddedModelKit;
 			sourceTree = "<group>";
 		};
 		EC3D0BA11A32EAAA0097C9E2 /* OSXEmbededdModelKit */ = {
@@ -433,19 +433,19 @@
 			path = ModelTests/ModelController;
 			sourceTree = SOURCE_ROOT;
 		};
-		EC3D0BDA1A32EF840097C9E2 /*  TestResouce */ = {
+		EC3D0BDA1A32EF840097C9E2 /* TestResouce */ = {
 			isa = PBXGroup;
 			children = (
 				EC3D0BDB1A32EF840097C9E2 /* plist */,
 			);
-			name = " TestResouce";
+			name = TestResouce;
 			path = "../ TestResouce";
 			sourceTree = "<group>";
 		};
 		EC3D0BDB1A32EF840097C9E2 /* plist */ = {
 			isa = PBXGroup;
 			children = (
-				EC3D0BDC1A32EF840097C9E2 /* topMenuTestData.plist */,
+				EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */,
 			);
 			path = plist;
 			sourceTree = "<group>";
@@ -799,7 +799,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3D0BDF1A32EF840097C9E2 /* topMenuTestData.plist in Resources */,
+				EC3D0BE41A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,7 +814,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3D0BE01A32EF840097C9E2 /* topMenuTestData.plist in Resources */,
+				EC3D0BE51A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -834,7 +834,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
-				EC3D0BDD1A32EF840097C9E2 /* topMenuTestData.plist in Resources */,
+				EC3D0BE21A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,7 +853,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
-				EC3D0BDE1A32EF840097C9E2 /* topMenuTestData.plist in Resources */,
+				EC3D0BE31A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

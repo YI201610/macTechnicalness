@@ -20,6 +20,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    /*
+     @comment   自動ロックしない
+     */
+    [application setIdleTimerDisabled:YES];
+
     /*!
      @comment
      */

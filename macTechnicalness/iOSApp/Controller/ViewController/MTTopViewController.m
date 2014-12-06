@@ -64,7 +64,7 @@
     /*!
      @comment
      */
-    self.navigationItem.title = NSLocalizedString(@"項目一覧", nil);
+    self.navigationItem.title = NSLocalizedString(@"検証項目一覧", nil);
     
     /*!
      @comment
