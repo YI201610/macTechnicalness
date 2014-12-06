@@ -124,10 +124,10 @@
 	<array/>
 	<key>Data</key>
 	<array>
-		<array>
-			<string></string>
+		<dict>
+			<key>title</key>
 			<string>非バックアップ属性付与テスト</string>
-		</array>
+		</dict>
 	</array>
 </dict>
 </plist>

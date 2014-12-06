@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "MTMTopMenuDataController.h"
+#import <iOSMTModelKit/MTMTopMenuDataController.h>
+#import <iOSMTModelKit/MTMTopMenuEntity.h>
+
 
 /*!
  @abstract
@@ -84,7 +86,20 @@
 /*!
  @abstract  コントローラーは、検証項目のエンティティを返すことができる
  */
+- (void) testThatControllerCanReturnItemForSectionAtIndex
+{
+    NSInteger countOfSection = [modelController numberOfSection];
+    for(int i = 0; i < countOfSection; i++){
+        NSString* sectionNameString = [modelController sectionNameStringWithIndex:i];
+        NSInteger countOfItem = [modelController numberOfItemForSection:sectionNameString];
+        
+        for(int j = 0; j < countOfItem; j++){
+            MTMTopMenuEntity* entity = [modelController itemForSection:sectionNameString index:j];
+            XCTAssertNotNil(entity, @"モデルコントローラーは、指定されたセクション、指定された番号のエンティティを返すことができる: (%@:%@)", sectionNameString, entity);
+        }
+    }
 
+}
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

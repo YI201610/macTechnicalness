@@ -6,6 +6,7 @@
 //
 //
 
+#import <iOSMTModelKit/MTMTopMenuEntity.h>
 #import "MTTopViewTableDataSource.h"
 
 
@@ -24,13 +25,19 @@
     return count;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSString* sectionTitleString = [_dataController sectionNameStringWithIndex:section];
+    return sectionTitleString;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger sectionNo = indexPath.section;
     NSInteger rowNo = indexPath.row;
 
     NSString *sectionName = [_dataController sectionNameStringWithIndex:sectionNo];
-    NSString* itemNameString = [_dataController itemForSection:sectionName index:rowNo];
+    MTMTopMenuEntity* itemObj = [_dataController itemForSection:sectionName index:rowNo];
     
     static NSString* cellID = @"techphone";
     UITableViewCell* cell = (UITableViewCell*)[tableView dequeueReusableCellWithIdentifier:cellID];
@@ -38,7 +45,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     
-    cell.textLabel.text = itemNameString;
+    cell.textLabel.text = itemObj.titleString;
 
     return cell;
 }

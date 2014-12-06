@@ -6,9 +6,9 @@
 //
 //
 
+#import <iOSMTModelKit/iOSMTModelKit.h>
 #import "MTMTopMenuDataController.h"
 #import "CommonHeader.h"
-#import "MTMTopMenuEntity.h"
 
 @interface MTMTopMenuDataController() {
     
@@ -100,9 +100,15 @@
 {
     NSArray* itemArray = [_topMenuDictionary objectForKey:section];
     NSDictionary* itemDictionary = [itemArray objectAtIndex:indexValue];
-    MTMTopMenuEntity* entity = [MTMTopMenuEntity new];
-    entity.titleString =
-    return itemString;
+    
+    MTMTopMenuEntity* entity = nil;
+    if([itemDictionary isKindOfClass:[NSDictionary class]]){
+        entity = [MTMTopMenuEntity new];
+        entity.titleString = [itemDictionary objectForKey:@"title"];
+        entity.viewControllerNameString = [itemDictionary objectForKey:@"vc"];
+    }
+
+    return entity;
 }
 
 - (NSInteger) numberOfItemForSection:(NSString*)sectionNameString
