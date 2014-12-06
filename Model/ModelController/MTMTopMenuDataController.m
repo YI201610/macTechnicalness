@@ -101,7 +101,7 @@
     NSArray* itemArray = [_topMenuDictionary objectForKey:section];
     NSDictionary* itemDictionary = [itemArray objectAtIndex:indexValue];
     MTMTopMenuEntity* entity = [MTMTopMenuEntity new];
-    entity.titleString = 
+    entity.titleString =
     return itemString;
 }
 
