@@ -7,6 +7,7 @@
 //
 
 #import "iOSMTGameControllerVerification1ViewController.h"
+#import "CommonHeader.h"
 
 @interface iOSMTGameControllerVerification1ViewController ()
 
@@ -26,7 +27,7 @@
                                                       object:nil
                                                        queue:nil
                                                   usingBlock:^(NSNotification *notification){
-                                                      
+                                                      debugout(@"ゲームコントローラーが接続されました...");
                                                   }
      ];
     
@@ -37,7 +38,7 @@
                                                       object:nil
                                                        queue:nil
                                                   usingBlock:^(NSNotification *notification){
-                                                      
+                                                      debugout(@"ゲームコントローラーとの通信が切断されました...");
                                                   }
      ];
 
