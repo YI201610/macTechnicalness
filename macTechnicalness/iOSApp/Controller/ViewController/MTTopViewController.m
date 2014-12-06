@@ -26,8 +26,8 @@
 {
     self = [super init];
     if (self) {
-        NSBundle* testBundle = [NSBundle bundleForClass:[self class]];
-        NSString* plistPath = [testBundle pathForResource:@"topMenu" ofType:@"plist"];
+        NSBundle* appBundle = [NSBundle bundleForClass:[self class]];
+        NSString* plistPath = [appBundle pathForResource:@"topMenu" ofType:@"plist"];
         _dataController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
         
         _dataSource = [MTTopViewTableDataSource new];

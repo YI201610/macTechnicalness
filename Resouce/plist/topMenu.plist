@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GameController</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>接続テスト</string>
+			<key>vc</key>
+			<string>GameControllerVerification1ViewController</string>
+		</dict>
+	</array>
+
 	<key>UIKit</key>
 	<array>
 		<dict>
@@ -9,13 +19,6 @@
 			<string>Auto Layout検証1</string>
 			<key>vc</key>
 			<string>AutoLayoutVerification1ViewController</string>
-		</dict>
-	</array>
-	<key>WWW</key>
-	<array>
-		<dict>
-			<key>title</key>
-			<string>Safariブラウザからアプリ起動</string>
 		</dict>
 	</array>
 </dict>

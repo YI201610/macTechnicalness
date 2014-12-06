@@ -347,6 +347,7 @@
 		EC3D0B671A32E99B0097C9E2 /* iOSEmbeddedModelKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */,
 				EC3D0B6A1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m */,
 				EC3D0B681A32E99B0097C9E2 /* Supporting Files */,
 			);
@@ -427,7 +428,6 @@
 		EC3D0BD41A32EDC00097C9E2 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
-				EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */,
 			);
 			name = ModelController;
 			path = ModelTests/ModelController;
