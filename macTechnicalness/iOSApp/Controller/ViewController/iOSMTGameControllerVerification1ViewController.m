@@ -17,6 +17,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
+    /*!
+     @comment   ゲームコントローラーが接続されたら、ゲームコントローラーテスター画面を表示する。
+     */
+    [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidConnectNotification
+                                                      object:nil
+                                                       queue:nil
+                                                  usingBlock:^(NSNotification *notification){
+                                                      
+                                                  }
+     ];
+    
+    /*!
+     @comment   ゲームコントローラーの接続が切れたら、接続画面を表示する。
+     */
+    [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidDisconnectNotification
+                                                      object:nil
+                                                       queue:nil
+                                                  usingBlock:^(NSNotification *notification){
+                                                      
+                                                  }
+     ];
+
 }
 
 - (void)didReceiveMemoryWarning {

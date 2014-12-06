@@ -15,6 +15,7 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
+		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
 		EC3D0B5C1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0B621A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */; };
 		EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0B6A1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m */; };
@@ -151,6 +152,8 @@
 		740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewTableDataSource.h; path = Controller/ViewController/MTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewTableDataSource.m; path = Controller/ViewController/MTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
+		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSEmbeddedModelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3D0B5A1A32E99A0097C9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEmbeddedModelKit.h; sourceTree = "<group>"; };
@@ -232,6 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7484C4B91A33138600A310DE /* GameController.framework in Frameworks */,
 				EC3D0B6E1A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +280,7 @@
 			children = (
 				ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */,
 				ECDC65381A2BD58B0080C608 /* Main.storyboard */,
+				EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -304,6 +309,14 @@
 				740EF5791A2DD4A300735C4E /* topMenu.plist */,
 			);
 			path = plist;
+			sourceTree = "<group>";
+		};
+		7484C4B71A33136900A310DE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7484C4B81A33138600A310DE /* GameController.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 		EC03CCBB1A2BD234009C741E = {
@@ -454,7 +467,6 @@
 			children = (
 				EC3D0BE71A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.h */,
 				EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m */,
-				EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib */,
 			);
 			name = GameController;
 			sourceTree = "<group>";
@@ -492,6 +504,7 @@
 				740EF56D1A2C89D300735C4E /* Controller */,
 				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
+				7484C4B71A33136900A310DE /* Framework */,
 			);
 			path = iOSApp;
 			sourceTree = "<group>";
@@ -499,6 +512,7 @@
 		ECDC652E1A2BD58B0080C608 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7484C4B61A330FB500A310DE /* iOSApp.entitlements */,
 				ECDC652F1A2BD58B0080C608 /* Info.plist */,
 				ECDC65301A2BD58B0080C608 /* main.m */,
 			);
@@ -765,7 +779,7 @@
 						DevelopmentTeam = KCQC4QP985;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -1064,8 +1078,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuji Imamura (FS73756HA6)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1094,6 +1108,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1142,6 +1157,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1155,6 +1171,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1168,6 +1185,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1194,7 +1212,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "474ccfbd-4130-4c2d-a63a-fae869b7b7cb";
+				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
@@ -1204,6 +1222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1217,6 +1236,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1236,7 +1256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "474ccfbd-4130-4c2d-a63a-fae869b7b7cb";
+				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 				VALIDATE_PRODUCT = YES;
@@ -1557,7 +1577,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Yuji Imamura (KCQC4QP985)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1585,6 +1605,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
@@ -1608,7 +1629,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Yuji Imamura (KCQC4QP985)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1629,6 +1650,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 				VALIDATE_PRODUCT = YES;
