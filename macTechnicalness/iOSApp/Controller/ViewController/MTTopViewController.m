@@ -41,7 +41,7 @@
         _dataSource = [MTTopViewTableDataSource new];
         
         /*
-         @comment
+         @comment   データソースオブジェクトに、データコントローラーを設定します。
          */
         _dataSource.dataController = _dataController;
         
@@ -122,62 +122,41 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //
+    /*
+     @comment   選択解除のエフェクトを実行します。
+     */
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    //
+    /*
+     @comment   (!)開発中。選択することができない行は、処理をスキップする。
+     */
     UITableViewCell* cell = [tableView cellForRowAtIndexPath:indexPath];
     if(cell.textLabel.textColor == [UIColor lightGrayColor]){
         return;
     }
     
-    //
+    /*
+     @comment   選択された検証項目に対応するView Controller名称を求めます。
+     */
     NSString* sectionName = [_dataController sectionNameStringWithIndex:indexPath.section];
-    
     MTMTopMenuEntity* obj = [_dataController itemForSection:sectionName index:indexPath.row];
-    
     NSString* vcName = obj.viewControllerNameString;
     
-    //
     if([vcName length] == 0){
         debugout(@"Error: Target Class wan't set. ");
         return;
     }
     
-    //
-    UIViewController* addvc = nil;
-    UIStoryboard* storyboard = nil;
-    
-    if([vcName compare:@"VCSuperNumNibTest"] == NSOrderedSame){
-        storyboard = [UIStoryboard storyboardWithName: @"VCSuperNumNibTest" bundle: nil];
-        addvc = [storyboard instantiateInitialViewController];
-        //
-        [self.navigationController pushViewController:addvc animated:YES];
+    /*
+     @comment   選択された検証項目に対応する画面に遷移します。
+     */
+    UIViewController* addvc = [[NSClassFromString(vcName) alloc] init];
+    if(!addvc){
+        debugout( @"Error: %@ was not found.", vcName );
     }else{
-        
-        addvc = [[NSClassFromString(vcName) alloc] init];
-        
-        if(!addvc){
-            debugout( @"Error: %@ was not found.", vcName );
-        }else{
-            
-//            id key = [self.m_menuKeys objectAtIndex: indexPath.section];
-//            
-//            id obj = [[self.m_menuData objectForKey: key] objectAtIndex: indexPath.row];
-//            
-//            NSString* _text = nil;
-//            
-//            if([obj isKindOfClass:[NSArray class]]){
-//                _text = [obj objectAtIndex:1];
-//            }else if([obj isKindOfClass:[NSDictionary class]]){
-//                _text = [obj objectForKey:@"title"];
-//            }
-            
-//            addvc.navigationItem.title = _text;
-            [self.navigationController pushViewController:addvc animated:YES];
-        }
-        
+        [self.navigationController pushViewController:addvc animated:YES];
     }
+    
     
 }
 
