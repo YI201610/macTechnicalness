@@ -1,19 +1,19 @@
 //
-//  iOSMTModelKitTests.m
-//  iOSMTModelKitTests
+//  iOSEmbeddedModelKitTests.m
+//  iOSEmbeddedModelKitTests
 //
-//  Created by Yuji Imamura on 2014/12/02.
+//  Created by Yuji Imamura on 2014/12/06.
 //
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface iOSMTModelKitTests : XCTestCase
+@interface iOSEmbeddedModelKitTests : XCTestCase
 
 @end
 
-@implementation iOSMTModelKitTests
+@implementation iOSEmbeddedModelKitTests
 
 - (void)setUp {
     [super setUp];

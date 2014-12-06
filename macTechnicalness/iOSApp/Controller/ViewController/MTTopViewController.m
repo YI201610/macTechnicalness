@@ -8,7 +8,7 @@
 
 #import "MTTopViewController.h"
 #import "MTTopViewTableDataSource.h"
-#import <iOSMTModelKit/MTMTopMenuDataController.h>
+#import <iOSEmbeddedModelKit/MTMTopMenuDataController.h>
 
 @interface MTTopViewController () {
 

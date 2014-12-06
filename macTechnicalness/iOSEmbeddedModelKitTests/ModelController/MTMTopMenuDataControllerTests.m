@@ -1,20 +1,17 @@
 //
 //  MTMTopMenuDataControllerTests.m
-//  Model
+//  macTechnicalness
 //
-//  Created by Yuji Imamura on 2014/12/02.
+//  Created by Yuji Imamura on 2014/12/06.
 //
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import <iOSMTModelKit/MTMTopMenuDataController.h>
-#import <iOSMTModelKit/MTMTopMenuEntity.h>
+#import <iOSEmbeddedModelKit/MTMTopMenuDataController.h>
+#import <iOSEmbeddedModelKit/MTMTopMenuEntity.h>
 
 
-/*!
- @abstract
- */
 @interface MTMTopMenuDataControllerTests : XCTestCase {
     MTMTopMenuDataController* modelController;
 }
@@ -37,6 +34,7 @@
      @comment   テスト用plistから、オブジェクトを作成する。
      */
     modelController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
+
 }
 
 - (void)tearDown {
@@ -52,7 +50,7 @@
 {
     NSInteger countOfSection = [modelController numberOfSection];
     XCTAssertGreaterThan(countOfSection, 0, "必ず１つ以上のセクションをもつこと");
-
+    
     for(int i = 0; i < countOfSection; i++){
         NSString* sectionNameString = [modelController sectionNameStringWithIndex:i];
         XCTAssertNotNil(sectionNameString, @"全てのセクションは名称をもつこと");
@@ -78,7 +76,7 @@
     for(int i = 0; i < countOfSection; i++){
         NSString* sectionNameString = [modelController sectionNameStringWithIndex:i];
         NSInteger countOfItem = [modelController numberOfItemForSection:sectionNameString];
-
+        
         XCTAssertGreaterThanOrEqual(countOfItem, 0, @"全てのセクションの項目数を知ることができること");
     }
 }
@@ -98,8 +96,9 @@
             XCTAssertNotNil(entity, @"モデルコントローラーは、指定されたセクション、指定された番号のエンティティを返すことができる: (%@:%@)", sectionNameString, entity);
         }
     }
-
+    
 }
+
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Model/Model.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:macTechnicalness/macTechnicalness.xcodeproj">
    </FileRef>
 </Workspace>

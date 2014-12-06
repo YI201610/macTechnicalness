@@ -1,19 +1,19 @@
 //
-//  OSXMTModelKitTests.m
-//  OSXMTModelKitTests
+//  OSXEmbededdModelKitTests.m
+//  OSXEmbededdModelKitTests
 //
-//  Created by Yuji Imamura on 2014/12/02.
+//  Created by Yuji Imamura on 2014/12/06.
 //
 //
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
-@interface OSXMTModelKitTests : XCTestCase
+@interface OSXEmbededdModelKitTests : XCTestCase
 
 @end
 
-@implementation OSXMTModelKitTests
+@implementation OSXEmbededdModelKitTests
 
 - (void)setUp {
     [super setUp];

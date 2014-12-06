@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <iOSMTModelKit/MTMTopMenuDataController.h>
-
+#import <iOSEmbeddedModelKit/iOSEmbeddedModelKit.h>
 
 @interface MTTopViewTableDataSource : NSObject <UITableViewDataSource>
 
