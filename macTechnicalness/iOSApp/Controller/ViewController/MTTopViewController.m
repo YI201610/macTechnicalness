@@ -6,15 +6,16 @@
 //
 //
 
+#import <iOSEmbeddedModelKit/MTMTopMenuDataController.h>
+
 #import "MTTopViewController.h"
 #import "MTTopViewTableDataSource.h"
-#import <iOSEmbeddedModelKit/MTMTopMenuDataController.h>
+#import "CommonHeader.h"
+
 
 @interface MTTopViewController () {
 
     MTMTopMenuDataController* _dataController;
-    
-    
     MTTopViewTableDataSource* _dataSource;
 }
 
@@ -26,12 +27,24 @@
 {
     self = [super init];
     if (self) {
+        
+        /*
+         @comment   Data Controllerを作成します。
+         */
         NSBundle* appBundle = [NSBundle bundleForClass:[self class]];
         NSString* plistPath = [appBundle pathForResource:@"topMenu" ofType:@"plist"];
         _dataController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
         
+        /*
+         @comment   TableViewのデータソースオブジェクトを作成します。
+         */
         _dataSource = [MTTopViewTableDataSource new];
+        
+        /*
+         @comment
+         */
         _dataSource.dataController = _dataController;
+        
     }
     return self;
 }
@@ -104,5 +117,68 @@
     
 }
 
+#pragma mark - Table View Delegate
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    //
+    UITableViewCell* cell = [tableView cellForRowAtIndexPath:indexPath];
+    if(cell.textLabel.textColor == [UIColor lightGrayColor]){
+        return;
+    }
+    
+    //
+    NSString* sectionName = [_dataController sectionNameStringWithIndex:indexPath.section];
+    
+    MTMTopMenuEntity* obj = [_dataController itemForSection:sectionName index:indexPath.row];
+    
+    NSString* vcName = obj.viewControllerNameString;
+    
+    //
+    if([vcName length] == 0){
+        debugout(@"Error: Target Class wan't set. ");
+        return;
+    }
+    
+    //
+    UIViewController* addvc = nil;
+    UIStoryboard* storyboard = nil;
+    
+    if([vcName compare:@"VCSuperNumNibTest"] == NSOrderedSame){
+        storyboard = [UIStoryboard storyboardWithName: @"VCSuperNumNibTest" bundle: nil];
+        addvc = [storyboard instantiateInitialViewController];
+        //
+        [self.navigationController pushViewController:addvc animated:YES];
+    }else{
+        
+        addvc = [[NSClassFromString(vcName) alloc] init];
+        
+        if(!addvc){
+            debugout( @"Error: %@ was not found.", vcName );
+        }else{
+            
+//            id key = [self.m_menuKeys objectAtIndex: indexPath.section];
+//            
+//            id obj = [[self.m_menuData objectForKey: key] objectAtIndex: indexPath.row];
+//            
+//            NSString* _text = nil;
+//            
+//            if([obj isKindOfClass:[NSArray class]]){
+//                _text = [obj objectAtIndex:1];
+//            }else if([obj isKindOfClass:[NSDictionary class]]){
+//                _text = [obj objectForKey:@"title"];
+//            }
+            
+//            addvc.navigationItem.title = _text;
+            [self.navigationController pushViewController:addvc animated:YES];
+        }
+        
+    }
+    
+}
 
 @end

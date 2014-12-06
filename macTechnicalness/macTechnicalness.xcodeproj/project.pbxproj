@@ -15,8 +15,6 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
-		740EF5EB1A3082A600735C4E /* MTTopViewTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5EA1A3082A600735C4E /* MTTopViewTableViewDelegate.m */; };
-		740EF5EC1A3082A600735C4E /* MTTopViewTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5EA1A3082A600735C4E /* MTTopViewTableViewDelegate.m */; };
 		EC3D0B5C1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0B621A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */; };
 		EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0B6A1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m */; };
@@ -44,6 +42,10 @@
 		EC3D0BE31A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
 		EC3D0BE41A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
 		EC3D0BE51A32EFF60097C9E2 /* topMenuTestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */; };
+		EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m */; };
+		EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m */; };
+		EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib */; };
+		EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -148,8 +150,6 @@
 		740EF5791A2DD4A300735C4E /* topMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenu.plist; sourceTree = "<group>"; };
 		740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewTableDataSource.h; path = Controller/ViewController/MTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewTableDataSource.m; path = Controller/ViewController/MTTopViewTableDataSource.m; sourceTree = "<group>"; };
-		740EF5E91A3082A600735C4E /* MTTopViewTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewTableViewDelegate.h; path = Controller/ViewController/MTTopViewTableViewDelegate.h; sourceTree = "<group>"; };
-		740EF5EA1A3082A600735C4E /* MTTopViewTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewTableViewDelegate.m; path = Controller/ViewController/MTTopViewTableViewDelegate.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
 		EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSEmbeddedModelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3D0B5A1A32E99A0097C9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,6 +169,9 @@
 		EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMTopMenuDataController.m; sourceTree = "<group>"; };
 		EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTMTopMenuDataControllerTests.m; path = iOSEmbeddedModelKitTests/ModelController/MTMTopMenuDataControllerTests.m; sourceTree = SOURCE_ROOT; };
 		EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = topMenuTestData.plist; path = ../../TestResouce/plist/topMenuTestData.plist; sourceTree = "<group>"; };
+		EC3D0BE71A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGameControllerVerification1ViewController.h; path = Controller/ViewController/iOSMTGameControllerVerification1ViewController.h; sourceTree = "<group>"; };
+		EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGameControllerVerification1ViewController.m; path = Controller/ViewController/iOSMTGameControllerVerification1ViewController.m; sourceTree = "<group>"; };
+		EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGameControllerVerification1ViewController.xib; path = Controller/ViewController/iOSMTGameControllerVerification1ViewController.xib; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -280,12 +283,8 @@
 		740EF5731A2C8E4C00735C4E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				740EF56F1A2C8E4900735C4E /* MTTopViewController.h */,
-				740EF5701A2C8E4900735C4E /* MTTopViewController.m */,
-				740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */,
-				740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */,
-				740EF5E91A3082A600735C4E /* MTTopViewTableViewDelegate.h */,
-				740EF5EA1A3082A600735C4E /* MTTopViewTableViewDelegate.m */,
+				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
+				EC3D0BE61A32F7260097C9E2 /* GameController */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -448,6 +447,27 @@
 				EC3D0BE11A32EFF60097C9E2 /* topMenuTestData.plist */,
 			);
 			path = plist;
+			sourceTree = "<group>";
+		};
+		EC3D0BE61A32F7260097C9E2 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D0BE71A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.h */,
+				EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m */,
+				EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib */,
+			);
+			name = GameController;
+			sourceTree = "<group>";
+		};
+		EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				740EF56F1A2C8E4900735C4E /* MTTopViewController.h */,
+				740EF5701A2C8E4900735C4E /* MTTopViewController.m */,
+				740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */,
+				740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */,
+			);
+			name = TopMenu;
 			sourceTree = "<group>";
 		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
@@ -822,6 +842,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
@@ -833,6 +854,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC3D0BE21A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
 			);
@@ -903,7 +925,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740EF5EB1A3082A600735C4E /* MTTopViewTableViewDelegate.m in Sources */,
+				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* MTTopViewController.m in Sources */,
@@ -915,7 +937,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740EF5EC1A3082A600735C4E /* MTTopViewTableViewDelegate.m in Sources */,
+				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerification1ViewController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
 				740EF5721A2C8E4900735C4E /* MTTopViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
@@ -1812,6 +1834,7 @@
 				EC3D0B721A32E99B0097C9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3D0B731A32E99B0097C9E2 /* Build configuration list for PBXNativeTarget "iOSEmbeddedModelKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1820,6 +1843,7 @@
 				EC3D0B751A32E99B0097C9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3D0BB91A32EAAB0097C9E2 /* Build configuration list for PBXNativeTarget "OSXEmbededdModelKit" */ = {
 			isa = XCConfigurationList;
@@ -1828,6 +1852,7 @@
 				EC3D0BBB1A32EAAB0097C9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3D0BBD1A32EAAB0097C9E2 /* Build configuration list for PBXNativeTarget "OSXEmbededdModelKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1836,6 +1861,7 @@
 				EC3D0BBF1A32EAAB0097C9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECDC65501A2BD58B0080C608 /* Build configuration list for PBXNativeTarget "iOSApp" */ = {
 			isa = XCConfigurationList;

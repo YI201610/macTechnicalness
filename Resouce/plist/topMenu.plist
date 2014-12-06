@@ -8,17 +8,7 @@
 			<key>title</key>
 			<string>接続テスト</string>
 			<key>vc</key>
-			<string>GameControllerVerification1ViewController</string>
-		</dict>
-	</array>
-
-	<key>UIKit</key>
-	<array>
-		<dict>
-			<key>title</key>
-			<string>Auto Layout検証1</string>
-			<key>vc</key>
-			<string>AutoLayoutVerification1ViewController</string>
+			<string>iOSMTGameControllerVerification1ViewController</string>
 		</dict>
 	</array>
 </dict>
