@@ -11,6 +11,10 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+/*!
+ @abstract  Top画面のナビゲーションコントローラー
+ */
 @property (strong, nonatomic) UINavigationController* myNavigationController;
 
 @end

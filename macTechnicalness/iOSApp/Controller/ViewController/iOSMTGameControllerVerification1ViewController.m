@@ -21,7 +21,7 @@
     
     
     /*!
-     @comment   ゲームコントローラーが接続されたら、ゲームコントローラーテスター画面を表示する。
+     @comment   ゲームコントローラーとの接続開始を監視し始めます。
      */
     [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidConnectNotification
                                                       object:nil
@@ -32,7 +32,7 @@
      ];
     
     /*!
-     @comment   ゲームコントローラーの接続が切れたら、接続画面を表示する。
+     @comment   ゲームコントローラーとの接続切断を監視し始めます。
      */
     [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidDisconnectNotification
                                                       object:nil

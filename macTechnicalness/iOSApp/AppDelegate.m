@@ -34,6 +34,10 @@
      @comment
      */
     MTTopViewController* topViewController = [MTTopViewController new];
+    
+    /*
+     @comment   Top画面と共に、ナビゲーションコントローラーを作成します。
+     */
     _myNavigationController = [[UINavigationController alloc] initWithRootViewController:topViewController];
     _window.rootViewController = _myNavigationController;
     
