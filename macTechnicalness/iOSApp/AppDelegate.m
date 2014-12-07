@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MTTopViewController.h"
+#import <GameController/GameController.h>
+#import "CommonHeader.h"
 
 
 @interface AppDelegate ()
@@ -45,7 +47,26 @@
      @comment
      */
     [_window makeKeyAndVisible];
+ 
     
+    /*!
+     @comment   既にゲームコントローラーとiOSとの接続が済んでいる場合、このタイミングで接続を検知する。
+                なぜか、アプリ内部のViewControllerの初期処理では、アプリ起動前からの接続を検知できなかったため。
+     */
+    [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidConnectNotification
+                                                      object:nil
+                                                       queue:nil
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      
+                                                      debugout(@"ゲームコントローラーが接続されました.");
+                                                      
+                                                      NSArray *controllers = [GCController controllers];
+                                                      for (GCController *controller in controllers) {
+                                                          debugout(@"**controller: %@", controller);
+                                                      }
+                                                      
+                                                  }];
+
     return YES;
 }
 

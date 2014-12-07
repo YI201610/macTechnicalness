@@ -13,6 +13,6 @@
 /*!
  @abstract  Game Controller Frameworkの基本機能を検証する
  */
-@interface iOSMTGameControllerVerification1ViewController : UIViewController
+@interface iOSMTGameControllerVerificationTopViewController : UIViewController
 
 @end

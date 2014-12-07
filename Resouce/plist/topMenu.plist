@@ -8,7 +8,7 @@
 			<key>title</key>
 			<string>接続テスト</string>
 			<key>vc</key>
-			<string>iOSMTGameControllerVerification1ViewController</string>
+			<string>iOSMTGameControllerVerificationTopViewController</string>
 		</dict>
 	</array>
 </dict>
