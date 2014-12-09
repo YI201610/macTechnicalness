@@ -33,6 +33,8 @@
     if([notification.object isKindOfClass:[GCController class]]){
         GCController* gameController = notification.object;
 
+        _gameController = gameController;
+        
         /*!
          @comment   拡張ゲームパッドのオブジェクトを取得します。
          */

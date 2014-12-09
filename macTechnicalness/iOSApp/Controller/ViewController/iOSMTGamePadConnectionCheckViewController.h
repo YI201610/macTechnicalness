@@ -22,6 +22,6 @@
 
  ポーズボタンで、検証を終了して戻る
  */
-@interface iOSMTGameControllerConnectionCheckViewController : UIViewController
+@interface iOSMTGamePadConnectionCheckViewController : UIViewController
 
 @end

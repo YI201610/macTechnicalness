@@ -8,7 +8,7 @@
 
 #import "iOSMTGameControllerVerificationTopViewController.h"
 #import "CommonHeader.h"
-#import "iOSMTGameControllerConnectionCheckViewController.h"
+#import "iOSMTGamePadConnectionCheckViewController.h"
 #import "AppDelegate.h"
 
 @interface iOSMTGameControllerVerificationTopViewController ()
@@ -36,7 +36,7 @@
      */
     if(appDelegate.hidController.isGameControllerConnected){
         
-        iOSMTGameControllerConnectionCheckViewController* viewController = [iOSMTGameControllerConnectionCheckViewController new];
+        iOSMTGamePadConnectionCheckViewController* viewController = [iOSMTGamePadConnectionCheckViewController new];
         [self.navigationController pushViewController:viewController animated:YES];
     }
     

@@ -9,19 +9,22 @@
 #import <Foundation/Foundation.h>
 #import <GameController/GameController.h>
 
-@interface iOSMTHIDeviceController : NSObject {
-    
-    /*!
-     @abstract  ゲームコントローラーを表現するコンポジットクラス
-     */
-    GCExtendedGamepad *_extendedGamePad;
-
-}
+@interface iOSMTHIDeviceController : NSObject
 
 /*!
  @abstract  Game Controllerと接続しているか
  */
 @property BOOL isGameControllerConnected;
+
+/*!
+ @abstract  ゲームパッドを表現するコンポジットクラス
+ */
+@property (nonatomic, weak) GCExtendedGamepad* extendedGamePad;
+
+/*!
+ @abstract
+ */
+@property (nonatomic, strong) GCController* gameController;
 
 /*!
  @abstract  Game Controllerと接続した際にiOSにコールしてもらいたいメソッド
