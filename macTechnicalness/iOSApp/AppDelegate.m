@@ -10,6 +10,7 @@
 #import "MTTopViewController.h"
 #import <GameController/GameController.h>
 #import "CommonHeader.h"
+#import "iOSMTHIDeviceController.h"
 
 
 @interface AppDelegate ()
@@ -18,6 +19,7 @@
 
 @implementation AppDelegate
 
+#pragma mark - UIApplication Delegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -48,25 +50,29 @@
      */
     [_window makeKeyAndVisible];
  
+
+    /*!
+     @comment   Game Controllerハンドラーオブジェクトを作成します。
+     */
+    _hidController = [iOSMTHIDeviceController new];
     
     /*!
-     @comment   既にゲームコントローラーとiOSとの接続が済んでいる場合、このタイミングで接続を検知する。
-                なぜか、アプリ内部のViewControllerの初期処理では、アプリ起動前からの接続を検知できなかったため。
+     @comment   ゲームコントローラーとの接続監視を開始します。
+                このタイミングで行う理由は、なぜか、
+                アプリ内部のViewControllerの初期処理のタイミングでは、アプリ起動前からの接続を検知できなかったためです。
      */
-    [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidConnectNotification
-                                                      object:nil
-                                                       queue:nil
-                                                  usingBlock:^(NSNotification *notification) {
-                                                      
-                                                      debugout(@"ゲームコントローラーが接続されました.");
-                                                      
-                                                      NSArray *controllers = [GCController controllers];
-                                                      for (GCController *controller in controllers) {
-                                                          debugout(@"**controller: %@", controller);
-                                                      }
-                                                      
-                                                  }];
+    NSNotificationCenter* nc = [NSNotificationCenter defaultCenter];
 
+    [nc addObserver:_hidController
+           selector:@selector(gameControllerDidConnect:)
+               name:GCControllerDidConnectNotification
+             object:nil];   //iOS8.1.1 - ここ、nilでないと正常動作しなかった
+    
+    [nc addObserver:_hidController
+           selector:@selector(gameControllerDidDisconnect:)
+               name:GCControllerDidDisconnectNotification
+             object:nil];   //iOS8.1.1 - ここ、nilでないと正常動作しなかった
+    
     return YES;
 }
 
@@ -91,5 +97,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark - Public
+
++ (AppDelegate*) appDelegate
+{
+    return (AppDelegate*)[[UIApplication sharedApplication] delegate];
+}
+
 
 @end

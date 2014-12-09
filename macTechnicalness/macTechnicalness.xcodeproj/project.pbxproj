@@ -15,6 +15,8 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
+		74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
+		74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
 		74CCE17F1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.m */; };
 		74CCE1801A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.m */; };
@@ -156,6 +158,8 @@
 		740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewTableDataSource.h; path = Controller/ViewController/MTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewTableDataSource.m; path = Controller/ViewController/MTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTHIDeviceController.h; path = Controller/iOSMTHIDeviceController.h; sourceTree = "<group>"; };
+		74538C101A35262900850210 /* iOSMTHIDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTHIDeviceController.m; path = Controller/iOSMTHIDeviceController.m; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		74CCE17C1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGameControllerConnectionCheckViewController.h; path = Controller/ViewController/iOSMTGameControllerConnectionCheckViewController.h; sourceTree = "<group>"; };
@@ -476,6 +480,8 @@
 				74CCE17C1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.h */,
 				74CCE17D1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.m */,
 				74CCE17E1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.xib */,
+				74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */,
+				74538C101A35262900850210 /* iOSMTHIDeviceController.m */,
 			);
 			name = GameController;
 			sourceTree = "<group>";
@@ -951,6 +957,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGameControllerConnectionCheckViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
@@ -965,6 +972,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
+				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
 				740EF5721A2C8E4900735C4E /* MTTopViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,

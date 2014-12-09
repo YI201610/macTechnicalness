@@ -9,6 +9,7 @@
 #import "iOSMTGameControllerVerificationTopViewController.h"
 #import "CommonHeader.h"
 #import "iOSMTGameControllerConnectionCheckViewController.h"
+#import "AppDelegate.h"
 
 @interface iOSMTGameControllerVerificationTopViewController ()
 
@@ -25,49 +26,18 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     /*!
-     @comment   ゲームコントローラーとの接続開始を監視し始めます。
+     @comment
      */
-    [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidConnectNotification
-                                                      object:nil
-                                                       queue:nil
-                                                  usingBlock:^(NSNotification *notification) {
-                                                      
-                                                      debugout(@"ゲームコントローラーが接続されました.");
+    AppDelegate* appDelegate = [AppDelegate appDelegate];
 
-                                                      NSArray *controllers = [GCController controllers];
-                                                      for (GCController *controller in controllers) {
-                                                          debugout(@"**controller: %@", controller);
-                                                      }
-
-                                                      iOSMTGameControllerConnectionCheckViewController* viewController = [iOSMTGameControllerConnectionCheckViewController new];
-                                                      [self.navigationController pushViewController:viewController animated:YES];
-                                                  }
-     ];
-    
     /*!
-     @comment   ゲームコントローラーとの接続切断を監視し始めます。
+     @comment
      */
-    [[NSNotificationCenter defaultCenter] addObserverForName:GCControllerDidDisconnectNotification
-                                                      object:nil
-                                                       queue:nil
-                                                  usingBlock:^(NSNotification *notification){
-                                                      debugout(@"ゲームコントローラーとの通信が切断されました.");
-                                                  }
-     ];
+    if(appDelegate.hidController.isGameControllerConnected){
+        iOSMTGameControllerConnectionCheckViewController* viewController = [iOSMTGameControllerConnectionCheckViewController new];
+        [self.navigationController pushViewController:viewController animated:YES];
+    }
     
-    /*!
-     @comment   ワイヤレスコントローラーとの接続状況を確認し始める。
-     */
-    [GCController startWirelessControllerDiscoveryWithCompletionHandler:^{
-        
-        NSArray *controllers = [GCController controllers];
-        for (GCController *controller in controllers) {
-            debugout(@"controller: %@", controller);
-        }
-        
-    }];
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
