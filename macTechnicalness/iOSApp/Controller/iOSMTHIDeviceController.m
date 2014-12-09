@@ -14,16 +14,11 @@
 /*!
  @abstract  notification: NSConcreteNotification
  */
-- (void)gameControllerDidConnect:(id)notification
+- (void)gameControllerDidConnect:(NSNotification*)notification
 {
     _methodname_;
     debugout(@"notification: %@", notification);
-    
-    /*!
-     @comment
-     */
-    _isGameControllerConnected = YES;
-    
+
     /*!
      @comment
      */
@@ -31,6 +26,28 @@
     for (GCController *controller in controllers) {
         debugout(@"**controller: %@", controller);
     }
+
+    /*!
+     @comment
+     */
+    if([notification.object isKindOfClass:[GCController class]]){
+        GCController* gameController = notification.object;
+
+        /*!
+         @comment   拡張ゲームパッドのオブジェクトを取得します。
+         */
+        if(gameController.extendedGamepad){
+            
+            _extendedGamePad = gameController.extendedGamepad;
+            
+            /*!
+             @comment
+             */
+            _isGameControllerConnected = YES;
+        }
+    }
+    
+
 }
 
 - (void)gameControllerDidDisconnect:(id)notification

@@ -9,7 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <GameController/GameController.h>
 
-@interface iOSMTHIDeviceController : NSObject
+@interface iOSMTHIDeviceController : NSObject {
+    
+    /*!
+     @abstract  ゲームコントローラーを表現するコンポジットクラス
+     */
+    GCExtendedGamepad *_extendedGamePad;
+
+}
 
 /*!
  @abstract  Game Controllerと接続しているか
