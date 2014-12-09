@@ -42,18 +42,66 @@
     GCController* gameController = app.hidController.gameController;
     GCExtendedGamepad* gamePad = app.hidController.extendedGamePad;
     
+    /*
+     @comment
+     */
     gameController.controllerPausedHandler = ^(GCController* controller) {
         debugout(@"ポーズキーが押下されました。");
     };
     
     gamePad.valueChangedHandler = ^(GCExtendedGamepad *gamepad, GCControllerElement *element){
-        debugout(@"gamepad: %@, element: %@", gamepad, element);
+//        debugout(@"gamepad: %@, element: %@", gamepad, element);
     };
     
+    /*
+     @comment   Aボタン処理
+     */
     gamePad.buttonA.valueChangedHandler = ^(GCControllerButtonInput *button, float value, BOOL pressed) {
         debugout(@"buttonAに関するハンドラ: %f, %d", value, pressed);
     };
     
+    /*
+     @comment   Bボタン処理
+     */
+    
+    /*
+     @comment   Xボタン処理
+     */
+    
+    /*
+     @comment   Yボタン処理
+     */
+    
+    /*
+     @comment   L1ボタン処理
+     */
+    
+    /*
+     @comment   L2ボタン処理
+     */
+    
+    /*
+     @comment   R1ボタン処理
+     */
+    
+    /*
+     @comment   R2ボタン処理
+     */
+    
+    /*
+     @comment   十字キー処理
+     */
+    
+    /*
+     @comment   左スティック処理
+     */
+    
+    /*
+     @comment   右スティック処理
+     */
+    gamePad.rightThumbstick.valueChangedHandler = ^(GCControllerDirectionPad *dpad, float xValue, float yValue) {
+        debugout(@"右スティック処理: %f, %f", xValue, yValue);
+    };
 }
 
 
