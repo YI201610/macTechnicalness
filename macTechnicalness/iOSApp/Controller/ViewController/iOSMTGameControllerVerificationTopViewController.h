@@ -10,9 +10,6 @@
 #import <GameController/GameController.h>
 
 
-/*!
- @abstract  Game Controller Frameworkの基本機能を検証する
- */
 @interface iOSMTGameControllerVerificationTopViewController : UIViewController
 
 @end

@@ -31,9 +31,11 @@
     AppDelegate* appDelegate = [AppDelegate appDelegate];
 
     /*!
-     @comment
+     @comment   ゲームコントローラーと接続されている場合、
+                動作確認画面に遷移します。
      */
     if(appDelegate.hidController.isGameControllerConnected){
+        
         iOSMTGameControllerConnectionCheckViewController* viewController = [iOSMTGameControllerConnectionCheckViewController new];
         [self.navigationController pushViewController:viewController animated:YES];
     }
