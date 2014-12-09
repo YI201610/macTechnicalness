@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 /*!
  @abstract  Game Controller Frameworkの基本機能を検証する
