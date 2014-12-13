@@ -9,6 +9,7 @@
 #import "iOSMTGamePadConnectionCheckViewController.h"
 #import <GameController/GameController.h>
 #import "CommonHeader.h"
+#import "iOSMTGamePadConnectionCheckButtonAView.h"
 
 @interface iOSMTGamePadConnectionCheckViewController ()
 
@@ -67,6 +68,16 @@
 - (void) didChangeButtonA:(GCControllerButtonInput *)button value:(float)value pressed:(BOOL)pressed
 {
     debugout(@"buttonAイベントハンドラ処理: %f, %d", value, pressed);
+    
+    iOSMTGamePadConnectionCheckButtonAView* a = [[iOSMTGamePadConnectionCheckButtonAView alloc] initWithFrame:CGRectMake(self.view.center.x-50, self.view.center.y-50,
+                                                        100, 100)];
+    [self.view addSubview:a];
+    [UIView animateWithDuration:1 animations:^(){
+        a.alpha = 0;
+        a.transform = CGAffineTransformMakeScale(2, 2);
+    } completion:^(BOOL complete){
+        [a removeFromSuperview];
+    }];
 }
 
 - (void) didPushPauseButton:(GCController *)controller

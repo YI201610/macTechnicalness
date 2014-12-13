@@ -18,6 +18,8 @@
 		74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
+		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
+		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
@@ -162,6 +164,8 @@
 		74538C101A35262900850210 /* iOSMTHIDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTHIDeviceController.m; path = Controller/iOSMTHIDeviceController.m; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
+		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
 		74CCE17C1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckViewController.h; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.h; sourceTree = "<group>"; };
 		74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckViewController.m; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.m; sourceTree = "<group>"; };
 		74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGamePadConnectionCheckViewController.xib; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.xib; sourceTree = "<group>"; };
@@ -482,6 +486,8 @@
 				74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */,
 				74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */,
 				74538C101A35262900850210 /* iOSMTHIDeviceController.m */,
+				7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */,
+				7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */,
 			);
 			name = GameController;
 			sourceTree = "<group>";
@@ -961,6 +967,7 @@
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
+				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* MTTopViewController.m in Sources */,
 				740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
@@ -971,6 +978,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
