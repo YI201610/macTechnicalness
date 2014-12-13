@@ -66,7 +66,7 @@
 
 - (void) didChangeButtonA:(GCControllerButtonInput *)button value:(float)value pressed:(BOOL)pressed
 {
-    debugout(@"buttonAに関するハンドラをViewControllerで。: %f, %d", value, pressed);
+    debugout(@"buttonAイベントハンドラ処理: %f, %d", value, pressed);
 }
 
 - (void) didPushPauseButton:(GCController *)controller
@@ -77,7 +77,7 @@
 
 - (void) didChangeLeftStick:(GCControllerDirectionPad *)leftStick xValue:(float)xValue yValue:(float)yValue
 {
-    debugout(@"左スティック処理を、View Controller側で。{%f, %f}", xValue, yValue);
+    debugout(@"左スティックイベントハンドラ処理{%f, %f}", xValue, yValue);
 }
 
 @end
