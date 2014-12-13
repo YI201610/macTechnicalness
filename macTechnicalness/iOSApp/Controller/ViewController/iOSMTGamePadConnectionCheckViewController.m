@@ -47,6 +47,11 @@
      */
     gameController.controllerPausedHandler = ^(GCController* controller) {
         debugout(@"ポーズキーが押下されました。");
+        
+        /*!
+         @comment   画面を閉じ、TopMenuに遷移します。
+         */
+        [self.navigationController popToRootViewControllerAnimated:YES];
     };
     
     gamePad.valueChangedHandler = ^(GCExtendedGamepad *gamepad, GCControllerElement *element){
