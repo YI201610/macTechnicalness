@@ -9,7 +9,25 @@
 #import <Foundation/Foundation.h>
 #import <GameController/GameController.h>
 
+@protocol iOSMTHIDeviceDelegate
+
+@optional
+
+/*!
+ @abstract  ボタンA押下時処理
+ */
+- (void) valueChangedButtonA:(GCControllerButtonInput*)button
+                       value:(float)value
+                     pressed:(BOOL)pressed;
+
+@end
+
 @interface iOSMTHIDeviceController : NSObject
+
+/*!
+ @abstract
+ */
+@property id<iOSMTHIDeviceDelegate> delegate;
 
 /*!
  @abstract  Game Controllerと接続しているか
@@ -37,3 +55,5 @@
 - (void)gameControllerDidDisconnect:(id)notification;
 
 @end
+
+
