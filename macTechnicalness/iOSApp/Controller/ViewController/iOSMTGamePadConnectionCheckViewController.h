@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iOSMTHIDeviceController.h"
 #import "AppDelegate.h"
 
 /*!
@@ -23,5 +24,6 @@
  ポーズボタンで、検証を終了して戻る
  */
 @interface iOSMTGamePadConnectionCheckViewController : UIViewController
+<iOSMTHIDeviceDelegate>
 
 @end
