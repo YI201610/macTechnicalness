@@ -9,16 +9,61 @@
 #import <Foundation/Foundation.h>
 #import <GameController/GameController.h>
 
-@protocol iOSMTHIDeviceDelegate
+@protocol iOSMTHIDeviceDelegate <NSObject>
 
 @optional
 
 /*!
+ @abstract  ポーズボタン押下時処理
+ */
+- (void) didPushPauseButton:(GCController*)controller;
+
+/*!
  @abstract  ボタンA押下時処理
  */
-- (void) valueChangedButtonA:(GCControllerButtonInput*)button
-                       value:(float)value
-                     pressed:(BOOL)pressed;
+- (void) didChangeButtonA:(GCControllerButtonInput*)button
+                    value:(float)value
+                  pressed:(BOOL)pressed;
+
+- (void) didChangeButtonB:(GCControllerButtonInput*)button
+                    value:(float)value
+                  pressed:(BOOL)pressed;
+
+- (void) didChangeButtonX:(GCControllerButtonInput*)button
+                    value:(float)value
+                  pressed:(BOOL)pressed;
+
+- (void) didChangeButtonY:(GCControllerButtonInput*)button
+                    value:(float)value
+                  pressed:(BOOL)pressed;
+
+- (void) didChangeButtonL1:(GCControllerButtonInput*)button
+                     value:(float)value
+                   pressed:(BOOL)pressed;
+
+- (void) didChangeButtonL2:(GCControllerButtonInput*)button
+                     value:(float)value
+                   pressed:(BOOL)pressed;
+
+- (void) didChangeButtonR1:(GCControllerButtonInput*)button
+                     value:(float)value
+                   pressed:(BOOL)pressed;
+
+- (void) didChangeButtonR2:(GCControllerButtonInput*)button
+                     value:(float)value
+                   pressed:(BOOL)pressed;
+
+- (void) didChangeDirectionPad:(GCControllerDirectionPad*)dpad
+                        xValue:(float)xValue
+                        yValue:(float)yValue;
+
+- (void) didChangeLeftStick:(GCControllerDirectionPad*)leftStick
+                     xValue:(float)xValue
+                     yValue:(float)yValue;
+
+- (void) didChangeRightStick:(GCControllerDirectionPad*)rightStick
+                      xValue:(float)xValue
+                      yValue:(float)yValue;
 
 @end
 
@@ -27,7 +72,7 @@
 /*!
  @abstract
  */
-@property id<iOSMTHIDeviceDelegate> delegate;
+@property (nonatomic, weak) id<iOSMTHIDeviceDelegate> delegate;
 
 /*!
  @abstract  Game Controllerと接続しているか
@@ -37,7 +82,7 @@
 /*!
  @abstract  ゲームパッドを表現するコンポジットクラス
  */
-@property (nonatomic, weak) GCExtendedGamepad* extendedGamePad;
+@property (nonatomic, strong) GCExtendedGamepad* extendedGamePad;
 
 /*!
  @abstract

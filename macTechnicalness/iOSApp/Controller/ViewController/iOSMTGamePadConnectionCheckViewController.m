@@ -42,14 +42,33 @@
      @comment   Human Interface Deviceのデリゲートに自身を設定します。
      */
     AppDelegate* app = [AppDelegate appDelegate];
+    
     app.hidController.delegate = self;
 }
 
+- (void) dealloc
+{
+    _methodname_;
+}
+
+
 #pragma mark - HIDeviceDelegate 
 
-- (void) valueChangedButtonA:(GCControllerButtonInput *)button value:(float)value pressed:(BOOL)pressed
+- (void) didChangeButtonA:(GCControllerButtonInput *)button value:(float)value pressed:(BOOL)pressed
 {
     debugout(@"buttonAに関するハンドラをViewControllerで。: %f, %d", value, pressed);
 }
+
+- (void) didPushPauseButton:(GCController *)controller
+{
+    debugout(@"pauseボタンが押下されました。");
+    [self.navigationController popToRootViewControllerAnimated:YES];    //自滅開始。hidController.delegateもweakなのでdeallocが呼ばれます
+}
+
+- (void) didChangeLeftStick:(GCControllerDirectionPad *)leftStick xValue:(float)xValue yValue:(float)yValue
+{
+    debugout(@"左スティック処理を、View Controller側で。{%f, %f}", xValue, yValue);
+}
+
 
 @end
