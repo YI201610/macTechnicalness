@@ -44,7 +44,7 @@
      */
     AppDelegate* app = [AppDelegate appDelegate];
     
-    app.hidController.delegate = self;
+    app.hidController.valueChangeDelegate = self;
 }
 
 - (void) dealloc
@@ -52,6 +52,15 @@
     _methodname_;
 }
 
+#pragma mark - Private
+
+- (void) closeView
+{
+    /*!
+     @comment   画面を閉じ、TopMenuに遷移します。
+     */
+    [self.navigationController popToRootViewControllerAnimated:YES];    //自滅開始。hidController.delegateもweakなのでdeallocが呼ばれます
+}
 
 #pragma mark - HIDeviceDelegate 
 
@@ -63,16 +72,12 @@
 - (void) didPushPauseButton:(GCController *)controller
 {
     debugout(@"pauseボタンが押下されました。");
-    /*!
-     @comment   画面を閉じ、TopMenuに遷移します。
-     */
-    [self.navigationController popToRootViewControllerAnimated:YES];    //自滅開始。hidController.delegateもweakなのでdeallocが呼ばれます
+    [self closeView];
 }
 
 - (void) didChangeLeftStick:(GCControllerDirectionPad *)leftStick xValue:(float)xValue yValue:(float)yValue
 {
     debugout(@"左スティック処理を、View Controller側で。{%f, %f}", xValue, yValue);
 }
-
 
 @end

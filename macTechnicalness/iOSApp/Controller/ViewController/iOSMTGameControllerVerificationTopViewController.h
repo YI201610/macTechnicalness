@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <GameController/GameController.h>
-
+#import "iOSMTHIDeviceController.h"
 
 @interface iOSMTGameControllerVerificationTopViewController : UIViewController
+<iOSMTHIDDeviceConnectionDelegate>
 
 @end

@@ -23,25 +23,17 @@
 
 }
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
-    /*!
-     @comment
-     */
-    AppDelegate* appDelegate = [AppDelegate appDelegate];
-
-    /*!
-     @comment   ゲームコントローラーと接続されている場合、
-                動作確認画面に遷移します。
-     */
-    if(appDelegate.hidController.isGameControllerConnected){
-        
-        iOSMTGamePadConnectionCheckViewController* viewController = [iOSMTGamePadConnectionCheckViewController new];
-        [self.navigationController pushViewController:viewController animated:YES];
-    }
+    [super viewDidAppear:animated];
+    
+    AppDelegate* app = [AppDelegate appDelegate];
+    app.hidController.connectionDelegate = self;
+    
+    [self pushHIDCheckViewIfNeeded];
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -50,7 +42,7 @@
 
 - (void) dealloc
 {
-    
+    _methodname_;
 }
 
 
@@ -63,5 +55,40 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - push HID Control Check View
+
+- (void) pushHIDCheckViewIfNeeded
+{
+    /*!
+     @comment
+     */
+    AppDelegate* appDelegate = [AppDelegate appDelegate];
+    
+    /*!
+     @comment   ゲームコントローラーと接続されている場合、
+     動作確認画面に遷移します。
+     */
+    if(appDelegate.hidController.isGameControllerConnected){
+        iOSMTGamePadConnectionCheckViewController* viewController = [iOSMTGamePadConnectionCheckViewController new];
+        [self.navigationController pushViewController:viewController animated:YES];
+    }
+}
+
+#pragma mark - iOSMTHIDDeviceConnectionDelegate
+
+- (void) didHIDeviceConnect
+{
+    _methodname_;
+    [self pushHIDCheckViewIfNeeded];
+}
+
+
+- (void) didHIDeviceDisconnect
+{
+    _methodname_;
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 
 @end

@@ -24,6 +24,6 @@
  ポーズボタンで、検証を終了して戻る
  */
 @interface iOSMTGamePadConnectionCheckViewController : UIViewController
-<iOSMTHIDeviceDelegate>
+<iOSMTHIDeviceValueChangeDelegate>
 
 @end

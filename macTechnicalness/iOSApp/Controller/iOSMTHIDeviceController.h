@@ -9,7 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <GameController/GameController.h>
 
-@protocol iOSMTHIDeviceDelegate <NSObject>
+@protocol iOSMTHIDDeviceConnectionDelegate <NSObject>
+
+@required
+
+- (void) didHIDeviceConnect;
+- (void) didHIDeviceDisconnect;
+
+@end
+
+@protocol iOSMTHIDeviceValueChangeDelegate <NSObject>
 
 @optional
 
@@ -70,9 +79,14 @@
 @interface iOSMTHIDeviceController : NSObject
 
 /*!
- @abstract
+ @abstract  Human Interface Deviceハンドラのデリゲートオブジェクト
  */
-@property (nonatomic, weak) id<iOSMTHIDeviceDelegate> delegate;
+@property (nonatomic, weak) id<iOSMTHIDeviceValueChangeDelegate> valueChangeDelegate;
+
+/*!
+ @abstract  HID接続/切断処理のデリゲートオブジェクト
+ */
+@property (nonatomic, weak) id<iOSMTHIDDeviceConnectionDelegate> connectionDelegate;
 
 /*!
  @abstract  Game Controllerと接続しているか
