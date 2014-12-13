@@ -38,6 +38,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
     /*
      @comment   Human Interface Deviceのデリゲートに自身を設定します。
      */

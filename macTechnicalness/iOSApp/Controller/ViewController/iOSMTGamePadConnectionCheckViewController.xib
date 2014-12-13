@@ -14,17 +14,14 @@
             <rect key="frame" x="0.0" y="64" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="game controller connection test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBe-2H-mpr">
-                    <rect key="frame" x="38" y="74" width="243" height="21"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="21" id="yFc-sG-J3x"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="拡張ゲームパッド動作検証" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChW-i7-eQK">
+                    <rect key="frame" x="16" y="83" width="204" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="拡張ゲームパッド動作検証" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChW-i7-eQK">
-                    <rect key="frame" x="38" y="117" width="204" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="※終了するには、ポーズボタンを押下します。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBe-2H-mpr">
+                    <rect key="frame" x="16" y="128" width="350" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -32,8 +29,10 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="SBe-2H-mpr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="38" id="RtV-gK-TMB"/>
-                <constraint firstItem="SBe-2H-mpr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="WYS-Iz-vAs"/>
+                <constraint firstItem="SBe-2H-mpr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="128" id="Ime-eV-Skb"/>
+                <constraint firstItem="SBe-2H-mpr" firstAttribute="leading" secondItem="ChW-i7-eQK" secondAttribute="leading" id="PiT-xl-5Qz"/>
+                <constraint firstItem="SBe-2H-mpr" firstAttribute="top" secondItem="ChW-i7-eQK" secondAttribute="bottom" constant="24" id="aF8-5g-yRS"/>
+                <constraint firstItem="SBe-2H-mpr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="f1W-0e-aoz"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
         </view>
