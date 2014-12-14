@@ -2,13 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>GameController</key>
+	<key>Game Controller</key>
 	<array>
 		<dict>
 			<key>title</key>
 			<string>接続テスト</string>
 			<key>vc</key>
 			<string>iOSMTGameControllerVerificationTopViewController</string>
+		</dict>
+	</array>
+	<key>Auto Layout</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Auto Layout検証1</string>
+			<key>vc</key>
+			<string>iOSMTDemystifyAutoLayout1ViewController</string>
 		</dict>
 	</array>
 </dict>

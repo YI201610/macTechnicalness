@@ -55,6 +55,10 @@
 		EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */; };
 		EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */; };
 		EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */; };
+		EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */; };
+		EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */; };
+		EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
+		EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -190,6 +194,9 @@
 		EC3D0BE71A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGameControllerVerificationTopViewController.h; path = Controller/ViewController/iOSMTGameControllerVerificationTopViewController.h; sourceTree = "<group>"; };
 		EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGameControllerVerificationTopViewController.m; path = Controller/ViewController/iOSMTGameControllerVerificationTopViewController.m; sourceTree = "<group>"; };
 		EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGameControllerVerificationTopViewController.xib; path = Controller/ViewController/iOSMTGameControllerVerificationTopViewController.xib; sourceTree = "<group>"; };
+		EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTDemystifyAutoLayout1ViewController.h; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.h; sourceTree = "<group>"; };
+		EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTDemystifyAutoLayout1ViewController.m; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.m; sourceTree = "<group>"; };
+		EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTDemystifyAutoLayout1ViewController.xib; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.xib; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -301,8 +308,9 @@
 		740EF5731A2C8E4C00735C4E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
+				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
+				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -501,6 +509,16 @@
 				740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */,
 			);
 			name = TopMenu;
+			sourceTree = "<group>";
+		};
+		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */,
+				EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */,
+				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
+			);
+			name = AutoLayout;
 			sourceTree = "<group>";
 		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
@@ -884,6 +902,7 @@
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
+				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,6 +910,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
@@ -968,6 +988,7 @@
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
+				EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* MTTopViewController.m in Sources */,
 				740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
@@ -983,6 +1004,7 @@
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
 				740EF5721A2C8E4900735C4E /* MTTopViewController.m in Sources */,
+				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 			);
