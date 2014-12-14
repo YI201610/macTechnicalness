@@ -26,4 +26,6 @@
 @interface iOSMTGamePadConnectionCheckViewController : UIViewController
 <iOSMTHIDeviceValueChangeDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *stickIndicatorLabel;
+
 @end

@@ -24,7 +24,7 @@
 - (void)drawRect:(CGRect)rect {
     // Drawing code
     //// Color Declarations
-    UIColor* color = [UIColor colorWithRed: 0.886 green: 0.59 blue: 0 alpha: 1];
+    UIColor* color = [UIColor colorWithRed: 1 green: 0.705 blue: 0.114 alpha: 1];
     
     //// Star Drawing
     UIBezierPath* starPath = [UIBezierPath bezierPath];

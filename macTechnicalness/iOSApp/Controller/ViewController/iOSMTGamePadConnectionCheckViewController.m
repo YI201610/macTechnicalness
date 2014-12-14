@@ -37,6 +37,15 @@
 }
 */
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    CGPoint labelPoint = _stickIndicatorLabel.center;
+    _stickIndicatorLabel.text = [NSString stringWithFormat:@"(%f, %f)", labelPoint.x, labelPoint.y];
+
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
@@ -67,17 +76,22 @@
 
 - (void) didChangeButtonA:(GCControllerButtonInput *)button value:(float)value pressed:(BOOL)pressed
 {
-    debugout(@"buttonAイベントハンドラ処理: %f, %d", value, pressed);
-    
-    iOSMTGamePadConnectionCheckButtonAView* a = [[iOSMTGamePadConnectionCheckButtonAView alloc] initWithFrame:CGRectMake(self.view.center.x-50, self.view.center.y-50,
-                                                        100, 100)];
-    [self.view addSubview:a];
-    [UIView animateWithDuration:1 animations:^(){
-        a.alpha = 0;
-        a.transform = CGAffineTransformMakeScale(2, 2);
-    } completion:^(BOOL complete){
-        [a removeFromSuperview];
-    }];
+    NSInteger viewTag = 100;
+    UIView* b = [self.view viewWithTag:viewTag];
+    if(b == nil){
+        CGFloat width = 100;
+        CGFloat height = 100;
+        iOSMTGamePadConnectionCheckButtonAView* a = [[iOSMTGamePadConnectionCheckButtonAView alloc] initWithFrame:CGRectMake(self.view.center.x-width/2, self.view.center.y-height/2,
+                                                                                                                             width, height)];
+        a.tag = viewTag;
+        [self.view addSubview:a];
+        [UIView animateWithDuration:0.35 animations:^(){
+            a.alpha = 0;
+            a.transform = CGAffineTransformMakeScale(1+value*2, 1+value*2);
+        } completion:^(BOOL complete){
+            [a removeFromSuperview];
+        }];
+    }
 }
 
 - (void) didPushPauseButton:(GCController *)controller
@@ -88,7 +102,10 @@
 
 - (void) didChangeLeftStick:(GCControllerDirectionPad *)leftStick xValue:(float)xValue yValue:(float)yValue
 {
-    debugout(@"左スティックイベントハンドラ処理{%f, %f}", xValue, yValue);
+    CGPoint labelPoint = _stickIndicatorLabel.center;
+    CGPoint nextPoint = CGPointMake(150 + xValue*50.0, 230 - yValue*50.0);
+    _stickIndicatorLabel.center = nextPoint;
+    _stickIndicatorLabel.text = [NSString stringWithFormat:@"(%f, %f)", xValue, yValue];
 }
 
 @end
