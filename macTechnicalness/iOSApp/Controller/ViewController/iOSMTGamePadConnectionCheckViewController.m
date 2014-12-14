@@ -40,9 +40,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    CGPoint labelPoint = _stickIndicatorLabel.center;
-    _stickIndicatorLabel.text = [NSString stringWithFormat:@"(%f, %f)", labelPoint.x, labelPoint.y];
+    debugout(@"%@", NSStringFromCGRect(_stickIndicatorLabel.frame));
+    _stickIndicatorLabel.text = [NSString stringWithFormat:@"(%f, %f)", 0.0, 0.0];
 
 }
 
@@ -76,6 +75,7 @@
 
 - (void) didChangeButtonA:(GCControllerButtonInput *)button value:(float)value pressed:(BOOL)pressed
 {
+    debugout(@"Aボタン: %f, %d", value, pressed);
     NSInteger viewTag = 100;
     UIView* b = [self.view viewWithTag:viewTag];
     if(b == nil){
@@ -102,9 +102,8 @@
 
 - (void) didChangeLeftStick:(GCControllerDirectionPad *)leftStick xValue:(float)xValue yValue:(float)yValue
 {
-    CGPoint labelPoint = _stickIndicatorLabel.center;
-    CGPoint nextPoint = CGPointMake(150 + xValue*50.0, 230 - yValue*50.0);
-    _stickIndicatorLabel.center = nextPoint;
+    CGRect nextRect = CGRectMake(75 + xValue*50.0, 230 - yValue*50.0, 189, 21);
+    _stickIndicatorLabel.frame = nextRect;
     _stickIndicatorLabel.text = [NSString stringWithFormat:@"(%f, %f)", xValue, yValue];
 }
 
