@@ -19,14 +19,14 @@
     // Do any additional setup after loading the view from its nib.
     
     /*!
-     @comment
+     @comment   navigationBarの半透明をOffにする（＝座標の原点をナビゲーションバーの直下に配置する）
      */
     self.navigationController.navigationBar.translucent = NO;
     
     /*!
      @comment   width, heightをもつViewを生成する
      */
-    UIView* someView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    UIView* someView = [[UIView alloc] initWithFrame:CGRectMake(5, 5, 30.0f, 30.0f)];
     [someView setBackgroundColor:[UIColor greenColor]];
     someView.tag = 999;
     [self.view addSubview:someView];
@@ -36,11 +36,10 @@
      */
     NSString *viewClassName = @"someView";
     
-    
     /*!
-     @comment   下記のプロパティをNOにすると、auto resizing機構が無効になる
+     @comment   someViewの、auto resizing機構を無効にする(x, y, width, heightが無効になる. )
      */
-    self.view.translatesAutoresizingMaskIntoConstraints = NO;
+    someView.translatesAutoresizingMaskIntoConstraints = NO;
     
     /*!
      @comment   someViewに関する辞書
@@ -48,7 +47,7 @@
     NSDictionary* someViewDictionary = NSDictionaryOfVariableBindings(someView);
     
     /*!
-     @comment   Auto Layout制約を、作成する
+     @comment   対象のviewの高さを80にする制約を追加
      */
     NSArray* constraintArray = [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"V:|[%@(==80)]", viewClassName]
                                                                        options:0
@@ -58,9 +57,9 @@
     [self.view addConstraints:constraintArray];
     
     /*!
-     @comment
+     @comment   対象Viewの幅を1にする制約を追加
      */
-    NSArray* constraintArray2 = [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|[%@]", viewClassName]
+    NSArray* constraintArray2 = [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|[%@(==5)]", viewClassName]
                                                                         options:0
                                                                         metrics:nil
                                                                           views:someViewDictionary];
@@ -77,6 +76,10 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     _methodname_;
+    
+    /*!
+     @comment   Viewの状態をデバッグ出力する
+     */
     UIView* someView = [self.view viewWithTag:999];
     debugout(@"someView: %@", someView);
     
