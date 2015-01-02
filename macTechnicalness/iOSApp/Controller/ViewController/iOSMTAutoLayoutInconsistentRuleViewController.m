@@ -69,16 +69,17 @@
     debugout(@"someView2: %@", someView2);
 
     /*!
-     @comment
+     @comment   Auto Layout制約の曖昧さをテストする。
      */
     [someView testAmbiguity];
     
     /*!
-     @comment
+     @comment   Auto Layout制約の曖昧さをテストする。
      */
     [someView2 testAmbiguity];
-
 }
+
+
 /*
 #pragma mark - Navigation
 
