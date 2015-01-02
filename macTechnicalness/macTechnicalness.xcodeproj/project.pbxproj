@@ -15,6 +15,12 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
+		7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
+		7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
+		7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */; };
+		7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */; };
+		7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
+		7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
 		74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
@@ -164,6 +170,11 @@
 		740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewTableDataSource.h; path = Controller/ViewController/MTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewTableDataSource.m; path = Controller/ViewController/MTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutInconsistentRuleViewController.h; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.h; sourceTree = "<group>"; };
+		7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutInconsistentRuleViewController.m; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.m; sourceTree = "<group>"; };
+		7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutInconsistentRuleViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.xib; sourceTree = "<group>"; };
+		7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutTestableView.h; path = View/iOSMTAutoLayoutTestableView.h; sourceTree = "<group>"; };
+		7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutTestableView.m; path = View/iOSMTAutoLayoutTestableView.m; sourceTree = "<group>"; };
 		74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTHIDeviceController.h; path = Controller/iOSMTHIDeviceController.h; sourceTree = "<group>"; };
 		74538C101A35262900850210 /* iOSMTHIDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTHIDeviceController.m; path = Controller/iOSMTHIDeviceController.m; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
@@ -330,6 +341,28 @@
 				740EF5791A2DD4A300735C4E /* topMenu.plist */,
 			);
 			path = plist;
+			sourceTree = "<group>";
+		};
+		74374C2E1A5308CE00014A0E /* visualFormatによるテスト１ */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */,
+				EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */,
+				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
+			);
+			name = "visualFormatによるテスト１";
+			sourceTree = "<group>";
+		};
+		7437A8FC1A56390E0097D921 /* InconsistentRule */ = {
+			isa = PBXGroup;
+			children = (
+				7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */,
+				7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */,
+				7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */,
+				7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */,
+				7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */,
+			);
+			name = InconsistentRule;
 			sourceTree = "<group>";
 		};
 		7484C4B71A33136900A310DE /* Framework */ = {
@@ -514,9 +547,8 @@
 		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */,
-				EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */,
-				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
+				7437A8FC1A56390E0097D921 /* InconsistentRule */,
+				74374C2E1A5308CE00014A0E /* visualFormatによるテスト１ */,
 			);
 			name = AutoLayout;
 			sourceTree = "<group>";
@@ -901,6 +933,7 @@
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
+				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 			);
@@ -915,6 +948,7 @@
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC3D0BE21A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
+				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,6 +1018,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
+				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
@@ -992,6 +1027,7 @@
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* MTTopViewController.m in Sources */,
 				740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
+				7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,9 +1037,11 @@
 			files = (
 				7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
+				7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
 				740EF5721A2C8E4900735C4E /* MTTopViewController.m in Sources */,
+				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,

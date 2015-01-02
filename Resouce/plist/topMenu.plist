@@ -19,6 +19,12 @@
 			<key>vc</key>
 			<string>iOSMTDemystifyAutoLayout1ViewController</string>
 		</dict>
+		<dict>
+			<key>title</key>
+			<string>Auto Layout検証 - Inconsistent Rule</string>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutInconsistentRuleViewController</string>
+		</dict>
 	</array>
 </dict>
 </plist>

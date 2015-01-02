@@ -44,6 +44,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     
+    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.adjustsFontSizeToFitWidth = YES;
     cell.textLabel.text = itemObj.titleString;
 
     return cell;
