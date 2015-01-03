@@ -712,6 +712,10 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                 </tableColumn>
                                             </tableColumns>
+                                            <connections>
+                                                <action selector="rowSelected:" target="XfG-lQ-9wD" id="Rv4-O2-kWC"/>
+                                                <outlet property="delegate" destination="XfG-lQ-9wD" id="4am-1Q-fL5"/>
+                                            </connections>
                                         </tableView>
                                     </subviews>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>

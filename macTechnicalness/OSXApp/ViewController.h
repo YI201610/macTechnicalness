@@ -12,7 +12,7 @@
 #import "OSXMTTopTableDataSource.h"
 
 @interface ViewController : NSViewController
-<NSApplicationDelegate, NSPopoverDelegate>
+<NSApplicationDelegate, NSPopoverDelegate, NSTableViewDelegate>
 {
     MTMTopMenuDataController* _dataController;
     OSXMTTopTableDataSource* _dataSource;
