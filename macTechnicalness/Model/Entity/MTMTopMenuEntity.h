@@ -15,6 +15,8 @@
 
 @property (nonatomic, strong) NSString* sectionNameString;
 @property (nonatomic, strong) NSString* titleString;
+
 @property (nonatomic, strong) NSString* viewControllerNameString;
+@property (nonatomic, strong) NSString* windowControllerNameString;
 
 @end

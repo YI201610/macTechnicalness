@@ -108,8 +108,46 @@
              @comment   Enter Keyが選択された
              */
             MTMTopMenuEntity* entity = [_dataController itemForRow:_tableView.selectedRow];
-            debugout(@"[Enter Key Pressed] entity: %@, %@", entity.sectionNameString, entity.titleString);
-            debugout(@"[Enter Key Pressed] selectedRow: %ld, column: %ld", _tableView.selectedRow, _tableView.selectedColumn);
+            debugout(@"[Enter Key Pressed] entity: %@, %@, %@",
+                     entity.sectionNameString,
+                     entity.titleString,
+                     entity.viewControllerNameString);
+            
+            /*!
+             @comment
+             */
+            
+            /*
+             @comment   選択された検証項目に対応するView Controller名称を求めます。
+             */
+            NSString* wcName = entity.windowControllerNameString;
+            
+            if([wcName length] == 0){
+                debugout(@"Error: Target Class wan't set. ");
+                return;
+            }
+            
+            if(_windowController != nil){
+                _windowController = nil;
+            }
+            
+            /*
+             @comment   選択された検証項目に対応するWindowを作成
+             */
+            NSWindowController* addwc = [[NSClassFromString(wcName) alloc] initWithWindowNibName:wcName];
+            if(!addwc){
+                debugout(@"Error: %@ was not found.", wcName);
+                _windowController = nil;
+            }else{
+                _windowController = addwc;
+                
+                /*!
+                 @comment   検証項目のWindowを表示
+                 */
+                [_windowController showWindow:nil];
+
+            }
+
         }
     }
 }

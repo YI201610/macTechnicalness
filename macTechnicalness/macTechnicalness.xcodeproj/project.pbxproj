@@ -25,6 +25,14 @@
 		7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
 		74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
+		7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE01A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m */; };
+		7453CDE31A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE01A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m */; };
+		7453CDE41A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDE11A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib */; };
+		7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDE11A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib */; };
+		7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */; };
+		7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */; };
+		7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
+		7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
 		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
@@ -181,6 +189,12 @@
 		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
 		74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTHIDeviceController.h; path = Controller/iOSMTHIDeviceController.h; sourceTree = "<group>"; };
 		74538C101A35262900850210 /* iOSMTHIDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTHIDeviceController.m; path = Controller/iOSMTHIDeviceController.m; sourceTree = "<group>"; };
+		7453CDDF1A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTAutoLayout1WindowController.h; path = Controller/WindowController/OSXMTAutoLayout1WindowController.h; sourceTree = "<group>"; };
+		7453CDE01A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTAutoLayout1WindowController.m; path = Controller/WindowController/OSXMTAutoLayout1WindowController.m; sourceTree = "<group>"; };
+		7453CDE11A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTAutoLayout1WindowController.xib; path = Controller/WindowController/OSXMTAutoLayout1WindowController.xib; sourceTree = "<group>"; };
+		7453CDE81A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTAutoLayout2WindowController.h; path = Controller/WindowController/OSXMTAutoLayout2WindowController.h; sourceTree = "<group>"; };
+		7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTAutoLayout2WindowController.m; path = Controller/WindowController/OSXMTAutoLayout2WindowController.m; sourceTree = "<group>"; };
+		7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTAutoLayout2WindowController.xib; path = Controller/WindowController/OSXMTAutoLayout2WindowController.xib; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
@@ -323,9 +337,9 @@
 		740EF5731A2C8E4C00735C4E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
-				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -375,6 +389,7 @@
 				ECDC655A1A2BD5AC0080C608 /* AppDelegate.h */,
 				ECDC655B1A2BD5AC0080C608 /* AppDelegate.m */,
 				7437A9091A5792FD0097D921 /* ViewController */,
+				7453CDDE1A580FCD006B7AB5 /* WindowController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -404,6 +419,35 @@
 				ECDC65621A2BD5AC0080C608 /* Images.xcassets */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+				7453CDE61A581AFA006B7AB5 /* AutoLayout1 */,
+				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
+			);
+			name = WindowController;
+			sourceTree = "<group>";
+		};
+		7453CDE61A581AFA006B7AB5 /* AutoLayout1 */ = {
+			isa = PBXGroup;
+			children = (
+				7453CDDF1A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.h */,
+				7453CDE01A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m */,
+				7453CDE11A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib */,
+			);
+			name = AutoLayout1;
+			sourceTree = "<group>";
+		};
+		7453CDE71A581B07006B7AB5 /* AutoLayout2 */ = {
+			isa = PBXGroup;
+			children = (
+				7453CDE81A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.h */,
+				7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */,
+				7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */,
+			);
+			name = AutoLayout2;
 			sourceTree = "<group>";
 		};
 		7484C4B71A33136900A310DE /* Framework */ = {
@@ -994,6 +1038,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7453CDE41A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
+				7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
 				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
@@ -1004,6 +1050,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
+				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC3D0BE31A32EFF60097C9E2 /* topMenuTestData.plist in Resources */,
 			);
@@ -1092,6 +1140,8 @@
 			files = (
 				ECDC65611A2BD5AC0080C608 /* ViewController.m in Sources */,
 				7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
+				7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
+				7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
 				ECDC655E1A2BD5AC0080C608 /* main.m in Sources */,
 				ECDC655C1A2BD5AC0080C608 /* AppDelegate.m in Sources */,
 			);
@@ -1101,6 +1151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7453CDE31A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
+				7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
 				7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 			);

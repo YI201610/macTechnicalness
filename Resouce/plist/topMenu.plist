@@ -14,12 +14,16 @@
 	<key>Auto Layout</key>
 	<array>
 		<dict>
+			<key>vc_osx</key>
+			<string>OSXMTAutoLayout1WindowController</string>
 			<key>title</key>
 			<string>Auto Layout検証 - visualFormatで制約を追加</string>
 			<key>vc</key>
 			<string>iOSMTDemystifyAutoLayout1ViewController</string>
 		</dict>
 		<dict>
+			<key>vc_osx</key>
+			<string>OSXMTAutoLayout2WindowController</string>
 			<key>title</key>
 			<string>Auto Layout検証 - Inconsistent Rule</string>
 			<key>vc</key>

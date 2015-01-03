@@ -106,6 +106,7 @@
         entity.sectionNameString = section;
         entity.titleString = [itemDictionary objectForKey:@"title"];
         entity.viewControllerNameString = [itemDictionary objectForKey:@"vc"];
+        entity.windowControllerNameString = [itemDictionary objectForKey:@"vc_osx"];
     }
 
     return entity;

@@ -16,6 +16,8 @@
 {
     MTMTopMenuDataController* _dataController;
     OSXMTTopTableDataSource* _dataSource;
+    
+    NSWindowController* _windowController;
 }
 
 @property (weak) IBOutlet NSTableView *tableView;
