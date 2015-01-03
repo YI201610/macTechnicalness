@@ -36,6 +36,11 @@
 - (MTMTopMenuEntity*) itemForSection:(NSString*)section index:(NSInteger)indexValue;
 
 /*!
+ @abstract  行に相当する項目を返す
+ */
+- (MTMTopMenuEntity*) itemForRow:(NSInteger)rowValue;
+
+/*!
  @abstract  指定したセクションに含まれる検証項目名の総数を返す
  */
 - (NSInteger) numberOfItemForSection:(NSString*)sectionNameString;

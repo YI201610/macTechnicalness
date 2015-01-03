@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		740EF5711A2C8E4900735C4E /* MTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* MTTopViewController.m */; };
-		740EF5721A2C8E4900735C4E /* MTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* MTTopViewController.m */; };
+		740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
+		740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
-		740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
-		740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */; };
+		740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
+		740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
 		7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
 		7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
 		7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */; };
 		7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */; };
 		7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
 		7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
+		7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
+		7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
 		74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
@@ -164,17 +166,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		740EF56F1A2C8E4900735C4E /* MTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewController.h; path = Controller/ViewController/MTTopViewController.h; sourceTree = "<group>"; };
-		740EF5701A2C8E4900735C4E /* MTTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewController.m; path = Controller/ViewController/MTTopViewController.m; sourceTree = "<group>"; };
+		740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewController.h; path = Controller/ViewController/iOSMTTopViewController.h; sourceTree = "<group>"; };
+		740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewController.m; path = Controller/ViewController/iOSMTTopViewController.m; sourceTree = "<group>"; };
 		740EF5791A2DD4A300735C4E /* topMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenu.plist; sourceTree = "<group>"; };
-		740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTopViewTableDataSource.h; path = Controller/ViewController/MTTopViewTableDataSource.h; sourceTree = "<group>"; };
-		740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTopViewTableDataSource.m; path = Controller/ViewController/MTTopViewTableDataSource.m; sourceTree = "<group>"; };
+		740EF5E11A307EDD00735C4E /* iOSMTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewTableDataSource.h; path = Controller/ViewController/iOSMTTopViewTableDataSource.h; sourceTree = "<group>"; };
+		740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewTableDataSource.m; path = Controller/ViewController/iOSMTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
 		7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutInconsistentRuleViewController.h; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.h; sourceTree = "<group>"; };
 		7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutInconsistentRuleViewController.m; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.m; sourceTree = "<group>"; };
 		7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutInconsistentRuleViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.xib; sourceTree = "<group>"; };
 		7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutTestableView.h; path = View/iOSMTAutoLayoutTestableView.h; sourceTree = "<group>"; };
 		7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutTestableView.m; path = View/iOSMTAutoLayoutTestableView.m; sourceTree = "<group>"; };
+		7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTTopTableDataSource.h; path = Controller/OSXMTTopTableDataSource.h; sourceTree = "<group>"; };
+		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
 		74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTHIDeviceController.h; path = Controller/iOSMTHIDeviceController.h; sourceTree = "<group>"; };
 		74538C101A35262900850210 /* iOSMTHIDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTHIDeviceController.m; path = Controller/iOSMTHIDeviceController.m; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
@@ -365,6 +369,43 @@
 			name = InconsistentRule;
 			sourceTree = "<group>";
 		};
+		7437A9081A5792F20097D921 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC655A1A2BD5AC0080C608 /* AppDelegate.h */,
+				ECDC655B1A2BD5AC0080C608 /* AppDelegate.m */,
+				7437A9091A5792FD0097D921 /* ViewController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7437A9091A5792FD0097D921 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC655F1A2BD5AC0080C608 /* ViewController.h */,
+				ECDC65601A2BD5AC0080C608 /* ViewController.m */,
+				7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */,
+				7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7437A90A1A57930E0097D921 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC65641A2BD5AC0080C608 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7437A90B1A57931E0097D921 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC65621A2BD5AC0080C608 /* Images.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		7484C4B71A33136900A310DE /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,10 +577,10 @@
 		EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */ = {
 			isa = PBXGroup;
 			children = (
-				740EF56F1A2C8E4900735C4E /* MTTopViewController.h */,
-				740EF5701A2C8E4900735C4E /* MTTopViewController.m */,
-				740EF5E11A307EDD00735C4E /* MTTopViewTableDataSource.h */,
-				740EF5E21A307EDD00735C4E /* MTTopViewTableDataSource.m */,
+				740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */,
+				740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */,
+				740EF5E11A307EDD00735C4E /* iOSMTTopViewTableDataSource.h */,
+				740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */,
 			);
 			name = TopMenu;
 			sourceTree = "<group>";
@@ -611,12 +652,9 @@
 		ECDC65571A2BD5AC0080C608 /* OSXApp */ = {
 			isa = PBXGroup;
 			children = (
-				ECDC655A1A2BD5AC0080C608 /* AppDelegate.h */,
-				ECDC655B1A2BD5AC0080C608 /* AppDelegate.m */,
-				ECDC655F1A2BD5AC0080C608 /* ViewController.h */,
-				ECDC65601A2BD5AC0080C608 /* ViewController.m */,
-				ECDC65621A2BD5AC0080C608 /* Images.xcassets */,
-				ECDC65641A2BD5AC0080C608 /* Main.storyboard */,
+				7437A90B1A57931E0097D921 /* Resource */,
+				7437A90A1A57930E0097D921 /* View */,
+				7437A9081A5792F20097D921 /* Controller */,
 				ECDC65581A2BD5AC0080C608 /* Supporting Files */,
 			);
 			path = OSXApp;
@@ -1025,8 +1063,8 @@
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
-				740EF5711A2C8E4900735C4E /* MTTopViewController.m in Sources */,
-				740EF5E31A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
+				740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
+				740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1039,8 +1077,8 @@
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
-				740EF5E41A307EDD00735C4E /* MTTopViewTableDataSource.m in Sources */,
-				740EF5721A2C8E4900735C4E /* MTTopViewController.m in Sources */,
+				740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
+				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
@@ -1053,6 +1091,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDC65611A2BD5AC0080C608 /* ViewController.m in Sources */,
+				7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 				ECDC655E1A2BD5AC0080C608 /* main.m in Sources */,
 				ECDC655C1A2BD5AC0080C608 /* AppDelegate.m in Sources */,
 			);
@@ -1063,6 +1102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
+				7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

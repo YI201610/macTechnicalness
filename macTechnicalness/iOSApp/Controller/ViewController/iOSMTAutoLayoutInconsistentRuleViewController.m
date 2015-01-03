@@ -23,6 +23,11 @@
     /*!
      @comment
      */
+    debugout(@"self.view.hasAmbiguousLayout: %d", self.view.hasAmbiguousLayout);
+    
+    /*!
+     @comment
+     */
     iOSMTAutoLayoutTestableView* someView = [[iOSMTAutoLayoutTestableView alloc] initWithFrame:CGRectMake(10, 110, 80, 80)];
     someView.tag = 999;
     [self.view addSubview:someView];
@@ -62,12 +67,22 @@
 
 - (void) viewDidAppear:(BOOL)animated
 {
+    /*!
+     @comment
+     */
+    [self.view exerciseAmbiguityInLayout];
+
+    
+    /*!
+     @comment
+     */
     iOSMTAutoLayoutTestableView* someView = (iOSMTAutoLayoutTestableView*)[self.view viewWithTag:999];
     debugout(@"someView: %@", someView);
 
     iOSMTAutoLayoutTestableView* someView2 = (iOSMTAutoLayoutTestableView*)[self.view viewWithTag:888];
     debugout(@"someView2: %@", someView2);
 
+    
     /*!
      @comment   Auto Layout制約の曖昧さをテストする。
      */
@@ -77,6 +92,7 @@
      @comment   Auto Layout制約の曖昧さをテストする。
      */
     [someView2 testAmbiguity];
+    
 }
 
 

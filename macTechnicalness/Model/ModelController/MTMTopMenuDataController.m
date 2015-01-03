@@ -103,11 +103,33 @@
     MTMTopMenuEntity* entity = nil;
     if([itemDictionary isKindOfClass:[NSDictionary class]]){
         entity = [MTMTopMenuEntity new];
+        entity.sectionNameString = section;
         entity.titleString = [itemDictionary objectForKey:@"title"];
         entity.viewControllerNameString = [itemDictionary objectForKey:@"vc"];
     }
 
     return entity;
+}
+
+- (MTMTopMenuEntity*) itemForRow:(NSInteger)rowValue
+{
+    NSInteger sectionCnt = [self numberOfSection];
+    
+    MTMTopMenuEntity* retEntity = [MTMTopMenuEntity new];
+    
+    for(NSInteger sectionNo = 0; sectionNo < sectionCnt; sectionNo++){
+        NSString* sectionName = [self sectionNameStringWithIndex:sectionNo];
+        NSInteger rowCnt = [self numberOfItemForSection:sectionName];
+
+        for(NSInteger rowNo = 0; rowNo < rowCnt; rowNo++){
+            if(rowValue == sectionNo + rowNo){
+                retEntity = [self itemForSection:sectionName index:rowNo];
+                break;
+            }
+        }
+    }
+    
+    return retEntity;
 }
 
 - (NSInteger) numberOfItemForSection:(NSString*)sectionNameString

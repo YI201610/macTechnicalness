@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MTTopViewController.h"
+#import "iOSMTTopViewController.h"
 #import <GameController/GameController.h>
 #import "CommonHeader.h"
 #import "iOSMTHIDeviceController.h"
@@ -37,7 +37,7 @@
     /*!
      @comment
      */
-    MTTopViewController* topViewController = [MTTopViewController new];
+    iOSMTTopViewController* topViewController = [iOSMTTopViewController new];
     
     /*
      @comment   Top画面と共に、ナビゲーションコントローラーを作成します。
