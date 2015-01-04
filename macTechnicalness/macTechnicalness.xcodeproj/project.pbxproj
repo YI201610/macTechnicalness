@@ -424,20 +424,20 @@
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
-				7453CDE61A581AFA006B7AB5 /* AutoLayout1 */,
+				7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */,
 				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
 			);
 			name = WindowController;
 			sourceTree = "<group>";
 		};
-		7453CDE61A581AFA006B7AB5 /* AutoLayout1 */ = {
+		7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */ = {
 			isa = PBXGroup;
 			children = (
 				7453CDDF1A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.h */,
 				7453CDE01A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m */,
 				7453CDE11A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib */,
 			);
-			name = AutoLayout1;
+			name = "AutoLayout1: visualFormat";
 			sourceTree = "<group>";
 		};
 		7453CDE71A581B07006B7AB5 /* AutoLayout2 */ = {
