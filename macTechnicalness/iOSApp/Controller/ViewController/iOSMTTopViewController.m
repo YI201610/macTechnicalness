@@ -8,20 +8,20 @@
 
 #import <iOSEmbeddedModelKit/MTMTopMenuDataController.h>
 
-#import "MTTopViewController.h"
-#import "MTTopViewTableDataSource.h"
+#import "iOSMTTopViewController.h"
+#import "iOSMTTopViewTableDataSource.h"
 #import "CommonHeader.h"
 
 
-@interface MTTopViewController () {
+@interface iOSMTTopViewController () {
 
     MTMTopMenuDataController* _dataController;
-    MTTopViewTableDataSource* _dataSource;
+    iOSMTTopViewTableDataSource* _dataSource;
 }
 
 @end
 
-@implementation MTTopViewController
+@implementation iOSMTTopViewController
 
 - (instancetype)init
 {
@@ -38,7 +38,7 @@
         /*
          @comment   TableViewのデータソースオブジェクトを作成します。
          */
-        _dataSource = [MTTopViewTableDataSource new];
+        _dataSource = [iOSMTTopViewTableDataSource new];
         
         /*
          @comment   データソースオブジェクトに、データコントローラーを設定します。

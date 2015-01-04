@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <iOSEmbeddedModelKit/iOSEmbeddedModelKit.h>
 
-@interface MTTopViewTableDataSource : NSObject <UITableViewDataSource>
+@interface iOSMTTopViewTableDataSource : NSObject <UITableViewDataSource>
 
 @property (nonatomic, strong) MTMTopMenuDataController* dataController;
 

@@ -6,10 +6,10 @@
 //
 //
 
-#import "MTTopViewTableDataSource.h"
+#import "iOSMTTopViewTableDataSource.h"
 
 
-@implementation MTTopViewTableDataSource
+@implementation iOSMTTopViewTableDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -44,6 +44,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     
+    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.adjustsFontSizeToFitWidth = YES;
     cell.textLabel.text = itemObj.titleString;
 
     return cell;

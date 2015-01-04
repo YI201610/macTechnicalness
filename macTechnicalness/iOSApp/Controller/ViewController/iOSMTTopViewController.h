@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTTopViewController : UIViewController <UITableViewDelegate>
+@interface iOSMTTopViewController : UIViewController <UITableViewDelegate>
 
 @end
