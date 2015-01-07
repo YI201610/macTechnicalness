@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIKit</key>
+	<array>
+		<dict>
+			<key>vc</key>
+			<string>iOSMTiOS8TextView1ViewController</string>
+			<key>title</key>
+			<string>iOS8でTextAreaにキーボードを表示する</string>
+		</dict>
+	</array>
 	<key>Game Controller</key>
 	<array>
 		<dict>
