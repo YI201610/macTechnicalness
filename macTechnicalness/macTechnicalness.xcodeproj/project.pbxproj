@@ -199,6 +199,7 @@
 		7453CDE81A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTAutoLayout2WindowController.h; path = Controller/WindowController/OSXMTAutoLayout2WindowController.h; sourceTree = "<group>"; };
 		7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTAutoLayout2WindowController.m; path = Controller/WindowController/OSXMTAutoLayout2WindowController.m; sourceTree = "<group>"; };
 		7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTAutoLayout2WindowController.xib; path = Controller/WindowController/OSXMTAutoLayout2WindowController.xib; sourceTree = "<group>"; };
+		745650661A672BD300BCC0FA /* MTMAnalytics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MTMAnalytics.playground; path = Model/MTMAnalytics.playground; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
@@ -528,6 +529,7 @@
 			children = (
 				EC3D0BC01A32EB1E0097C9E2 /* Entity */,
 				EC3D0BC31A32EB1E0097C9E2 /* ModelController */,
+				745650661A672BD300BCC0FA /* MTMAnalytics.playground */,
 			);
 			name = EmbeddedModelKit;
 			sourceTree = "<group>";
