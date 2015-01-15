@@ -2,9 +2,9 @@
 
 import Foundation
 
-var Aチーム得点 = [80, 56, 43, 92, 65, 35, 72, 55, 33, 33, 33]
-var Bチーム得点 = [99, 12, 35, 70, 57, 43, 22]
-var Cチーム得点 = [11, 22, 33, 44, 55, 66, 77, 0]
+var Aチーム得点 = [38, 73, 86, 90, 111, 124]
+var Bチーム得点 = [71, 84, 85, 89, 90, 103]
+var Cチーム得点 = [11, 22, 33, 44, 55, 66, 77, 1000]
 
 Aチーム得点.sort{$0 < $1}
 Bチーム得点.sort{$0 < $1}
@@ -27,7 +27,7 @@ func 平均(ソース:Array<Int>) -> Float {
 
     return チームの平均
 }
-平均(Aチーム得点)
+let Aチームの平均 = 平均(Aチーム得点)
 平均(Bチーム得点)
 平均(Cチーム得点)
 
@@ -57,9 +57,6 @@ func 中央値(ソース:Array<Int>) -> Float {
         @comment    奇数の場合
         */
         候補IDX = ceil(Float(countOfSource/2))-1
-        /*
-        @comment    index0から配列データがあるので、四捨五入した値を-1
-        */
         idx = Int(候補IDX)
         return Float(ソース[idx])
     }
@@ -72,6 +69,19 @@ func 中央値(ソース:Array<Int>) -> Float {
 /*!
 @abstract   標準偏差
 */
+func 標準偏差(ソース:Array<Int>) -> Double {
+    var sum1:Int32 = 0
+    var 平均値 = 平均(ソース)
+    for value in ソース {
+        let a = pow(Double(Double(value) - Double(平均値)), 2)
+        sum1 += Int32(a)
+    }
+    var hoge = Double(sum1)/Double(ソース.count)
+    return sqrt(hoge)
+}
+標準偏差(Aチーム得点)
+標準偏差(Bチーム得点)
+標準偏差(Cチーム得点)
 
 
 /*!
