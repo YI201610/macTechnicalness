@@ -67,9 +67,9 @@ func 中央値(ソース:Array<Int>) -> Float {
 
 
 /*!
-@abstract   標準偏差
+@abstract  母集団の標準偏差
 */
-func 標準偏差(ソース:Array<Int>) -> Double {
+func 母集団の標準偏差(ソース:Array<Int>) -> Double {
     var sum1:Int32 = 0
     var 平均値 = 平均(ソース)
     for value in ソース {
@@ -79,9 +79,14 @@ func 標準偏差(ソース:Array<Int>) -> Double {
     var hoge = Double(sum1)/Double(ソース.count)
     return sqrt(hoge)
 }
-標準偏差(Aチーム得点)
-標準偏差(Bチーム得点)
-標準偏差(Cチーム得点)
+母集団の標準偏差(Aチーム得点)
+母集団の標準偏差(Bチーム得点)
+母集団の標準偏差(Cチーム得点)
+
+
+/*!
+@abstract   標本の標準偏差
+*/
 
 
 /*!
