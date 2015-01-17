@@ -87,7 +87,28 @@ func 母集団の標準偏差(ソース:Array<Int>) -> Double {
 /*!
 @abstract   標本の標準偏差
 */
+func 標本の標準偏差(ソース:Array<Int>) -> Double {
+    var sum1:Int32 = 0
+    var 平均値 = 平均(ソース)
+    for value in ソース {
+        let a = pow(Double(Double(value) - Double(平均値)), 2)
+        sum1 += Int32(a)
+    }
+    var b = ソース.count - 1
+    var hoge = Double(sum1)/Double(b)
+    return sqrt(hoge)
+}
+標本の標準偏差(Aチーム得点)
+標本の標準偏差(Bチーム得点)
+標本の標準偏差(Cチーム得点)
 
+/*!
+* @abstract 階級の個数を求める
+*/
+
+/*!
+* @abstract 階級の幅を求める
+*/
 
 /*!
 @abstract   偏差値
