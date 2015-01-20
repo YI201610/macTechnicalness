@@ -105,10 +105,38 @@ func 標本の標準偏差(ソース:Array<Int>) -> Double {
 /*!
 * @abstract 階級の個数を求める
 */
+func 階級の個数(個数:Int) -> Double {
+    var numOfData = 個数
+    let elem1 = log10(Double(numOfData))
+    let elem2 = log10(2.0)
+
+    let resultDouble = 1 + elem1/elem2
+    return ceil(resultDouble)
+}
+
+階級の個数(50)
+階級の個数(100)
+階級の個数(200)
+階級の個数(6)
+階級の個数(Aチーム得点.count)
 
 /*!
 * @abstract 階級の幅を求める
 */
+func 階級の幅(ソース:Array<Int>) -> Int {
+    let maxValue = Double(maxElement(ソース))
+    let minValue = Double(minElement(ソース))
+    let elem3 = 階級の個数(ソース.count)
+
+    var ret:Double = 0
+    
+    if(elem3 > 0) {
+        ret = (maxValue - minValue) / elem3
+    }
+    
+    return Int(ceil(ret))
+}
+階級の幅(Aチーム得点)
 
 /*!
 @abstract   偏差値
