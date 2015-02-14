@@ -204,6 +204,25 @@
 		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
+		74A2062E1A8F919600E8E35E /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; };
+		74A2062F1A8F919600E8E35E /* demo20140905.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo20140905.playground; sourceTree = "<group>"; };
+		74A206301A8F919600E8E35E /* demo20150206.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo20150206.playground; sourceTree = "<group>"; };
+		74A206311A8F919600E8E35E /* EnumerationsAndStructures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EnumerationsAndStructures.playground; sourceTree = "<group>"; };
+		74A206321A8F919600E8E35E /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; };
+		74A206331A8F919600E8E35E /* FunctionsAndClosures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionsAndClosures.playground; sourceTree = "<group>"; };
+		74A206341A8F919600E8E35E /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; };
+		74A206351A8F919600E8E35E /* HelloSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HelloSwiftPlayground.playground; sourceTree = "<group>"; };
+		74A206361A8F919600E8E35E /* InteractingWithObjCAPIs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InteractingWithObjCAPIs.playground; sourceTree = "<group>"; };
+		74A206381A8F919600E8E35E /* 1.3.3.math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.3.3.math.playground; sourceTree = "<group>"; };
+		74A2063A1A8F919600E8E35E /* ObjectsAndClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObjectsAndClasses.playground; sourceTree = "<group>"; };
+		74A2063B1A8F919600E8E35E /* ProtocolsAndExtensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolsAndExtensions.playground; sourceTree = "<group>"; };
+		74A2063C1A8F919600E8E35E /* simpleValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = simpleValues.playground; sourceTree = "<group>"; };
+		74A2063D1A8F919600E8E35E /* swiftBlogJul18_2014.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = swiftBlogJul18_2014.playground; sourceTree = "<group>"; };
+		74A2063E1A8F919600E8E35E /* swiftBlogJul23_2014.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = swiftBlogJul23_2014.playground; sourceTree = "<group>"; };
+		74A2063F1A8F919600E8E35E /* test20140725.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test20140725.playground; sourceTree = "<group>"; };
+		74A206401A8F919600E8E35E /* TheBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheBasics.playground; sourceTree = "<group>"; };
+		74A206411A8F919600E8E35E /* Unicode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unicode.playground; sourceTree = "<group>"; };
+		74A206461A8F92A600E8E35E /* closureTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = closureTest.playground; sourceTree = "<group>"; };
 		74CCE17C1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckViewController.h; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.h; sourceTree = "<group>"; };
 		74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckViewController.m; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.m; sourceTree = "<group>"; };
 		74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGamePadConnectionCheckViewController.xib; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.xib; sourceTree = "<group>"; };
@@ -469,6 +488,80 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		74A2062C1A8F919600E8E35E /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				74A206421A8F91BF00E8E35E /* Swift Tour */,
+				74A206431A8F91FB00E8E35E /* LanguageGuide */,
+				74A206441A8F921000E8E35E /* Interacting with Obj-C APIs */,
+				74A206451A8F921800E8E35E /* Swift Official Blog */,
+				74A2062F1A8F919600E8E35E /* demo20140905.playground */,
+				74A206301A8F919600E8E35E /* demo20150206.playground */,
+				74A206371A8F919600E8E35E /* Math */,
+				74A206471A8F92B200E8E35E /* tmp */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		74A206371A8F919600E8E35E /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				74A206381A8F919600E8E35E /* 1.3.3.math.playground */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		74A206421A8F91BF00E8E35E /* Swift Tour */ = {
+			isa = PBXGroup;
+			children = (
+				74A2063C1A8F919600E8E35E /* simpleValues.playground */,
+				74A2062E1A8F919600E8E35E /* ControlFlow.playground */,
+				74A206331A8F919600E8E35E /* FunctionsAndClosures.playground */,
+				74A2063A1A8F919600E8E35E /* ObjectsAndClasses.playground */,
+				74A206311A8F919600E8E35E /* EnumerationsAndStructures.playground */,
+				74A2063B1A8F919600E8E35E /* ProtocolsAndExtensions.playground */,
+				74A206341A8F919600E8E35E /* Generics.playground */,
+			);
+			name = "Swift Tour";
+			sourceTree = "<group>";
+		};
+		74A206431A8F91FB00E8E35E /* LanguageGuide */ = {
+			isa = PBXGroup;
+			children = (
+				74A206401A8F919600E8E35E /* TheBasics.playground */,
+				74A206321A8F919600E8E35E /* Functions.playground */,
+				74A206411A8F919600E8E35E /* Unicode.playground */,
+			);
+			name = LanguageGuide;
+			sourceTree = "<group>";
+		};
+		74A206441A8F921000E8E35E /* Interacting with Obj-C APIs */ = {
+			isa = PBXGroup;
+			children = (
+				74A206361A8F919600E8E35E /* InteractingWithObjCAPIs.playground */,
+			);
+			name = "Interacting with Obj-C APIs";
+			sourceTree = "<group>";
+		};
+		74A206451A8F921800E8E35E /* Swift Official Blog */ = {
+			isa = PBXGroup;
+			children = (
+				74A2063D1A8F919600E8E35E /* swiftBlogJul18_2014.playground */,
+				74A2063E1A8F919600E8E35E /* swiftBlogJul23_2014.playground */,
+			);
+			name = "Swift Official Blog";
+			sourceTree = "<group>";
+		};
+		74A206471A8F92B200E8E35E /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+				74A206461A8F92A600E8E35E /* closureTest.playground */,
+				74A206351A8F919600E8E35E /* HelloSwiftPlayground.playground */,
+				74A2063F1A8F919600E8E35E /* test20140725.playground */,
+			);
+			name = tmp;
+			sourceTree = "<group>";
+		};
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
@@ -484,6 +577,7 @@
 				EC3D0BB01A32EAAB0097C9E2 /* OSXEmbededdModelKitTests */,
 				EC3D0B581A32E99A0097C9E2 /* iOSEmbeddedModelKit */,
 				EC3D0B671A32E99B0097C9E2 /* iOSEmbeddedModelKitTests */,
+				74A2062C1A8F919600E8E35E /* Playground */,
 				ECDC652C1A2BD58B0080C608 /* Products */,
 			);
 			sourceTree = "<group>";
