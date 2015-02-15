@@ -24,7 +24,7 @@
 - (void) testAmbiguity
 {
     /*!
-     @comment
+     @comment デバッグ機能。ViewのAuto Layout定義における曖昧さを確認する
      */
     if(self.hasAmbiguousLayout){
         debugout(@"[%@(tag:%ld)] Auto Layoutの定義に曖昧さがあります。", [self class], (long)self.tag);
