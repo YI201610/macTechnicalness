@@ -36,6 +36,7 @@
     someView2.tag = 888;
     [self.view addSubview:someView2];
     
+#if 0
     /*!
      @comment
      */
@@ -56,7 +57,8 @@
                                                                   multiplier:2
                                                                     constant:0];
     [self.view addConstraint:constraint2];
-
+#endif
+    
     
 }
 
@@ -68,13 +70,15 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     /*!
-     @comment
+     @comment   Auto Layoutデバッグ用のメソッドを実行します
+     -------------
+     This method should only be used for debugging constraint-based layout. No application should ship with calls to this method as part of its operation.
      */
     [self.view exerciseAmbiguityInLayout];
 
     
     /*!
-     @comment
+     @comment   初期処理で作成した各viewを取得します
      */
     iOSMTAutoLayoutTestableView* someView = (iOSMTAutoLayoutTestableView*)[self.view viewWithTag:999];
     debugout(@"someView: %@", someView);

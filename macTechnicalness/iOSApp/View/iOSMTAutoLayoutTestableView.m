@@ -33,7 +33,7 @@
     }
     
     /*!
-     @comment
+     @comment   SubViewに対してAuto Layoutの曖昧さを検証する
      */
     for (iOSMTAutoLayoutTestableView* subView in [self subviews]) {
         [subView testAmbiguity];
