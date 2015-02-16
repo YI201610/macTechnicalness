@@ -250,6 +250,7 @@
 		EC5E78721A5D8A4D0089D226 /* iOSMTSwift1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSMTSwift1.swift; sourceTree = "<group>"; };
 		EC5E78761A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTiOS8TextView1ViewController.h; path = Controller/ViewController/iOSMTiOS8TextView1ViewController.h; sourceTree = "<group>"; };
 		EC5E78771A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTiOS8TextView1ViewController.m; path = Controller/ViewController/iOSMTiOS8TextView1ViewController.m; sourceTree = "<group>"; };
+		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -526,6 +527,7 @@
 				74A206401A8F919600E8E35E /* TheBasics.playground */,
 				74A206321A8F919600E8E35E /* Functions.playground */,
 				74A206411A8F919600E8E35E /* Unicode.playground */,
+				EC9C52D81A9226AF009D516A /* Closures.playground */,
 			);
 			name = LanguageGuide;
 			sourceTree = "<group>";
