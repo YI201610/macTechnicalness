@@ -25,6 +25,12 @@
 	<key>Auto Layout</key>
 	<array>
 		<dict>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutCase1ViewController</string>
+			<key>title</key>
+			<string>ケース１</string>
+		</dict>
+		<dict>
 			<key>vc_osx</key>
 			<string>OSXMTAutoLayout1WindowController</string>
 			<key>title</key>

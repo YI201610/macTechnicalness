@@ -75,6 +75,14 @@
 		EC5E78741A5D8A4D0089D226 /* iOSMTSwift1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E78721A5D8A4D0089D226 /* iOSMTSwift1.swift */; };
 		EC5E78781A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E78771A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m */; };
 		EC5E78791A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E78771A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m */; };
+		EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */; };
+		EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */; };
+		EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */; };
+		EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */; };
+		EC8016C91A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */; };
+		EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */; };
+		EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
+		EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -250,6 +258,12 @@
 		EC5E78721A5D8A4D0089D226 /* iOSMTSwift1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSMTSwift1.swift; sourceTree = "<group>"; };
 		EC5E78761A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTiOS8TextView1ViewController.h; path = Controller/ViewController/iOSMTiOS8TextView1ViewController.h; sourceTree = "<group>"; };
 		EC5E78771A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTiOS8TextView1ViewController.m; path = Controller/ViewController/iOSMTiOS8TextView1ViewController.m; sourceTree = "<group>"; };
+		EC8016C01A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.h; sourceTree = "<group>"; };
+		EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.m; sourceTree = "<group>"; };
+		EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.xib; sourceTree = "<group>"; };
+		EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase1ElementView.h; path = View/iOSMTAutoLayoutCase1ElementView.h; sourceTree = "<group>"; };
+		EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ElementView.m; path = View/iOSMTAutoLayoutCase1ElementView.m; sourceTree = "<group>"; };
+		EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ElementView.xib; path = View/iOSMTAutoLayoutCase1ElementView.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -257,7 +271,7 @@
 		ECDC65321A2BD58B0080C608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECDC65331A2BD58B0080C608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECDC65391A2BD58B0080C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECDC653B1A2BD58B0080C608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECDC653B1A2BD58B0080C608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../macTechnicalness/iOSApp/Images.xcassets; sourceTree = "<group>"; };
 		ECDC653E1A2BD58B0080C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ECDC65441A2BD58B0080C608 /* iOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC65491A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -382,6 +396,7 @@
 		740EF5771A2DD4A300735C4E /* plist */ = {
 			isa = PBXGroup;
 			children = (
+				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
 				740EF5791A2DD4A300735C4E /* topMenu.plist */,
 			);
 			path = plist;
@@ -717,6 +732,7 @@
 		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				EC8016BF1A938682003BC74A /* case1 */,
 				7437A8FC1A56390E0097D921 /* InconsistentRule */,
 				74374C2E1A5308CE00014A0E /* visualFormatによるテスト１ */,
 			);
@@ -742,6 +758,19 @@
 			name = "Swiftブリッジの検証";
 			sourceTree = "<group>";
 		};
+		EC8016BF1A938682003BC74A /* case1 */ = {
+			isa = PBXGroup;
+			children = (
+				EC8016C01A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.h */,
+				EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */,
+				EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */,
+				EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */,
+				EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */,
+				EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */,
+			);
+			name = case1;
+			sourceTree = "<group>";
+		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -764,7 +793,6 @@
 				740EF56D1A2C89D300735C4E /* Controller */,
 				740EF56E1A2C89E300735C4E /* View */,
 				740EF5731A2C8E4C00735C4E /* ViewController */,
-				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
 				7484C4B71A33136900A310DE /* Framework */,
 			);
@@ -1117,8 +1145,10 @@
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
+				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
+				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 			);
@@ -1132,7 +1162,9 @@
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
+				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
+				EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1208,6 +1240,7 @@
 				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
+				EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				EC5E78781A5D8C800089D226 /* iOSMTiOS8TextView1ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
@@ -1217,6 +1250,7 @@
 				740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				EC5E78731A5D8A4D0089D226 /* iOSMTSwift1.swift in Sources */,
 				7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
+				EC8016C91A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1229,6 +1263,8 @@
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
+				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
+				EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
