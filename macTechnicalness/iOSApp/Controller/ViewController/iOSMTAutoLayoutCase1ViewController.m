@@ -39,7 +39,8 @@
 
         NSString* someString = [NSString stringWithFormat:@"%d_", i];
         
-        for(int j = 0; j < i; j++) {
+        int randomInt = random() % 10;
+        for(int j = 0; j < randomInt; j++) {
             someString = [someString stringByAppendingString:@"A"];
         }
         
@@ -50,7 +51,24 @@
         hogeView.someLabel.frame = CGRectMake(0, 0, stringSize.width, stringSize.height);
         hogeView.someLabel.text = someString;
 
-        hogeView.frame = CGRectMake(offsetX, i, stringSize.width, stringSize.height);
+
+//        /*
+//         @comment   elementViewに幅・高さの制約を与える
+//         */
+//        NSLayoutConstraint* heightConstraint = [NSLayoutConstraint constraintWithItem:hogeView
+//                                                                            attribute:NSLayoutAttributeHeight //高さ
+//                                                                            relatedBy:NSLayoutRelationEqual   //イコール
+//                                                                               toItem:nil
+//                                                                            attribute:NSLayoutAttributeHeight //高さ
+//                                                                           multiplier:1.0
+//                                                                             constant:30];
+//        
+//        /*
+//         @comment   特定のViewに、制約を追加する。
+//         */
+//        [hogeView addConstraint:heightConstraint];
+
+        hogeView.frame = CGRectMake(offsetX, 3, stringSize.width, 30);
         NSLog(@"hogeView.frame: %@", NSStringFromCGRect(hogeView.frame));
 
         offsetX += (stringSize.width + 60);
