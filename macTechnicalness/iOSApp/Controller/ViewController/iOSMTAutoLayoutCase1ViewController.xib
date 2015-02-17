@@ -15,17 +15,21 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999999999999973" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIT-fF-Ae5">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIT-fF-Ae5">
                     <rect key="frame" x="0.0" y="251" width="320" height="66"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="dBS-DI-TJI"/>
+                        <constraint firstAttribute="height" constant="66" id="gwc-83-bNN"/>
+                    </constraints>
                 </scrollView>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.032178035059999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="KIT-fF-Ae5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Cd-5R-9Z2"/>
-                <constraint firstAttribute="bottom" secondItem="KIT-fF-Ae5" secondAttribute="bottom" constant="251" id="aKg-yU-Eda"/>
-                <constraint firstItem="KIT-fF-Ae5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="251" id="el9-ms-UVg"/>
-                <constraint firstAttribute="trailing" secondItem="KIT-fF-Ae5" secondAttribute="trailing" id="ziY-tU-kdn"/>
+                <constraint firstAttribute="trailing" secondItem="KIT-fF-Ae5" secondAttribute="trailing" id="51F-VO-Y9l"/>
+                <constraint firstItem="KIT-fF-Ae5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="251" id="IlH-uC-qbk"/>
+                <constraint firstAttribute="bottom" secondItem="KIT-fF-Ae5" secondAttribute="bottom" constant="251" id="N6K-0G-6zr"/>
+                <constraint firstItem="KIT-fF-Ae5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="UM7-Or-lSa"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>

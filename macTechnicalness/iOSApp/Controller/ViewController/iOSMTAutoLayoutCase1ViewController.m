@@ -32,10 +32,11 @@
     _someScrollView.contentSize = CGSizeMake(5 + elementWidth*elementCount + 5,
                                              _someScrollView.frame.size.height);
     
+    CGFloat offsetX = 0;
     for(int i = 0; i < elementCount; i++){
         
         iOSMTAutoLayoutCase1ElementView* hogeView = [iOSMTAutoLayoutCase1ElementView viewObj];
-        
+
         NSString* someString = [NSString stringWithFormat:@"%d_", i];
         
         for(int j = 0; j < i; j++) {
@@ -44,12 +45,15 @@
         
         NSDictionary *attributes = @{ NSFontAttributeName : [UIFont systemFontOfSize:17] };
         CGSize stringSize = [someString sizeWithAttributes:attributes];
-        NSLog(@"stringSize: %@", NSStringFromCGSize(stringSize));
+//        NSLog(@"stringSize: %@", NSStringFromCGSize(stringSize));
         
         hogeView.someLabel.frame = CGRectMake(0, 0, stringSize.width, stringSize.height);
         hogeView.someLabel.text = someString;
-        
-        hogeView.frame = CGRectMake(elementWidth*i, 5, hogeView.frame.size.width, hogeView.frame.size.height);
+
+        hogeView.frame = CGRectMake(offsetX, i, stringSize.width, stringSize.height);
+        NSLog(@"hogeView.frame: %@", NSStringFromCGRect(hogeView.frame));
+
+        offsetX += (stringSize.width + 60);
         
         /*
          @comment

@@ -36,12 +36,12 @@
     roundFramePath.lineWidth = 1;
     [roundFramePath stroke];
     
-    /*
-     @comment   ラベルとボタンの本来の位置を表示する
-     */
-    NSLog(@"someLabelのintrinsicContentSize: %@", NSStringFromCGSize(self.someLabel.intrinsicContentSize));
-    
-    NSLog(@"someButtonのintrinsicContentSize: %@", NSStringFromCGSize(self.someButton.intrinsicContentSize));
+//    /*
+//     @comment   ラベルとボタンの本来の位置を表示する
+//     */
+//    NSLog(@"someLabelのintrinsicContentSize: %@", NSStringFromCGSize(self.someLabel.intrinsicContentSize));
+//    
+//    NSLog(@"someButtonのintrinsicContentSize: %@", NSStringFromCGSize(self.someButton.intrinsicContentSize));
     
 }
 
