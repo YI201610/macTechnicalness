@@ -32,7 +32,7 @@
 			<key>vc</key>
 			<string>iOSMTAutoLayoutCase1ViewController</string>
 			<key>title</key>
-			<string>例１</string>
+			<string>例１：失敗例</string>
 		</dict>
 		<dict>
 			<key>vc_osx</key>
