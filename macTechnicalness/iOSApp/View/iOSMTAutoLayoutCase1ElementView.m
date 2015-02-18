@@ -20,6 +20,7 @@
 - (void) awakeFromNib
 {
     self.backgroundColor = [UIColor clearColor];
+//    self.translatesAutoresizingMaskIntoConstraints = NO;
 }
 
 - (void)drawRect:(CGRect)rect

@@ -7,8 +7,6 @@
 	<key>UIKit</key>
 	<array>
 		<dict>
-			<key>vc</key>
-			<string>iOSMTiOS8TextView1ViewController</string>
 			<key>title</key>
 			<string>iOS8でTextAreaにキーボードを表示する</string>
 		</dict>
@@ -26,15 +24,21 @@
 	<array>
 		<dict>
 			<key>vc</key>
+			<string>iOSMTAutoLayoutVisualFormat2ViewController</string>
+			<key>title</key>
+			<string>視覚的書式言語テスト2</string>
+		</dict>
+		<dict>
+			<key>vc</key>
 			<string>iOSMTAutoLayoutCase1ViewController</string>
 			<key>title</key>
-			<string>ケース１</string>
+			<string>例１</string>
 		</dict>
 		<dict>
 			<key>vc_osx</key>
 			<string>OSXMTAutoLayout1WindowController</string>
 			<key>title</key>
-			<string>Auto Layout検証 - visualFormatで制約を追加</string>
+			<string>視覚的書式言語テスト1</string>
 			<key>vc</key>
 			<string>iOSMTDemystifyAutoLayout1ViewController</string>
 		</dict>
