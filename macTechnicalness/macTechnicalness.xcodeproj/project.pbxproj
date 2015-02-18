@@ -583,7 +583,6 @@
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
-				ECEBD1641A94D901001AD551 /* docs */,
 				740EF5ED1A30844D00735C4E /* CommonHeader.h */,
 				EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */,
 				740EF5761A2DD4A300735C4E /* Resouce */,
@@ -595,6 +594,7 @@
 				EC3D0BB01A32EAAB0097C9E2 /* OSXEmbededdModelKitTests */,
 				EC3D0B581A32E99A0097C9E2 /* iOSEmbeddedModelKit */,
 				EC3D0B671A32E99B0097C9E2 /* iOSEmbeddedModelKitTests */,
+				ECEBD1641A94D901001AD551 /* docs */,
 				74A2062C1A8F919600E8E35E /* Playground */,
 				ECDC652C1A2BD58B0080C608 /* Products */,
 			);

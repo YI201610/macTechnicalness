@@ -75,7 +75,7 @@ sayGoodbye("サンプルさん")
 //The return value of a function can be ignored when it is called.
 func printAndCount(someString: String) -> Int {
     println(someString)
-    return countElements(someString)
+    return count(someString)
 }
 printAndCount("ほげほげ")
 
@@ -235,7 +235,7 @@ func 平均(someNumbers: Double...) -> Double {
 //Constant and Variable Parameters: 渡ってきた関数のパラメータは「定数」変えようとするとエラーになる。入力パラメータの先頭に「var」キーワードをつけることで、変更可能になる。
 var someString = "a"
 func 指定した文字数まで特定文字で埋める(var someString: String, countValue:Int, padChar: Character) -> String {
-    let amountToPad = countValue - countElements(someString)
+    let amountToPad = countValue - count(someString)
    
     /*
     @comment    指定された文字数よりも、渡された文字列が短い場合、何もせずに、渡された文字列を返します。
