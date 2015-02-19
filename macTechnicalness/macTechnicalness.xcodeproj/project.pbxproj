@@ -292,7 +292,6 @@
 		ECEBD15D1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutVisualFormat2ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.h; sourceTree = "<group>"; };
 		ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutVisualFormat2ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.m; sourceTree = "<group>"; };
 		ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutVisualFormat2ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.xib; sourceTree = "<group>"; };
-		ECEBD1651A94D901001AD551 /* AutoLayout検証項目.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AutoLayout検証項目.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -882,7 +881,6 @@
 		ECEBD1641A94D901001AD551 /* docs */ = {
 			isa = PBXGroup;
 			children = (
-				ECEBD1651A94D901001AD551 /* AutoLayout検証項目.md */,
 			);
 			path = docs;
 			sourceTree = "<group>";

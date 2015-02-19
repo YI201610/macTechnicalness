@@ -1,4 +1,4 @@
-# 1 Introducing Auto Layout - 超意訳（飛躍あり）
+# 1 Introducing Auto Layout
     序文 - 
 
     Origins

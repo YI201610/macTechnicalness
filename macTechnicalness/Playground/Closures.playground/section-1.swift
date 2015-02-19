@@ -34,6 +34,7 @@ SwiftにおけるCosures表現は、無駄がなく、簡素で、簡潔さを�
 
 /*!
 @abstract   The Sorted Function
+            まず、ソート関数はこう書ける。
 */
 let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
 
@@ -44,6 +45,7 @@ var reversed = sorted(names, backwards)
 
 /*!
 @abstract   Closure Expression Syntax
+            Closuresの構文をつかえば、こうかける。
 */
 reversed = sorted(names, { (s1: String, s2: String) -> Bool in
     return s1 > s2
@@ -54,14 +56,16 @@ reversed = sorted(names, { (s1: String, s2: String) -> Bool in return s1 > s2 } 
 
 /*!
 @abstract   Inferring Type From Context
+            Closureは、型推論に対応している
 */
-
 reversed = sorted(names, { s1, s2 in return s1 > s2 } )
 
 
 
 /*!
 @abstract   Implicit Returns from Single-Expression Closures
+
+            return文も、省略できる。
 */
 
 reversed = sorted(names, { s1, s2 in s1 > s2 } )
@@ -70,6 +74,7 @@ reversed = sorted(names, { s1, s2 in s1 > s2 } )
 
 /*!
 @abstract   Shorthand Argument Names
+            パラメータ名さえも、省略できる。
 */
 
 reversed = sorted(names, { $0 > $1 } )
@@ -77,30 +82,69 @@ reversed = sorted(names, { $0 > $1 } )
 
 /*!
 @abstract   Operator Functions
+            省略した書き方ができる、というもの
 */
-
-reversed = sorted(names, >)
+reversed = sorted(names, <)
 
 
 /*!
 @abstract   Trailing Closures
+
+If you need to pass a closure expression to a function as the function’s final argument 
+    and 
+    the closure expression is long, it can be useful to write it as a trailing closure instead.
+
+もし、クロージャを、関数の最後の引数に渡す必要があったり、
+    クロージャ表現が長い場合、
+    trailing closureとして書くといい。
+
+A trailing closure 
+    is 
+    a closure expression 
+        that is written outside of (and after) the parentheses of the function call it supports:
+
+trailingクロージャとは、関数の()の後に書くクロージャ表現だ。
+
 */
 
-
-
-func someFunctionThatTakesAClosure(closure: () -> ()) {
+func someFunctionThatTakesAClosure(closure: () -> String) {
     // function body goes here
-}
-// here's how you call this function without using a trailing closure:
-someFunctionThatTakesAClosure({
-    // closure's body goes here
-})
-// here's how you call this function with a trailing closure instead:
-someFunctionThatTakesAClosure() {
-    // trailing closure's body goes here
+    println("クロージャを受け取る関数を実行した結果: " + closure())
 }
 
+
+/*
+@comment    trailingクロージャを使用せずに関数を実行するとすれば、次のようになる。
+*/
+someFunctionThatTakesAClosure({
+    // trailing closureの、Body部
+    return "Closures Body1"
+})
+
+
+// here's how you call this function with a trailing closure instead:
+/*
+@comment    trailingクロージャを使えば、次のようにかける。
+*/
+someFunctionThatTakesAClosure() {
+    // trailing closureの、Body部
+    return "Closures Body2"
+}
+
+someFunctionThatTakesAClosure(){
+    return "Closures Body3"
+}
+
+someFunctionThatTakesAClosure
+
+
+/*
+@comment
+
+The string-sorting closure from the Closure Expression Syntax section above can be written outside of the sorted function’s parentheses as a trailing closure:
+*/
 reversed = sorted(names) { $0 > $1 }
+reversed
 
 let digitNames = [
     0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four",
@@ -125,24 +169,22 @@ let strings = numbers.map {
 
 func makeIncrementor(forIncrement amount: Int) -> () -> Int {
     var runningTotal = 0
+    
     func incrementor() -> Int {
         runningTotal += amount
         return runningTotal
     }
+    
     return incrementor
 }
 
 
 let incrementByTen = makeIncrementor(forIncrement: 10)
 
-
-
 incrementByTen()
-// returns a value of 10
 incrementByTen()
-// returns a value of 20
 incrementByTen()
-// returns a value of 30
+incrementByTen()
 
 let incrementBySeven = makeIncrementor(forIncrement: 7)
 incrementBySeven()
@@ -161,3 +203,26 @@ alsoIncrementByTen()
 
 
 
+/*!
+@abstract
+*/
+var array = [3,2,5,4]
+array.sort{$0 < $1}
+array
+
+
+/*!
+@abstract
+*/
+let array2 = [0,1,2,4,5,5,6,7, 8, 256]
+let filteredArray = array2.filter{ $0 % 3 == 0 }
+filteredArray
+
+
+/*!
+@abstract
+*/
+let array3 = [1,2,3,4,5,6,7,8]
+
+let someValueArray = array3.map{ $0 * 10}
+someValueArray
