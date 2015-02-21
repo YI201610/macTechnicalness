@@ -23,10 +23,16 @@
 	<key>Auto Layout</key>
 	<array>
 		<dict>
+			<key>title</key>
+			<string>固定View1をベースにして一時的にView2を表示する</string>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutIB1ViewController</string>
+		</dict>
+		<dict>
 			<key>vc</key>
 			<string>iOSMTAutoLayoutVisualFormat2ViewController</string>
 			<key>title</key>
-			<string>視覚的書式言語テスト2</string>
+			<string>視覚的書式言語テスト2（作成中）</string>
 		</dict>
 		<dict>
 			<key>vc</key>
