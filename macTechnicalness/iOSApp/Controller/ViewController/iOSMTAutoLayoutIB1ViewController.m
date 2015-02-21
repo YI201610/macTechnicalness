@@ -22,6 +22,7 @@ typedef enum : NSUInteger {
 
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *view2HeightConstraint;
 
+//TODO: プログラムで動的に作成できるようにしたい
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *view2TopVerticalSpaceConstraint;
 
 
@@ -59,9 +60,11 @@ typedef enum : NSUInteger {
         
         [self.view addConstraint:_view2TopVerticalSpaceConstraint];
 
-        [UIView animateWithDuration:0.5
+        [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseOut
                          animations:^{
                              [self.view layoutIfNeeded];
+                         } completion:^(BOOL completion){
+                         
                          }];
 
         _controllerState = view2State;
@@ -69,10 +72,11 @@ typedef enum : NSUInteger {
         
         [self.view removeConstraint:_view2TopVerticalSpaceConstraint];
 
-        [UIView animateWithDuration:0.5
+        [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseOut
                          animations:^{
                              [self.view layoutIfNeeded];
-                             [self.view setNeedsDisplay];
+                         } completion:^(BOOL completion){
+                             
                          }];
 
         _controllerState = defaultState;
