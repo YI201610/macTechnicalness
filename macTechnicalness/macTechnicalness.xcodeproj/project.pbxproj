@@ -101,6 +101,30 @@
 		ECF63C3C1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */; };
 		ECF63C3D1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */; };
 		ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */; };
+		ECF63C4E1A988F82004302B3 /* 20150221AutoLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */; };
+		ECF63C4F1A988F82004302B3 /* 20150221AutoLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */; };
+		ECF63C501A988F82004302B3 /* 20150221AutoLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */; };
+		ECF63C511A988F82004302B3 /* 20150221AutoLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */; };
+		ECF63C521A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */; };
+		ECF63C531A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */; };
+		ECF63C541A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */; };
+		ECF63C551A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */; };
+		ECF63C561A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */; };
+		ECF63C571A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */; };
+		ECF63C581A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */; };
+		ECF63C591A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */; };
+		ECF63C5A1A988F82004302B3 /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4B1A988F82004302B3 /* xButton.png */; };
+		ECF63C5B1A988F82004302B3 /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4B1A988F82004302B3 /* xButton.png */; };
+		ECF63C5C1A988F82004302B3 /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4B1A988F82004302B3 /* xButton.png */; };
+		ECF63C5D1A988F82004302B3 /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4B1A988F82004302B3 /* xButton.png */; };
+		ECF63C5E1A988F82004302B3 /* xButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4C1A988F82004302B3 /* xButton@2x.png */; };
+		ECF63C5F1A988F82004302B3 /* xButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4C1A988F82004302B3 /* xButton@2x.png */; };
+		ECF63C601A988F82004302B3 /* xButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4C1A988F82004302B3 /* xButton@2x.png */; };
+		ECF63C611A988F82004302B3 /* xButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4C1A988F82004302B3 /* xButton@2x.png */; };
+		ECF63C621A988F82004302B3 /* xButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4D1A988F82004302B3 /* xButton@3x.png */; };
+		ECF63C631A988F82004302B3 /* xButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4D1A988F82004302B3 /* xButton@3x.png */; };
+		ECF63C641A988F82004302B3 /* xButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4D1A988F82004302B3 /* xButton@3x.png */; };
+		ECF63C651A988F82004302B3 /* xButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C4D1A988F82004302B3 /* xButton@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -299,6 +323,12 @@
 		ECF63C381A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutIB1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.h; sourceTree = "<group>"; };
 		ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutIB1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.m; sourceTree = "<group>"; };
 		ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutIB1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.xib; sourceTree = "<group>"; };
+		ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20150221AutoLayout.png; sourceTree = "<group>"; };
+		ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20150221AutoLayout@2x.png"; sourceTree = "<group>"; };
+		ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20150221AutoLayout@3x.png"; sourceTree = "<group>"; };
+		ECF63C4B1A988F82004302B3 /* xButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xButton.png; sourceTree = "<group>"; };
+		ECF63C4C1A988F82004302B3 /* xButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xButton@2x.png"; sourceTree = "<group>"; };
+		ECF63C4D1A988F82004302B3 /* xButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xButton@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -398,6 +428,7 @@
 		740EF5761A2DD4A300735C4E /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
+				ECF63C471A988F82004302B3 /* images */,
 				740EF5771A2DD4A300735C4E /* plist */,
 			);
 			name = Resouce;
@@ -903,6 +934,19 @@
 			name = "IBを用いた検証1";
 			sourceTree = "<group>";
 		};
+		ECF63C471A988F82004302B3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */,
+				ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */,
+				ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */,
+				ECF63C4B1A988F82004302B3 /* xButton.png */,
+				ECF63C4C1A988F82004302B3 /* xButton@2x.png */,
+				ECF63C4D1A988F82004302B3 /* xButton@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1181,14 +1225,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF63C4E1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				ECF63C5A1A988F82004302B3 /* xButton.png in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				ECF63C3D1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
+				ECF63C621A988F82004302B3 /* xButton@3x.png in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
+				ECF63C521A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
+				ECF63C5E1A988F82004302B3 /* xButton@2x.png in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
+				ECF63C561A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
@@ -1203,10 +1253,16 @@
 				ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
+				ECF63C5B1A988F82004302B3 /* xButton.png in Resources */,
+				ECF63C4F1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
+				ECF63C5F1A988F82004302B3 /* xButton@2x.png in Resources */,
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
+				ECF63C531A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				ECF63C571A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
+				ECF63C631A988F82004302B3 /* xButton@3x.png in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 			);
@@ -1218,9 +1274,15 @@
 			files = (
 				7453CDE41A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
+				ECF63C641A988F82004302B3 /* xButton@3x.png in Resources */,
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
+				ECF63C581A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
+				ECF63C501A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
 				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
+				ECF63C601A988F82004302B3 /* xButton@2x.png in Resources */,
+				ECF63C5C1A988F82004302B3 /* xButton.png in Resources */,
+				ECF63C541A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1228,9 +1290,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF63C551A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
+				ECF63C591A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
+				ECF63C5D1A988F82004302B3 /* xButton.png in Resources */,
+				ECF63C511A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
 				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
+				ECF63C651A988F82004302B3 /* xButton@3x.png in Resources */,
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
+				ECF63C611A988F82004302B3 /* xButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

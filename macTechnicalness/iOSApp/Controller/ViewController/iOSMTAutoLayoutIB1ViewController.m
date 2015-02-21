@@ -6,9 +6,24 @@
 //
 //
 
+
 #import "iOSMTAutoLayoutIB1ViewController.h"
 
-@interface iOSMTAutoLayoutIB1ViewController ()
+typedef enum : NSUInteger {
+    defaultState,
+    view2State,
+} viewState;
+
+@interface iOSMTAutoLayoutIB1ViewController () {
+
+    viewState _controllerState;
+    
+}
+
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *view2HeightConstraint;
+
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *view2TopVerticalSpaceConstraint;
+
 
 @end
 
@@ -17,6 +32,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self.view removeConstraint:_view2TopVerticalSpaceConstraint];
+    
+    _controllerState = defaultState;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +52,33 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)buttonAction:(id)sender {
+    
+    if(_controllerState == defaultState){
+        
+        [self.view addConstraint:_view2TopVerticalSpaceConstraint];
+
+        [UIView animateWithDuration:0.5
+                         animations:^{
+                             [self.view layoutIfNeeded];
+                         }];
+
+        _controllerState = view2State;
+    }else{
+        
+        [self.view removeConstraint:_view2TopVerticalSpaceConstraint];
+
+        [UIView animateWithDuration:0.5
+                         animations:^{
+                             [self.view layoutIfNeeded];
+                             [self.view setNeedsDisplay];
+                         }];
+
+        _controllerState = defaultState;
+    }
+    
+
+}
 
 @end
