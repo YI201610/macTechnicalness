@@ -20,7 +20,7 @@ SwiftにおけるCosures表現は、無駄がなく、簡素で、簡潔さを�
     ・パラメーターや返却値の型が、推量されること
     ・単一表現によるClosuresは、暗黙に帰ること。
     ・簡略化された引数
-    ・引きずるようなClosures文法
+    ・たなびくClosure表現
 */
 
 /*!
@@ -87,23 +87,13 @@ reversed = sorted(names, <)
 /*!
 @abstract   Trailing Closures
 
-If you need to pass a closure expression to a function as the function’s final argument 
-    and 
-    the closure expression is long, it can be useful to write it as a trailing closure instead.
-
-もし、クロージャを、関数の最後の引数に渡す必要があったり、
-    クロージャ表現が長い場合、
-    trailing closureとして書くといい。
-
-A trailing closure 
-    is 
-    a closure expression 
-        that is written outside of (and after) the parentheses of the function call it supports:
-
-trailingクロージャとは、関数の()の後に書くクロージャ表現だ。
-
+            Trailingクロージャ表現とは、クロージャを関数の最後のパラメータとして渡す時に、
+            渡すクロージャが長すぎる場合に用いると便利かもしれない、１つの実装方法のこと。
 */
 
+/*
+@comment    trailing closureを表現するために、パラメーターにクロージャをとるサンプル関数を定義
+*/
 func someFunctionThatTakesAClosure(closure: () -> String) {
     // function body goes here
     println("クロージャを受け取る関数を実行した結果: " + closure())
@@ -111,7 +101,7 @@ func someFunctionThatTakesAClosure(closure: () -> String) {
 
 
 /*
-@comment    trailingクロージャを使用せずに関数を実行するとすれば、次のようになる。
+@comment    trailingクロージャを使用せずに関数を実行。
 */
 someFunctionThatTakesAClosure({
     // trailing closureの、Body部
@@ -119,45 +109,62 @@ someFunctionThatTakesAClosure({
 })
 
 
-// here's how you call this function with a trailing closure instead:
 /*
-@comment    trailingクロージャを使えば、次のようにかける。
+@comment    trailingクロージャ表現により、関数を実行。
 */
 someFunctionThatTakesAClosure() {
     // trailing closureの、Body部
     return "Closures Body2"
 }
 
-someFunctionThatTakesAClosure(){
-    return "Closures Body3"
-}
 
-someFunctionThatTakesAClosure
+/*
+@comment    上述のsorted関数を、trailing clousre表現で書くとこうなる。
+            trailing closureとして、関数の丸括弧のそとにclosureを書くことができる。
+*/
+reversed = sorted(names, { $0 > $1 } )  //normal
+
+reversed = sorted(names) { $0 > $1 }    //trailing closure表現で実装
 
 
 /*
-@comment
-
-The string-sorting closure from the Closure Expression Syntax section above can be written outside of the sorted function’s parentheses as a trailing closure:
+@comment    数字キーに対して文字列がアサインされた辞書
 */
-reversed = sorted(names) { $0 > $1 }
-reversed
-
 let digitNames = [
-    0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four",
-    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
+    0: "Zero",
+    1: "One",
+    2: "Two",
+    3: "Three",
+    4: "Four",
+    5: "Five",
+    6: "Six",
+    7: "Seven",
+    8: "Eight",
+    9: "Nine"
 ]
+
+/*
+@comment    数字のテストデータ配列
+*/
 let numbers = [16, 58, 510]
 
-let strings = numbers.map {
-    (var number) -> String in
+
+/*
+@comment    mapエクステンションで、数字のデータを文字列にマッピング
+*/
+let strings = numbers.map { (var number) -> String in
+
     var output = ""
+    
     while number > 0 {
         output = digitNames[number % 10]! + output
         number /= 10
     }
+    
     return output
 }
+strings
+
 
 
 /*!
