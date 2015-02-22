@@ -118,6 +118,30 @@ someFunctionThatTakesAClosure() {
 }
 
 
+func someFunctionThatTakesAClosure2(closure: () -> ()) {
+}
+
+someFunctionThatTakesAClosure2({
+    
+})
+
+someFunctionThatTakesAClosure2() {
+    
+}
+
+someFunctionThatTakesAClosure2 { () -> () in
+    
+}
+
+/*
+@comment    クロージャを引数に受け取る関数のパラメータがクロージャのみの場合、
+            その関数の実行の際には、丸括弧（）を記述する必要はない。
+*/
+someFunctionThatTakesAClosure2 {
+    
+}
+
+
 /*
 @comment    上述のsorted関数を、trailing clousre表現で書くとこうなる。
             trailing closureとして、関数の丸括弧のそとにclosureを書くことができる。
