@@ -199,6 +199,7 @@ let stringHoge3 = numbers.map({(var number) -> String in
 
     return ""
 })
+stringHoge3
 
 
 
