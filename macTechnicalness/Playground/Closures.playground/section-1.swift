@@ -174,7 +174,9 @@ let numbers = [16, 58, 510]
 
 
 /*
-@comment    mapエクステンションで、数字のデータを文字列にマッピング
+@comment    trailingクロージャ表現で実装している例。
+            mapエクステンションで、数字のデータを文字列にマッピング
+            ※ mapメソッドは、１つのクロージャを引数にとる仕様なので、丸括弧を省略し、trailing Closure表現でクロージャを実装できる。
 */
 let strings = numbers.map { (var number) -> String in
 
@@ -188,6 +190,15 @@ let strings = numbers.map { (var number) -> String in
     return output
 }
 strings
+
+
+/*
+@comment    mapメソッドを、trailing closure表現を用いずに実行している例。
+*/
+let stringHoge3 = numbers.map({(var number) -> String in
+
+    return ""
+})
 
 
 
