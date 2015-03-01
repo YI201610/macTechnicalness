@@ -3,8 +3,8 @@
 iはダミー変数
 */
 var m: UInt64 = 0
-for i in 1..<20 {   //ダミー変数i
-    let k = i*i*i   //iの３乗を計算する
+for i:UInt64 in 1..<20 {   //ダミー変数i
+    let k: UInt64 = i*i*i   //iの３乗を計算する
     k
     m = m + k
 }
