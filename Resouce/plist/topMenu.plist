@@ -7,6 +7,12 @@
 	<key>UIKit</key>
 	<array>
 		<dict>
+			<key>vc</key>
+			<string>iOSMTCollectionView1ViewController</string>
+			<key>title</key>
+			<string>CollectionViewの検証1</string>
+		</dict>
+		<dict>
 			<key>title</key>
 			<string>iOS8でTextAreaにキーボードを表示する</string>
 		</dict>

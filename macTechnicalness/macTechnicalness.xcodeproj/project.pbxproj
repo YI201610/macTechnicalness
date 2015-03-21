@@ -97,6 +97,14 @@
 		ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */; };
 		ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */; };
 		ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */; };
+		ECEE15A31ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE15A11ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m */; };
+		ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE15A11ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m */; };
+		ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEE15A21ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib */; };
+		ECEE15A61ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEE15A21ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib */; };
+		ECEE15AA1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */; };
+		ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */; };
+		ECEE15AC1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */; };
+		ECEE15AD1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */; };
 		ECF63C3B1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */; };
 		ECF63C3C1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */; };
 		ECF63C3D1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */; };
@@ -320,6 +328,12 @@
 		ECEBD15D1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutVisualFormat2ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.h; sourceTree = "<group>"; };
 		ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutVisualFormat2ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.m; sourceTree = "<group>"; };
 		ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutVisualFormat2ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.xib; sourceTree = "<group>"; };
+		ECEE15A01ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTCollectionView1CollectionViewCell.h; path = CollectionView1/iOSMTCollectionView1CollectionViewCell.h; sourceTree = "<group>"; };
+		ECEE15A11ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTCollectionView1CollectionViewCell.m; path = CollectionView1/iOSMTCollectionView1CollectionViewCell.m; sourceTree = "<group>"; };
+		ECEE15A21ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTCollectionView1CollectionViewCell.xib; path = CollectionView1/iOSMTCollectionView1CollectionViewCell.xib; sourceTree = "<group>"; };
+		ECEE15A71ABDB04F0098C118 /* iOSMTCollectionView1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTCollectionView1ViewController.h; path = CollectionView1/iOSMTCollectionView1ViewController.h; sourceTree = "<group>"; };
+		ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTCollectionView1ViewController.m; path = CollectionView1/iOSMTCollectionView1ViewController.m; sourceTree = "<group>"; };
+		ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTCollectionView1ViewController.xib; path = CollectionView1/iOSMTCollectionView1ViewController.xib; sourceTree = "<group>"; };
 		ECF63C381A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutIB1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.h; sourceTree = "<group>"; };
 		ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutIB1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.m; sourceTree = "<group>"; };
 		ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutIB1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.xib; sourceTree = "<group>"; };
@@ -638,6 +652,19 @@
 			);
 			sourceTree = "<group>";
 		};
+		EC06B15D1ABD349300034AD7 /* CollectionView1 */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE15A71ABDB04F0098C118 /* iOSMTCollectionView1ViewController.h */,
+				ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */,
+				ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */,
+				ECEE15A01ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.h */,
+				ECEE15A11ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m */,
+				ECEE15A21ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib */,
+			);
+			name = CollectionView1;
+			sourceTree = "<group>";
+		};
 		EC3D0B581A32E99A0097C9E2 /* iOSEmbeddedModelKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -788,6 +815,7 @@
 		EC5E786F1A5D89BF0089D226 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -1238,10 +1266,12 @@
 				ECF63C5E1A988F82004302B3 /* xButton@2x.png in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
+				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				ECF63C561A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
+				ECEE15AC1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */,
 				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1250,9 +1280,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECEE15A61ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
+				ECEE15AD1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */,
 				ECF63C5B1A988F82004302B3 /* xButton.png in Resources */,
 				ECF63C4F1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
 				ECF63C5F1A988F82004302B3 /* xButton@2x.png in Resources */,
@@ -1352,6 +1384,8 @@
 				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
+				ECEE15AA1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
+				ECEE15A31ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
 				EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
@@ -1376,11 +1410,13 @@
 				7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
+				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
 				EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
+				ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
 				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECF63C3C1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
