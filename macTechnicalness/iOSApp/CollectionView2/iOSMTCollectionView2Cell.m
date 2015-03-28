@@ -28,15 +28,6 @@
 //    _methodname_;
 }
 
-- (void) setSelected:(BOOL)selected
-{
-    _methodname_;
-}
-
-- (void) setHighlighted:(BOOL)highlighted
-{
-    _methodname_;
-}
 
 #pragma mark - Gesture
 
