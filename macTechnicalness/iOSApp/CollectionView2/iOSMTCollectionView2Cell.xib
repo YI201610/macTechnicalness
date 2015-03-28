@@ -15,6 +15,8 @@
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22d-Yi-T4G">
                         <rect key="frame" x="0.0" y="0.0" width="120" height="70"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <inset key="scrollIndicatorInsets" minX="5" minY="5" maxX="5" maxY="5"/>
                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -29,6 +31,9 @@
                 <constraint firstItem="22d-Yi-T4G" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vXE-aq-SuC"/>
             </constraints>
             <size key="customSize" width="120" height="70"/>
+            <connections>
+                <outlet property="textView" destination="22d-Yi-T4G" id="ZoJ-Vt-8tO"/>
+            </connections>
             <point key="canvasLocation" x="439" y="488"/>
         </collectionViewCell>
     </objects>
