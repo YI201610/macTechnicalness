@@ -25,8 +25,12 @@
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     
+    /*
+     @comment   xibとReuseIdentifierを指定して、セルを登録する
+     */
     UINib *xib = [UINib nibWithNibName:@"iOSMTCollectionView1CollectionViewCell" bundle:nil];
-    [_collectionView registerNib:xib forCellWithReuseIdentifier:@"collectionViewCell1"];
+    [_collectionView registerNib:xib
+      forCellWithReuseIdentifier:[self cellIdentifierString]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,6 +48,13 @@
 }
 */
 
+#pragma mark - Private
+
+- (NSString*) cellIdentifierString
+{
+    return @"collectionViewCell1";
+}
+
 #pragma mark - UICollectionViewDataSource
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
@@ -54,15 +65,15 @@
 - (NSInteger)collectionView:(UICollectionView *)collectionView
      numberOfItemsInSection:(NSInteger)section
 {
-    return 2;
+    return 37;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    iOSMTCollectionView1CollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:@"collectionViewCell1"
-                                                                            forIndexPath:indexPath];
-    cell.helloLabel.text = @"Hoge";
+    iOSMTCollectionView1CollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:[self cellIdentifierString]
+                                                                                              forIndexPath:indexPath];
+    cell.helloLabel.text = [NSString stringWithFormat:@"-----------------------Hoge%zd", indexPath.row];
 
     return cell;
 }
