@@ -20,23 +20,7 @@
 		</dict>
 		<dict>
 			<key>title</key>
-			<string>iOS8でTextAreaにキーボードを表示する</string>
-		</dict>
-	</array>
-	<key>Game Controller</key>
-	<array>
-		<dict>
-			<key>title</key>
-			<string>接続テスト</string>
-			<key>vc</key>
-			<string>iOSMTGameControllerVerificationTopViewController</string>
-		</dict>
-	</array>
-	<key>Auto Layout</key>
-	<array>
-		<dict>
-			<key>title</key>
-			<string>固定View1をベースにして一時的にView2を表示する</string>
+			<string>AutoLayout: 固定View1をベースにして一時的にView2を表示する</string>
 			<key>vc</key>
 			<string>iOSMTAutoLayoutIB1ViewController</string>
 		</dict>
@@ -44,19 +28,19 @@
 			<key>vc</key>
 			<string>iOSMTAutoLayoutVisualFormat2ViewController</string>
 			<key>title</key>
-			<string>視覚的書式言語テスト2（作成中）</string>
+			<string>AutoLayout: 視覚的書式言語テスト2（作成中）</string>
 		</dict>
 		<dict>
 			<key>vc</key>
 			<string>iOSMTAutoLayoutCase1ViewController</string>
 			<key>title</key>
-			<string>例１：失敗例</string>
+			<string>AutoLayout, 例１：失敗例</string>
 		</dict>
 		<dict>
 			<key>vc_osx</key>
 			<string>OSXMTAutoLayout1WindowController</string>
 			<key>title</key>
-			<string>視覚的書式言語テスト1</string>
+			<string>AutoLayout: 視覚的書式言語テスト1</string>
 			<key>vc</key>
 			<string>iOSMTDemystifyAutoLayout1ViewController</string>
 		</dict>
@@ -67,6 +51,19 @@
 			<string>Auto Layout検証 - Inconsistent Rule</string>
 			<key>vc</key>
 			<string>iOSMTAutoLayoutInconsistentRuleViewController</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>iOS8でTextAreaにキーボードを表示する</string>
+		</dict>
+	</array>
+	<key>Game Controller</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>接続テスト</string>
+			<key>vc</key>
+			<string>iOSMTGameControllerVerificationTopViewController</string>
 		</dict>
 	</array>
 </dict>
