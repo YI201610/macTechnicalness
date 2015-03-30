@@ -154,6 +154,7 @@
     if(!addvc){
         debugout( @"Error: %@ was not found.", vcName );
     }else{
+        addvc.title = obj.titleString;
         [self.navigationController pushViewController:addvc animated:YES];
     }
     
