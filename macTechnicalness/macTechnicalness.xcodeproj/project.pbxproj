@@ -446,7 +446,6 @@
 			isa = PBXGroup;
 			children = (
 				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
-				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
 				EC5E786F1A5D89BF0089D226 /* UIKit */,
 			);
@@ -844,6 +843,7 @@
 			children = (
 				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
 				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
+				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
