@@ -7,6 +7,12 @@
 	<key>UIKit</key>
 	<array>
 		<dict>
+			<key>title</key>
+			<string>AutoLayout: Pinテスト</string>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutCase3ViewController</string>
+		</dict>
+		<dict>
 			<key>vc</key>
 			<string>iOSMTAutoLayoutCase2ViewController</string>
 			<key>title</key>
