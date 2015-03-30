@@ -150,15 +150,36 @@
     /*
      @comment   選択された検証項目に対応する画面に遷移します。
      */
-    UIViewController* addvc = [[NSClassFromString(vcName) alloc] init];
-    if(!addvc){
-        debugout( @"Error: %@ was not found.", vcName );
-    }else{
-        addvc.title = obj.titleString;
-        [self.navigationController pushViewController:addvc animated:YES];
+    
+    //
+    UIViewController* addvc = nil;
+    UIStoryboard* storyboard = nil;
+    
+    @try {
+        storyboard = [UIStoryboard storyboardWithName:vcName bundle: nil];
+    }
+    @catch (NSException *exception) {
+        debugout(@"Storyboard: %@ は読み込めませんでした", vcName);
     }
     
-    
+    if(storyboard){
+        addvc = [storyboard instantiateInitialViewController];
+
+        //
+        addvc.title = obj.titleString;
+        [self.navigationController pushViewController:addvc animated:YES];
+    }else{
+        
+        addvc = [[NSClassFromString(vcName) alloc] init];
+        if(!addvc){
+            debugout( @"Error: %@ was not found.", vcName );
+        }else{
+            addvc.title = obj.titleString;
+            [self.navigationController pushViewController:addvc animated:YES];
+        }
+        
+    }
+
 }
 
 @end
