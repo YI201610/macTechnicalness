@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SpriteKit</key>
-	<dict/>
 	<key>UIKit</key>
 	<array>
 		<dict>
@@ -63,10 +61,6 @@
 			<string>Auto Layout検証 - Inconsistent Rule</string>
 			<key>vc</key>
 			<string>iOSMTAutoLayoutInconsistentRuleViewController</string>
-		</dict>
-		<dict>
-			<key>title</key>
-			<string>iOS8でTextAreaにキーボードを表示する</string>
 		</dict>
 	</array>
 	<key>Game Controller</key>

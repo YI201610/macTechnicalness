@@ -441,6 +441,7 @@
 		740EF56D1A2C89D300735C4E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				740EF5731A2C8E4C00735C4E /* ContentViewController */,
 				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
 				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
 			);
@@ -456,14 +457,14 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		740EF5731A2C8E4C00735C4E /* ViewController */ = {
+		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
 				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
 				EC5E786F1A5D89BF0089D226 /* UIKit */,
 			);
-			name = ViewController;
+			name = ContentViewController;
 			sourceTree = "<group>";
 		};
 		740EF5761A2DD4A300735C4E /* Resouce */ = {
@@ -928,7 +929,6 @@
 				EC5E78751A5D8B230089D226 /* Swiftブリッジの検証 */,
 				740EF56D1A2C89D300735C4E /* Controller */,
 				740EF56E1A2C89E300735C4E /* View */,
-				740EF5731A2C8E4C00735C4E /* ViewController */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
 				7484C4B71A33136900A310DE /* Framework */,
 			);
