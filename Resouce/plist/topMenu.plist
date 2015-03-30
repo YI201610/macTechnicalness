@@ -8,6 +8,12 @@
 	<array>
 		<dict>
 			<key>vc</key>
+			<string>iOSMTAutoLayoutCase2ViewController</string>
+			<key>title</key>
+			<string>AutoLayout: Alignテスト</string>
+		</dict>
+		<dict>
+			<key>vc</key>
 			<string>iOSMTCollectionView2ViewController</string>
 			<key>title</key>
 			<string>CollectionViewの検証2</string>

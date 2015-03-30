@@ -40,6 +40,10 @@
 		74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
 		74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
+		EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */; };
+		EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */; };
+		EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */; };
+		EC2F8AF41AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */; };
 		EC33ADEF1AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33ADED1AC658680068A74C /* iOSMTCollectionView2ViewController.m */; };
 		EC33ADF01AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33ADED1AC658680068A74C /* iOSMTCollectionView2ViewController.m */; };
 		EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC33ADEE1AC658680068A74C /* iOSMTCollectionView2ViewController.xib */; };
@@ -276,6 +280,9 @@
 		74CCE17C1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckViewController.h; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.h; sourceTree = "<group>"; };
 		74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckViewController.m; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.m; sourceTree = "<group>"; };
 		74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGamePadConnectionCheckViewController.xib; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.xib; sourceTree = "<group>"; };
+		EC2F8AEE1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase2ViewController.h; path = "UIKit:AutoLayoutCase2/iOSMTAutoLayoutCase2ViewController.h"; sourceTree = "<group>"; };
+		EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase2ViewController.m; path = "UIKit:AutoLayoutCase2/iOSMTAutoLayoutCase2ViewController.m"; sourceTree = "<group>"; };
+		EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase2ViewController.xib; path = "UIKit:AutoLayoutCase2/iOSMTAutoLayoutCase2ViewController.xib"; sourceTree = "<group>"; };
 		EC33ADEC1AC658680068A74C /* iOSMTCollectionView2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTCollectionView2ViewController.h; path = CollectionView2/iOSMTCollectionView2ViewController.h; sourceTree = "<group>"; };
 		EC33ADED1AC658680068A74C /* iOSMTCollectionView2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTCollectionView2ViewController.m; path = CollectionView2/iOSMTCollectionView2ViewController.m; sourceTree = "<group>"; };
 		EC33ADEE1AC658680068A74C /* iOSMTCollectionView2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTCollectionView2ViewController.xib; path = CollectionView2/iOSMTCollectionView2ViewController.xib; sourceTree = "<group>"; };
@@ -678,6 +685,16 @@
 			name = CollectionView1;
 			sourceTree = "<group>";
 		};
+		EC2F8AED1AC91D0D0048E180 /* Alignテスト */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F8AEE1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.h */,
+				EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */,
+				EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */,
+			);
+			name = "Alignテスト";
+			sourceTree = "<group>";
+		};
 		EC33ADEB1AC657FF0068A74C /* CollectionView2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -829,6 +846,7 @@
 		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				EC2F8AED1AC91D0D0048E180 /* Alignテスト */,
 				ECF63C371A98787F004302B3 /* IBを用いた検証1 */,
 				ECEBD15C1A94D3E1001AD551 /* visualFormatテスト2 */,
 				EC8016BF1A938682003BC74A /* case1 */,
@@ -1298,6 +1316,7 @@
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				ECF63C561A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
+				EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
@@ -1321,6 +1340,7 @@
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				ECF63C531A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				EC2F8AF41AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC33ADF21AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
 				ECF63C571A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				EC33ADFE1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
@@ -1425,6 +1445,7 @@
 				ECF63C3B1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
 				ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
+				EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
@@ -1458,6 +1479,7 @@
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
 				EC5E78741A5D8A4D0089D226 /* iOSMTSwift1.swift in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
+				EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
