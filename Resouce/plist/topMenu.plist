@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIKit</key>
+	<key>UIKit - Auto Layout</key>
 	<array>
 		<dict>
 			<key>title</key>
-			<string>AutoLayout: Pinテスト</string>
+			<string>Pinテスト</string>
 			<key>vc</key>
 			<string>AutoLaytouCase3</string>
 		</dict>
@@ -14,8 +14,56 @@
 			<key>vc</key>
 			<string>iOSMTAutoLayoutCase2ViewController</string>
 			<key>title</key>
-			<string>AutoLayout: Alignテスト</string>
+			<string>Alignテスト</string>
 		</dict>
+		<dict>
+			<key>title</key>
+			<string>固定View1をベースにして一時的にView2を表示する</string>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutIB1ViewController</string>
+		</dict>
+		<dict>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutVisualFormat2ViewController</string>
+			<key>title</key>
+			<string>視覚的書式言語テスト2（作成中）</string>
+		</dict>
+		<dict>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutCase1ViewController</string>
+			<key>title</key>
+			<string>case１：失敗例</string>
+		</dict>
+		<dict>
+			<key>vc_osx</key>
+			<string>OSXMTAutoLayout1WindowController</string>
+			<key>title</key>
+			<string>視覚的書式言語テスト1</string>
+			<key>vc</key>
+			<string>iOSMTDemystifyAutoLayout1ViewController</string>
+		</dict>
+		<dict>
+			<key>vc_osx</key>
+			<string>OSXMTAutoLayout2WindowController</string>
+			<key>title</key>
+			<string>Inconsistent Rule</string>
+			<key>vc</key>
+			<string>iOSMTAutoLayoutInconsistentRuleViewController</string>
+		</dict>
+	</array>
+
+	<key>UIKit - Storyboard</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>シーンとセグエ</string>
+			<key>vc</key>
+			<string>iOSMTStoryboardCase1</string>
+		</dict>
+	</array>
+
+	<key>UIKit - Collection View</key>
+	<array>
 		<dict>
 			<key>vc</key>
 			<string>iOSMTCollectionView2ViewController</string>
@@ -27,40 +75,6 @@
 			<string>iOSMTCollectionView1ViewController</string>
 			<key>title</key>
 			<string>CollectionViewの検証1</string>
-		</dict>
-		<dict>
-			<key>title</key>
-			<string>AutoLayout: 固定View1をベースにして一時的にView2を表示する</string>
-			<key>vc</key>
-			<string>iOSMTAutoLayoutIB1ViewController</string>
-		</dict>
-		<dict>
-			<key>vc</key>
-			<string>iOSMTAutoLayoutVisualFormat2ViewController</string>
-			<key>title</key>
-			<string>AutoLayout: 視覚的書式言語テスト2（作成中）</string>
-		</dict>
-		<dict>
-			<key>vc</key>
-			<string>iOSMTAutoLayoutCase1ViewController</string>
-			<key>title</key>
-			<string>AutoLayout, 例１：失敗例</string>
-		</dict>
-		<dict>
-			<key>vc_osx</key>
-			<string>OSXMTAutoLayout1WindowController</string>
-			<key>title</key>
-			<string>AutoLayout: 視覚的書式言語テスト1</string>
-			<key>vc</key>
-			<string>iOSMTDemystifyAutoLayout1ViewController</string>
-		</dict>
-		<dict>
-			<key>vc_osx</key>
-			<string>OSXMTAutoLayout2WindowController</string>
-			<key>title</key>
-			<string>Auto Layout検証 - Inconsistent Rule</string>
-			<key>vc</key>
-			<string>iOSMTAutoLayoutInconsistentRuleViewController</string>
 		</dict>
 	</array>
 	<key>Game Controller</key>

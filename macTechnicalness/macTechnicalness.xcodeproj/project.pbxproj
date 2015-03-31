@@ -97,6 +97,8 @@
 		EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */; };
 		EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
 		EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
+		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
+		ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -329,6 +331,7 @@
 		EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ElementView.m; path = View/iOSMTAutoLayoutCase1ElementView.m; sourceTree = "<group>"; };
 		EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ElementView.xib; path = View/iOSMTAutoLayoutCase1ElementView.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
+		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -878,8 +881,8 @@
 		EC5E786F1A5D89BF0089D226 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
-				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
+				ECA139CD1ACAEAC600BFCBFE /* Storyboard */,
+				ECA139CC1ACAEABA00BFCBFE /* CollectionView */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 			);
 			name = UIKit;
@@ -906,6 +909,31 @@
 				EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */,
 			);
 			name = case1;
+			sourceTree = "<group>";
+		};
+		ECA139CC1ACAEABA00BFCBFE /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
+				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		ECA139CD1ACAEAC600BFCBFE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ECA139CE1ACAEACD00BFCBFE /* Case1 */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		ECA139CE1ACAEACD00BFCBFE /* Case1 */ = {
+			isa = PBXGroup;
+			children = (
+				ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */,
+			);
+			name = Case1;
 			sourceTree = "<group>";
 		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
@@ -1319,6 +1347,7 @@
 			files = (
 				ECF63C4E1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
 				ECF63C5A1A988F82004302B3 /* xButton.png in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
@@ -1362,6 +1391,7 @@
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				EC2F8AF41AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC33ADF21AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
+				ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				ECF63C571A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				EC33ADFE1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
