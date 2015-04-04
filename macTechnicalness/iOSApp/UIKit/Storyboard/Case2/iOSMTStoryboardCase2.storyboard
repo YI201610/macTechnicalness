@@ -23,7 +23,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfx-eM-pLP">
-                                <rect key="frame" x="123" y="324" width="75" height="30"/>
+                                <rect key="frame" x="80" y="282" width="163" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="FK9-x3-kWF"/>
+                                    <constraint firstAttribute="width" constant="163" id="JXr-IM-cF6"/>
+                                </constraints>
                                 <state key="normal" title="次にすすむ">
                                     <color key="titleColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -75,7 +79,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTR-Iz-AeI">
-                                <rect key="frame" x="130" y="340" width="75" height="30"/>
+                                <rect key="frame" x="83" y="302" width="165" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="Ce4-LG-T8a"/>
+                                    <constraint firstAttribute="height" constant="98" id="plS-LJ-yTt"/>
+                                </constraints>
                                 <state key="normal" title="次にすすむ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -119,7 +127,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cob-GC-zsK">
-                                <rect key="frame" x="123" y="340" width="75" height="30"/>
+                                <rect key="frame" x="86" y="293" width="148" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="QJS-JK-UV9"/>
+                                    <constraint firstAttribute="width" constant="148" id="abr-lG-Q5q"/>
+                                </constraints>
                                 <state key="normal" title="次にすすむ">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -163,7 +175,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPm-z8-2SL">
-                                <rect key="frame" x="123" y="337" width="75" height="30"/>
+                                <rect key="frame" x="95" y="297" width="130" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="N6Z-2D-MYX"/>
+                                    <constraint firstAttribute="height" constant="93" id="Yez-5l-jfF"/>
+                                </constraints>
                                 <state key="normal" title="次にすすむ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
