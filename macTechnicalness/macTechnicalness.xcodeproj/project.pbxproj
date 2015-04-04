@@ -502,7 +502,6 @@
 		740EF5771A2DD4A300735C4E /* plist */ = {
 			isa = PBXGroup;
 			children = (
-				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
 				740EF5791A2DD4A300735C4E /* topMenu.plist */,
 			);
 			path = plist;
@@ -1093,6 +1092,7 @@
 		ECF63C471A988F82004302B3 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
 				ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */,
 				ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */,
 				ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */,
