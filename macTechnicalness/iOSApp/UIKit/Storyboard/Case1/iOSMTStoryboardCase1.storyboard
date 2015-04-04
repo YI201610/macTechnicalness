@@ -69,7 +69,7 @@
                                     <constraint firstAttribute="height" constant="449" id="QHi-8F-jMs"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="E3f-o5-R1l">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="scene2Cell" rowHeight="68" id="E3f-o5-R1l">
                                         <rect key="frame" x="0.0" y="0.0" width="330" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E3f-o5-R1l" id="MfW-d5-1mf">
@@ -85,6 +85,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="W4C-S0-TwS" id="atg-VB-Td2"/>
+                                    <outlet property="delegate" destination="W4C-S0-TwS" id="CCO-LH-JPs"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -101,7 +105,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="pHX-a5-cgg" kind="show" id="nu4-QE-sN6"/>
+                        <segue destination="pHX-a5-cgg" kind="show" identifier="gotoScene3" id="nu4-QE-sN6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjq-SQ-pEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -147,7 +151,7 @@
                                     <constraint firstAttribute="height" constant="91" id="Fdp-bl-9pl"/>
                                 </constraints>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3Gc-fy-Arq">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3Gc-fy-Arq">
                                 <rect key="frame" x="0.0" y="127" width="325" height="392"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="afM-qp-HO4">
                                     <size key="itemSize" width="50" height="50"/>
