@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wZE-lv-7Ya">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CV3-c1-MXv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--start-->
         <scene sceneID="9q0-G0-A5P">
             <objects>
-                <viewController id="wZE-lv-7Ya" sceneMemberID="viewController">
+                <viewController id="wZE-lv-7Ya" userLabel="start" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CyA-1O-pne"/>
                         <viewControllerLayoutGuide type="bottom" id="hqT-Fi-pF3"/>
@@ -32,16 +32,24 @@
                             <outletCollection property="gestureRecognizers" destination="hxh-FE-l30" appends="YES" id="b2c-aE-LRU"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="TTv-2v-Qp4">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="AAE-mP-EYd">
+                            <connections>
+                                <segue destination="Xmb-kA-tfb" kind="unwind" unwindAction="backToTopController:" id="cBp-bD-vcz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0R-XA-ucV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Xmb-kA-tfb" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="hxh-FE-l30">
                     <connections>
                         <segue destination="W4C-S0-TwS" kind="show" id="MNP-4h-hEh"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="115" y="425"/>
+            <point key="canvasLocation" x="927" y="425"/>
         </scene>
         <!--IOSMT Storyboard Case1 Scene2 View Controller-->
         <scene sceneID="gl3-J0-6XP">
@@ -110,12 +118,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjq-SQ-pEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="609" y="424"/>
+            <point key="canvasLocation" x="1421" y="424"/>
         </scene>
-        <!--Item 2-->
+        <!--scene3Tab2-->
         <scene sceneID="Of6-G7-qgv">
             <objects>
-                <viewController id="mGu-5W-Zyl" sceneMemberID="viewController">
+                <viewController id="mGu-5W-Zyl" userLabel="scene3Tab2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6so-WV-VRQ"/>
                         <viewControllerLayoutGuide type="bottom" id="YKd-lC-8r5"/>
@@ -123,6 +131,23 @@
                     <view key="view" contentMode="scaleToFill" id="czv-pB-opS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tab Item 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HT9-pX-7zv">
+                                <rect key="frame" x="83" y="93" width="154" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qS-DN-0Nl">
+                                <rect key="frame" x="105" y="239" width="110" height="30"/>
+                                <state key="normal" title="Modalで遷移">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zIz-64-hW6" kind="modal" id="ncB-5j-KnE"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="umV-4g-YsH"/>
@@ -130,12 +155,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PGe-Iw-ErL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1651" y="810"/>
+            <point key="canvasLocation" x="2463" y="810"/>
         </scene>
-        <!--Item 1-->
+        <!--scene3Tab1-->
         <scene sceneID="zFt-Ma-8f2">
             <objects>
-                <viewController id="7qs-Ep-BDd" sceneMemberID="viewController">
+                <viewController id="7qs-Ep-BDd" userLabel="scene3Tab1" customClass="iOSMTStoryboardCase1Scene3Tab1ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2ST-Rm-AXq"/>
                         <viewControllerLayoutGuide type="bottom" id="w2D-Je-i6u"/>
@@ -154,22 +179,27 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3Gc-fy-Arq">
                                 <rect key="frame" x="0.0" y="127" width="325" height="392"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="afM-qp-HO4">
-                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="itemSize" width="73" height="56"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FHJ-RO-LvL">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="scene3Cell" id="FHJ-RO-LvL">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="73" height="56"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="7qs-Ep-BDd" id="4cg-LY-bRS"/>
+                                    <outlet property="delegate" destination="7qs-Ep-BDd" id="3AS-at-HMc"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -185,15 +215,67 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="dIt-Bg-SJl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="zIz-64-hW6" kind="show" identifier="gotoScene4" id="pG3-qO-HdN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNq-3C-wDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1651" y="100"/>
+            <point key="canvasLocation" x="2463" y="100"/>
         </scene>
-        <!--IOSMT Storyboard Case1 Scene3 View Controller-->
+        <!--scene4-->
+        <scene sceneID="tdS-if-Y54">
+            <objects>
+                <viewController id="zIz-64-hW6" userLabel="scene4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WOC-De-kPc"/>
+                        <viewControllerLayoutGuide type="bottom" id="F16-uf-VYL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Dx-AX-5pS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="but-iv-4Ig">
+                                <rect key="frame" x="93" y="145" width="138" height="30"/>
+                                <state key="normal" title="Scene1に戻る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="R9b-td-NlK" kind="unwind" unwindAction="backToRootViewController:" id="WW1-Dy-QWn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8J-1U-wtg">
+                                <rect key="frame" x="95" y="304" width="134" height="30"/>
+                                <state key="normal" title="Scene3に戻る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="R9b-td-NlK" kind="unwind" unwindAction="backToTabController:" id="hnd-w1-EMP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F16-uf-VYL" firstAttribute="top" secondItem="P8J-1U-wtg" secondAttribute="bottom" constant="234" id="59n-Uf-vRr"/>
+                            <constraint firstItem="P8J-1U-wtg" firstAttribute="leading" secondItem="3Dx-AX-5pS" secondAttribute="leadingMargin" constant="79" id="5i9-xQ-g9Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="but-iv-4Ig" secondAttribute="trailing" constant="73" id="RHc-pn-Oow"/>
+                            <constraint firstItem="but-iv-4Ig" firstAttribute="leading" secondItem="3Dx-AX-5pS" secondAttribute="leadingMargin" constant="77" id="eMz-bh-2EY"/>
+                            <constraint firstItem="but-iv-4Ig" firstAttribute="centerX" secondItem="P8J-1U-wtg" secondAttribute="centerX" id="wm7-WF-Eeq"/>
+                            <constraint firstItem="but-iv-4Ig" firstAttribute="top" secondItem="WOC-De-kPc" secondAttribute="bottom" constant="125" id="wpc-kh-ceA"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MvK-rc-W7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="R9b-td-NlK" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3033" y="418"/>
+        </scene>
+        <!--Tab Bar Controller-->
         <scene sceneID="1Y8-iI-7d7">
             <objects>
-                <tabBarController id="pHX-a5-cgg" customClass="iOSMTStoryboardCase1Scene3ViewController" sceneMemberID="viewController">
+                <tabBarController id="pHX-a5-cgg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Hgz-Ed-RjQ"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Xos-r6-BzJ">
@@ -208,7 +290,29 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dwm-aJ-giD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079" y="425"/>
+            <point key="canvasLocation" x="1891" y="425"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="z74-SF-Qmi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CV3-c1-MXv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J9k-p7-QUF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wZE-lv-7Ya" kind="relationship" relationship="rootViewController" id="81q-PH-TP8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rc-GX-hO8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="425"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ncB-5j-KnE"/>
+    </inferredMetricsTieBreakers>
 </document>

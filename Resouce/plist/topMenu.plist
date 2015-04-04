@@ -51,17 +51,15 @@
 			<string>iOSMTAutoLayoutInconsistentRuleViewController</string>
 		</dict>
 	</array>
-
 	<key>UIKit - Storyboard</key>
 	<array>
 		<dict>
 			<key>title</key>
-			<string>シーンとセグエ</string>
+			<string>シーンとセグエ(TabBarControllerをはさむとUnwindセグエがうまく動作しない)</string>
 			<key>vc</key>
 			<string>iOSMTStoryboardCase1</string>
 		</dict>
 	</array>
-
 	<key>UIKit - Collection View</key>
 	<array>
 		<dict>

@@ -167,7 +167,7 @@
 
         //
         addvc.title = obj.titleString;
-        [self.navigationController pushViewController:addvc animated:YES];
+        [self presentViewController:addvc animated:YES completion:^{}];
     }else{
         
         addvc = [[NSClassFromString(vcName) alloc] init];
@@ -181,5 +181,13 @@
     }
 
 }
+
+#pragma mark - Unwind Segue
+
+- (IBAction) backToTopController:(UIStoryboardSegue*) unwindSegue
+{
+    NSLog(@"- 0 - backToTopController, unwindSegue: %@", unwindSegue);
+}
+
 
 @end
