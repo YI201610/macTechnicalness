@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="enY-ed-dPh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="enY-ed-dPh">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -45,6 +45,7 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="bWN-nY-TS0" firstAttribute="height" secondItem="K7L-lj-uYg" secondAttribute="height" id="8wV-dn-7a4"/>
                             <constraint firstItem="K7L-lj-uYg" firstAttribute="bottom" secondItem="bWN-nY-TS0" secondAttribute="bottom" id="Bbi-gH-Y7d"/>
@@ -54,9 +55,18 @@
                             <constraint firstAttribute="centerY" secondItem="4jB-1y-Vb1" secondAttribute="centerY" id="lWF-Ku-NvU"/>
                             <constraint firstItem="WIB-jX-N6J" firstAttribute="width" secondItem="4jB-1y-Vb1" secondAttribute="width" id="qnE-1J-ZlR"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fNB-QI-jl4" appends="YES" id="eAR-xU-gJT"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bes-6i-zrc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Lkg-v8-OqP" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="fNB-QI-jl4">
+                    <connections>
+                        <segue destination="Lkg-v8-OqP" kind="unwind" unwindAction="backToTopController:" id="b3k-Iv-EFE"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="419" y="456"/>
         </scene>

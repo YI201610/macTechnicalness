@@ -5,6 +5,44 @@
 	<array>
 		<dict>
 			<key>title</key>
+			<string>UIKit - Storyboard</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>vc</key>
+					<string>iOSMTStoryboardCase2</string>
+					<key>title</key>
+					<string>シーンとセグエ（コンテナビューコントローラーは１つ）</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>シーンとセグエ(TabBarControllerをはさむとUnwindセグエがうまく動作しない)</string>
+					<key>vc</key>
+					<string>iOSMTStoryboardCase1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>UIKit - Collection View</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>vc</key>
+					<string>iOSMTCollectionView2ViewController</string>
+					<key>title</key>
+					<string>CollectionViewの検証2</string>
+				</dict>
+				<dict>
+					<key>vc</key>
+					<string>iOSMTCollectionView1ViewController</string>
+					<key>title</key>
+					<string>CollectionViewの検証1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
 			<string>UIKit - Auto Layout</string>
 			<key>items</key>
 			<array>
@@ -56,51 +94,6 @@
 				</dict>
 			</array>
 		</dict>
-
-		<dict>
-			<key>title</key>
-			<string>UIKit - Storyboard</string>
-			<key>items</key>
-			<array>
-
-				<dict>
-					<key>vc</key>
-					<string>iOSMTStoryboardCase2</string>
-					<key>title</key>
-					<string>シーンとセグエ（コンテナビューコントローラーは１つ）</string>
-				</dict>
-				<dict>
-					<key>title</key>
-					<string>シーンとセグエ(TabBarControllerをはさむとUnwindセグエがうまく動作しない)</string>
-					<key>vc</key>
-					<string>iOSMTStoryboardCase1</string>
-				</dict>
-
-			</array>
-		</dict>
-
-		<dict>
-			<key>title</key>
-			<string>UIKit - Collection View</string>
-			<key>items</key>
-			<array>
-
-				<dict>
-					<key>vc</key>
-					<string>iOSMTCollectionView2ViewController</string>
-					<key>title</key>
-					<string>CollectionViewの検証2</string>
-				</dict>
-				<dict>
-					<key>vc</key>
-					<string>iOSMTCollectionView1ViewController</string>
-					<key>title</key>
-					<string>CollectionViewの検証1</string>
-				</dict>
-
-			</array>
-		</dict>
-
 		<dict>
 			<key>title</key>
 			<string>GameController.framework</string>
@@ -115,6 +108,5 @@
 			</array>
 		</dict>
 	</array>
-
 </array>
 </plist>
