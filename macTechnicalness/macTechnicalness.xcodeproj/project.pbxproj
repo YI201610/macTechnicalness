@@ -87,6 +87,10 @@
 		EC49DB741ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */; };
 		EC49DB771ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB761ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m */; };
 		EC49DB781ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB761ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m */; };
+		EC49DB7B1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */; };
+		EC49DB7C1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */; };
+		EC49DB7F1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */; };
+		EC49DB801ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */; };
 		EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */; };
 		EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */; };
 		EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
@@ -328,6 +332,9 @@
 		EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTStoryboardCase1Scene3Tab1ViewController.m; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene3Tab1ViewController.m; sourceTree = "<group>"; };
 		EC49DB751ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTStoryboardCase1Scene1ViewController.h; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene1ViewController.h; sourceTree = "<group>"; };
 		EC49DB761ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTStoryboardCase1Scene1ViewController.m; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene1ViewController.m; sourceTree = "<group>"; };
+		EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase2.storyboard; path = UIKit/Storyboard/Case2/iOSMTStoryboardCase2.storyboard; sourceTree = "<group>"; };
+		EC49DB7D1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTStoryboardCase2Scene1ViewController.h; path = UIKit/Storyboard/Case2/iOSMTStoryboardCase2Scene1ViewController.h; sourceTree = "<group>"; };
+		EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTStoryboardCase2Scene1ViewController.m; path = UIKit/Storyboard/Case2/iOSMTStoryboardCase2Scene1ViewController.m; sourceTree = "<group>"; };
 		EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTDemystifyAutoLayout1ViewController.h; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.h; sourceTree = "<group>"; };
 		EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTDemystifyAutoLayout1ViewController.m; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.m; sourceTree = "<group>"; };
 		EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTDemystifyAutoLayout1ViewController.xib; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.xib; sourceTree = "<group>"; };
@@ -876,6 +883,16 @@
 			name = TopMenu;
 			sourceTree = "<group>";
 		};
+		EC49DB791ACFA9310014880F /* Case2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */,
+				EC49DB7D1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.h */,
+				EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */,
+			);
+			name = Case2;
+			sourceTree = "<group>";
+		};
 		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -935,6 +952,7 @@
 		ECA139CD1ACAEAC600BFCBFE /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				EC49DB791ACFA9310014880F /* Case2 */,
 				ECA139CE1ACAEACD00BFCBFE /* Case1 */,
 			);
 			name = Storyboard;
@@ -1364,6 +1382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF63C4E1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
+				EC49DB7B1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
@@ -1407,6 +1426,7 @@
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				ECF63C531A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				EC49DB7C1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
 				EC2F8AF41AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC33ADF21AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
 				ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
@@ -1524,6 +1544,7 @@
 				EC5E78731A5D8A4D0089D226 /* iOSMTSwift1.swift in Sources */,
 				7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC8016C91A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
+				EC49DB7F1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				EC33ADEF1AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1543,6 +1564,7 @@
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
 				EC33ADFC1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */,
+				EC49DB801ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				EC49DB781ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */,

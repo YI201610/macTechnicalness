@@ -54,6 +54,12 @@
 	<key>UIKit - Storyboard</key>
 	<array>
 		<dict>
+			<key>vc</key>
+			<string>iOSMTStoryboardCase2</string>
+			<key>title</key>
+			<string>シーンとセグエ（コンテナビューコントローラーは１つ）</string>
+		</dict>
+		<dict>
 			<key>title</key>
 			<string>シーンとセグエ(TabBarControllerをはさむとUnwindセグエがうまく動作しない)</string>
 			<key>vc</key>
