@@ -18,8 +18,15 @@ var bRect = Rect(x: 0, y: 0, width: 128, height: 256)
 aRect.width = 55
 
 var copiedRect = bRect
-var width = aRect.width
-var copiedWidth = copiedRect.width
+copiedRect.width = 133
+
+/*
+@comment    構造体は値型なので、aRectがcopiedRect操作の影響を受けることがない
+*/
+aRect.width
+copiedRect.width
+
+
 
 
 /*!
@@ -47,4 +54,12 @@ copiedRect3.width = 5
 copiedRect3.height = 12
 
 var width3 = copiedRect3.width
-var 
+var height3 = copiedRect3.height
+
+/*
+@comment    クラスは参照型なので、copiedRect3を操作すると、cRectにも影響が及んでしまう
+*/
+cRect.width
+cRect.height
+
+
