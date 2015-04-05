@@ -1,6 +1,7 @@
 // Playground - noun: a place where people can play
 
 import UIKit
+import Foundation
 
 /*!
 @abstract   初期処理例

@@ -346,6 +346,8 @@
 		EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ElementView.xib; path = View/iOSMTAutoLayoutCase1ElementView.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
+		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
+		ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes_and_Structures.playground; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -644,6 +646,7 @@
 				74A206321A8F919600E8E35E /* Functions.playground */,
 				74A206411A8F919600E8E35E /* Unicode.playground */,
 				EC9C52D81A9226AF009D516A /* Closures.playground */,
+				ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */,
 			);
 			name = LanguageGuide;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				74A206461A8F92A600E8E35E /* closureTest.playground */,
 				74A206351A8F919600E8E35E /* HelloSwiftPlayground.playground */,
 				74A2063F1A8F919600E8E35E /* test20140725.playground */,
+				ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */,
 			);
 			name = tmp;
 			sourceTree = "<group>";
