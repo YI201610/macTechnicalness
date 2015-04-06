@@ -49,7 +49,6 @@ var copiedRect3 = cRect
 cRect.width = 128
 cRect.height = 256
 
-
 copiedRect3.width = 5
 copiedRect3.height = 12
 
@@ -61,5 +60,4 @@ var height3 = copiedRect3.height
 */
 cRect.width
 cRect.height
-
 

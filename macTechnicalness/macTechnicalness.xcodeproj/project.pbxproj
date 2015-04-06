@@ -381,6 +381,7 @@
 		ECEE15A71ABDB04F0098C118 /* iOSMTCollectionView1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTCollectionView1ViewController.h; path = CollectionView1/iOSMTCollectionView1ViewController.h; sourceTree = "<group>"; };
 		ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTCollectionView1ViewController.m; path = CollectionView1/iOSMTCollectionView1ViewController.m; sourceTree = "<group>"; };
 		ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTCollectionView1ViewController.xib; path = CollectionView1/iOSMTCollectionView1ViewController.xib; sourceTree = "<group>"; };
+		ECF521691AD3475F001B0B21 /* Subscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subscripts.playground; sourceTree = "<group>"; };
 		ECF63C381A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutIB1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.h; sourceTree = "<group>"; };
 		ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutIB1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.m; sourceTree = "<group>"; };
 		ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutIB1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.xib; sourceTree = "<group>"; };
@@ -647,6 +648,7 @@
 				74A206411A8F919600E8E35E /* Unicode.playground */,
 				EC9C52D81A9226AF009D516A /* Closures.playground */,
 				ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */,
+				ECF521691AD3475F001B0B21 /* Subscripts.playground */,
 			);
 			name = LanguageGuide;
 			sourceTree = "<group>";
