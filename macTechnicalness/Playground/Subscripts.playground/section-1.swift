@@ -13,23 +13,49 @@ var str = "Hello, playground"
 //    }
 //}
 //
-//
-//
-//
 //subscript(index: Int) -> Int {
 //    // return an appropriate subscript value here
 //}
 
 
 struct TimesTable {
+    
     let multiplier: Int
+    var hgoe: Int
+    /*
+    @comment    サブスクリプトを定義している
+    */
     subscript(index: Int) -> Int {
-        return multiplier * index
+        
+        get {
+            return multiplier * index
+        }
+    
+        set(newValue) {
+            hgoe *= 100
+        }
     }
 }
-let threeTimesTable = TimesTable(multiplier: 3)
+
+/*
+@comment    インスタンスを生成
+*/
+var threeTimesTable = TimesTable(multiplier: 3, hgoe: 5)
+
+/*
+@comment    サブスクリプトを介して値を取得
+*/
 println("six times three is \(threeTimesTable[6])")
 
+/*
+@comment    サブスクリプトのsetterを使って値をつっこむ
+*/
+threeTimesTable[1] = 5
+
+/*
+@comment    サブスクリプトの影響で、hgoe値の値が変化している
+*/
+threeTimesTable.hgoe
 
 
 
