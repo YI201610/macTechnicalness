@@ -162,10 +162,20 @@ struct 行列 {
     }
 }
 
+/*
+@comment    2x2行列を作成
+*/
 var matrix = 行列(行: 2, 列: 2)
+
+/*
+@comment    行列の大きさを検証
+*/
 matrix.成分の有効判定(100, 列数: 100)
 matrix.成分の有効判定(1, 列数: 1)
 
+/*
+@comment    subscript表現を使用して、matrixに値をつっこんでみる
+*/
 matrix[0, 1] = 1.5
 matrix[1, 0] = 3.2
 matrix[1, 1]
@@ -173,6 +183,10 @@ matrix[1, 1] = 128.256
 matrix[1, 1]
 matrix[0, 0] = 1.3
 //matrix[20, 15] = 5
+
+/*
+@comment    matrixにつっこまれた各値を確認
+*/
 matrix
 
 
