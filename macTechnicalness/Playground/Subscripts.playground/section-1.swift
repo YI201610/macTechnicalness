@@ -133,7 +133,9 @@ var 材料データ = ["トマト": 8, "きゅうり": 6, "ひき肉": 4]
 
 
 
-
+/*
+@comment    subscriptの仕組みを使えば、行列も解り易く表現できます。
+*/
 struct 行列 {
     let 行: Int, 列: Int
     var グリッド: [Double]  //行列の各成分を１列に並べて保持する
@@ -171,11 +173,7 @@ matrix[1, 1] = 128.256
 matrix[1, 1]
 matrix[0, 0] = 1.3
 //matrix[20, 15] = 5
-
-
-//いかの文と、indexIsValidForRow2の関係
-//let someValue = matrix[2, 2]
-// this triggers an assert, because [2, 2] is outside of the matrix bounds
+matrix
 
 
 
