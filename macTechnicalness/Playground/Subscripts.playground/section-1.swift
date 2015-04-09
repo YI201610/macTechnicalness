@@ -4,6 +4,14 @@ import UIKit
 
 var str = "Hello, playground"
 
+
+/*
+@comment    subscript使用例
+*/
+var hogeArray = ["あ", "い", "う"]
+hogeArray[2] = "え"
+hogeArray
+
 //subscript(index: Int) -> Int {
 //    get {
 //        // return an appropriate subscript value here
@@ -78,11 +86,25 @@ struct TimesTable {
         }
     
         /*
-        @comment    setter
+        @comment    システムが提供してくれる、デフォルトのsetter入力パラメータ名は、newValue
         */
-        set(newValue) {
+        set {
             println("newValue: \(newValue), hgoe: \(self.hgoe)")
             hgoe *= (newValue+100)
+        }
+    }
+    
+    
+    /*
+    @comment    第２のsubscriptを定義
+    */
+    subscript (index1: Int, Index2: Int) -> Int {
+        get {
+            return 100
+        }
+        
+        set(hogeValue){
+            
         }
     }
     
@@ -125,7 +147,7 @@ threeTimesTable.hgoe
 var 材料データ = ["トマト": 8, "きゅうり": 6, "ひき肉": 4]
 
 /*
-@comment    辞書型の変数に、subscript形式でデータを登録している例
+@comment    辞書型の変数に、subscript構文でデータを登録している例
 */
 材料データ["ピーマン"] = 2
 材料データ
