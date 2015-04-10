@@ -12,18 +12,35 @@ var hogeArray = ["あ", "い", "う"]
 hogeArray[2] = "え"
 hogeArray
 
-//subscript(index: Int) -> Int {
-//    get {
-//        // return an appropriate subscript value here
-//    }
-//    set(newValue) {
-//        // perform a suitable setting action here
-//    }
-//}
-//
-//subscript(index: Int) -> Int {
-//    // return an appropriate subscript value here
-//}
+
+
+
+/*
+@comment    辞書型の変数を作成
+*/
+var 材料データ = ["トマト": 8, "きゅうり": 6, "ひき肉": 4]
+
+/*
+@comment    辞書型の変数に、subscript構文でデータを登録している例
+*/
+材料データ["ピーマン"] = 2
+材料データ
+
+
+
+
+struct hogeStructure {
+    
+    /*
+    @comment  読み込み専用のsubscriptであればgetキーワードを省略できます。
+    */
+    subscript(param1: Int, param2: String) -> Int {
+        return 12345
+    }
+}
+
+var a = hogeStructure()
+var b = a[500, "some param"]
 
 struct someStructure {
     
@@ -41,10 +58,16 @@ struct someStructure {
     }
 }
 
+/*
+@comment    getter, setterをもつsubscriptの定義例。sampleAというクラスの型の取り扱いを拡張しています。
+*/
 struct sampleA {
     let prop1: Int
     var prop2: Int
     
+    /*
+    @comment    subscriptで型の取り扱い方を増やす
+    */
     subscript(value: Int) -> Int {
         
         get {
@@ -71,10 +94,12 @@ struct TimesTable {
     @abstract   乗数
     */
     let multiplier: Int
-    var hgoe: Int
+
+    
+    var hogeElement: Int
 
     /*
-    @comment    サブスクリプトを定義している。サブスクリプトを定義できるのは、型につき、１つのみ。
+    @comment    第1のsusbscriptを定義
     */
     subscript(index: Int) -> Int {
     
@@ -89,8 +114,8 @@ struct TimesTable {
         @comment    システムが提供してくれる、デフォルトのsetter入力パラメータ名は、newValue
         */
         set {
-            println("newValue: \(newValue), hgoe: \(self.hgoe)")
-            hgoe *= (newValue+100)
+            println("newValue: \(newValue), hogeElement: \(self.hogeElement)")
+            hogeElement *= (newValue+100)
         }
     }
     
@@ -108,50 +133,35 @@ struct TimesTable {
         }
     }
     
-//    /*
-//    @comment    読み出し専用のサブスクリプトでは、getキーワードを省略できる。
-//    */
-//    subscript(hoge: Int) -> Int {
-//        return hoge*12
-//    }
+    /*
+    @comment    読み出し専用のサブスクリプトでは、getキーワードを省略できる。
+    */
+    subscript(hoge: Int, hoge2: Int, hoge3: Int) -> Int {
+        return hoge*12
+    }
 }
 
 /*
 @comment    インスタンスを生成
 */
-var threeTimesTable = TimesTable(multiplier: 3, hgoe: 5)
+var ３倍テーブル = TimesTable(multiplier: 3, hogeElement: 5)
+３倍テーブル
 
 /*
 @comment    サブスクリプトを介して値を取得
 */
-println("six times three is \(threeTimesTable[6])")
-
-threeTimesTable.hgoe
+println("six times three is \(３倍テーブル[6])")     //
+３倍テーブル.hogeElement
 
 /*
 @comment    サブスクリプトのsetterを使って値をつっこむ
 */
-threeTimesTable[1] = 5
+３倍テーブル[1] = 5   //第１subscriptのsetterが発動
 
 /*
-@comment    サブスクリプトの影響で、hgoe値の値が変化している
+@comment    サブスクリプトの影響で、hogeElement値の値が変化している
 */
-threeTimesTable.hgoe
-
-
-
-
-/*
-@comment    辞書型の変数を作成
-*/
-var 材料データ = ["トマト": 8, "きゅうり": 6, "ひき肉": 4]
-
-/*
-@comment    辞書型の変数に、subscript構文でデータを登録している例
-*/
-材料データ["ピーマン"] = 2
-材料データ
-
+３倍テーブル.hogeElement
 
 
 
