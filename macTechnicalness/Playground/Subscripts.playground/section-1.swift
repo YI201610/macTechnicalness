@@ -150,7 +150,7 @@ var ３倍テーブル = TimesTable(multiplier: 3, hogeElement: 5)
 /*
 @comment    サブスクリプトを介して値を取得
 */
-println("six times three is \(３倍テーブル[6])")     //
+println("6の３倍は、\(３倍テーブル[6])")     //
 ３倍テーブル.hogeElement
 
 /*
