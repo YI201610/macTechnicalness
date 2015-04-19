@@ -95,6 +95,8 @@
 		EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */; };
 		EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
 		EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
+		EC68031D1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */; };
+		EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */; };
 		EC7DC0CA1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7DC0C91ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m */; };
 		EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7DC0C91ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m */; };
 		EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */; };
@@ -336,6 +338,7 @@
 		EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTDemystifyAutoLayout1ViewController.h; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.h; sourceTree = "<group>"; };
 		EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTDemystifyAutoLayout1ViewController.m; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.m; sourceTree = "<group>"; };
 		EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTDemystifyAutoLayout1ViewController.xib; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.xib; sourceTree = "<group>"; };
+		EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTContainerViewControllerCase1.storyboard; path = View/iOSMTContainerViewControllerCase1.storyboard; sourceTree = "<group>"; };
 		EC7DC0C81ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTStoryboardCase1Scene2ViewController.h; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene2ViewController.h; sourceTree = "<group>"; };
 		EC7DC0C91ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTStoryboardCase1Scene2ViewController.m; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene2ViewController.m; sourceTree = "<group>"; };
 		EC8016C01A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.h; sourceTree = "<group>"; };
@@ -910,11 +913,20 @@
 		EC5E786F1A5D89BF0089D226 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EC68031B1AE27D7800A66586 /* コンテナビューコントローラー */,
 				ECA139CD1ACAEAC600BFCBFE /* Storyboard */,
 				ECA139CC1ACAEABA00BFCBFE /* CollectionView */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		EC68031B1AE27D7800A66586 /* コンテナビューコントローラー */ = {
+			isa = PBXGroup;
+			children = (
+				EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */,
+			);
+			name = "コンテナビューコントローラー";
 			sourceTree = "<group>";
 		};
 		EC8016BF1A938682003BC74A /* case1 */ = {
@@ -1375,6 +1387,7 @@
 				EC49DB7B1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
+				EC68031D1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
 				ECF63C5A1A988F82004302B3 /* xButton.png in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
@@ -1426,6 +1439,7 @@
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECF63C631A988F82004302B3 /* xButton@3x.png in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
+				EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1695,8 +1709,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuji Imamura (FS73756HA6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1725,7 +1739,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1774,7 +1788,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1802,7 +1816,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1829,7 +1843,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
@@ -1853,7 +1867,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1873,7 +1887,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 				VALIDATE_PRODUCT = YES;
@@ -2128,6 +2142,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSApp/iOSApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -2175,6 +2190,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSApp/iOSApp-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2197,7 +2213,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2225,7 +2241,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSApp/iOSAppTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2251,7 +2267,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuji Imamura (FS73756HA6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2272,7 +2288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2e52fd04-22b7-47c6-bb44-3130036b73bd";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSApp/iOSAppTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
