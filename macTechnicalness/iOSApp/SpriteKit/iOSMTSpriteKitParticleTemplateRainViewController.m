@@ -7,6 +7,8 @@
 //
 
 #import "iOSMTSpriteKitParticleTemplateRainViewController.h"
+#import <SpriteKit/SpriteKit.h>
+#import "SpriteKitTemplateScene.h"
 
 @interface iOSMTSpriteKitParticleTemplateRainViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    SKView * skView = (SKView *)self.view;
+    skView.showsFPS = YES;
+    skView.showsNodeCount = YES;
+    skView.ignoresSiblingOrder = YES;
+    
+    SpriteKitTemplateScene *scene = [SpriteKitTemplateScene unarchiveWithParticleName:@"Rain"];
+    scene.positionTypeValue = 1;
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    [skView presentScene:scene];
 }
 
 - (void)didReceiveMemoryWarning {

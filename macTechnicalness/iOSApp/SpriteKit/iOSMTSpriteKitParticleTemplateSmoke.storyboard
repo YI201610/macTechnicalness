@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Acl-eW-6Fn">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Smoke-->
+        <scene sceneID="CGY-kq-9LP">
+            <objects>
+                <viewController id="ivU-vl-mKt" customClass="iOSMTSpriteKitParticleTemplateSmokeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RmI-QX-m53"/>
+                        <viewControllerLayoutGuide type="bottom" id="fI6-bR-5R4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="35A-7G-TGf" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Smoke" id="ZGd-2t-Cdu">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="8Io-EB-RiB">
+                            <connections>
+                                <segue destination="36Y-4N-YZa" kind="unwind" unwindAction="backToTopController:" id="qk6-5j-oQf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOx-li-dXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="36Y-4N-YZa" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1275" y="484"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Pe-Ih-ogP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Acl-eW-6Fn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ch7-sY-R2r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ivU-vl-mKt" kind="relationship" relationship="rootViewController" id="N7x-QP-6PS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMs-Rb-6Tg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463" y="484"/>
+        </scene>
+    </scenes>
 </document>

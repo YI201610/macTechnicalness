@@ -135,6 +135,11 @@
 		EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */; };
 		EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */; };
 		EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */; };
+		EC4552841AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */; };
+		EC4552851AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */; };
+		EC4552871AE554A60033F9F1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4552861AE554A60033F9F1 /* SpriteKit.framework */; };
+		EC45528A1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4552891AE555950033F9F1 /* SpriteKitTemplateScene.m */; };
+		EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4552891AE555950033F9F1 /* SpriteKitTemplateScene.m */; };
 		EC49DB731ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */; };
 		EC49DB741ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */; };
 		EC49DB771ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49DB761ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m */; };
@@ -414,6 +419,10 @@
 		EC3D0BE71A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGameControllerVerificationTopViewController.h; path = Controller/ViewController/iOSMTGameControllerVerificationTopViewController.h; sourceTree = "<group>"; };
 		EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGameControllerVerificationTopViewController.m; path = Controller/ViewController/iOSMTGameControllerVerificationTopViewController.m; sourceTree = "<group>"; };
 		EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGameControllerVerificationTopViewController.xib; path = Controller/ViewController/iOSMTGameControllerVerificationTopViewController.xib; sourceTree = "<group>"; };
+		EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = SpriteKitTemplateScene.sks; path = SpriteKit/SpriteKitTemplateScene.sks; sourceTree = "<group>"; };
+		EC4552861AE554A60033F9F1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC4552881AE555950033F9F1 /* SpriteKitTemplateScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpriteKitTemplateScene.h; path = SpriteKit/SpriteKitTemplateScene.h; sourceTree = "<group>"; };
+		EC4552891AE555950033F9F1 /* SpriteKitTemplateScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpriteKitTemplateScene.m; path = SpriteKit/SpriteKitTemplateScene.m; sourceTree = "<group>"; };
 		EC49DB711ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTStoryboardCase1Scene3Tab1ViewController.h; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene3Tab1ViewController.h; sourceTree = "<group>"; };
 		EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTStoryboardCase1Scene3Tab1ViewController.m; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene3Tab1ViewController.m; sourceTree = "<group>"; };
 		EC49DB751ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTStoryboardCase1Scene1ViewController.h; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene1ViewController.h; sourceTree = "<group>"; };
@@ -517,6 +526,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4552871AE554A60033F9F1 /* SpriteKit.framework in Frameworks */,
 				7484C4B91A33138600A310DE /* GameController.framework in Frameworks */,
 				EC3D0B6E1A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */,
 			);
@@ -668,6 +678,9 @@
 		744A9E7C1AE3F8B200329C51 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
+				EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */,
+				EC4552881AE555950033F9F1 /* SpriteKitTemplateScene.h */,
+				EC4552891AE555950033F9F1 /* SpriteKitTemplateScene.m */,
 				744A9E841AE3F8FA00329C51 /* Spark */,
 				744A9E831AE3F8F500329C51 /* Snow */,
 				744A9E821AE3F8F000329C51 /* Smoke */,
@@ -727,8 +740,8 @@
 		744A9E811AE3F8EB00329C51 /* Rain */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */,
 				744A9E701AE3F67500329C51 /* Rain.sks */,
+				744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */,
 				744A9EA91AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.h */,
 				744A9EAA1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m */,
 			);
@@ -800,6 +813,7 @@
 		7484C4B71A33136900A310DE /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
 				7484C4B81A33138600A310DE /* GameController.framework */,
 			);
 			name = Framework;
@@ -1619,6 +1633,7 @@
 				744A9E621AE3F5FD00329C51 /* bokeh.png in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
+				EC4552841AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */,
 				ECF63C561A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
@@ -1677,6 +1692,7 @@
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
+				EC4552851AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1770,6 +1786,7 @@
 				EC33ADFB1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */,
 				EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				EC2F8B091AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
+				EC45528A1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
@@ -1809,6 +1826,7 @@
 				EC49DB741ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
 				ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
+				EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
 				EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,

@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="alH-gT-Bpz">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Rain-->
+        <scene sceneID="n8w-6c-vEw">
+            <objects>
+                <viewController id="AEw-ir-Tap" customClass="iOSMTSpriteKitParticleTemplateRainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vN6-gA-Ado"/>
+                        <viewControllerLayoutGuide type="bottom" id="o3E-V0-blS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xDR-sQ-yxg" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Rain" id="mHu-GT-fjb">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="cx8-ZE-YGN">
+                            <connections>
+                                <segue destination="6i7-hO-xrc" kind="unwind" unwindAction="backToTopController:" id="xHU-Dq-WSv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xia-0T-94y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6i7-hO-xrc" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1203" y="514"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zeK-wU-Sta">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="alH-gT-Bpz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vGu-NK-MuJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AEw-ir-Tap" kind="relationship" relationship="rootViewController" id="Ahn-tj-ne5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HBK-tR-Xe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391" y="514"/>
+        </scene>
+    </scenes>
 </document>
