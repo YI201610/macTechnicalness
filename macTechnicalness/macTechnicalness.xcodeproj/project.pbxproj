@@ -23,6 +23,58 @@
 		7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
 		7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
 		7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
+		744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
+		744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
+		744A9E621AE3F5FD00329C51 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5F1AE3F5FD00329C51 /* bokeh.png */; };
+		744A9E631AE3F5FD00329C51 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5F1AE3F5FD00329C51 /* bokeh.png */; };
+		744A9E661AE3F62C00329C51 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E641AE3F62C00329C51 /* Fire.sks */; };
+		744A9E671AE3F62C00329C51 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E641AE3F62C00329C51 /* Fire.sks */; };
+		744A9E681AE3F62C00329C51 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E651AE3F62C00329C51 /* spark.png */; };
+		744A9E691AE3F62C00329C51 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E651AE3F62C00329C51 /* spark.png */; };
+		744A9E6B1AE3F64100329C51 /* Firefiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E6A1AE3F64100329C51 /* Firefiles.sks */; };
+		744A9E6C1AE3F64100329C51 /* Firefiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E6A1AE3F64100329C51 /* Firefiles.sks */; };
+		744A9E6E1AE3F66100329C51 /* Magic.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E6D1AE3F66100329C51 /* Magic.sks */; };
+		744A9E6F1AE3F66100329C51 /* Magic.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E6D1AE3F66100329C51 /* Magic.sks */; };
+		744A9E711AE3F67500329C51 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E701AE3F67500329C51 /* Rain.sks */; };
+		744A9E721AE3F67500329C51 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E701AE3F67500329C51 /* Rain.sks */; };
+		744A9E741AE3F68800329C51 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E731AE3F68800329C51 /* Smoke.sks */; };
+		744A9E751AE3F68800329C51 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E731AE3F68800329C51 /* Smoke.sks */; };
+		744A9E771AE3F69D00329C51 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E761AE3F69D00329C51 /* Snow.sks */; };
+		744A9E781AE3F69D00329C51 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E761AE3F69D00329C51 /* Snow.sks */; };
+		744A9E7A1AE3F6B500329C51 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E791AE3F6B500329C51 /* Spark.sks */; };
+		744A9E7B1AE3F6B500329C51 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E791AE3F6B500329C51 /* Spark.sks */; };
+		744A9E861AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */; };
+		744A9E871AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */; };
+		744A9E891AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E881AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard */; };
+		744A9E8A1AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E881AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard */; };
+		744A9E8C1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E8B1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard */; };
+		744A9E8D1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E8B1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard */; };
+		744A9E8F1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */; };
+		744A9E901AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */; };
+		744A9E921AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */; };
+		744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */; };
+		744A9E951AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */; };
+		744A9E961AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */; };
+		744A9E981AE3F9CB00329C51 /* Fire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E971AE3F9CB00329C51 /* Fire.storyboard */; };
+		744A9E991AE3F9CB00329C51 /* Fire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E971AE3F9CB00329C51 /* Fire.storyboard */; };
+		744A9E9B1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */; };
+		744A9E9C1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */; };
+		744A9E9F1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */; };
+		744A9EA01AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */; };
+		744A9EA31AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EA21AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m */; };
+		744A9EA41AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EA21AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m */; };
+		744A9EA71AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EA61AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m */; };
+		744A9EA81AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EA61AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m */; };
+		744A9EAB1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EAA1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m */; };
+		744A9EAC1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EAA1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m */; };
+		744A9EAF1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EAE1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m */; };
+		744A9EB01AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EAE1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m */; };
+		744A9EB31AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EB21AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m */; };
+		744A9EB41AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EB21AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m */; };
+		744A9EB71AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EB61AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m */; };
+		744A9EB81AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EB61AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m */; };
+		744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EBA1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m */; };
+		744A9EBC1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9EBA1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m */; };
 		74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74538C101A35262900850210 /* iOSMTHIDeviceController.m */; };
 		7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE01A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m */; };
@@ -261,6 +313,40 @@
 		7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutTestableView.m; path = View/iOSMTAutoLayoutTestableView.m; sourceTree = "<group>"; };
 		7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTTopTableDataSource.h; path = Controller/OSXMTTopTableDataSource.h; sourceTree = "<group>"; };
 		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
+		744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = SpriteKit/Bokeh.sks; sourceTree = "<group>"; };
+		744A9E5F1AE3F5FD00329C51 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = SpriteKit/bokeh.png; sourceTree = "<group>"; };
+		744A9E641AE3F62C00329C51 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = SpriteKit/Fire.sks; sourceTree = "<group>"; };
+		744A9E651AE3F62C00329C51 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = SpriteKit/spark.png; sourceTree = "<group>"; };
+		744A9E6A1AE3F64100329C51 /* Firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Firefiles.sks; path = SpriteKit/Firefiles.sks; sourceTree = "<group>"; };
+		744A9E6D1AE3F66100329C51 /* Magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Magic.sks; path = SpriteKit/Magic.sks; sourceTree = "<group>"; };
+		744A9E701AE3F67500329C51 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Rain.sks; path = SpriteKit/Rain.sks; sourceTree = "<group>"; };
+		744A9E731AE3F68800329C51 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Smoke.sks; path = SpriteKit/Smoke.sks; sourceTree = "<group>"; };
+		744A9E761AE3F69D00329C51 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Snow.sks; path = SpriteKit/Snow.sks; sourceTree = "<group>"; };
+		744A9E791AE3F6B500329C51 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Spark.sks; path = SpriteKit/Spark.sks; sourceTree = "<group>"; };
+		744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateRain.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateRain.storyboard; sourceTree = "<group>"; };
+		744A9E881AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateSpark.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateSpark.storyboard; sourceTree = "<group>"; };
+		744A9E8B1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateSnow.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateSnow.storyboard; sourceTree = "<group>"; };
+		744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateSmoke.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateSmoke.storyboard; sourceTree = "<group>"; };
+		744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateMagic.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateMagic.storyboard; sourceTree = "<group>"; };
+		744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateFirefiles.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateFirefiles.storyboard; sourceTree = "<group>"; };
+		744A9E971AE3F9CB00329C51 /* Fire.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Fire.storyboard; path = SpriteKit/Fire.storyboard; sourceTree = "<group>"; };
+		744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateBokeh.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateBokeh.storyboard; sourceTree = "<group>"; };
+		744A9E9D1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateSparkViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateSparkViewController.h; sourceTree = "<group>"; };
+		744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateSparkViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateSparkViewController.m; sourceTree = "<group>"; };
+		744A9EA11AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateSnowViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateSnowViewController.h; sourceTree = "<group>"; };
+		744A9EA21AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateSnowViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateSnowViewController.m; sourceTree = "<group>"; };
+		744A9EA51AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateSmokeViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateSmokeViewController.h; sourceTree = "<group>"; };
+		744A9EA61AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateSmokeViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateSmokeViewController.m; sourceTree = "<group>"; };
+		744A9EA91AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateRainViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateRainViewController.h; sourceTree = "<group>"; };
+		744A9EAA1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateRainViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateRainViewController.m; sourceTree = "<group>"; };
+		744A9EAD1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateMagicViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateMagicViewController.h; sourceTree = "<group>"; };
+		744A9EAE1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateMagicViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateMagicViewController.m; sourceTree = "<group>"; };
+		744A9EB11AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSMTSpriteKitParticleTemplateFirefilesViewController.h; sourceTree = "<group>"; };
+		744A9EB21AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSMTSpriteKitParticleTemplateFirefilesViewController.m; sourceTree = "<group>"; };
+		744A9EB51AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateFireViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateFireViewController.h; sourceTree = "<group>"; };
+		744A9EB61AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateFireViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateFireViewController.m; sourceTree = "<group>"; };
+		744A9EB91AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateBokehViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateBokehViewController.h; sourceTree = "<group>"; };
+		744A9EBA1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateBokehViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateBokehViewController.m; sourceTree = "<group>"; };
 		74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTHIDeviceController.h; path = Controller/iOSMTHIDeviceController.h; sourceTree = "<group>"; };
 		74538C101A35262900850210 /* iOSMTHIDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTHIDeviceController.m; path = Controller/iOSMTHIDeviceController.m; sourceTree = "<group>"; };
 		7453CDDF1A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTAutoLayout1WindowController.h; path = Controller/WindowController/OSXMTAutoLayout1WindowController.h; sourceTree = "<group>"; };
@@ -483,6 +569,7 @@
 		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
 				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
 				EC5E786F1A5D89BF0089D226 /* UIKit */,
@@ -566,6 +653,119 @@
 				ECDC65621A2BD5AC0080C608 /* Images.xcassets */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		744A9E5D1AE3F58D00329C51 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E7C1AE3F8B200329C51 /* Templates */,
+				744A9E5F1AE3F5FD00329C51 /* bokeh.png */,
+				744A9E651AE3F62C00329C51 /* spark.png */,
+			);
+			name = SpriteKit;
+			sourceTree = "<group>";
+		};
+		744A9E7C1AE3F8B200329C51 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E841AE3F8FA00329C51 /* Spark */,
+				744A9E831AE3F8F500329C51 /* Snow */,
+				744A9E821AE3F8F000329C51 /* Smoke */,
+				744A9E811AE3F8EB00329C51 /* Rain */,
+				744A9E801AE3F8E500329C51 /* Magic */,
+				744A9E7F1AE3F8DA00329C51 /* Firefiles */,
+				744A9E7E1AE3F8C600329C51 /* Fire */,
+				744A9E7D1AE3F8BC00329C51 /* Bokeh */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		744A9E7D1AE3F8BC00329C51 /* Bokeh */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */,
+				744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */,
+				744A9EB91AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.h */,
+				744A9EBA1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m */,
+			);
+			name = Bokeh;
+			sourceTree = "<group>";
+		};
+		744A9E7E1AE3F8C600329C51 /* Fire */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E641AE3F62C00329C51 /* Fire.sks */,
+				744A9E971AE3F9CB00329C51 /* Fire.storyboard */,
+				744A9EB51AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.h */,
+				744A9EB61AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m */,
+			);
+			name = Fire;
+			sourceTree = "<group>";
+		};
+		744A9E7F1AE3F8DA00329C51 /* Firefiles */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E6A1AE3F64100329C51 /* Firefiles.sks */,
+				744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */,
+				744A9EB11AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.h */,
+				744A9EB21AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m */,
+			);
+			name = Firefiles;
+			sourceTree = "<group>";
+		};
+		744A9E801AE3F8E500329C51 /* Magic */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E6D1AE3F66100329C51 /* Magic.sks */,
+				744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */,
+				744A9EAD1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.h */,
+				744A9EAE1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m */,
+			);
+			name = Magic;
+			sourceTree = "<group>";
+		};
+		744A9E811AE3F8EB00329C51 /* Rain */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */,
+				744A9E701AE3F67500329C51 /* Rain.sks */,
+				744A9EA91AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.h */,
+				744A9EAA1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m */,
+			);
+			name = Rain;
+			sourceTree = "<group>";
+		};
+		744A9E821AE3F8F000329C51 /* Smoke */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E731AE3F68800329C51 /* Smoke.sks */,
+				744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */,
+				744A9EA51AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.h */,
+				744A9EA61AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m */,
+			);
+			name = Smoke;
+			sourceTree = "<group>";
+		};
+		744A9E831AE3F8F500329C51 /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E761AE3F69D00329C51 /* Snow.sks */,
+				744A9E8B1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard */,
+				744A9EA11AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.h */,
+				744A9EA21AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m */,
+			);
+			name = Snow;
+			sourceTree = "<group>";
+		};
+		744A9E841AE3F8FA00329C51 /* Spark */ = {
+			isa = PBXGroup;
+			children = (
+				744A9E791AE3F6B500329C51 /* Spark.sks */,
+				744A9E881AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard */,
+				744A9E9D1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.h */,
+				744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */,
+			);
+			name = Spark;
 			sourceTree = "<group>";
 		};
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
@@ -1383,9 +1583,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744A9E951AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				ECF63C4E1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
 				EC49DB7B1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
+				744A9E681AE3F62C00329C51 /* spark.png in Resources */,
+				744A9E7A1AE3F6B500329C51 /* Spark.sks in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				744A9E6E1AE3F66100329C51 /* Magic.sks in Resources */,
+				744A9E8C1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard in Resources */,
+				744A9E661AE3F62C00329C51 /* Fire.sks in Resources */,
+				744A9E9B1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */,
+				744A9E861AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */,
+				744A9E6B1AE3F64100329C51 /* Firefiles.sks in Resources */,
 				ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				EC68031D1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
@@ -1394,20 +1603,29 @@
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				EC33ADFD1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
 				EC2F8B051AC946DE0048E180 /* AutoLaytouCase3.storyboard in Resources */,
+				744A9E711AE3F67500329C51 /* Rain.sks in Resources */,
+				744A9E921AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECF63C3D1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
 				ECF63C621A988F82004302B3 /* xButton@3x.png in Resources */,
+				744A9E771AE3F69D00329C51 /* Snow.sks in Resources */,
+				744A9E8F1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
 				ECF63C521A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
+				744A9E981AE3F9CB00329C51 /* Fire.storyboard in Resources */,
 				ECF63C5E1A988F82004302B3 /* xButton@2x.png in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
+				744A9E741AE3F68800329C51 /* Smoke.sks in Resources */,
+				744A9E621AE3F5FD00329C51 /* bokeh.png in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				ECF63C561A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
 				EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
+				744A9E891AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */,
 				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
+				744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				ECEE15AC1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */,
 				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 			);
@@ -1419,25 +1637,43 @@
 			files = (
 				ECEE15A61ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				EC2F8B061AC946DE0048E180 /* AutoLaytouCase3.storyboard in Resources */,
+				744A9E6C1AE3F64100329C51 /* Firefiles.sks in Resources */,
+				744A9E991AE3F9CB00329C51 /* Fire.storyboard in Resources */,
 				ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
+				744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
+				744A9E721AE3F67500329C51 /* Rain.sks in Resources */,
+				744A9E9C1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */,
+				744A9E901AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
+				744A9E751AE3F68800329C51 /* Smoke.sks in Resources */,
 				ECEE15AD1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */,
+				744A9E8D1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard in Resources */,
+				744A9E8A1AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */,
+				744A9E6F1AE3F66100329C51 /* Magic.sks in Resources */,
 				ECF63C5B1A988F82004302B3 /* xButton.png in Resources */,
+				744A9E631AE3F5FD00329C51 /* bokeh.png in Resources */,
 				ECF63C4F1A988F82004302B3 /* 20150221AutoLayout.png in Resources */,
+				744A9E671AE3F62C00329C51 /* Fire.sks in Resources */,
 				ECF63C5F1A988F82004302B3 /* xButton@2x.png in Resources */,
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				ECF63C531A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
+				744A9E961AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				EC49DB7C1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
 				EC2F8AF41AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC33ADF21AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
+				744A9E7B1AE3F6B500329C51 /* Spark.sks in Resources */,
+				744A9E691AE3F62C00329C51 /* spark.png in Resources */,
 				ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				ECF63C571A988F82004302B3 /* 20150221AutoLayout@3x.png in Resources */,
+				744A9E781AE3F69D00329C51 /* Snow.sks in Resources */,
 				EC33ADFE1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
+				744A9E871AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECF63C631A988F82004302B3 /* xButton@3x.png in Resources */,
+				744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
@@ -1527,6 +1763,7 @@
 				74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
+				744A9EA31AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				ECEE15AA1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				ECEE15A31ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
@@ -1535,11 +1772,16 @@
 				EC2F8B091AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
+				744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
 				EC49DB731ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
+				744A9EB71AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */,
 				ECF63C3B1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
+				744A9EAF1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
+				744A9EA71AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
 				ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				EC7DC0CA1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
 				EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
+				744A9EB31AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */,
 				EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
@@ -1547,7 +1789,9 @@
 				740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC8016C91A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
+				744A9E9F1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
 				EC49DB7F1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
+				744A9EAB1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
 				EC33ADEF1AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1556,10 +1800,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744A9EB81AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */,
 				7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				EC2F8B0A1AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
+				744A9EAC1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
 				EC49DB741ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
 				ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
@@ -1571,13 +1817,19 @@
 				EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				EC49DB781ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */,
+				744A9EBC1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
 				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC33ADF01AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
 				ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
 				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
+				744A9EB41AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */,
+				744A9EB01AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
 				ECF63C3C1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
+				744A9EA41AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
+				744A9EA81AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
+				744A9EA01AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 			);

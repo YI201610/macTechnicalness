@@ -5,6 +5,71 @@
 	<array>
 		<dict>
 			<key>title</key>
+			<string>SpriteKit - Particle template</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Bokeh</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateBokeh</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Fire</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateFire</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Firefiles</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateFirefiles</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Magic</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateMagic</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Rain</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateRain</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Smoke</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateSmoke</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Snow</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateSnow</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Spark</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitParticleTemplateSpark</string>
+				</dict>
+
+			</array>
+		</dict>
+
+
+		<dict>
+			<key>title</key>
 			<string>UIKit - コンテナビューコントローラー</string>
 			<key>items</key>
 			<array>
