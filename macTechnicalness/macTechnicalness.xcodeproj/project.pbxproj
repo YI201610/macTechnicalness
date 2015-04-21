@@ -319,9 +319,9 @@
 		7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTTopTableDataSource.h; path = Controller/OSXMTTopTableDataSource.h; sourceTree = "<group>"; };
 		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
 		744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = SpriteKit/Bokeh.sks; sourceTree = "<group>"; };
-		744A9E5F1AE3F5FD00329C51 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = SpriteKit/bokeh.png; sourceTree = "<group>"; };
+		744A9E5F1AE3F5FD00329C51 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = ../../macTechnicalness/iOSApp/SpriteKit/bokeh.png; sourceTree = "<group>"; };
 		744A9E641AE3F62C00329C51 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = SpriteKit/Fire.sks; sourceTree = "<group>"; };
-		744A9E651AE3F62C00329C51 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = SpriteKit/spark.png; sourceTree = "<group>"; };
+		744A9E651AE3F62C00329C51 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../../macTechnicalness/iOSApp/SpriteKit/spark.png; sourceTree = "<group>"; };
 		744A9E6A1AE3F64100329C51 /* Firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Firefiles.sks; path = SpriteKit/Firefiles.sks; sourceTree = "<group>"; };
 		744A9E6D1AE3F66100329C51 /* Magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Magic.sks; path = SpriteKit/Magic.sks; sourceTree = "<group>"; };
 		744A9E701AE3F67500329C51 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Rain.sks; path = SpriteKit/Rain.sks; sourceTree = "<group>"; };
@@ -560,9 +560,9 @@
 		740EF56D1A2C89D300735C4E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				740EF5731A2C8E4C00735C4E /* ContentViewController */,
 				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
 				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
+				740EF5731A2C8E4C00735C4E /* ContentViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -570,8 +570,14 @@
 		740EF56E1A2C89E300735C4E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */,
-				ECDC65381A2BD58B0080C608 /* Main.storyboard */,
+				7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */,
+				7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */,
+				EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */,
+				EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */,
+				EC9F49041AE6FFEC00C6401D /* CollectionViewCell */,
+				EC9F49031AE6FF5E00C6401D /* sks */,
+				EC9F49021AE6FF1E00C6401D /* storyboard */,
+				EC9F49011AE6FF1800C6401D /* xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -610,7 +616,6 @@
 			children = (
 				EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */,
 				EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */,
-				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
 			);
 			name = "visualFormatによるテスト１";
 			sourceTree = "<group>";
@@ -620,9 +625,6 @@
 			children = (
 				7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */,
 				7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */,
-				7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */,
-				7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */,
-				7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */,
 			);
 			name = InconsistentRule;
 			sourceTree = "<group>";
@@ -669,8 +671,6 @@
 			isa = PBXGroup;
 			children = (
 				744A9E7C1AE3F8B200329C51 /* Templates */,
-				744A9E5F1AE3F5FD00329C51 /* bokeh.png */,
-				744A9E651AE3F62C00329C51 /* spark.png */,
 			);
 			name = SpriteKit;
 			sourceTree = "<group>";
@@ -678,7 +678,6 @@
 		744A9E7C1AE3F8B200329C51 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
-				EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */,
 				EC4552881AE555950033F9F1 /* SpriteKitTemplateScene.h */,
 				EC4552891AE555950033F9F1 /* SpriteKitTemplateScene.m */,
 				744A9E841AE3F8FA00329C51 /* Spark */,
@@ -696,8 +695,6 @@
 		744A9E7D1AE3F8BC00329C51 /* Bokeh */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */,
-				744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */,
 				744A9EB91AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.h */,
 				744A9EBA1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m */,
 			);
@@ -707,8 +704,6 @@
 		744A9E7E1AE3F8C600329C51 /* Fire */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E641AE3F62C00329C51 /* Fire.sks */,
-				744A9E971AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard */,
 				744A9EB51AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.h */,
 				744A9EB61AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m */,
 			);
@@ -718,8 +713,6 @@
 		744A9E7F1AE3F8DA00329C51 /* Firefiles */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E6A1AE3F64100329C51 /* Firefiles.sks */,
-				744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */,
 				744A9EB11AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.h */,
 				744A9EB21AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m */,
 			);
@@ -729,8 +722,6 @@
 		744A9E801AE3F8E500329C51 /* Magic */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E6D1AE3F66100329C51 /* Magic.sks */,
-				744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */,
 				744A9EAD1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.h */,
 				744A9EAE1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m */,
 			);
@@ -740,8 +731,6 @@
 		744A9E811AE3F8EB00329C51 /* Rain */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E701AE3F67500329C51 /* Rain.sks */,
-				744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */,
 				744A9EA91AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.h */,
 				744A9EAA1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m */,
 			);
@@ -751,8 +740,6 @@
 		744A9E821AE3F8F000329C51 /* Smoke */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E731AE3F68800329C51 /* Smoke.sks */,
-				744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */,
 				744A9EA51AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.h */,
 				744A9EA61AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m */,
 			);
@@ -762,8 +749,6 @@
 		744A9E831AE3F8F500329C51 /* Snow */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E761AE3F69D00329C51 /* Snow.sks */,
-				744A9E8B1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard */,
 				744A9EA11AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.h */,
 				744A9EA21AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m */,
 			);
@@ -773,8 +758,6 @@
 		744A9E841AE3F8FA00329C51 /* Spark */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E791AE3F6B500329C51 /* Spark.sks */,
-				744A9E881AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard */,
 				744A9E9D1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.h */,
 				744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */,
 			);
@@ -924,10 +907,6 @@
 			children = (
 				ECEE15A71ABDB04F0098C118 /* iOSMTCollectionView1ViewController.h */,
 				ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */,
-				ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */,
-				ECEE15A01ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.h */,
-				ECEE15A11ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m */,
-				ECEE15A21ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib */,
 			);
 			name = CollectionView1;
 			sourceTree = "<group>";
@@ -937,7 +916,6 @@
 			children = (
 				EC2F8AEE1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.h */,
 				EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */,
-				EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */,
 			);
 			name = "Alignテスト";
 			sourceTree = "<group>";
@@ -945,7 +923,6 @@
 		EC2F8AF51AC93ECE0048E180 /* Pinテスト */ = {
 			isa = PBXGroup;
 			children = (
-				EC2F8B041AC946DE0048E180 /* AutoLaytouCase3.storyboard */,
 				EC2F8B071AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.h */,
 				EC2F8B081AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m */,
 			);
@@ -957,10 +934,6 @@
 			children = (
 				EC33ADEC1AC658680068A74C /* iOSMTCollectionView2ViewController.h */,
 				EC33ADED1AC658680068A74C /* iOSMTCollectionView2ViewController.m */,
-				EC33ADEE1AC658680068A74C /* iOSMTCollectionView2ViewController.xib */,
-				EC33ADF81AC6C0840068A74C /* iOSMTCollectionView2Cell.h */,
-				EC33ADF91AC6C0840068A74C /* iOSMTCollectionView2Cell.m */,
-				EC33ADFA1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib */,
 			);
 			name = CollectionView2;
 			sourceTree = "<group>";
@@ -1077,10 +1050,8 @@
 			children = (
 				EC3D0BE71A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.h */,
 				EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */,
-				EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */,
 				74CCE17C1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.h */,
 				74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */,
-				74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */,
 				74538C0F1A35262900850210 /* iOSMTHIDeviceController.h */,
 				74538C101A35262900850210 /* iOSMTHIDeviceController.m */,
 				7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */,
@@ -1103,7 +1074,6 @@
 		EC49DB791ACFA9310014880F /* Case2 */ = {
 			isa = PBXGroup;
 			children = (
-				EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */,
 				EC49DB7D1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.h */,
 				EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */,
 			);
@@ -1127,7 +1097,6 @@
 		EC5E786F1A5D89BF0089D226 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EC68031B1AE27D7800A66586 /* コンテナビューコントローラー */,
 				ECA139CD1ACAEAC600BFCBFE /* Storyboard */,
 				ECA139CC1ACAEABA00BFCBFE /* CollectionView */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
@@ -1135,25 +1104,81 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		EC68031B1AE27D7800A66586 /* コンテナビューコントローラー */ = {
-			isa = PBXGroup;
-			children = (
-				EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */,
-			);
-			name = "コンテナビューコントローラー";
-			sourceTree = "<group>";
-		};
 		EC8016BF1A938682003BC74A /* case1 */ = {
 			isa = PBXGroup;
 			children = (
 				EC8016C01A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.h */,
 				EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */,
-				EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */,
-				EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */,
-				EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */,
-				EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */,
 			);
 			name = case1;
+			sourceTree = "<group>";
+		};
+		EC9F49011AE6FF1800C6401D /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */,
+				ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */,
+				EC3D0BE91A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib */,
+				74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */,
+				ECEE15A91ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib */,
+				ECEE15A21ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib */,
+				EC33ADEE1AC658680068A74C /* iOSMTCollectionView2ViewController.xib */,
+				EC33ADFA1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib */,
+				EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */,
+				ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */,
+				ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */,
+				EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */,
+				7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */,
+				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		EC9F49021AE6FF1E00C6401D /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC65381A2BD58B0080C608 /* Main.storyboard */,
+				744A9E881AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard */,
+				744A9E8B1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard */,
+				744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */,
+				744A9E851AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard */,
+				744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */,
+				744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */,
+				744A9E971AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard */,
+				744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */,
+				EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */,
+				ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */,
+				EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */,
+				EC2F8B041AC946DE0048E180 /* AutoLaytouCase3.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		EC9F49031AE6FF5E00C6401D /* sks */ = {
+			isa = PBXGroup;
+			children = (
+				EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */,
+				744A9E791AE3F6B500329C51 /* Spark.sks */,
+				744A9E761AE3F69D00329C51 /* Snow.sks */,
+				744A9E731AE3F68800329C51 /* Smoke.sks */,
+				744A9E701AE3F67500329C51 /* Rain.sks */,
+				744A9E6D1AE3F66100329C51 /* Magic.sks */,
+				744A9E6A1AE3F64100329C51 /* Firefiles.sks */,
+				744A9E641AE3F62C00329C51 /* Fire.sks */,
+				744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */,
+			);
+			name = sks;
+			sourceTree = "<group>";
+		};
+		EC9F49041AE6FFEC00C6401D /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE15A01ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.h */,
+				ECEE15A11ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m */,
+				EC33ADF81AC6C0840068A74C /* iOSMTCollectionView2Cell.h */,
+				EC33ADF91AC6C0840068A74C /* iOSMTCollectionView2Cell.m */,
+			);
+			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		ECA139CC1ACAEABA00BFCBFE /* CollectionView */ = {
@@ -1177,7 +1202,6 @@
 		ECA139CE1ACAEACD00BFCBFE /* Case1 */ = {
 			isa = PBXGroup;
 			children = (
-				ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */,
 				EC49DB751ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.h */,
 				EC49DB761ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m */,
 				EC7DC0C81ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.h */,
@@ -1283,7 +1307,6 @@
 			children = (
 				ECEBD15D1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.h */,
 				ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */,
-				ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */,
 			);
 			name = "visualFormatテスト2";
 			sourceTree = "<group>";
@@ -1300,7 +1323,6 @@
 			children = (
 				ECF63C381A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.h */,
 				ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */,
-				ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */,
 			);
 			name = "IBを用いた検証1";
 			sourceTree = "<group>";
@@ -1309,6 +1331,8 @@
 			isa = PBXGroup;
 			children = (
 				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
+				744A9E5F1AE3F5FD00329C51 /* bokeh.png */,
+				744A9E651AE3F62C00329C51 /* spark.png */,
 				ECF63C481A988F82004302B3 /* 20150221AutoLayout.png */,
 				ECF63C491A988F82004302B3 /* 20150221AutoLayout@2x.png */,
 				ECF63C4A1A988F82004302B3 /* 20150221AutoLayout@3x.png */,
