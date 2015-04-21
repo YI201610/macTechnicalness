@@ -73,7 +73,7 @@
         /*
          @comment   ノード内におけるタッチ座標を取得
          */
-        CGPoint location = [touch locationInNode:self];
+        //CGPoint location = [touch locationInNode:self];
     }
 }
 
