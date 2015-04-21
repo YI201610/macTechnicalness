@@ -65,16 +65,16 @@
     /* Called when a touch begins */
     _methodname_;
     
-    /*
-     @comment   タッチされた数だけ繰り返す
-     */
-    for (UITouch *touch in touches) {
-        
-        /*
-         @comment   ノード内におけるタッチ座標を取得
-         */
-        //CGPoint location = [touch locationInNode:self];
-    }
+//    /*
+//     @comment   タッチされた数だけ繰り返す
+//     */
+//    for (UITouch *touch in touches) {
+//        
+//        /*
+//         @comment   ノード内におけるタッチ座標を取得
+//         */
+//        //CGPoint location = [touch locationInNode:self];
+//    }
 }
 
 -(void)update:(CFTimeInterval)currentTime {

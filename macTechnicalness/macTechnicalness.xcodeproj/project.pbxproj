@@ -1481,7 +1481,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MT;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					EC3D0B561A32E99A0097C9E2 = {
 						CreatedOnToolsVersion = 6.1;
@@ -1907,6 +1907,7 @@
 		EC03CCC01A2BD234009C741E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};

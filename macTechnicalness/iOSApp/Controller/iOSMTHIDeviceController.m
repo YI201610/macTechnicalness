@@ -62,6 +62,9 @@
              */
             _gameController.controllerPausedHandler = ^(GCController* controller) {
                 
+                /*
+                 @comment   strongにcaptureされても構わない
+                 */
                 if([_valueChangeDelegate respondsToSelector:@selector(didPushPauseButton:)]){
                     [_valueChangeDelegate didPushPauseButton:controller];
                 }
