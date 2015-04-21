@@ -38,7 +38,7 @@
     NSString *sectionName = [_dataController sectionNameStringWithIndex:sectionNo];
     MTMTopMenuEntity* itemObj = [_dataController itemForSection:sectionName index:rowNo];
     
-    static NSString* cellID = @"techphone";
+    static NSString* cellID = @"macTechnicalness";
     UITableViewCell* cell = (UITableViewCell*)[tableView dequeueReusableCellWithIdentifier:cellID];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
@@ -47,6 +47,10 @@
     cell.textLabel.numberOfLines = 0;
     cell.textLabel.adjustsFontSizeToFitWidth = YES;
     cell.textLabel.text = itemObj.titleString;
+    
+    if ([itemObj.viewControllerNameString length] == 0) {
+        cell.textLabel.textColor = [UIColor grayColor];
+    }
 
     return cell;
 }

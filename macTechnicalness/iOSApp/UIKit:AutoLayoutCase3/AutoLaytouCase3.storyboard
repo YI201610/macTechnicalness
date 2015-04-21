@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="enY-ed-dPh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--IOSMT Auto Layout Case3 View Controller-->
+        <scene sceneID="Ihm-X9-5KM">
+            <objects>
+                <viewController id="enY-ed-dPh" customClass="iOSMTAutoLayoutCase3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VB5-OV-llF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yeu-It-dPL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9xM-af-3WT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jB-1y-Vb1" userLabel="centerView">
+                                <rect key="frame" x="241" y="246" width="134" height="68"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K7L-lj-uYg" userLabel="greenView2(Square)">
+                                <rect key="frame" x="220" y="111" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="100" id="LwK-nl-txA"/>
+                                    <constraint firstAttribute="height" priority="750" constant="100" id="TVM-b7-tjz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WIB-jX-N6J" userLabel="RedView">
+                                <rect key="frame" x="111" y="417" width="194" height="109"/>
+                                <color key="backgroundColor" red="0.97010869570000002" green="0.0" blue="0.36309453000000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WIB-jX-N6J" secondAttribute="height" multiplier="50:100" id="jt5-Dm-5lq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWN-nY-TS0" userLabel="greenView1">
+                                <rect key="frame" x="32" y="28" width="134" height="68"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="jE6-fZ-IQ4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="bWN-nY-TS0" firstAttribute="height" secondItem="K7L-lj-uYg" secondAttribute="height" id="8wV-dn-7a4"/>
+                            <constraint firstItem="K7L-lj-uYg" firstAttribute="bottom" secondItem="bWN-nY-TS0" secondAttribute="bottom" id="Bbi-gH-Y7d"/>
+                            <constraint firstAttribute="centerX" secondItem="4jB-1y-Vb1" secondAttribute="centerX" id="NDu-mI-z2P"/>
+                            <constraint firstItem="bWN-nY-TS0" firstAttribute="top" secondItem="VB5-OV-llF" secondAttribute="bottom" constant="10" id="Ug8-IT-ABm"/>
+                            <constraint firstItem="WIB-jX-N6J" firstAttribute="top" secondItem="4jB-1y-Vb1" secondAttribute="bottom" constant="10" id="k4e-6A-FkI"/>
+                            <constraint firstAttribute="centerY" secondItem="4jB-1y-Vb1" secondAttribute="centerY" id="lWF-Ku-NvU"/>
+                            <constraint firstItem="WIB-jX-N6J" firstAttribute="width" secondItem="4jB-1y-Vb1" secondAttribute="width" id="qnE-1J-ZlR"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fNB-QI-jl4" appends="YES" id="eAR-xU-gJT"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bes-6i-zrc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Lkg-v8-OqP" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="fNB-QI-jl4">
+                    <connections>
+                        <segue destination="Lkg-v8-OqP" kind="unwind" unwindAction="backToTopController:" id="b3k-Iv-EFE"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="419" y="456"/>
+        </scene>
+    </scenes>
+</document>

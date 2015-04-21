@@ -13,10 +13,10 @@
  */
 @interface MTMTopMenuEntity : NSObject
 
-@property (nonatomic, strong) NSString* sectionNameString;
-@property (nonatomic, strong) NSString* titleString;
+@property (nonatomic, copy) NSString* sectionNameString;
+@property (nonatomic, copy) NSString* titleString;
 
-@property (nonatomic, strong) NSString* viewControllerNameString;
-@property (nonatomic, strong) NSString* windowControllerNameString;
+@property (nonatomic, copy) NSString* viewControllerNameString;
+@property (nonatomic, copy) NSString* windowControllerNameString;
 
 @end

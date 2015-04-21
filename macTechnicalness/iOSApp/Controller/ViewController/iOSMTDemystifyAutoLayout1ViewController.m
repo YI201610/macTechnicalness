@@ -32,11 +32,6 @@
     [self.view addSubview:someView];
     
     /*!
-     @comment   someViewのクラス名称を取得する
-     */
-    NSString *viewClassName = @"someView";
-    
-    /*!
      @comment   someViewの、auto resizing機構を無効にする(x, y, width, heightが無効になる. )
      */
     someView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -48,8 +43,9 @@
     
     /*!
      @comment   対象のviewの高さを80にする制約を追加
+                ビューは角括弧[]で囲む
      */
-    NSArray* constraintArray = [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"V:|[%@(==80)]", viewClassName]
+    NSArray* constraintArray = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[someView(==80)]"
                                                                        options:0
                                                                        metrics:nil
                                                                          views:someViewDictionary];
@@ -59,7 +55,7 @@
     /*!
      @comment   対象Viewの幅を1にする制約を追加
      */
-    NSArray* constraintArray2 = [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|[%@(==5)]", viewClassName]
+    NSArray* constraintArray2 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[someView(==50)]"
                                                                         options:0
                                                                         metrics:nil
                                                                           views:someViewDictionary];

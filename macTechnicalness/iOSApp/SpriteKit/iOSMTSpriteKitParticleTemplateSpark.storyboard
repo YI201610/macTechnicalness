@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="35b-6D-0xx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Spark-->
+        <scene sceneID="m5M-qc-sLF">
+            <objects>
+                <viewController id="KmO-aO-7op" customClass="iOSMTSpriteKitParticleTemplateSparkViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YZt-jD-ihH"/>
+                        <viewControllerLayoutGuide type="bottom" id="gzM-U2-t0i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MZc-SK-1UR" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Spark" id="lgT-rb-StX">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="Qg9-K5-38C">
+                            <connections>
+                                <segue destination="xhI-HB-XJX" kind="unwind" unwindAction="backToTopController:" id="Dg2-Li-xx2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8dR-Fl-QMV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xhI-HB-XJX" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1603" y="347"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S1e-Wn-Ctt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="35b-6D-0xx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C9t-wa-XrG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KmO-aO-7op" kind="relationship" relationship="rootViewController" id="zyq-De-Jvy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2x-M5-4vc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="347"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YOP-S9-rbK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Magic-->
+        <scene sceneID="Upo-SL-nDr">
+            <objects>
+                <viewController id="YCq-WS-e9o" customClass="iOSMTSpriteKitParticleTemplateMagicViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UNt-8h-NgB"/>
+                        <viewControllerLayoutGuide type="bottom" id="9zZ-r4-1I1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ocq-Me-ES0" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Magic" id="mcd-bE-Se1">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="9gL-m6-zV5">
+                            <connections>
+                                <segue destination="nWz-pg-PLh" kind="unwind" unwindAction="backToTopController:" id="Yg4-TW-C7I"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAv-HN-2lQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="nWz-pg-PLh" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1108" y="404"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="At1-ek-YF2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YOP-S9-rbK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mEU-xJ-7zP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YCq-WS-e9o" kind="relationship" relationship="rootViewController" id="LXG-6n-ZrW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ap6-om-82I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="296" y="404"/>
+        </scene>
+    </scenes>
+</document>

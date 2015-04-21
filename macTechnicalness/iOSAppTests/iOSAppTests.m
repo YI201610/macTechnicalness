@@ -9,6 +9,18 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
+/*!
+ @abstract  以下のテストを網羅する予定
+ 
+ ・ホワイトボックステスト
+ ・ブラックボックステスト
+ ・同値クラステスト
+ ・境界値テスト
+ ・デシジョンテーブルテスト
+ ・状態遷移テスト
+ ・組み合わせテスト
+ 
+ */
 @interface iOSAppTests : XCTestCase
 
 @end

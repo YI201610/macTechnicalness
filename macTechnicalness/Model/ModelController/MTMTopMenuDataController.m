@@ -55,20 +55,27 @@
         {
             NSData* plistXML = [NSData dataWithContentsOfFile:plistNameString];
             NSPropertyListFormat format;
-            NSDictionary* propertyListDic = [NSPropertyListSerialization propertyListWithData:plistXML
-                                                                                      options:NSPropertyListImmutable
-                                                                                       format:&format
-                                                                                        error:&errorDesc];
+            NSArray* propertyListArray = [NSPropertyListSerialization propertyListWithData:plistXML
+                                                                                   options:NSPropertyListImmutable
+                                                                                    format:&format
+                                                                                     error:&errorDesc];
+            
+            
             //
-            if (propertyListDic) {
-                NSArray* propertyListKeyArray = [propertyListDic allKeys];
-                for(NSString* key in propertyListKeyArray) {
-                    [_sectionKeyStringArray addObject: key];
-                    [_menuIndexStringArray  addObject: key];
+            if (propertyListArray) {
+                
+                NSArray* topArray = [propertyListArray firstObject];
+                
+                for (NSDictionary* themeDictionary in topArray) {
+                    NSString* themeString = [themeDictionary objectForKey:@"title"];
                     
-                    NSArray* itemDataArray = [propertyListDic objectForKey:key];
-                    [topMenuArray addObject: itemDataArray];
+                    [_sectionKeyStringArray addObject: themeString];
+                    [_menuIndexStringArray  addObject: themeString];
+
+                    NSArray* itemArray = [themeDictionary objectForKey:@"items"];
+                    [topMenuArray addObject: itemArray];
                 }
+                
             }else{
                 debugout(@"Error reading plist: %@, format: %lu", errorDesc, format);
             }

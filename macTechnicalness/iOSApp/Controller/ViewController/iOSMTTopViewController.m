@@ -150,14 +150,44 @@
     /*
      @comment   選択された検証項目に対応する画面に遷移します。
      */
-    UIViewController* addvc = [[NSClassFromString(vcName) alloc] init];
-    if(!addvc){
-        debugout( @"Error: %@ was not found.", vcName );
-    }else{
-        [self.navigationController pushViewController:addvc animated:YES];
+    
+    //
+    UIViewController* addvc = nil;
+    UIStoryboard* storyboard = nil;
+    
+    @try {
+        storyboard = [UIStoryboard storyboardWithName:vcName bundle: nil];
+    }
+    @catch (NSException *exception) {
+        debugout(@"Storyboard: %@ は読み込めませんでした", vcName);
     }
     
-    
+    if(storyboard){
+        addvc = [storyboard instantiateInitialViewController];
+
+        //
+        addvc.title = obj.titleString;
+        [self presentViewController:addvc animated:YES completion:^{}];
+    }else{
+        
+        addvc = [[NSClassFromString(vcName) alloc] init];
+        if(!addvc){
+            debugout( @"Error: %@ was not found.", vcName );
+        }else{
+            addvc.title = obj.titleString;
+            [self.navigationController pushViewController:addvc animated:YES];
+        }
+        
+    }
+
 }
+
+#pragma mark - Unwind Segue
+
+- (IBAction) backToTopController:(UIStoryboardSegue*) unwindSegue
+{
+    NSLog(@"- 0 - backToTopController, unwindSegue: %@", unwindSegue);
+}
+
 
 @end
