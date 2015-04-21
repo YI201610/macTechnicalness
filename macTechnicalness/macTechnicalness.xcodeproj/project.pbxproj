@@ -55,8 +55,8 @@
 		744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */; };
 		744A9E951AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */; };
 		744A9E961AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */; };
-		744A9E981AE3F9CB00329C51 /* Fire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E971AE3F9CB00329C51 /* Fire.storyboard */; };
-		744A9E991AE3F9CB00329C51 /* Fire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E971AE3F9CB00329C51 /* Fire.storyboard */; };
+		744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E971AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard */; };
+		744A9E991AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E971AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard */; };
 		744A9E9B1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */; };
 		744A9E9C1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */; };
 		744A9E9F1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */; };
@@ -334,7 +334,7 @@
 		744A9E8E1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateSmoke.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateSmoke.storyboard; sourceTree = "<group>"; };
 		744A9E911AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateMagic.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateMagic.storyboard; sourceTree = "<group>"; };
 		744A9E941AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateFirefiles.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateFirefiles.storyboard; sourceTree = "<group>"; };
-		744A9E971AE3F9CB00329C51 /* Fire.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Fire.storyboard; path = SpriteKit/Fire.storyboard; sourceTree = "<group>"; };
+		744A9E971AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateFire.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateFire.storyboard; sourceTree = "<group>"; };
 		744A9E9A1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSpriteKitParticleTemplateBokeh.storyboard; path = SpriteKit/iOSMTSpriteKitParticleTemplateBokeh.storyboard; sourceTree = "<group>"; };
 		744A9E9D1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitParticleTemplateSparkViewController.h; path = SpriteKit/iOSMTSpriteKitParticleTemplateSparkViewController.h; sourceTree = "<group>"; };
 		744A9E9E1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitParticleTemplateSparkViewController.m; path = SpriteKit/iOSMTSpriteKitParticleTemplateSparkViewController.m; sourceTree = "<group>"; };
@@ -708,7 +708,7 @@
 			isa = PBXGroup;
 			children = (
 				744A9E641AE3F62C00329C51 /* Fire.sks */,
-				744A9E971AE3F9CB00329C51 /* Fire.storyboard */,
+				744A9E971AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard */,
 				744A9EB51AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.h */,
 				744A9EB61AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m */,
 			);
@@ -1626,7 +1626,7 @@
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
 				ECF63C521A988F82004302B3 /* 20150221AutoLayout@2x.png in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
-				744A9E981AE3F9CB00329C51 /* Fire.storyboard in Resources */,
+				744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
 				ECF63C5E1A988F82004302B3 /* xButton@2x.png in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				744A9E741AE3F68800329C51 /* Smoke.sks in Resources */,
@@ -1653,7 +1653,7 @@
 				ECEE15A61ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				EC2F8B061AC946DE0048E180 /* AutoLaytouCase3.storyboard in Resources */,
 				744A9E6C1AE3F64100329C51 /* Firefiles.sks in Resources */,
-				744A9E991AE3F9CB00329C51 /* Fire.storyboard in Resources */,
+				744A9E991AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
 				ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
 				744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,

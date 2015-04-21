@@ -4,22 +4,29 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Magic-->
         <scene sceneID="Upo-SL-nDr">
             <objects>
-                <viewController id="YCq-WS-e9o" sceneMemberID="viewController">
+                <viewController id="YCq-WS-e9o" customClass="iOSMTSpriteKitParticleTemplateMagicViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UNt-8h-NgB"/>
                         <viewControllerLayoutGuide type="bottom" id="9zZ-r4-1I1"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ocq-Me-ES0">
+                    <view key="view" contentMode="scaleToFill" id="ocq-Me-ES0" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iKx-Nv-mKd"/>
+                    <navigationItem key="navigationItem" title="Magic" id="mcd-bE-Se1">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="9gL-m6-zV5">
+                            <connections>
+                                <segue destination="nWz-pg-PLh" kind="unwind" unwindAction="backToTopController:" id="Yg4-TW-C7I"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAv-HN-2lQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="nWz-pg-PLh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1108" y="404"/>
         </scene>

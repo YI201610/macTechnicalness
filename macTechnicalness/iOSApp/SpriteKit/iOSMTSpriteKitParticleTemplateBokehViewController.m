@@ -7,6 +7,8 @@
 //
 
 #import "iOSMTSpriteKitParticleTemplateBokehViewController.h"
+#import <SpriteKit/SpriteKit.h>
+#import "SpriteKitTemplateScene.h"
 
 @interface iOSMTSpriteKitParticleTemplateBokehViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    SKView * skView = (SKView *)self.view;
+    skView.showsFPS = YES;
+    skView.showsNodeCount = YES;
+    skView.ignoresSiblingOrder = YES;
+    
+    SpriteKitTemplateScene *scene = [SpriteKitTemplateScene unarchiveWithParticleName:@"Bokeh"];
+    //    scene.positionTypeValue = 1;
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    [skView presentScene:scene];
 }
 
 - (void)didReceiveMemoryWarning {
