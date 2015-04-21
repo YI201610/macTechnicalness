@@ -69,6 +69,7 @@
 
 - (void) viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
     /*!
      @comment   Auto Layoutデバッグ用のメソッドを実行します
      -------------

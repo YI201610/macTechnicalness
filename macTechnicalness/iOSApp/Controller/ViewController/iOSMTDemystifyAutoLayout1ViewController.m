@@ -72,7 +72,8 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     _methodname_;
-    
+    [super viewDidAppear:animated];
+
     /*!
      @comment   Viewの状態をデバッグ出力する
      */
