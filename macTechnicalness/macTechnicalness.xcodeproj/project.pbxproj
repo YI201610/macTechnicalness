@@ -160,12 +160,13 @@
 		EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */; };
 		EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
 		EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
+		EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
+		EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
 		ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
-		ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDC653B1A2BD58B0080C608 /* Images.xcassets */; };
 		ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDC653D1A2BD58B0080C608 /* LaunchScreen.xib */; };
 		ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC654A1A2BD58B0080C608 /* iOSAppTests.m */; };
 		ECDC655C1A2BD5AC0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC655B1A2BD5AC0080C608 /* AppDelegate.m */; };
@@ -413,6 +414,7 @@
 		EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ElementView.m; path = View/iOSMTAutoLayoutCase1ElementView.m; sourceTree = "<group>"; };
 		EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ElementView.xib; path = View/iOSMTAutoLayoutCase1ElementView.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
+		EC9F49051AE7045A00C6401D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
 		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
 		ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes_and_Structures.playground; sourceTree = "<group>"; };
@@ -422,7 +424,6 @@
 		ECDC65321A2BD58B0080C608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECDC65331A2BD58B0080C608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECDC65391A2BD58B0080C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECDC653B1A2BD58B0080C608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../macTechnicalness/iOSApp/Images.xcassets; sourceTree = "<group>"; };
 		ECDC653E1A2BD58B0080C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ECDC65441A2BD58B0080C608 /* iOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC65491A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1294,7 +1295,7 @@
 		ECF63C471A988F82004302B3 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				ECDC653B1A2BD58B0080C608 /* Images.xcassets */,
+				EC9F49051AE7045A00C6401D /* Images.xcassets */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -1592,6 +1593,7 @@
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
+				EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */,
 				EC33ADFD1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
 				EC2F8B051AC946DE0048E180 /* AutoLaytouCase3.storyboard in Resources */,
 				744A9E711AE3F67500329C51 /* Rain.sks in Resources */,
@@ -1610,7 +1612,6 @@
 				EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				744A9E891AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */,
-				ECDC653C1A2BD58B0080C608 /* Images.xcassets in Resources */,
 				ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				ECEE15AC1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */,
@@ -1631,6 +1632,7 @@
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 				744A9E721AE3F67500329C51 /* Rain.sks in Resources */,
+				EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */,
 				744A9E9C1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */,
 				744A9E901AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
 				744A9E751AE3F68800329C51 /* Smoke.sks in Resources */,
