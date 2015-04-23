@@ -329,9 +329,16 @@ let size2Inst = Size2(width: 10, height: 20)
 /*
 @comment    ---
 ## Initializer Delegation for Value Types
+
+initializerで、他の型のinitializerを実行することを、initializerデリゲーションと呼ぶ。
 */
 
 
+/*
+@comment    構造体や、列挙型のinitializerデリゲーションは、継承の概念がないので、シンプル。
+
+ここでは、構造体を例にあげる。
+*/
 struct Size {
     var width = 0.0, height = 0.0
 }
@@ -356,19 +363,31 @@ struct Rect {
         let originX = center.x - (size.width / 2)
         let originY = center.y - (size.height / 2)
     
+        /*
+        @comment    自身の型における、別のinitializerを使用したい場合は、selfキーワードを使用する。
+        */
         self.init(origin: Point(x: originX, y: originY), size: size)
     }
 }
 
 
-
+/*
+@comment    １番目のinitializerを使用する
+*/
 let basicRect = Rect()
 // basicRect's origin is (0.0, 0.0) and its size is (0.0, 0.0)
 
+/*
+@comment    ２番目のinitializerを使用する
+*/
 let originRect = Rect(origin: Point(x: 2.0, y: 2.0),
     size: Size(width: 5.0, height: 5.0))
+
 // originRect's origin is (2.0, 2.0) and its size is (5.0, 5.0)
 
+/*
+@comment    ３番目のinitializerを使用する
+*/
 let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
     size: Size(width: 3.0, height: 3.0))
 // centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
@@ -377,33 +396,67 @@ let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
 
 
 /*
-@comment    ---
+@comment
+#######################################################
 ## Class Inheritance and Initialization
 
+クラスは、プロパティをもつものなんだけど、
+継承している場合、親のクラスのプロパティも含めて、全て初期化されなければならない。
+
+Swiftにおけるクラスのinitializer実装の方法は、２つある。
+
+１つは、指定 initializer（デザグニート[dézɪgnèɪt]initializer）
+２つめは、コンビニエンスinitializer
 */
 
 /*
 @comment    ### Designated Initializers and Convenience Initializers
 
+クラスは、少なくとも、１つの指定 initializerを実装する必要がある。
+
+上記で説明してきたinitializerは、指定 initializer.
+
+コンビニエンス initializerは、指定initializerを使用することをサポートする仕組み。
+コンビニエンス initializerを実装することは、必須ではない。
+
+コンビニエンス initializerは、指定initializerを実行しなければならない。
+
+※コンビニエンス initializerと、指定initializerの関係をシンプルにするために、
+Swift言語では３つのルールを定めている。
+
+※図
+
+
 */
+
+
 
 /*
 @comment    ### Syntax for Designated and Convenience Initializers
-
 */
 
 /*
 @comment    ### Initializer Delegation for Class Types
 
+コンビニエンス initializerと、
 */
 
 /*
 @comment    ### Two-Phase Initialization
 
+Swift言語には、Two-Phase Initializationという仕組みがあって、これが、初期化処理を安全なものにしている。
+
+※説明はまた今度。
+
 */
 
 /*
 @comment    ### Initializer Inheritance and Overriding
+
+Objective-Cと異なり、Swiftの子クラス（サブクラス）は、親クラス（スーパークラス）のinitializerをデフォルトでは継承しない。
+
+※説明はまた今度。
+
 */
 
 class Vehicle {
@@ -438,6 +491,10 @@ println("Bicycle: \(bicycle.description)")
 
 /*
 @comment    ### Automatic Initializer Inheritance
+
+※継承、指定initializer, コンビニエンスinitializerこの３つの関係の説明は、重要なので、また
+改めて。
+
 */
 
 
@@ -451,9 +508,11 @@ println("Bicycle: \(bicycle.description)")
 
 class Food {
     var name: String
+    
     init(name: String) {
         self.name = name
     }
+    
     convenience init() {
         self.init(name: "[Unnamed]")
     }
@@ -517,18 +576,21 @@ for item in breakfastList {
 // 6 x Eggs ✘
 
 
-
-
 /*
-@comment    ---
+@comment
+#######################################################
 ## Failable Initializers
+
+初期化に失敗したときに、nilを返す、Failabel initializer
 
 */
 
-
-
 struct Animal {
     let species: String
+
+    /*
+    @comment initの次に「?」を付与すれば、Failable initializerを実装できる。
+    */
     init?(species: String) {
         if species.isEmpty { return nil }
         self.species = species
@@ -741,8 +803,12 @@ class AutomaticallyNamedDocument: Document {
 
 
 /*
-@comment    ---
+@comment
+#######################################################
 ## Required Initializers
+
+必ず実装しなければならないinitializerの前に、requiredというキーワードをかく。
+
 */
 
 
@@ -764,23 +830,32 @@ class SomeSubclass: SomeClass {
 
 
 /*
-@comment    ---
+@comment
+#######################################################
 ## Setting a Default Property Value with a Closure or Function
+
+クロージャ表現をつかって、initializerを実装できる
+
 */
 
 
 
-//class SomeClass00 {
-//    let someProperty: Int = {
-//        // create a default value for someProperty inside this closure
-//        // someValue must be of the same type as SomeType
-//        return Int
-//        }()
-//}
+class SomeClass00 {
+    
+    let someProperty: Int = {
+        // create a default value for someProperty inside this closure
+        // someValue must be of the same type as SomeType
+        return 256
+        }()
+}
 
 
 
 struct Checkerboard {
+    
+    /*
+    @comment    クロージャ表現で、初期値を実装！
+    */
     let boardColors: [Bool] = {
         var temporaryBoard = [Bool]()
         var isBlack = false
@@ -793,6 +868,10 @@ struct Checkerboard {
         }
         return temporaryBoard
         }()
+
+    /*
+    @comment
+    */
     func squareIsBlackAtRow(row: Int, column: Int) -> Bool {
         return boardColors[(row * 10) + column]
     }
