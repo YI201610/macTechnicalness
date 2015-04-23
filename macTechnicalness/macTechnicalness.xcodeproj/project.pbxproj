@@ -370,6 +370,7 @@
 		EC33ADF81AC6C0840068A74C /* iOSMTCollectionView2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTCollectionView2Cell.h; path = CollectionView2/iOSMTCollectionView2Cell.h; sourceTree = "<group>"; };
 		EC33ADF91AC6C0840068A74C /* iOSMTCollectionView2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTCollectionView2Cell.m; path = CollectionView2/iOSMTCollectionView2Cell.m; sourceTree = "<group>"; };
 		EC33ADFA1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTCollectionView2Cell.xib; path = CollectionView2/iOSMTCollectionView2Cell.xib; sourceTree = "<group>"; };
+		EC33ECA31AE93FFF00A513B3 /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; };
 		EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSEmbeddedModelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3D0B5A1A32E99A0097C9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEmbeddedModelKit.h; sourceTree = "<group>"; };
@@ -550,8 +551,8 @@
 		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
-				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
 				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
+				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
 				EC5E786F1A5D89BF0089D226 /* UIKit */,
 			);
@@ -814,6 +815,7 @@
 				EC9C52D81A9226AF009D516A /* Closures.playground */,
 				ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */,
 				ECF521691AD3475F001B0B21 /* Subscripts.playground */,
+				EC33ECA31AE93FFF00A513B3 /* Initialization.playground */,
 			);
 			name = LanguageGuide;
 			sourceTree = "<group>";

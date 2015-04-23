@@ -74,12 +74,12 @@
  */
 - (void) loadView
 {
-    /*!
+    /*
      @comment
      */
     self.navigationItem.title = NSLocalizedString(@"検証項目一覧", nil);
     
-    /*!
+    /*
      @comment
      */
     CGRect app_frame = [[UIScreen mainScreen] applicationFrame];
@@ -89,7 +89,7 @@
     self.view.multipleTouchEnabled = NO;
     self.view.exclusiveTouch = YES;
     
-    /*!
+    /*
      @comment
      */
     //
