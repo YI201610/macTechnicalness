@@ -36,28 +36,9 @@ initializerとは、とある型のオブジェクトを生成するときに実
 
 もっとも単純なケースでは、initializerは一つの引数も受け取らないもので、initキーワードを使用する。
 
-```swift
-struct 摂氏 {
-var 温度: Double
-var mode = 256	//このように、宣言時に初期値を与えることもできる
-
-/*
-@comment    イニシャライザ
-*/
-init() {
-温度 = 36.7
-}
-}
-
-var a = 摂氏()
-a.温度
-```
-
 イニシャライザを使用して初期値を設定することと、宣言時に初期値を設定すること、
 どちらを使うべきか、というと、
 なるべく、宣言時に初期値を与えるのが好ましい。
-
-
 
 ---
 ## Customizing Initialization
@@ -68,31 +49,6 @@ a.温度
 initializerには、メソッドのパラメーター宣言と同じ構文で、初期値用のパラメーターを供給することができる。
 
 次の例では、カスタムイニシャライザを２つ実装している。
-
-```swift
-struct Celsius {
-
-var temperatureInCelsius: Double
-
-/*
-@comment    カスタムイニシャライザー　その１
-*/
-init(ファーレンハイト fahrenheit: Double) {
-temperatureInCelsius = (fahrenheit - 32.0) / 1.8
-}
-
-/*
-@comment    カスタムイニシャライザー　その２
-*/
-init(ケルビン kelvin: Double) {
-temperatureInCelsius = kelvin - 273.15
-}
-}
-
-
-var b = Celsius(ケルビン: 3.14)
-var c = Celsius(ファーレンハイト: 3.14)
-```
 
 ### Local and External Parameter Names
 
