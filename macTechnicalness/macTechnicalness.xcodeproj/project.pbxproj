@@ -616,7 +616,6 @@
 		740EF5761A2DD4A300735C4E /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
-				ECF63C471A988F82004302B3 /* images */,
 				740EF5771A2DD4A300735C4E /* plist */,
 			);
 			name = Resouce;
@@ -862,6 +861,14 @@
 				749A81311AF344AB001D3607 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		749A81421AF3BDB5001D3607 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ECF63C471A988F82004302B3 /* images */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		74A2062C1A8F919600E8E35E /* Playground */ = {
@@ -1297,6 +1304,7 @@
 		ECDC652D1A2BD58B0080C608 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				749A81421AF3BDB5001D3607 /* Resource */,
 				740EF56E1A2C89E300735C4E /* View */,
 				740EF56D1A2C89D300735C4E /* Controller */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
@@ -1399,7 +1407,8 @@
 			children = (
 				EC9F49051AE7045A00C6401D /* Images.xcassets */,
 			);
-			path = images;
+			name = images;
+			path = ../../Resouce/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3079,6 +3088,7 @@
 				749A813D1AF344AB001D3607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		749A813F1AF344AB001D3607 /* Build configuration list for PBXNativeTarget "iOSApp WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -3087,6 +3097,7 @@
 				749A813B1AF344AB001D3607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC03CCBF1A2BD234009C741E /* Build configuration list for PBXProject "macTechnicalness" */ = {
 			isa = XCConfigurationList;

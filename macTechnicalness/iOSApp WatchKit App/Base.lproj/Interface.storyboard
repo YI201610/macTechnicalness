@@ -19,7 +19,7 @@
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
             <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                <glanceController spacing="0.0" topTemplateType="groupBody1" bottomTemplateType="largeGroup" id="0uZ-2p-rRc" customClass="GlanceController">
                     <items>
                         <group alignment="left" id="t8f-Gd-c4y">
                             <items>
@@ -28,6 +28,8 @@
                                 </label>
                             </items>
                         </group>
+                        <label alignment="left" text="Label" id="KxJ-s7-Oku"/>
+                        <label alignment="left" text="1234" id="NHm-ei-Uf2"/>
                         <group alignment="left" id="uCw-4Q-Ouw"/>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
