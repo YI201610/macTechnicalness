@@ -90,7 +90,6 @@
 		749A81281AF344AB001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749A81271AF344AB001D3607 /* Images.xcassets */; };
 		749A812C1AF344AB001D3607 /* iOSApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */; };
 		749A81341AF344AB001D3607 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A81321AF344AB001D3607 /* Interface.storyboard */; };
-		749A81361AF344AB001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749A81351AF344AB001D3607 /* Images.xcassets */; };
 		749A81391AF344AB001D3607 /* iOSApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
@@ -382,7 +381,6 @@
 		749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		749A81311AF344AB001D3607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		749A81331AF344AB001D3607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		749A81351AF344AB001D3607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74A2062E1A8F919600E8E35E /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; };
 		74A2062F1A8F919600E8E35E /* demo20140905.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo20140905.playground; sourceTree = "<group>"; };
 		74A206301A8F919600E8E35E /* demo20150206.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo20150206.playground; sourceTree = "<group>"; };
@@ -849,7 +847,6 @@
 			isa = PBXGroup;
 			children = (
 				749A81321AF344AB001D3607 /* Interface.storyboard */,
-				749A81351AF344AB001D3607 /* Images.xcassets */,
 				749A81301AF344AB001D3607 /* Supporting Files */,
 			);
 			path = "iOSApp WatchKit App";
@@ -1715,7 +1712,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				749A81341AF344AB001D3607 /* Interface.storyboard in Resources */,
-				749A81361AF344AB001D3607 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
