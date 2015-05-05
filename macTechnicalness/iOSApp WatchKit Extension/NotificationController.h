@@ -9,6 +9,9 @@
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
 
+/*!
+ @abstract  リモート通知を受信した際に使用するコントローラー
+ */
 @interface NotificationController : WKUserNotificationInterfaceController
 
 @end

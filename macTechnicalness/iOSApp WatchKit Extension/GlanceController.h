@@ -9,6 +9,9 @@
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
 
+/*!
+ @abstract  グランスで起動された際に使用するコントローラー
+ */
 @interface GlanceController : WKInterfaceController
 
 @end

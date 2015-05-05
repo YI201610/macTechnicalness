@@ -1,8 +1,8 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title"
+            "body": "今居る場所",
+            "title": "付属のタイトル"
         },
         "category": "myCategory"
     },

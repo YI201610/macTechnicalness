@@ -9,6 +9,9 @@
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
 
+/*!
+ @abstract  WatchKit App本体
+ */
 @interface InterfaceController : WKInterfaceController
 
 @end

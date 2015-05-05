@@ -11,6 +11,11 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
                         <label width="128" height="44" alignment="left" text="Hello, WatchKit" id="6zd-VV-oNh"/>
+                        <button width="1" alignment="left" title="ボタン１" id="YhZ-cu-XB3">
+                            <connections>
+                                <action selector="didSelectButton1" destination="AgC-eL-Hgc" id="Pxm-5O-RBq"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>

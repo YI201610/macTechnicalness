@@ -23,6 +23,14 @@
 		7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
 		7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
 		7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
+		743954221AF882470035A9C8 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954211AF882470035A9C8 /* HomeKit.framework */; };
+		743954241AF882880035A9C8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954231AF882880035A9C8 /* HealthKit.framework */; };
+		743954261AF882920035A9C8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954251AF882920035A9C8 /* ExternalAccessory.framework */; };
+		743954281AF882BB0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954271AF882BB0035A9C8 /* MapKit.framework */; };
+		7439542A1AF882C40035A9C8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954291AF882C40035A9C8 /* StoreKit.framework */; };
+		7439542C1AF882D10035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542B1AF882D10035A9C8 /* CloudKit.framework */; };
+		7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542E1AF883380035A9C8 /* CloudKit.framework */; };
+		743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
 		744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E661AE3F62C00329C51 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E641AE3F62C00329C51 /* Fire.sks */; };
@@ -325,6 +333,15 @@
 		7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutTestableView.m; path = View/iOSMTAutoLayoutTestableView.m; sourceTree = "<group>"; };
 		7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTTopTableDataSource.h; path = Controller/OSXMTTopTableDataSource.h; sourceTree = "<group>"; };
 		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
+		743954211AF882470035A9C8 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		743954231AF882880035A9C8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		743954251AF882920035A9C8 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		743954271AF882BB0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		743954291AF882C40035A9C8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		7439542B1AF882D10035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OSXApp.entitlements; sourceTree = "<group>"; };
+		7439542E1AF883380035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		743954301AF8833D0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = SpriteKit/Bokeh.sks; sourceTree = "<group>"; };
 		744A9E641AE3F62C00329C51 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = SpriteKit/Fire.sks; sourceTree = "<group>"; };
 		744A9E6A1AE3F64100329C51 /* Firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Firefiles.sks; path = SpriteKit/Firefiles.sks; sourceTree = "<group>"; };
@@ -546,9 +563,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743954261AF882920035A9C8 /* ExternalAccessory.framework in Frameworks */,
 				EC4552871AE554A60033F9F1 /* SpriteKit.framework in Frameworks */,
 				7484C4B91A33138600A310DE /* GameController.framework in Frameworks */,
+				7439542C1AF882D10035A9C8 /* CloudKit.framework in Frameworks */,
+				7439542A1AF882C40035A9C8 /* StoreKit.framework in Frameworks */,
+				743954221AF882470035A9C8 /* HomeKit.framework in Frameworks */,
+				743954281AF882BB0035A9C8 /* MapKit.framework in Frameworks */,
 				EC3D0B6E1A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */,
+				743954241AF882880035A9C8 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +587,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC3D0BB71A32EAAB0097C9E2 /* OSXEmbededdModelKit.framework in Frameworks */,
+				743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */,
+				7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -962,6 +987,14 @@
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
+				743954301AF8833D0035A9C8 /* MapKit.framework */,
+				7439542E1AF883380035A9C8 /* CloudKit.framework */,
+				7439542B1AF882D10035A9C8 /* CloudKit.framework */,
+				743954291AF882C40035A9C8 /* StoreKit.framework */,
+				743954271AF882BB0035A9C8 /* MapKit.framework */,
+				743954251AF882920035A9C8 /* ExternalAccessory.framework */,
+				743954231AF882880035A9C8 /* HealthKit.framework */,
+				743954211AF882470035A9C8 /* HomeKit.framework */,
 				740EF5ED1A30844D00735C4E /* CommonHeader.h */,
 				EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */,
 				740EF5761A2DD4A300735C4E /* Resouce */,
@@ -1350,6 +1383,7 @@
 		ECDC65571A2BD5AC0080C608 /* OSXApp */ = {
 			isa = PBXGroup;
 			children = (
+				7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */,
 				7437A90B1A57931E0097D921 /* Resource */,
 				7437A90A1A57930E0097D921 /* View */,
 				7437A9081A5792F20097D921 /* Controller */,
@@ -1666,6 +1700,33 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
 							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
 						};
 					};
 					ECDC65431A2BD58B0080C608 = {
@@ -1674,6 +1735,18 @@
 					};
 					ECDC65551A2BD5AC0080C608 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = KCQC4QP985;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Maps.Mac = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					ECDC656A1A2BD5AC0080C608 = {
 						CreatedOnToolsVersion = 6.1;
@@ -2925,7 +2998,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = OSXApp/OSXApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2949,6 +3024,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -2971,7 +3047,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = OSXApp/OSXApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2989,6 +3067,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
