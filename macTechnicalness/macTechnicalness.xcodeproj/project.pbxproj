@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74007C361AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */; };
 		740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
@@ -31,6 +32,8 @@
 		7439542C1AF882D10035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542B1AF882D10035A9C8 /* CloudKit.framework */; };
 		7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542E1AF883380035A9C8 /* CloudKit.framework */; };
 		743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
+		743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
+		743954351AF8B59D0035A9C8 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954341AF8B59D0035A9C8 /* GameController.framework */; };
 		744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E661AE3F62C00329C51 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E641AE3F62C00329C51 /* Fire.sks */; };
@@ -89,7 +92,6 @@
 		7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */; };
 		7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
 		7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
-		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		749A81201AF344AB001D3607 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A811F1AF344AB001D3607 /* InterfaceController.m */; };
@@ -320,6 +322,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapSceneSampleInterfaceController.h; sourceTree = "<group>"; };
+		74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMapSceneSampleInterfaceController.m; sourceTree = "<group>"; };
 		740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewController.h; path = Controller/ViewController/iOSMTTopViewController.h; sourceTree = "<group>"; };
 		740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewController.m; path = Controller/ViewController/iOSMTTopViewController.m; sourceTree = "<group>"; };
 		740EF5791A2DD4A300735C4E /* topMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenu.plist; sourceTree = "<group>"; };
@@ -342,6 +346,7 @@
 		7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OSXApp.entitlements; sourceTree = "<group>"; };
 		7439542E1AF883380035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		743954301AF8833D0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		743954341AF8B59D0035A9C8 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = SpriteKit/Bokeh.sks; sourceTree = "<group>"; };
 		744A9E641AE3F62C00329C51 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = SpriteKit/Fire.sks; sourceTree = "<group>"; };
 		744A9E6A1AE3F64100329C51 /* Firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Firefiles.sks; path = SpriteKit/Firefiles.sks; sourceTree = "<group>"; };
@@ -384,7 +389,6 @@
 		7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTAutoLayout2WindowController.xib; path = Controller/WindowController/OSXMTAutoLayout2WindowController.xib; sourceTree = "<group>"; };
 		745650661A672BD300BCC0FA /* MTMAnalytics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MTMAnalytics.playground; path = ../../Model/MTMAnalytics.playground; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
-		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
 		749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOSApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -563,9 +567,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743954351AF8B59D0035A9C8 /* GameController.framework in Frameworks */,
 				743954261AF882920035A9C8 /* ExternalAccessory.framework in Frameworks */,
 				EC4552871AE554A60033F9F1 /* SpriteKit.framework in Frameworks */,
-				7484C4B91A33138600A310DE /* GameController.framework in Frameworks */,
+				743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */,
 				7439542C1AF882D10035A9C8 /* CloudKit.framework in Frameworks */,
 				7439542A1AF882C40035A9C8 /* StoreKit.framework in Frameworks */,
 				743954221AF882470035A9C8 /* HomeKit.framework in Frameworks */,
@@ -602,6 +607,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74007C301AF9FE34003233F8 /* InterfaceController */ = {
+			isa = PBXGroup;
+			children = (
+				749A811E1AF344AB001D3607 /* InterfaceController.h */,
+				749A811F1AF344AB001D3607 /* InterfaceController.m */,
+				74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */,
+				74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */,
+			);
+			name = InterfaceController;
+			sourceTree = "<group>";
+		};
+		74007C311AF9FE3D003233F8 /* GlanceController */ = {
+			isa = PBXGroup;
+			children = (
+				749A81241AF344AB001D3607 /* GlanceController.h */,
+				749A81251AF344AB001D3607 /* GlanceController.m */,
+			);
+			name = GlanceController;
+			sourceTree = "<group>";
+		};
+		74007C321AF9FE45003233F8 /* NotificationController */ = {
+			isa = PBXGroup;
+			children = (
+				749A81211AF344AB001D3607 /* NotificationController.h */,
+				749A81221AF344AB001D3607 /* NotificationController.m */,
+			);
+			name = NotificationController;
+			sourceTree = "<group>";
+		};
 		740EF56D1A2C89D300735C4E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -709,6 +743,23 @@
 				ECDC65621A2BD5AC0080C608 /* Images.xcassets */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		743954331AF8B5700035A9C8 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				743954341AF8B59D0035A9C8 /* GameController.framework */,
+				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
+				743954301AF8833D0035A9C8 /* MapKit.framework */,
+				7439542E1AF883380035A9C8 /* CloudKit.framework */,
+				7439542B1AF882D10035A9C8 /* CloudKit.framework */,
+				743954291AF882C40035A9C8 /* StoreKit.framework */,
+				743954271AF882BB0035A9C8 /* MapKit.framework */,
+				743954251AF882920035A9C8 /* ExternalAccessory.framework */,
+				743954231AF882880035A9C8 /* HealthKit.framework */,
+				743954211AF882470035A9C8 /* HomeKit.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 		744A9E5D1AE3F58D00329C51 /* SpriteKit */ = {
@@ -840,8 +891,6 @@
 		7484C4B71A33136900A310DE /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
-				7484C4B81A33138600A310DE /* GameController.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -893,12 +942,9 @@
 		749A81461AF3CEF2001D3607 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				749A811E1AF344AB001D3607 /* InterfaceController.h */,
-				749A811F1AF344AB001D3607 /* InterfaceController.m */,
-				749A81211AF344AB001D3607 /* NotificationController.h */,
-				749A81221AF344AB001D3607 /* NotificationController.m */,
-				749A81241AF344AB001D3607 /* GlanceController.h */,
-				749A81251AF344AB001D3607 /* GlanceController.m */,
+				74007C321AF9FE45003233F8 /* NotificationController */,
+				74007C311AF9FE3D003233F8 /* GlanceController */,
+				74007C301AF9FE34003233F8 /* InterfaceController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -987,14 +1033,7 @@
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
-				743954301AF8833D0035A9C8 /* MapKit.framework */,
-				7439542E1AF883380035A9C8 /* CloudKit.framework */,
-				7439542B1AF882D10035A9C8 /* CloudKit.framework */,
-				743954291AF882C40035A9C8 /* StoreKit.framework */,
-				743954271AF882BB0035A9C8 /* MapKit.framework */,
-				743954251AF882920035A9C8 /* ExternalAccessory.framework */,
-				743954231AF882880035A9C8 /* HealthKit.framework */,
-				743954211AF882470035A9C8 /* HomeKit.framework */,
+				743954331AF8B5700035A9C8 /* Framework */,
 				740EF5ED1A30844D00735C4E /* CommonHeader.h */,
 				EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */,
 				740EF5761A2DD4A300735C4E /* Resouce */,
@@ -1703,6 +1742,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
 							com.apple.HealthKit = {
 								enabled = 1;
 							};
@@ -1948,6 +1990,7 @@
 			files = (
 				749A81231AF344AB001D3607 /* NotificationController.m in Sources */,
 				749A81201AF344AB001D3607 /* InterfaceController.m in Sources */,
+				74007C361AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m in Sources */,
 				749A81261AF344AB001D3607 /* GlanceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

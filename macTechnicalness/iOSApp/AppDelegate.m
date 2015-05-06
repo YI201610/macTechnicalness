@@ -98,6 +98,41 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - WatchKit Extension
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply
+{
+    _methodname_;
+
+    /*
+     @comment
+     */
+    __block UIBackgroundTaskIdentifier identifier = UIBackgroundTaskInvalid;
+
+    dispatch_block_t endBlock = ^{
+        if (identifier != UIBackgroundTaskInvalid) {
+            [application endBackgroundTask:identifier];
+        }
+        identifier = UIBackgroundTaskInvalid;
+    };
+
+    identifier = [application beginBackgroundTaskWithExpirationHandler:endBlock];
+
+    
+    /*
+     @comment
+     */
+    reply = ^(NSDictionary *replyInfo) {
+        reply(replyInfo);
+        endBlock();
+    };
+
+    NSString* returnBuffer = [NSString stringWithFormat:@"[Background Task]data(%@)", userInfo];
+    reply(@{@"Confirmation" : returnBuffer});
+    
+    
+}
+
 #pragma mark - Public
 
 + (AppDelegate*) appDelegate

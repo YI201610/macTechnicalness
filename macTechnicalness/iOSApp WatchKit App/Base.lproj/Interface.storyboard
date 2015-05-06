@@ -5,15 +5,21 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--タイトル１-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller title="タイトル１" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
                         <label width="128" height="44" alignment="left" text="Hello, WatchKit" id="6zd-VV-oNh"/>
-                        <button width="1" alignment="left" title="ボタン１" id="YhZ-cu-XB3">
+                        <button width="1" alignment="left" title="現在地" id="YhZ-cu-XB3">
                             <connections>
                                 <action selector="didSelectButton1" destination="AgC-eL-Hgc" id="Pxm-5O-RBq"/>
+                                <segue destination="hqj-AB-MeI" kind="push" id="3Ul-DO-0ds"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="ボタン２" id="cWB-1K-ZUm">
+                            <connections>
+                                <segue destination="6Zw-wF-Wxj" kind="modal" id="QLp-eX-wdL"/>
                             </connections>
                         </button>
                     </items>
@@ -21,26 +27,62 @@
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
-        <!--Glance Interface Controller-->
-        <scene sceneID="BOz-TT-tkC">
+        <!--タイトル３-->
+        <scene sceneID="9rf-fY-b3f">
             <objects>
-                <glanceController spacing="0.0" topTemplateType="groupBody1" bottomTemplateType="largeGroup" id="0uZ-2p-rRc" customClass="GlanceController">
+                <controller title="タイトル３" id="6Zw-wF-Wxj">
                     <items>
-                        <group alignment="left" id="t8f-Gd-c4y">
+                        <label alignment="left" text="モーダルで表示された。" minimumScaleFactor="0.99999999999999989" id="8PN-tQ-Mem">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="553" y="453"/>
+        </scene>
+        <!--現在地-->
+        <scene sceneID="AOl-vz-7h0">
+            <objects>
+                <controller title="現在地" id="hqj-AB-MeI" customClass="MTMapSceneSampleInterfaceController">
+                    <items>
+                        <map height="66" alignment="center" id="36Y-TC-ytX"/>
+                        <label width="129" alignment="left" text="緯度ラベル" id="YWD-PA-N5e"/>
+                        <label alignment="left" text="経度ラベル" id="xb2-6s-q74"/>
+                        <group width="1" height="26" alignment="left" id="QYB-cf-9Vr">
                             <items>
-                                <label width="136" alignment="left" text="Hello, WatchKit Glance" id="eay-7F-uxt">
-                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                </label>
+                                <button width="0.50000000000000011" height="1" alignment="left" title="更新" id="kNq-wO-kqy">
+                                    <connections>
+                                        <action selector="didSelectUpdateButton" destination="hqj-AB-MeI" id="a4K-Wp-jL2"/>
+                                    </connections>
+                                </button>
+                                <button width="0.50000000000000011" height="1" alignment="left" title="Cmd" id="zQ0-xb-5ZY">
+                                    <connections>
+                                        <action selector="didSelectCmdButton" destination="hqj-AB-MeI" id="YTk-mY-0Xv"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
-                        <label alignment="left" text="Label" id="KxJ-s7-Oku"/>
-                        <label alignment="left" text="1234" id="NHm-ei-Uf2"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
                     </items>
-                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="latitudeLabel" destination="YWD-PA-N5e" id="Jgw-aG-2LY"/>
+                        <outlet property="longitudeLabel" destination="xb2-6s-q74" id="gMy-Cj-LtJ"/>
+                        <outlet property="mapObject" destination="36Y-TC-ytX" id="igZ-qM-8NE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="553" y="154"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="yVr-jH-A2U">
+            <objects>
+                <glanceController id="DKt-8T-aIA">
+                    <items>
+                        <group alignment="left" id="h3l-Kk-GPF"/>
+                        <group alignment="left" id="qSP-CJ-OQb"/>
+                    </items>
                 </glanceController>
             </objects>
-            <point key="canvasLocation" x="235" y="672"/>
+            <point key="canvasLocation" x="231" y="682"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
