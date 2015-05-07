@@ -45,9 +45,13 @@
             <objects>
                 <controller title="現在地" id="hqj-AB-MeI" customClass="MTMapSceneSampleInterfaceController">
                     <items>
-                        <map height="66" alignment="center" id="36Y-TC-ytX"/>
-                        <label width="129" alignment="left" text="緯度ラベル" id="YWD-PA-N5e"/>
-                        <label alignment="left" text="経度ラベル" id="xb2-6s-q74"/>
+                        <map height="109" alignment="center" id="36Y-TC-ytX"/>
+                        <label width="129" alignment="left" text="緯度ラベル" id="YWD-PA-N5e">
+                            <fontDescription key="font" type="system" pointSize="11"/>
+                        </label>
+                        <label alignment="left" text="経度ラベル" id="xb2-6s-q74">
+                            <fontDescription key="font" type="system" pointSize="11"/>
+                        </label>
                         <group width="1" height="26" alignment="left" id="QYB-cf-9Vr">
                             <items>
                                 <button width="0.50000000000000011" height="1" alignment="left" title="更新" id="kNq-wO-kqy">
@@ -70,7 +74,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="553" y="154"/>
+            <point key="canvasLocation" x="553" y="172"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="yVr-jH-A2U">

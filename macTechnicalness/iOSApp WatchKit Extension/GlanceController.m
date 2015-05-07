@@ -90,7 +90,7 @@
     
     _currentLocationCoordinate = coordinate;
     
-    MKCoordinateSpan span = MKCoordinateSpanMake(0.002, 0.002);
+    MKCoordinateSpan span = MKCoordinateSpanMake(0.003, 0.003);
     MKCoordinateRegion region = MKCoordinateRegionMake(coordinate, span);
     MKMapPoint centerPoint = MKMapPointForCoordinate(coordinate);
     [_mapObject setVisibleMapRect:MKMapRectMake(centerPoint.x, centerPoint.y,
