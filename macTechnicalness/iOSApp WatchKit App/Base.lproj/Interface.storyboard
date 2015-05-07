@@ -75,11 +75,30 @@
         <!--Glance Interface Controller-->
         <scene sceneID="yVr-jH-A2U">
             <objects>
-                <glanceController id="DKt-8T-aIA">
+                <glanceController id="DKt-8T-aIA" customClass="GlanceController">
                     <items>
-                        <group alignment="left" id="h3l-Kk-GPF"/>
-                        <group alignment="left" id="qSP-CJ-OQb"/>
+                        <group alignment="left" layout="vertical" spacing="0.0" id="h3l-Kk-GPF">
+                            <items>
+                                <label alignment="left" text="macTech" id="mLU-Gh-Qqg"/>
+                                <label width="131" alignment="left" text="Label" textAlignment="left" id="iUi-aw-WDH">
+                                    <fontDescription key="font" type="system" pointSize="11"/>
+                                </label>
+                                <label width="136" alignment="left" text="Label" textAlignment="left" id="Hyt-hC-KIG">
+                                    <fontDescription key="font" type="system" pointSize="11"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" layout="vertical" id="qSP-CJ-OQb">
+                            <items>
+                                <map alignment="left" id="kD8-cx-jo3"/>
+                            </items>
+                        </group>
                     </items>
+                    <connections>
+                        <outlet property="latitudeLabel" destination="iUi-aw-WDH" id="v2I-eM-XpH"/>
+                        <outlet property="longitudeLabel" destination="Hyt-hC-KIG" id="Sdc-Xk-Iyq"/>
+                        <outlet property="mapObject" destination="kD8-cx-jo3" id="O8W-B2-6IB"/>
+                    </connections>
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="231" y="682"/>
