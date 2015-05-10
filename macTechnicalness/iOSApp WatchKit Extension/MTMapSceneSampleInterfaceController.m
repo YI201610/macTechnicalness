@@ -129,8 +129,30 @@
     [self updateLocationCommand];
 }
 
+
+- (void)reverseGeocordeWithLatitude:(double)latitude longitude:(double)longitude {
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude
+                                                       longitude:longitude];
+    
+    [geocoder reverseGeocodeLocation:location
+                   completionHandler:^(NSArray* placemarks, NSError* error) {
+
+                       for (CLPlacemark *placemark in placemarks) {
+                           NSDictionary* addressDic = placemark.addressDictionary;
+                           debugout(@"addressdic: %@", addressDic);
+                       }
+                   }];
+}
+
 - (IBAction)didSelectCmdButton {
     _methodname_;
+    
+    /*
+     @comment
+     */
+    [self reverseGeocordeWithLatitude:_currentLocationCoordinate.latitude longitude:_currentLocationCoordinate.longitude];
+    
     
     // Sends a non-nil result to the parent iOS application.
     /*
