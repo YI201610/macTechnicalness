@@ -6,10 +6,10 @@
 //
 //
 
-#import "MTSKBasicsScale1Scene.h"
+#import "MTSKBasicsMultiActionScene1.h"
 #import "CommonHeader.h"
 
-@implementation MTSKBasicsScale1Scene
+@implementation MTSKBasicsMultiActionScene1
 
 + (UIBezierPath*)bezierPathWithFrame: (CGRect)frame
 {
@@ -34,7 +34,7 @@
     /*
      @comment
      */
-    NSString *nodePath = [[NSBundle mainBundle] pathForResource:@"BasicsScale1"
+    NSString *nodePath = [[NSBundle mainBundle] pathForResource:@"BasicsMultiAction"
                                                          ofType:@"sks"];
     
     NSData *data = [NSData dataWithContentsOfFile:nodePath
@@ -43,7 +43,7 @@
     NSKeyedUnarchiver *arch = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
     [arch setClass:self forClassName:@"SKScene"];
     
-    MTSKBasicsScale1Scene *scene = [arch decodeObjectForKey:NSKeyedArchiveRootObjectKey];
+    MTSKBasicsMultiActionScene1 *scene = [arch decodeObjectForKey:NSKeyedArchiveRootObjectKey];
     [arch finishDecoding];
     
     /*
@@ -66,7 +66,7 @@
     /*
      @comment
      */
-    UIBezierPath* starPath = [MTSKBasicsScale1Scene bezierPathWithFrame:CGRectMake(150, 150, 100, 100)];
+    UIBezierPath* starPath = [MTSKBasicsMultiActionScene1 bezierPathWithFrame:CGRectMake(150, 150, 100, 100)];
    
     SKShapeNode* line = [SKShapeNode node];
     line.path = starPath.CGPath;

@@ -1,36 +1,36 @@
 //
-//  iOSMTSpriteKitBasicsScale1ViewController.m
+//  iOSMTSKBasicsTransition1ViewController.m
 //  macTechnicalness
 //
 //  Created by Yuji Imamura on 2015/05/10.
 //
 //
 
-#import "iOSMTSpriteKitBasicsScale1ViewController.h"
-#import "MTSKBasicsScale1Scene.h"
+#import "iOSMTSKBasicsTransition1ViewController.h"
+#import "MTSKBasicsSceneController.h"
 
-@interface iOSMTSpriteKitBasicsScale1ViewController ()
+@interface iOSMTSKBasicsTransition1ViewController ()
+
+@property (nonatomic, strong) MTSKBasicsSceneController* skSceneController;
 
 @end
 
-@implementation iOSMTSpriteKitBasicsScale1ViewController
+@implementation iOSMTSKBasicsTransition1ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    _spriteKitView.showsFPS = YES;
-    _spriteKitView.showsNodeCount = YES;
-
-    /*
-     @comment   アーカイブからSKシーンを作成
-     */
-    MTSKBasicsScale1Scene* spriteKitScene = [MTSKBasicsScale1Scene unarchiveScene];
+    _skView.showsFPS = YES;
+    _skView.showsNodeCount = YES;
+    
+    _skSceneController = [MTSKBasicsSceneController new];
+    _skSceneController.skView = _skView;
     
     /*
-     @comment   シーンを表示
+     @comment
      */
-    [_spriteKitView presentScene:spriteKitScene];
+    [_skSceneController gotoScene1WithCurrentSKScene:nil];
     
 }
 
@@ -48,6 +48,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
 
 @end

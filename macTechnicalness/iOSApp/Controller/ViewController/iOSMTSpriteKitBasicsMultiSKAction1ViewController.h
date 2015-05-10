@@ -10,9 +10,9 @@
 #import <SpriteKit/SpriteKit.h>
 
 /*!
- @abstract  オブジェクトを選択すると、少し拡大する。
+ @abstract  複数のSKActionから、１つの合成SKActionを作成する
  */
-@interface iOSMTSpriteKitBasicsScale1ViewController : UIViewController
+@interface iOSMTSpriteKitBasicsMultiSKAction1ViewController : UIViewController
 
 /*!
  @abstract  SpriteKitビュー

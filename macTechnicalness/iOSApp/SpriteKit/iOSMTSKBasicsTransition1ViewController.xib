@@ -4,9 +4,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7702"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="iOSMTSpriteKitBasicsScale1ViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="iOSMTSKBasicsTransition1ViewController">
             <connections>
-                <outlet property="spriteKitView" destination="iZa-92-lyT" id="2hz-wU-Zkb"/>
+                <outlet property="skView" destination="3uP-qt-YFT" id="TeS-az-HFS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,17 +15,17 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZa-92-lyT" userLabel="SKView" customClass="SKView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3uP-qt-YFT" userLabel="SKView" customClass="SKView">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="iZa-92-lyT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ROO-G7-dlk"/>
-                <constraint firstAttribute="bottom" secondItem="iZa-92-lyT" secondAttribute="bottom" id="eRJ-eU-g0M"/>
-                <constraint firstAttribute="trailing" secondItem="iZa-92-lyT" secondAttribute="trailing" id="nY7-cq-ohe"/>
-                <constraint firstItem="iZa-92-lyT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sdN-Ua-6ML"/>
+                <constraint firstItem="3uP-qt-YFT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1cY-Xl-uCg"/>
+                <constraint firstAttribute="bottom" secondItem="3uP-qt-YFT" secondAttribute="bottom" id="B0T-Mf-EIi"/>
+                <constraint firstItem="3uP-qt-YFT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RBN-vs-zOq"/>
+                <constraint firstAttribute="trailing" secondItem="3uP-qt-YFT" secondAttribute="trailing" id="lPq-32-gFu"/>
             </constraints>
         </view>
     </objects>
