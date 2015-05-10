@@ -19,6 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    _spriteKitView.showsFPS = YES;
+    _spriteKitView.showsNodeCount = YES;
+
     /*
      @comment   アーカイブからSKシーンを作成
      */

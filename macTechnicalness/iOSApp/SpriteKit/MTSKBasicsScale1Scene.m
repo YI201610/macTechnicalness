@@ -7,6 +7,7 @@
 //
 
 #import "MTSKBasicsScale1Scene.h"
+#import "CommonHeader.h"
 
 @implementation MTSKBasicsScale1Scene
 
@@ -82,27 +83,86 @@
     return scene;
 }
 
+- (void)dealloc
+{
+    _methodname_;
+}
+
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-#if 0
     for (UITouch *touch in touches) {
         
+        /*
+         @comment   タッチ座標を取得
+         */
         CGPoint location = [touch locationInNode:self];
         
+        /*
+         @comment   グリーンの長方形スプライトを作成
+         */
         SKSpriteNode* greenSprite = [SKSpriteNode node];
         greenSprite.size = CGSizeMake(100, 50);
         greenSprite.color = [UIColor greenColor];
         greenSprite.position = location;
         
-        // 1秒間で反時計回りに半回転するアクションを作成
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
+        /*
+         @comment   １秒かけて、３回転しながら、中央に移動するアクションを作成
+         */
+        SKAction *actionRotate = [SKAction rotateByAngle:M_PI*6 duration:1];
+        SKAction *actionMove = [SKAction moveTo:CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
+                                       duration:1];
+        SKAction *spinMove = [SKAction group:@[actionMove, actionRotate]];
         
-        [greenSprite runAction:[SKAction repeatActionForever:action]];
+        __weak typeof(self) weakSelf = self;
         
+        /*
+         @comment   終了時のアクションを作成
+         */
+        SKAction *endAction = [SKAction runBlock:^{
+            
+            /*
+             @comment   パーティクルを読み込む
+             */
+            NSString *sparclePath = [[NSBundle mainBundle] pathForResource:@"Spark" ofType:@"sks"];
+            SKEmitterNode *sparcle = [NSKeyedUnarchiver unarchiveObjectWithFile:sparclePath];
+            sparcle.position = greenSprite.position;
+
+            /*
+             @comment   シーンにパーティクルを設定
+             */
+            [weakSelf addChild:sparcle];
+
+            /*
+             @comment   フェードアウトするアクションを作成
+             */
+            SKAction *fadeOut = [SKAction fadeOutWithDuration:0.75];
+            SKAction *remove = [SKAction removeFromParent];
+            SKAction *fadeAndRemove = [SKAction sequence:@[fadeOut, remove]];
+            
+            /*
+             @comment   パーティクルと、スプライトに、fade-outアクションを適用
+             */
+            [sparcle runAction:fadeAndRemove];
+
+            [greenSprite runAction:fadeAndRemove];
+        }];
+
+        /*
+         @comment   複合アクションを作成
+         */
+        SKAction *sequence = [SKAction sequence:@[spinMove, endAction]];
+        
+        /*
+         @comment   複合アクションを、スプライトに適用
+         */
+        [greenSprite runAction:sequence];
+
+        /*
+         @comment   スプライトを画面に追加
+         */
         [self addChild:greenSprite];
     }
-#endif
     
     
 }
