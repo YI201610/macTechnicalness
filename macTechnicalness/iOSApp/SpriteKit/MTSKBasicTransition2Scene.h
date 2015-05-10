@@ -7,9 +7,18 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "MTSKBasicsSceneController.h"
 
 @interface MTSKBasicTransition2Scene : SKScene
 
+/*!
+ @abstract
+ */
+@property (nonatomic, weak) MTSKBasicsSceneController* sceneController;
+
+/*!
+ @abstract
+ */
 + (instancetype)unarchiveScene;
 
 @end

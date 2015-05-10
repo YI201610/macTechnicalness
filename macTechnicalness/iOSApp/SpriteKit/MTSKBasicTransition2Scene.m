@@ -38,4 +38,10 @@
     _methodname_;
 }
 
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [_sceneController gotoScene1WithCurrentSKScene:self];
+}
+
 @end

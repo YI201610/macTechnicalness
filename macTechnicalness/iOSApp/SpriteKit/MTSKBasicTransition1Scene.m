@@ -41,7 +41,7 @@
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    
+    [_sceneController gotoScene2WithCurrentSKScene:self];
 }
 
 @end

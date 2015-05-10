@@ -16,13 +16,7 @@
  */
 @property (nonatomic, weak) SKView* skView;
 
-
-
-@end
-
-
-@protocol MTSKBasicsSceneTransitionDelegate <NSObject>
-
-- (void)
+- (void) gotoScene1WithCurrentSKScene:(SKScene*) nextScene;
+- (void) gotoScene2WithCurrentSKScene:(SKScene*) nextScene;
 
 @end
