@@ -24,12 +24,7 @@
 		7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
 		7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
 		7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
-		743954221AF882470035A9C8 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954211AF882470035A9C8 /* HomeKit.framework */; };
-		743954241AF882880035A9C8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954231AF882880035A9C8 /* HealthKit.framework */; };
-		743954261AF882920035A9C8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954251AF882920035A9C8 /* ExternalAccessory.framework */; };
 		743954281AF882BB0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954271AF882BB0035A9C8 /* MapKit.framework */; };
-		7439542A1AF882C40035A9C8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954291AF882C40035A9C8 /* StoreKit.framework */; };
-		7439542C1AF882D10035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542B1AF882D10035A9C8 /* CloudKit.framework */; };
 		7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542E1AF883380035A9C8 /* CloudKit.framework */; };
 		743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
 		743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
@@ -183,6 +178,14 @@
 		EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
 		ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
+		ECA1FB4B1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m */; };
+		ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m */; };
+		ECA1FB4D1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib */; };
+		ECA1FB4E1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib */; };
+		ECA1FB501AFF005400704134 /* BasicsScale1.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4F1AFF005400704134 /* BasicsScale1.sks */; };
+		ECA1FB511AFF005400704134 /* BasicsScale1.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4F1AFF005400704134 /* BasicsScale1.sks */; };
+		ECA1FB541AFF0E6100704134 /* MTSKBasicsScale1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB531AFF0E6100704134 /* MTSKBasicsScale1Scene.m */; };
+		ECA1FB551AFF0E6100704134 /* MTSKBasicsScale1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB531AFF0E6100704134 /* MTSKBasicsScale1Scene.m */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -337,12 +340,7 @@
 		7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutTestableView.m; path = View/iOSMTAutoLayoutTestableView.m; sourceTree = "<group>"; };
 		7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTTopTableDataSource.h; path = Controller/OSXMTTopTableDataSource.h; sourceTree = "<group>"; };
 		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
-		743954211AF882470035A9C8 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
-		743954231AF882880035A9C8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
-		743954251AF882920035A9C8 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
 		743954271AF882BB0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		743954291AF882C40035A9C8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		7439542B1AF882D10035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OSXApp.entitlements; sourceTree = "<group>"; };
 		7439542E1AF883380035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		743954301AF8833D0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -485,6 +483,13 @@
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		EC9F49051AE7045A00C6401D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
+		ECA1FB481AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitBasicsScale1ViewController.h; path = Controller/ViewController/iOSMTSpriteKitBasicsScale1ViewController.h; sourceTree = "<group>"; };
+		ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitBasicsScale1ViewController.m; path = Controller/ViewController/iOSMTSpriteKitBasicsScale1ViewController.m; sourceTree = "<group>"; };
+		ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTSpriteKitBasicsScale1ViewController.xib; path = Controller/ViewController/iOSMTSpriteKitBasicsScale1ViewController.xib; sourceTree = "<group>"; };
+		ECA1FB4F1AFF005400704134 /* BasicsScale1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BasicsScale1.sks; path = SpriteKit/BasicsScale1.sks; sourceTree = "<group>"; };
+		ECA1FB521AFF0E6100704134 /* MTSKBasicsScale1Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSKBasicsScale1Scene.h; path = SpriteKit/MTSKBasicsScale1Scene.h; sourceTree = "<group>"; };
+		ECA1FB531AFF0E6100704134 /* MTSKBasicsScale1Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSKBasicsScale1Scene.m; path = SpriteKit/MTSKBasicsScale1Scene.m; sourceTree = "<group>"; };
+		ECA1FB561AFF123800704134 /* iOSApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iOSApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
 		ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes_and_Structures.playground; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -568,15 +573,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				743954351AF8B59D0035A9C8 /* GameController.framework in Frameworks */,
-				743954261AF882920035A9C8 /* ExternalAccessory.framework in Frameworks */,
 				EC4552871AE554A60033F9F1 /* SpriteKit.framework in Frameworks */,
 				743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */,
-				7439542C1AF882D10035A9C8 /* CloudKit.framework in Frameworks */,
-				7439542A1AF882C40035A9C8 /* StoreKit.framework in Frameworks */,
-				743954221AF882470035A9C8 /* HomeKit.framework in Frameworks */,
 				743954281AF882BB0035A9C8 /* MapKit.framework in Frameworks */,
 				EC3D0B6E1A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */,
-				743954241AF882880035A9C8 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +654,7 @@
 				EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */,
 				EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */,
 				EC9F49041AE6FFEC00C6401D /* CollectionViewCell */,
-				EC9F49031AE6FF5E00C6401D /* sks */,
+				EC9F49031AE6FF5E00C6401D /* SpriteKitScene */,
 				EC9F49021AE6FF1E00C6401D /* storyboard */,
 				EC9F49011AE6FF1800C6401D /* xib */,
 			);
@@ -752,12 +752,7 @@
 				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
 				743954301AF8833D0035A9C8 /* MapKit.framework */,
 				7439542E1AF883380035A9C8 /* CloudKit.framework */,
-				7439542B1AF882D10035A9C8 /* CloudKit.framework */,
-				743954291AF882C40035A9C8 /* StoreKit.framework */,
 				743954271AF882BB0035A9C8 /* MapKit.framework */,
-				743954251AF882920035A9C8 /* ExternalAccessory.framework */,
-				743954231AF882880035A9C8 /* HealthKit.framework */,
-				743954211AF882470035A9C8 /* HomeKit.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -765,6 +760,7 @@
 		744A9E5D1AE3F58D00329C51 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				ECA1FB471AFEFCF700704134 /* Basics */,
 				744A9E7C1AE3F8B200329C51 /* Templates */,
 			);
 			name = SpriteKit;
@@ -898,6 +894,7 @@
 		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ECA1FB561AFF123800704134 /* iOSApp WatchKit Extension.entitlements */,
 				749A81461AF3CEF2001D3607 /* Controller */,
 				749A81271AF344AB001D3607 /* Images.xcassets */,
 				749A811B1AF344AB001D3607 /* Supporting Files */,
@@ -1281,6 +1278,7 @@
 				EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */,
 				7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */,
 				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
+				ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -1305,7 +1303,7 @@
 			name = storyboard;
 			sourceTree = "<group>";
 		};
-		EC9F49031AE6FF5E00C6401D /* sks */ = {
+		EC9F49031AE6FF5E00C6401D /* SpriteKitScene */ = {
 			isa = PBXGroup;
 			children = (
 				EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */,
@@ -1317,8 +1315,9 @@
 				744A9E6A1AE3F64100329C51 /* Firefiles.sks */,
 				744A9E641AE3F62C00329C51 /* Fire.sks */,
 				744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */,
+				ECA1FB4F1AFF005400704134 /* BasicsScale1.sks */,
 			);
-			name = sks;
+			name = SpriteKitScene;
 			sourceTree = "<group>";
 		};
 		EC9F49041AE6FFEC00C6401D /* CollectionViewCell */ = {
@@ -1361,6 +1360,17 @@
 				EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */,
 			);
 			name = Case1;
+			sourceTree = "<group>";
+		};
+		ECA1FB471AFEFCF700704134 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1FB481AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.h */,
+				ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m */,
+				ECA1FB521AFF0E6100704134 /* MTSKBasicsScale1Scene.h */,
+				ECA1FB531AFF0E6100704134 /* MTSKBasicsScale1Scene.m */,
+			);
+			name = Basics;
 			sourceTree = "<group>";
 		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
@@ -1712,6 +1722,11 @@
 					749A81181AF344AB001D3607 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = KCQC4QP985;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					749A812A1AF344AB001D3607 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -1737,37 +1752,37 @@
 						DevelopmentTeam = KCQC4QP985;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.DataProtection = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.HealthKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.HomeKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Keychain = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
 							com.apple.OMC = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.WAC = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -1878,6 +1893,7 @@
 				744A9E951AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				EC49DB7B1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
 				744A9E7A1AE3F6B500329C51 /* Spark.sks in Resources */,
+				ECA1FB4D1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				744A9E6E1AE3F66100329C51 /* Magic.sks in Resources */,
 				744A9E8C1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard in Resources */,
@@ -1903,6 +1919,7 @@
 				744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				744A9E741AE3F68800329C51 /* Smoke.sks in Resources */,
+				ECA1FB501AFF005400704134 /* BasicsScale1.sks in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				EC4552841AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */,
@@ -1927,6 +1944,7 @@
 				ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
 				744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
+				ECA1FB511AFF005400704134 /* BasicsScale1.sks in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 				744A9E721AE3F67500329C51 /* Rain.sks in Resources */,
 				EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */,
@@ -1949,6 +1967,7 @@
 				744A9E781AE3F69D00329C51 /* Snow.sks in Resources */,
 				EC33ADFE1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
 				744A9E871AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */,
+				ECA1FB4E1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */,
@@ -2040,6 +2059,7 @@
 			files = (
 				74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
+				ECA1FB541AFF0E6100704134 /* MTSKBasicsScale1Scene.m in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				744A9EA31AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
@@ -2049,6 +2069,7 @@
 				EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				EC2F8B091AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
 				EC45528A1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
+				ECA1FB4B1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
@@ -2092,6 +2113,7 @@
 				EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
+				ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsScale1ViewController.m in Sources */,
 				EC33ADFC1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */,
 				EC49DB801ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
@@ -2110,6 +2132,7 @@
 				744A9EA41AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
 				744A9EA81AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
 				744A9EA01AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
+				ECA1FB551AFF0E6100704134 /* MTSKBasicsScale1Scene.m in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 			);
@@ -2272,6 +2295,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -2313,6 +2337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;

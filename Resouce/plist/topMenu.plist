@@ -5,6 +5,21 @@
 	<array>
 		<dict>
 			<key>title</key>
+			<string>SpriteKit - Basics</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>選択すると拡大</string>
+					<key>vc</key>
+					<string>iOSMTSpriteKitBasicsScale1ViewController</string>
+				</dict>
+
+			</array>
+		</dict>
+
+		<dict>
+			<key>title</key>
 			<string>SpriteKit - Particle template</string>
 			<key>items</key>
 			<array>
