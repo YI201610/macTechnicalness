@@ -16,7 +16,7 @@
  */
 @property (nonatomic, weak) SKView* skView;
 
-- (void) gotoScene1WithCurrentSKScene:(SKScene*) nextScene;
-- (void) gotoScene2WithCurrentSKScene:(SKScene*) nextScene;
+- (void) gotoScene1WithCurrentSKScene:(SKScene*) currentScene;
+- (void) gotoScene2WithCurrentSKScene:(SKScene*) currentScene;
 
 @end
