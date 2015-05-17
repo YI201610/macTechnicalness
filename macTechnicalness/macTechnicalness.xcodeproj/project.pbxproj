@@ -909,13 +909,6 @@
 			name = AutoLayout2;
 			sourceTree = "<group>";
 		};
-		7484C4B71A33136900A310DE /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
 		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -1052,9 +1045,41 @@
 			name = tmp;
 			sourceTree = "<group>";
 		};
+		74DCCCD61B08AEDD0003270E /* SharedSpriteKitSource */ = {
+			isa = PBXGroup;
+			children = (
+				74DCCCD71B08AF140003270E /* SKScene */,
+				74DCCCD81B08AF270003270E /* SKSpriteNode */,
+				74DCCCD91B08B18A0003270E /* Resource */,
+			);
+			name = SharedSpriteKitSource;
+			sourceTree = "<group>";
+		};
+		74DCCCD71B08AF140003270E /* SKScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SKScene;
+			sourceTree = "<group>";
+		};
+		74DCCCD81B08AF270003270E /* SKSpriteNode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SKSpriteNode;
+			sourceTree = "<group>";
+		};
+		74DCCCD91B08B18A0003270E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
+				74DCCCD61B08AEDD0003270E /* SharedSpriteKitSource */,
 				743954331AF8B5700035A9C8 /* Framework */,
 				740EF5ED1A30844D00735C4E /* CommonHeader.h */,
 				EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */,
@@ -1415,7 +1440,6 @@
 				740EF56E1A2C89E300735C4E /* View */,
 				740EF56D1A2C89D300735C4E /* Controller */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
-				7484C4B71A33136900A310DE /* Framework */,
 			);
 			path = iOSApp;
 			sourceTree = "<group>";
