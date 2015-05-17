@@ -37,28 +37,28 @@
 - (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn
             row:(NSInteger)row
 {
-   
     MTMTopMenuEntity* entity = [_dataController itemForRow:row];
     
     NSString* returnString = nil;
     
     NSString* idString = tableColumn.identifier;
-    
-    if([idString isEqualToString:@"section"]){
-        
-        /*!
+    if([idString isEqualToString:@"someSection"]){
+
+        /*
          @comment   セクション名称を返却する
          */
         returnString = entity.sectionNameString;
         
-    }else if([idString isEqualToString:@"title"]){
+    }else if([idString isEqualToString:@"someTitle"]){
         
-        /*!
+        /*
          @comment   アイテム名称を返却する
          */
         returnString = entity.titleString;
     }
-    
+//
+//    debugout(@"*row: %ld, tableColumn: %@, returnString: %@", row, tableColumn, returnString);
+//
     return returnString;
 }
 

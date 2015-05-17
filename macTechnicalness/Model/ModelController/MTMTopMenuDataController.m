@@ -25,6 +25,11 @@
      @abstract
      */
     NSDictionary* _topMenuDictionary;
+    
+    /*!
+     @abstract  便宜対応
+     */
+    NSMutableArray* _allItemArray;
 }
 
 @end
@@ -46,6 +51,11 @@
          @comment
          */
         NSMutableArray* topMenuArray = [[NSMutableArray alloc] init];
+        
+        /*
+         @comment
+         */
+        _allItemArray = [NSMutableArray new];
         
         /*!
          @comment
@@ -74,6 +84,21 @@
 
                     NSArray* itemArray = [themeDictionary objectForKey:@"items"];
                     [topMenuArray addObject: itemArray];
+                    
+                    for (NSDictionary* itemDic in itemArray) {
+                        
+                        if([itemDic isKindOfClass:[NSDictionary class]]){
+                            MTMTopMenuEntity* entity = [MTMTopMenuEntity new];
+
+                            entity = [MTMTopMenuEntity new];
+                            entity.sectionNameString = themeString;
+                            entity.titleString = [itemDic objectForKey:@"title"];
+                            entity.viewControllerNameString = [itemDic objectForKey:@"vc"];
+                            entity.windowControllerNameString = [itemDic objectForKey:@"vc_osx"];
+                            
+                            [_allItemArray addObject:entity];
+                        }
+                    }
                 }
                 
             }else{
@@ -121,21 +146,9 @@
 
 - (MTMTopMenuEntity*) itemForRow:(NSInteger)rowValue
 {
-    NSInteger sectionCnt = [self numberOfSection];
+    MTMTopMenuEntity* retEntity = nil;
     
-    MTMTopMenuEntity* retEntity = [MTMTopMenuEntity new];
-    
-    for(NSInteger sectionNo = 0; sectionNo < sectionCnt; sectionNo++){
-        NSString* sectionName = [self sectionNameStringWithIndex:sectionNo];
-        NSInteger rowCnt = [self numberOfItemForSection:sectionName];
-
-        for(NSInteger rowNo = 0; rowNo < rowCnt; rowNo++){
-            if(rowValue == sectionNo + rowNo){
-                retEntity = [self itemForSection:sectionName index:rowNo];
-                break;
-            }
-        }
-    }
+    retEntity = [_allItemArray objectAtIndex:rowValue];
     
     return retEntity;
 }

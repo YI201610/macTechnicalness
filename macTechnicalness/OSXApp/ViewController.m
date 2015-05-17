@@ -102,23 +102,24 @@
     NSString* keyString = [theEvent charactersIgnoringModifiers];
     if([keyString length] == 1){
         unichar key = [[theEvent charactersIgnoringModifiers] characterAtIndex:0];
+        
+        /*
+         @comment   Enter Keyの選択があったか判定する
+         */
         if(key == NSCarriageReturnCharacter){
             
-            /*!
-             @comment   Enter Keyが選択された
-             */
             MTMTopMenuEntity* entity = [_dataController itemForRow:_tableView.selectedRow];
             debugout(@"[Enter Key Pressed] entity: %@, %@, %@",
                      entity.sectionNameString,
                      entity.titleString,
                      entity.viewControllerNameString);
             
-            /*!
+            /*
              @comment
              */
             
             /*
-             @comment   選択された検証項目に対応するView Controller名称を求めます。
+             @comment   選択された検証項目に対応するView Controller名称を求める
              */
             NSString* wcName = entity.windowControllerNameString;
             
@@ -141,7 +142,7 @@
             }else{
                 _windowController = addwc;
                 
-                /*!
+                /*
                  @comment   検証項目のWindowを表示
                  */
                 [_windowController showWindow:nil];

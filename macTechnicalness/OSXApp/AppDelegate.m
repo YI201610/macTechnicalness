@@ -22,6 +22,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
+    
     NSBundle* appBundle = [NSBundle bundleForClass:[self class]];
     NSString* plistPath = [appBundle pathForResource:@"topMenu" ofType:@"plist"];
     _dataController = [[MTMTopMenuDataController alloc] initWithPlistName:plistPath];
