@@ -107,8 +107,18 @@
     /*
      @comment   緯度・経度をラベルに反映する
      */
+#if 0
     [_latitudeLabel setText:[NSString stringWithFormat:@"緯度:%f", coordinate.latitude]];
     [_longitudeLabel setText:[NSString stringWithFormat:@"経度:%f", coordinate.longitude]];
+#else
+    
+    /*
+     @comment
+     */
+    [self reverseGeocordeWithLatitude:_currentLocationCoordinate.latitude longitude:_currentLocationCoordinate.longitude];
+
+    
+#endif
 }
 
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
@@ -141,6 +151,14 @@
                        for (CLPlacemark *placemark in placemarks) {
                            NSDictionary* addressDic = placemark.addressDictionary;
                            debugout(@"addressdic: %@", addressDic);
+                           
+                           [_latitudeLabel setText:[NSString stringWithFormat:@"〒%@", [addressDic objectForKey:@"ZIP"]]];
+                           [_longitudeLabel setText:[NSString stringWithFormat:@"%@%@%@%@",
+                                                    [addressDic objectForKey:@"State"],
+                                                    [addressDic objectForKey:@"City"],
+                                                    [addressDic objectForKey:@"SubLocality"],
+                                                    [addressDic objectForKey:@"Street"]
+                                                    ]];
                        }
                    }];
 }

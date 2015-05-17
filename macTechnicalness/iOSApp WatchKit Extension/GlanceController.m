@@ -81,6 +81,29 @@
     
 }
 
+- (void)reverseGeocordeWithLatitude:(double)latitude longitude:(double)longitude {
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude
+                                                      longitude:longitude];
+    
+    [geocoder reverseGeocodeLocation:location
+                   completionHandler:^(NSArray* placemarks, NSError* error) {
+                       
+                       for (CLPlacemark *placemark in placemarks) {
+                           NSDictionary* addressDic = placemark.addressDictionary;
+                           debugout(@"addressdic: %@", addressDic);
+                           
+                           [_latitudeLabel setText:[NSString stringWithFormat:@"〒%@", [addressDic objectForKey:@"ZIP"]]];
+                           [_longitudeLabel setText:[NSString stringWithFormat:@"%@%@%@%@",
+                                                    [addressDic objectForKey:@"State"],
+                                                    [addressDic objectForKey:@"City"],
+                                                    [addressDic objectForKey:@"SubLocality"],
+                                                    [addressDic objectForKey:@"Street"]
+                                                    ]];
+                       }
+                   }];
+}
+
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     _methodname_;
@@ -102,11 +125,18 @@
     
     [_locationManager stopUpdatingLocation];
     
+#if 0
     /*
      @comment   緯度・経度をラベルに反映する
      */
     [_latitudeLabel setText:[NSString stringWithFormat:@"緯度:%f", coordinate.latitude]];
     [_longitudeLabel setText:[NSString stringWithFormat:@"経度:%f", coordinate.longitude]];
+#else
+    
+    [self reverseGeocordeWithLatitude:coordinate.latitude longitude:coordinate.longitude];
+    
+#endif
+    
 }
 
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
