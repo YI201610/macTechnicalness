@@ -20,12 +20,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    MTMSomeDomainEntity* a = [MTMSomeDomainEntity new];
-    a.x = 5555;
-    a.y = 10555;
-    a.width = 128555;
-    a.height = 256555;
-    debugout(@"hoge Action: %f", [a hogeOutput]);
 
 }
 
@@ -43,5 +37,16 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)didSelectSwiftCodeButton:(id)sender {
+
+    MTMSomeDomainEntity* a = [MTMSomeDomainEntity new];
+    a.x = 5555;
+    a.y = 10555;
+    a.width = 128555;
+    a.height = 256555;
+    debugout(@"hoge Action: %f", [a hogeOutput]);
+
+}
 
 @end
