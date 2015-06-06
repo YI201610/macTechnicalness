@@ -33,6 +33,14 @@
     a.height = 256555;
     debugout(@"hoge Action: %f", [a hogeOutput]);
 
+    NSAlert* alert = [NSAlert new];
+    alert.messageText = [a sampleTextString];
+    [alert addButtonWithTitle:@"Cancel"];
+    [alert addButtonWithTitle:@"OK"];
+    
+    NSInteger returnCode = [alert runModal];
+    debugout(@"returnCode: %ld", returnCode);
+
 }
 
 @end

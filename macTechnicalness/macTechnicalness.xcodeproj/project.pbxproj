@@ -137,9 +137,7 @@
 		EC3D0BCC1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0BC41A32EB1E0097C9E2 /* MTMTopMenuDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0BCD1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0BC41A32EB1E0097C9E2 /* MTMTopMenuDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0BCE1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
-		EC3D0BCF1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
 		EC3D0BD01A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
-		EC3D0BD11A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
 		EC3D0BD91A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */; };
 		EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */; };
 		EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */; };
@@ -182,6 +180,12 @@
 		EC957C7B1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
 		EC957C7C1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
 		EC957C7D1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957CD71B22D5F80097D8A1 /* MTMSomeDomainEntity.swift in Headers */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC957CD81B22D5FF0097D8A1 /* MTMSomeDomainEntity.swift in Headers */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC957CDD1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */; };
+		EC957CDE1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */; };
+		EC957CDF1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */; };
+		EC957CE01B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */; };
 		EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
@@ -508,6 +512,9 @@
 		EC957C771B22A43E0097D8A1 /* iOSEmbeddedModelKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSEmbeddedModelKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		EC957C781B22A43E0097D8A1 /* OSXEmbededdModelKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXEmbededdModelKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMSomeDomainEntity.swift; sourceTree = "<group>"; };
+		EC957CDA1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSwiftBridge1ViewController.h; path = SwiftBridge/iOSMTSwiftBridge1ViewController.h; sourceTree = "<group>"; };
+		EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSwiftBridge1ViewController.m; path = SwiftBridge/iOSMTSwiftBridge1ViewController.m; sourceTree = "<group>"; };
+		EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTSwiftBridge1ViewController.xib; path = SwiftBridge/iOSMTSwiftBridge1ViewController.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		EC9F49051AE7045A00C6401D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
@@ -703,6 +710,7 @@
 		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EC957CD91B22D7F50097D8A1 /* SwiftBridge */,
 				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
@@ -1339,6 +1347,16 @@
 			name = SwiftBridge1;
 			sourceTree = "<group>";
 		};
+		EC957CD91B22D7F50097D8A1 /* SwiftBridge */ = {
+			isa = PBXGroup;
+			children = (
+				EC957CDA1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.h */,
+				EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */,
+				EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */,
+			);
+			name = SwiftBridge;
+			sourceTree = "<group>";
+		};
 		EC9F49011AE6FF1800C6401D /* xib */ = {
 			isa = PBXGroup;
 			children = (
@@ -1629,6 +1647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC3D0B5C1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h in Headers */,
+				EC957CD81B22D5FF0097D8A1 /* MTMSomeDomainEntity.swift in Headers */,
 				EC3D0BC61A32EB1E0097C9E2 /* MTMTopMenuEntity.h in Headers */,
 				EC3D0BCC1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */,
 			);
@@ -1640,6 +1659,7 @@
 			files = (
 				EC3D0BA51A32EAAA0097C9E2 /* OSXEmbededdModelKit.h in Headers */,
 				EC3D0BC71A32EB1E0097C9E2 /* MTMTopMenuEntity.h in Headers */,
+				EC957CD71B22D5F80097D8A1 /* MTMSomeDomainEntity.swift in Headers */,
 				EC3D0BCD1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2039,6 +2059,7 @@
 				744A9E771AE3F69D00329C51 /* Snow.sks in Resources */,
 				744A9E8F1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
+				EC957CDF1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECE84FDF1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */,
 				744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
@@ -2099,6 +2120,7 @@
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECE84FE41AFF3DCA00907EAF /* Transition1.sks in Resources */,
+				EC957CE01B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
 				744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
@@ -2159,7 +2181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3D0BCF1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 				EC3D0BD91A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m in Sources */,
 				EC3D0BC91A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */,
@@ -2181,7 +2202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3D0BD11A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 				EC3D0BCB1A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BB41A32EAAB0097C9E2 /* OSXEmbededdModelKitTests.m in Sources */,
 				EC957C7D1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
@@ -2217,6 +2237,7 @@
 				744A9EA71AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
 				ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				EC7DC0CA1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
+				EC957CDD1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */,
 				EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				744A9EB31AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */,
 				EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
@@ -2253,6 +2274,7 @@
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
 				ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */,
+				EC957CDE1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */,
 				EC33ADFC1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */,
 				ECE84FE81AFF448100907EAF /* MTSKBasicTransition1Scene.m in Sources */,
 				EC49DB801ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
@@ -2624,6 +2646,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2681,6 +2704,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2726,6 +2750,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2779,6 +2805,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2931,6 +2959,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -2983,6 +3013,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (

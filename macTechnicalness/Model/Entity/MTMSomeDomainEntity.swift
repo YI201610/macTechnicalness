@@ -6,7 +6,7 @@
 //
 //
 
-import Cocoa
+import Foundation
 
 @objc public class MTMSomeDomainEntity: NSObject {
 
@@ -21,6 +21,14 @@ import Cocoa
     public func hogeOutput() -> Float {
         println("this is swift mix and match test...")
         return x + width + y + height
+    }
+    
+    
+    /*!
+    @abstract
+    */
+    public func sampleTextString() -> String {
+        return "このメッセージはSwiftクラスで実装されました。"
     }
 
 }
