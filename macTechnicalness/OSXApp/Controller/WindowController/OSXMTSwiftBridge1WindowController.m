@@ -9,10 +9,6 @@
 #import "OSXMTSwiftBridge1WindowController.h"
 #import "CommonHeader.h"
 
-//#import "OSXApp-Swift.h"
-
-#import "OSXApp-Swift.h"
-
 @interface OSXMTSwiftBridge1WindowController ()
 
 @end
