@@ -174,6 +174,10 @@
 		EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */; };
 		EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
 		EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
+		EC957C601B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */; };
+		EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */; };
+		EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */; };
+		EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */; };
 		EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
@@ -494,6 +498,9 @@
 		EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase1ElementView.h; path = View/iOSMTAutoLayoutCase1ElementView.h; sourceTree = "<group>"; };
 		EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ElementView.m; path = View/iOSMTAutoLayoutCase1ElementView.m; sourceTree = "<group>"; };
 		EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ElementView.xib; path = View/iOSMTAutoLayoutCase1ElementView.xib; sourceTree = "<group>"; };
+		EC957C5D1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTSwiftBridge1WindowController.h; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.h; sourceTree = "<group>"; };
+		EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTSwiftBridge1WindowController.m; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.m; sourceTree = "<group>"; };
+		EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTSwiftBridge1WindowController.xib; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		EC9F49051AE7045A00C6401D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
@@ -883,6 +890,7 @@
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
+				EC957C5C1B229A480097D8A1 /* SwiftBridge1 */,
 				7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */,
 				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
 			);
@@ -1309,6 +1317,16 @@
 				EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */,
 			);
 			name = case1;
+			sourceTree = "<group>";
+		};
+		EC957C5C1B229A480097D8A1 /* SwiftBridge1 */ = {
+			isa = PBXGroup;
+			children = (
+				EC957C5D1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.h */,
+				EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */,
+				EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */,
+			);
+			name = SwiftBridge1;
 			sourceTree = "<group>";
 		};
 		EC9F49011AE6FF1800C6401D /* xib */ = {
@@ -2087,6 +2105,7 @@
 				7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
+				EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
 				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2095,6 +2114,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
 				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
@@ -2256,6 +2276,7 @@
 				7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
 				ECDC655E1A2BD5AC0080C608 /* main.m in Sources */,
+				EC957C601B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
 				ECDC655C1A2BD5AC0080C608 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2267,6 +2288,7 @@
 				7453CDE31A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
+				EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
 				7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,6 +5,22 @@
 	<array>
 		<dict>
 			<key>title</key>
+			<string>Swift - Mix and Match</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>vc_osx</key>
+					<string>OSXMTSwiftBridge1WindowController</string>
+					<key>title</key>
+					<string>Obj-CからSwiftコードを実行</string>
+					<key>vc</key>
+					<string>iOSMTSwiftBridge1ViewController</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>title</key>
 			<string>SpriteKit - Basics</string>
 			<key>items</key>
 			<array>
