@@ -8,6 +8,7 @@
 
 #import "OSXMTSwiftBridge1WindowController.h"
 #import "CommonHeader.h"
+#import <OSXEmbededdModelKit/OSXEmbededdModelKit.h>
 
 @interface OSXMTSwiftBridge1WindowController ()
 
@@ -25,6 +26,13 @@
 - (IBAction)didSelectActionButton:(id)sender {
     _methodname_;
     
+    MTMSomeDomainEntity* a = [MTMSomeDomainEntity new];
+    a.x = 5555;
+    a.y = 10555;
+    a.width = 128555;
+    a.height = 256555;
+    debugout(@"hoge Action: %f", [a hogeOutput]);
+
 }
 
 @end

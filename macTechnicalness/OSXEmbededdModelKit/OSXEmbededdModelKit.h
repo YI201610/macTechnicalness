@@ -19,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char OSXEmbededdModelKitVersionString[];
 
 #import <OSXEmbededdModelKit/MTMTopMenuDataController.h>
 #import <OSXEmbededdModelKit/MTMTopMenuEntity.h>
+
+#import <OSXEmbededdModelKit/OSXEmbededdModelKit-Swift.h>

@@ -6,8 +6,18 @@
 //
 //
 
+#if TARGET_OS_IPHONE
+
 #import <iOSEmbeddedModelKit/MTMTopMenuDataController.h>
+
+#else
+
+#import <OSXEmbededdModelKit/MTMTopMenuDataController.h>
+
+#endif
+
 #import "CommonHeader.h"
+
 
 @interface MTMTopMenuDataController() {
     

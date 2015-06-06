@@ -1,0 +1,26 @@
+//
+//  MTMSomeDomainEntity.swift
+//  macTechnicalness
+//
+//  Created by Yuji Imamura on 2015/06/06.
+//
+//
+
+import Cocoa
+
+@objc public class MTMSomeDomainEntity: NSObject {
+
+    public var x: Float = 0
+    public var y: Float = 0
+    public var width: Float = 0
+    public var height: Float = 0
+    
+    /*!
+    @abstract
+    */
+    public func hogeOutput() -> Float {
+        println("this is swift mix and match test...")
+        return x + width + y + height
+    }
+
+}

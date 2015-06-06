@@ -178,6 +178,10 @@
 		EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */; };
 		EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */; };
 		EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */; };
+		EC957C7A1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957C7B1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957C7C1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957C7D1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
 		EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
@@ -501,6 +505,9 @@
 		EC957C5D1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTSwiftBridge1WindowController.h; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.h; sourceTree = "<group>"; };
 		EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTSwiftBridge1WindowController.m; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.m; sourceTree = "<group>"; };
 		EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTSwiftBridge1WindowController.xib; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.xib; sourceTree = "<group>"; };
+		EC957C771B22A43E0097D8A1 /* iOSEmbeddedModelKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSEmbeddedModelKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC957C781B22A43E0097D8A1 /* OSXEmbededdModelKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXEmbededdModelKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMSomeDomainEntity.swift; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		EC9F49051AE7045A00C6401D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
@@ -1228,6 +1235,9 @@
 			children = (
 				EC3D0BC11A32EB1E0097C9E2 /* MTMTopMenuEntity.h */,
 				EC3D0BC21A32EB1E0097C9E2 /* MTMTopMenuEntity.m */,
+				EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */,
+				EC957C771B22A43E0097D8A1 /* iOSEmbeddedModelKitTests-Bridging-Header.h */,
+				EC957C781B22A43E0097D8A1 /* OSXEmbededdModelKitTests-Bridging-Header.h */,
 			);
 			name = Entity;
 			path = Model/Entity;
@@ -2139,6 +2149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC957C7A1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 				EC3D0BC81A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BCE1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 			);
@@ -2152,6 +2163,7 @@
 				EC3D0BD91A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m in Sources */,
 				EC3D0BC91A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */,
+				EC957C7B1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2159,6 +2171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC957C7C1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 				EC3D0BCA1A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BD01A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 			);
@@ -2171,6 +2184,7 @@
 				EC3D0BD11A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 				EC3D0BCB1A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BB41A32EAAB0097C9E2 /* OSXEmbededdModelKitTests.m in Sources */,
+				EC957C7D1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2635,6 +2649,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2738,6 +2753,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/iOSEmbeddedModelKitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
 			name = Debug;
@@ -2782,6 +2799,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/iOSEmbeddedModelKitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2812,6 +2830,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2837,6 +2856,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2868,6 +2888,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
@@ -2936,6 +2957,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/OSXEmbededdModelKitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Debug;
@@ -2979,6 +3002,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/OSXEmbededdModelKitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Release;
