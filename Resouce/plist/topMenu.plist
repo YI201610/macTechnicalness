@@ -5,20 +5,6 @@
 	<array>
 		<dict>
 			<key>title</key>
-			<string>Swift - Mix and Match</string>
-			<key>items</key>
-			<array>
-				<dict>
-					<key>title</key>
-					<string>Obj-CコードからSwiftコードを使う</string>
-					<key>vc_osx</key>
-					<string>OSXMTSwiftBridge1WindowController</string>
-				</dict>
-			</array>
-		</dict>
-
-		<dict>
-			<key>title</key>
 			<string>SpriteKit - Basics</string>
 			<key>items</key>
 			<array>
