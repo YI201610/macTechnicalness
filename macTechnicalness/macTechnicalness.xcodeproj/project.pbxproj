@@ -87,6 +87,10 @@
 		7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */; };
 		7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
 		7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
+		74589ECA1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */; };
+		74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */; };
+		74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */; };
+		74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		749A81201AF344AB001D3607 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A811F1AF344AB001D3607 /* InterfaceController.m */; };
@@ -412,6 +416,10 @@
 		7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTAutoLayout2WindowController.m; path = Controller/WindowController/OSXMTAutoLayout2WindowController.m; sourceTree = "<group>"; };
 		7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTAutoLayout2WindowController.xib; path = Controller/WindowController/OSXMTAutoLayout2WindowController.xib; sourceTree = "<group>"; };
 		745650661A672BD300BCC0FA /* MTMAnalytics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MTMAnalytics.playground; path = ../../Model/MTMAnalytics.playground; sourceTree = "<group>"; };
+		74589EC61B29CE5E000D715D /* OSXApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBlueTooth1WindowController.swift; path = Controller/WindowController/OSXMTBlueTooth1WindowController.swift; sourceTree = "<group>"; };
+		74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBlueTooth1WindowController.xib; path = Controller/WindowController/OSXMTBlueTooth1WindowController.xib; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
@@ -905,6 +913,7 @@
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
+				74589EC51B29CDFE000D715D /* BlueTooth1 */,
 				EC957C5C1B229A480097D8A1 /* SwiftBridge1 */,
 				7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */,
 				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
@@ -930,6 +939,17 @@
 				7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */,
 			);
 			name = AutoLayout2;
+			sourceTree = "<group>";
+		};
+		74589EC51B29CDFE000D715D /* BlueTooth1 */ = {
+			isa = PBXGroup;
+			children = (
+				74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */,
+				74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */,
+				74589EC61B29CE5E000D715D /* OSXApp-Bridging-Header.h */,
+				74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */,
+			);
+			name = BlueTooth1;
 			sourceTree = "<group>";
 		};
 		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
@@ -2136,6 +2156,7 @@
 				7453CDE41A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
+				74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
 				EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
 				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
@@ -2148,6 +2169,7 @@
 			files = (
 				EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
 				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
+				74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
 				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
@@ -2313,6 +2335,7 @@
 				7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
 				ECDC655E1A2BD5AC0080C608 /* main.m in Sources */,
 				EC957C601B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
+				74589ECA1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */,
 				ECDC655C1A2BD5AC0080C608 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2323,6 +2346,7 @@
 			files = (
 				7453CDE31A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
+				74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */,
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
 				EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
 				7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
@@ -3283,6 +3307,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -3326,6 +3352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -3375,6 +3402,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Debug;
@@ -3419,6 +3448,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXAppTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Release;

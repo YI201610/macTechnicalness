@@ -5,6 +5,23 @@
 	<array>
 		<dict>
 			<key>title</key>
+			<string>BlueTooth</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>vc_osx</key>
+					<string>OSXMTBlueTooth1WindowController</string>
+					<key>title</key>
+					<string></string>
+					<key>vc</key>
+					<string>iOSMTBlueTooth1ViewController</string>
+				</dict>
+			</array>
+		</dict>
+
+
+		<dict>
+			<key>title</key>
 			<string>Swift - Mix and Match</string>
 			<key>items</key>
 			<array>
