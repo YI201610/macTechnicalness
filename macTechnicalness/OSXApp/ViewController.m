@@ -134,8 +134,6 @@
                 _windowController = nil;
             }
             
-            OSXMTBlueTooth1WindowController* hoge = [OSXMTBlueTooth1WindowController new];
-            
             /*
              @comment   選択された検証項目に対応するWindowを作成
              */
