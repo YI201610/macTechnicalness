@@ -16,6 +16,10 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
+		7434E2321B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */; };
+		7434E2331B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */; };
+		7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */; };
+		7434E2351B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */; };
 		7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
 		7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
 		7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */; };
@@ -91,6 +95,7 @@
 		74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */; };
 		74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */; };
 		74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */; };
+		74589ECF1B2AF873000D715D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74589ECE1B2AF873000D715D /* CoreBluetooth.framework */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		749A81201AF344AB001D3607 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A811F1AF344AB001D3607 /* InterfaceController.m */; };
@@ -363,6 +368,8 @@
 		740EF5E11A307EDD00735C4E /* iOSMTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewTableDataSource.h; path = Controller/ViewController/iOSMTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewTableDataSource.m; path = Controller/ViewController/iOSMTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTBlueTooth1ViewController.swift; path = BlueTooth1/iOSMTBlueTooth1ViewController.swift; sourceTree = "<group>"; };
+		7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTBlueTooth1ViewController.xib; path = BlueTooth1/iOSMTBlueTooth1ViewController.xib; sourceTree = "<group>"; };
 		7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutInconsistentRuleViewController.h; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.h; sourceTree = "<group>"; };
 		7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutInconsistentRuleViewController.m; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.m; sourceTree = "<group>"; };
 		7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutInconsistentRuleViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.xib; sourceTree = "<group>"; };
@@ -420,6 +427,7 @@
 		74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBlueTooth1WindowController.swift; path = Controller/WindowController/OSXMTBlueTooth1WindowController.swift; sourceTree = "<group>"; };
 		74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBlueTooth1WindowController.xib; path = Controller/WindowController/OSXMTBlueTooth1WindowController.xib; sourceTree = "<group>"; };
+		74589ECE1B2AF873000D715D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
@@ -645,6 +653,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74589ECF1B2AF873000D715D /* CoreBluetooth.framework in Frameworks */,
 				EC3D0BB71A32EAAB0097C9E2 /* OSXEmbededdModelKit.framework in Frameworks */,
 				743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */,
 				7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */,
@@ -718,6 +727,7 @@
 		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */,
 				EC957CD91B22D7F50097D8A1 /* SwiftBridge */,
 				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
@@ -742,6 +752,15 @@
 				740EF5791A2DD4A300735C4E /* topMenu.plist */,
 			);
 			path = plist;
+			sourceTree = "<group>";
+		};
+		7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */ = {
+			isa = PBXGroup;
+			children = (
+				7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */,
+				7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */,
+			);
+			name = BlueTooth1;
 			sourceTree = "<group>";
 		};
 		74374C2E1A5308CE00014A0E /* visualFormatによるテスト１ */ = {
@@ -803,6 +822,7 @@
 		743954331AF8B5700035A9C8 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				74589ECE1B2AF873000D715D /* CoreBluetooth.framework */,
 				743954341AF8B59D0035A9C8 /* GameController.framework */,
 				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
 				743954301AF8833D0035A9C8 /* MapKit.framework */,
@@ -2084,6 +2104,7 @@
 				ECE84FDF1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */,
 				744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
+				7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */,
 				744A9E741AE3F68800329C51 /* Smoke.sks in Resources */,
 				ECA1FB501AFF005400704134 /* BasicsMultiAction.sks in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
@@ -2137,6 +2158,7 @@
 				744A9E871AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */,
 				ECE84FEB1AFF453700907EAF /* Transition2.sks in Resources */,
 				ECA1FB4E1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib in Resources */,
+				7434E2351B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECE84FE41AFF3DCA00907EAF /* Transition1.sks in Resources */,
@@ -2248,6 +2270,7 @@
 				EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
 				EC2F8B091AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
 				EC45528A1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
+				7434E2321B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */,
 				ECA1FB4B1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
@@ -2321,6 +2344,7 @@
 				744A9EA01AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
 				ECA1FB551AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
+				7434E2331B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */,
 				EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

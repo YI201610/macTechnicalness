@@ -7,17 +7,48 @@
 //
 
 import Cocoa
+import CoreBluetooth
 
 @objc(OSXMTBlueTooth1WindowController)
-class OSXMTBlueTooth1WindowController: NSWindowController {
+class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDelegate {
 
+    var isScanning = false
+    var centralManager: CBCentralManager!
+    
     override func windowDidLoad() {
         super.windowDidLoad()
 
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
- 
-        println("swiftのWindow Controller読み込まれたよ")
+        /*
+        @comment
+        */
+        self.centralManager = CBCentralManager(delegate: self, queue: nil)
         
+        /*
+        @comment
+        */
+        self.centralManager.scanForPeripheralsWithServices(nil, options: nil)
+    }
+    
+    // =========================================================================
+    // MARK: CBCentralManagerDelegate
+    
+    func centralManagerDidUpdateState(central: CBCentralManager!) {
+        println("state: \(central.state)")
+    }
+    
+    /*!
+    @abstract   スキャン中、ペリフェラルを発見した
+    */
+    func centralManager(central: CBCentralManager!,
+        didDiscoverPeripheral peripheral: CBPeripheral!,
+        advertisementData: [NSObject : AnyObject]!,
+        RSSI: NSNumber!)
+    {
+        println("BLE Device: \(peripheral)")
+        println("Ad: \(advertisementData)")
+        println("RSSI: \(RSSI)")
+        self.centralManager.stopScan()
+        isScanning = false
     }
     
 }
