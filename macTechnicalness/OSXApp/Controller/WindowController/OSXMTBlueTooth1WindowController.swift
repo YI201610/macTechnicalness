@@ -24,7 +24,7 @@ class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDeleg
         self.centralManager = CBCentralManager(delegate: self, queue: nil)
         
         /*
-        @comment
+        @comment    BLEデバイスのスキャニング開始
         */
         self.centralManager.scanForPeripheralsWithServices(nil, options: nil)
     }
