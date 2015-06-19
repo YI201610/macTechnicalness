@@ -16,6 +16,10 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
+		741900261B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */; };
+		741900271B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */; };
+		741900281B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */; };
+		741900291B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */; };
 		7434E2321B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */; };
 		7434E2331B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */; };
 		7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */; };
@@ -368,6 +372,8 @@
 		740EF5E11A307EDD00735C4E /* iOSMTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewTableDataSource.h; path = Controller/ViewController/iOSMTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewTableDataSource.m; path = Controller/ViewController/iOSMTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth2WindowController.swift; path = Controller/WindowController/OSXMTBluetooth2WindowController.swift; sourceTree = "<group>"; };
+		741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth2WindowController.xib; path = Controller/WindowController/OSXMTBluetooth2WindowController.xib; sourceTree = "<group>"; };
 		7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTBlueTooth1ViewController.swift; path = BlueTooth1/iOSMTBlueTooth1ViewController.swift; sourceTree = "<group>"; };
 		7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTBlueTooth1ViewController.xib; path = BlueTooth1/iOSMTBlueTooth1ViewController.xib; sourceTree = "<group>"; };
 		7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutInconsistentRuleViewController.h; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.h; sourceTree = "<group>"; };
@@ -754,6 +760,15 @@
 			path = plist;
 			sourceTree = "<group>";
 		};
+		741900231B339A83004AD945 /* Bluetooth2 */ = {
+			isa = PBXGroup;
+			children = (
+				741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */,
+				741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */,
+			);
+			name = Bluetooth2;
+			sourceTree = "<group>";
+		};
 		7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -933,7 +948,8 @@
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
-				74589EC51B29CDFE000D715D /* BlueTooth1 */,
+				741900231B339A83004AD945 /* Bluetooth2 */,
+				74589EC51B29CDFE000D715D /* Bluetooth1 */,
 				EC957C5C1B229A480097D8A1 /* SwiftBridge1 */,
 				7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */,
 				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
@@ -961,15 +977,13 @@
 			name = AutoLayout2;
 			sourceTree = "<group>";
 		};
-		74589EC51B29CDFE000D715D /* BlueTooth1 */ = {
+		74589EC51B29CDFE000D715D /* Bluetooth1 */ = {
 			isa = PBXGroup;
 			children = (
 				74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */,
 				74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */,
-				74589EC61B29CE5E000D715D /* OSXApp-Bridging-Header.h */,
-				74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */,
 			);
-			name = BlueTooth1;
+			name = Bluetooth1;
 			sourceTree = "<group>";
 		};
 		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
@@ -1560,6 +1574,8 @@
 		ECDC65571A2BD5AC0080C608 /* OSXApp */ = {
 			isa = PBXGroup;
 			children = (
+				74589EC61B29CE5E000D715D /* OSXApp-Bridging-Header.h */,
+				74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */,
 				7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */,
 				7437A90B1A57931E0097D921 /* Resource */,
 				7437A90A1A57930E0097D921 /* View */,
@@ -2178,6 +2194,7 @@
 				7453CDE41A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
+				741900281B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */,
 				74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
 				EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
@@ -2190,6 +2207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
+				741900291B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */,
 				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
 				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
@@ -2354,6 +2372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDC65611A2BD5AC0080C608 /* ViewController.m in Sources */,
+				741900261B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */,
 				7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 				7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
@@ -2373,6 +2392,7 @@
 				74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */,
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
 				EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
+				741900271B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */,
 				7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

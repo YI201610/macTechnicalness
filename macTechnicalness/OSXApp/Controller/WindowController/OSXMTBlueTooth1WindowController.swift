@@ -59,6 +59,10 @@ class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDeleg
         println("BLE Device: \(peripheral)")
         println("Ad: \(advertisementData)")
         println("RSSI: \(RSSI)")
+        
+        /*
+        @comment    スキャニング中止
+        */
         self.centralManager.stopScan()
         isScanning = false
     }
