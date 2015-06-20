@@ -12,7 +12,7 @@
 					<key>vc_osx</key>
 					<string>OSXMTBlueTooth1WindowController</string>
 					<key>title</key>
-					<string></string>
+					<string>ペリフェラルを検出</string>
 					<key>vc</key>
 					<string>iOSMTBlueTooth1ViewController</string>
 				</dict>
