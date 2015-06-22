@@ -114,7 +114,7 @@
             debugout(@"[Enter Key Pressed] entity: %@, %@, %@",
                      entity.sectionNameString,
                      entity.titleString,
-                     entity.viewControllerNameString);
+                     entity.windowControllerNameString);
             
             /*
              @comment
