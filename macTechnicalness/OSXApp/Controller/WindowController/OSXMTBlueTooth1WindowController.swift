@@ -35,17 +35,39 @@ class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDeleg
         */
         self.centralManager = CBCentralManager(delegate: self, queue: nil)
         
-        /*
-        @comment    BLEデバイスのスキャニング開始
-        */
-        self.centralManager.scanForPeripheralsWithServices(nil, options: nil)
     }
     
     // =========================================================================
     // MARK: CBCentralManagerDelegate
     
     func centralManagerDidUpdateState(central: CBCentralManager!) {
-        println("state: \(central.state)")
+        
+        switch central.state {
+            
+        case CBCentralManagerState.Unknown:
+            println("***CBCentralManagerState: Unknown")
+            
+        case CBCentralManagerState.Resetting:
+            println("***CBCentralManagerState: Resetting")
+            
+        case CBCentralManagerState.Unsupported:
+            println("***CBCentralManagerState: Unsupported")
+            
+        case CBCentralManagerState.Unauthorized:
+            println("***CBCentralManagerState: Unauthorized")
+            
+        case CBCentralManagerState.PoweredOff:
+            println("***CBCentralManagerState: PoweredOff")
+            
+        case CBCentralManagerState.PoweredOn:
+            println("***CBCentralManagerState: PoweredOn")
+            
+            /*
+            @comment    PoweredOnになってからスキャニングを開始する
+            */
+            self.centralManager.scanForPeripheralsWithServices(nil, options: nil)
+            
+        }
     }
     
     /*!
@@ -56,6 +78,7 @@ class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDeleg
         advertisementData: [NSObject : AnyObject]!,
         RSSI: NSNumber!)
     {
+        println("===============Peripheral SCANED======================")
         println("BLE Device: \(peripheral)")
         println("Ad: \(advertisementData)")
         println("RSSI: \(RSSI)")

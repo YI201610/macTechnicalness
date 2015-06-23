@@ -26,6 +26,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
         super.windowDidLoad()
 
         centralObject = CBCentralManager(delegate: self, queue: nil)
+        
     }
     
     //---------------------------------------------
@@ -35,7 +36,33 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     @abstract   セントラル・マネージャーの状態が変化した
     */
     func centralManagerDidUpdateState(central: CBCentralManager!) {
-        println("state: \(central.state)")
+
+        switch central.state {
+            
+        case CBCentralManagerState.Unknown:
+            println("***CBCentralManagerState: Unknown")
+            
+        case CBCentralManagerState.Resetting:
+            println("***CBCentralManagerState: Resetting")
+            
+        case CBCentralManagerState.Unsupported:
+            println("***CBCentralManagerState: Unsupported")
+            
+        case CBCentralManagerState.Unauthorized:
+            println("***CBCentralManagerState: Unauthorized")
+            
+        case CBCentralManagerState.PoweredOff:
+            println("***CBCentralManagerState: PoweredOff")
+            
+        case CBCentralManagerState.PoweredOn:
+            println("***CBCentralManagerState: PoweredOn")
+
+            /*
+            @comment    PoweredOnになってからスキャニングを開始する
+            */
+            centralObject.scanForPeripheralsWithServices(nil, options: nil)
+
+        }
     }
     
     /*!
@@ -46,13 +73,22 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
         advertisementData: [NSObject : AnyObject]!,
         RSSI: NSNumber!)
     {
+        println("===============Peripheral SCANED======================")
         println("BLE Device: \(peripheral)")
         println("Ad: \(advertisementData)")
         println("RSSI: \(RSSI)")
 
-        peripheralObject = peripheral
+        self.peripheralObject = peripheral
         
-        centralObject.connectPeripheral(peripheralObject, options: nil)
+        /*
+        @comment
+        */
+        self.centralObject.stopScan()
+        
+        /*
+        @comment
+        */
+        //self.centralObject.connectPeripheral(self.peripheralObject, options: nil)
         
     }
 
