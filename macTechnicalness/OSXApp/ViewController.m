@@ -126,7 +126,7 @@
             NSString* wcName = entity.windowControllerNameString;
             
             if([wcName length] == 0){
-                debugout(@"Error: Target Class wan't set. ");
+                debugout(@"Error: Target Class is not determined. ");
                 return;
             }
             
