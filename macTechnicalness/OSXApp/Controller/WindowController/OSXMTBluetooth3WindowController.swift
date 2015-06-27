@@ -1,20 +1,18 @@
 //
-//  OSXMTBluetooth2WindowController.swift
+//  OSXMTBluetooth3WindowController.swift
 //  macTechnicalness
 //
-//  Created by Yuji Imamura on 2015/06/19.
+//  Created by Yuji Imamura on 2015/06/27.
 //
 //
 
 import Cocoa
 import CoreBluetooth
 
-/*!
-@abstract   ペリフェラルに接続してみる
-*/
-@objc(OSXMTBluetooth2WindowController)
-class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDelegate, NSWindowDelegate, CBPeripheralDelegate {
 
+@objc(OSXMTBluetooth3WindowController)
+class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDelegate, NSWindowDelegate, CBPeripheralDelegate {
+    
     /*!
     @abstract
     */
@@ -24,18 +22,29 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     @abstract   ペリフェラルを格納する領域
     */
     var peripheralArray = Array<CBPeripheral>()
-
+    
     
     //---------------------------------------------
     // MARK: ビューライフサイクル
     
     override func windowDidLoad() {
         super.windowDidLoad()
-
+        
         centralObject = CBCentralManager(delegate: self, queue: nil)
         
     }
     
+    //--------------------------------------------
+    // MARK: NSWindowDelegate
+    
+    func windowWillClose(notification: NSNotification) {
+        
+        /*
+        @comment    スキャンを停止する
+        */
+        self.centralObject.stopScan()
+    }
+
     //---------------------------------------------
     // MARK: CBCentralManagerDelegate
     
@@ -43,7 +52,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     @abstract   セントラル・マネージャーの状態が変化した
     */
     func centralManagerDidUpdateState(central: CBCentralManager!) {
-
+        
         switch central.state {
             
         case CBCentralManagerState.Unknown:
@@ -63,12 +72,12 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
             
         case CBCentralManagerState.PoweredOn:
             println("***CBCentralManagerState: PoweredOn")
-
+            
             /*
             @comment    PoweredOnになってからスキャニングを開始する
             */
             centralObject.scanForPeripheralsWithServices(nil, options: nil)
-
+            
         }
     }
     
@@ -77,7 +86,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     */
     func centralManager(central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [NSObject : AnyObject]!, RSSI: NSNumber!)
     {
-
+        
         /*
         @comment    存在チェック
         */
@@ -86,29 +95,28 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
                 return
             }
         }
-
+        
         println("===============Peripheral SCANED======================")
         println("BLE Device Name: \(peripheral)")
         println("Ad: \(advertisementData)")
         println("RSSI: \(RSSI)")
         
-        peripheral.delegate = self
         self.peripheralArray.append(peripheral)
         
         /*
-        @comment
+        @comment    ペリフェラルに接続する
         */
+        peripheral.delegate = self
         self.centralObject.connectPeripheral(peripheral, options: nil)
-        
     }
-
+    
     /*!
     @abstract
     */
     func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!)
     {
         println("[\(peripheral.name)]ペリフェラルに接続しました。")
- 
+        
         /*
         @comment    接続を解除する
         */
@@ -123,16 +131,33 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
         println("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
     }
     
-    //--------------------------------------------
-    // MARK: NSWindowDelegate
     
-    func windowWillClose(notification: NSNotification) {
-        
+    //--------------------------------------------
+    // MARK: キーダウンイベント
+    override func keyDown(theEvent: NSEvent) {
+
+        println("===============current state===================")
         /*
-        @comment    スキャンを停止する
+        @comment    
         */
-        self.centralObject.stopScan()
+        for peripheralObject in self.peripheralArray {
+            
+            switch peripheralObject.state {
+                
+            case CBPeripheralState.Disconnected:
+                println("peripheral[\(peripheralObject.name)]: Disconnected.")
+                
+            case CBPeripheralState.Connecting:
+                println("peripheral[\(peripheralObject.name)]: Connecting...")
+                
+            case CBPeripheralState.Connected:
+                println("peripheral[\(peripheralObject.name)]: Connected.")
+                
+            }
+        }
+
     }
+    
     
     
 }

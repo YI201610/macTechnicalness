@@ -10,6 +10,16 @@
 			<array>
 				<dict>
 					<key>vc_osx</key>
+					<string>OSXMTBluetooth3WindowController</string>
+					<key>title</key>
+					<string>セントラルがペリフェラルのサービスを検索する</string>
+					<key>vc</key>
+					<string>iOSMTBlueTooth3ViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>vc_osx</key>
 					<string>OSXMTBluetooth2WindowController</string>
 					<key>title</key>
 					<string>セントラルがペリフェラルに接続</string>
