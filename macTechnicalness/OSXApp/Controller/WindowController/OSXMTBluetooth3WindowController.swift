@@ -116,11 +116,18 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!)
     {
         println("[\(peripheral.name)]ペリフェラルに接続しました。")
-        
+
         /*
-        @comment    接続を解除する
+        @comment    サービスの検索を開始する
         */
-        self.centralObject.cancelPeripheralConnection(peripheral)
+        peripheral.discoverServices(nil)
+        
+        
+        
+//        /*
+//        @comment    接続を解除する
+//        */
+//        self.centralObject.cancelPeripheralConnection(peripheral)
     }
     
     /*!
@@ -129,6 +136,47 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     func centralManager(central: CBCentralManager!, didFailToConnectPeripheral peripheral: CBPeripheral!, error: NSError!)
     {
         println("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
+    }
+    
+    //--------------------------------------------
+    // MARK: ペリフェラルデリゲート
+    
+    /*!
+    @abstract   サービスが見つかった
+    */
+    func peripheral(peripheral: CBPeripheral!, didDiscoverServices error: NSError!) {
+        
+        let serviceArray: NSArray = peripheral.services
+        
+        /*
+        @comment    ペリフェラルのサービスを列挙する
+        */
+        for service in serviceArray {
+            println("*[\(peripheral)] service: \(service.debugDescription)")
+            
+            /*
+            @comment    キャラクタリスティックの検索を開始する
+            */
+            peripheral.discoverCharacteristics(nil, forService: service as! CBService)
+        }
+    }
+    
+
+    /*!
+    @abstract
+    */
+    func peripheral(peripheral: CBPeripheral!, didDiscoverCharacteristicsForService service: CBService!, error: NSError!) {
+        
+        let characteristicArray: NSArray = service.characteristics
+        
+        for characteristic in characteristicArray {
+            
+            if let obj = characteristic as? CBCharacteristic {
+                println("***{\(obj)}(\(service.peripheral.name))")
+            }
+            
+        }
+        
     }
     
     
@@ -143,6 +191,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
         for peripheralObject in self.peripheralArray {
             
             switch peripheralObject.state {
+                
                 
             case CBPeripheralState.Disconnected:
                 println("peripheral[\(peripheralObject.name)]: Disconnected.")
