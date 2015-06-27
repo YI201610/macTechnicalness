@@ -13,11 +13,18 @@ import CoreBluetooth
 @abstract   ペリフェラルに接続してみる
 */
 @objc(OSXMTBluetooth2WindowController)
-class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDelegate {
+class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDelegate, NSWindowDelegate {
 
+    /*!
+    @abstract
+    */
     var centralObject: CBCentralManager!
     
-    var peripheralObject: CBPeripheral!
+    /*!
+    @abstract   ペリフェラルを格納する領域
+    */
+    var peripheralArray = Array<AnyObject>()
+
     
     //---------------------------------------------
     // MARK: ビューライフサイクル
@@ -73,17 +80,27 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
         advertisementData: [NSObject : AnyObject]!,
         RSSI: NSNumber!)
     {
+
+        /*
+        @comment    存在チェック
+        */
+        for obj in self.peripheralArray {
+            if obj.isEqual(peripheral) {
+                return
+            }
+        }
+
         println("===============Peripheral SCANED======================")
         println("BLE Device: \(peripheral)")
         println("Ad: \(advertisementData)")
         println("RSSI: \(RSSI)")
-
-        self.peripheralObject = peripheral
+        
+        self.peripheralArray.append(peripheral)
         
         /*
         @comment
         */
-        self.centralObject.stopScan()
+        //self.centralObject.stopScan()
         
         /*
         @comment
@@ -107,5 +124,13 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     {
         println("ペリフェラルとの接続に失敗しました。")
     }
+    
+    //--------------------------------------------
+    // MARK:
+    func windowWillClose(notification: NSNotification) {
+        
+        self.centralObject.stopScan()
+    }
+    
     
 }
