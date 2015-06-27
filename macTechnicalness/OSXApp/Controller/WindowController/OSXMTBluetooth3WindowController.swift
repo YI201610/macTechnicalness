@@ -77,7 +77,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
             @comment    PoweredOnになってからスキャニングを開始する
             */
             centralObject.scanForPeripheralsWithServices(nil, options: nil)
-            
+            println("scanning peripheral...")
         }
     }
     
