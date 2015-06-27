@@ -8,6 +8,37 @@
 			<string>BlueTooth</string>
 			<key>items</key>
 			<array>
+
+				<dict>
+					<key>vc_osx</key>
+					<string>OSXMTBluetooth6WindowController</string>
+					<key>title</key>
+					<string>ペリフェラルからNotifyを受ける</string>
+					<key>vc</key>
+					<string>iOSMTBlueTooth6ViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>vc_osx</key>
+					<string>OSXMTBluetooth5WindowController</string>
+					<key>title</key>
+					<string>ペリフェラルへデータをWriteする</string>
+					<key>vc</key>
+					<string>iOSMTBlueTooth5ViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>vc_osx</key>
+					<string>OSXMTBluetooth4WindowController</string>
+					<key>title</key>
+					<string>ペリフェラルからデータをReadする</string>
+					<key>vc</key>
+					<string>iOSMTBlueTooth4ViewController</string>
+				</dict>
+
+
 				<dict>
 					<key>vc_osx</key>
 					<string>OSXMTBluetooth3WindowController</string>

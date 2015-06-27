@@ -215,6 +215,10 @@
 		ECB582F61B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
 		ECB582F71B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */; };
 		ECB582F81B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */; };
+		ECD998BE1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */; };
+		ECD998BF1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */; };
+		ECD998C01B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */; };
+		ECD998C11B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -555,6 +559,8 @@
 		ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth3WindowController.xib; path = Controller/WindowController/OSXMTBluetooth3WindowController.xib; sourceTree = "<group>"; };
 		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
 		ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes_and_Structures.playground; sourceTree = "<group>"; };
+		ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth4WindowController.swift; path = Controller/WindowController/OSXMTBluetooth4WindowController.swift; sourceTree = "<group>"; };
+		ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth4WindowController.xib; path = Controller/WindowController/OSXMTBluetooth4WindowController.xib; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -766,13 +772,13 @@
 			path = plist;
 			sourceTree = "<group>";
 		};
-		741900231B339A83004AD945 /* Bluetooth2 */ = {
+		741900231B339A83004AD945 /* Bluetooth2: Connect */ = {
 			isa = PBXGroup;
 			children = (
 				741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */,
 				741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */,
 			);
-			name = Bluetooth2;
+			name = "Bluetooth2: Connect";
 			sourceTree = "<group>";
 		};
 		7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */ = {
@@ -954,9 +960,7 @@
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
-				ECB582F21B3E8FD3006EE61C /* Bluetooth3 */,
-				741900231B339A83004AD945 /* Bluetooth2 */,
-				74589EC51B29CDFE000D715D /* Bluetooth1 */,
+				ECD998BA1B3EBDCA00FEA535 /* Bluetooth */,
 				EC957C5C1B229A480097D8A1 /* SwiftBridge1 */,
 				7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */,
 				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
@@ -984,13 +988,13 @@
 			name = AutoLayout2;
 			sourceTree = "<group>";
 		};
-		74589EC51B29CDFE000D715D /* Bluetooth1 */ = {
+		74589EC51B29CDFE000D715D /* Bluetooth1: Scan */ = {
 			isa = PBXGroup;
 			children = (
 				74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */,
 				74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */,
 			);
-			name = Bluetooth1;
+			name = "Bluetooth1: Scan";
 			sourceTree = "<group>";
 		};
 		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
@@ -1523,13 +1527,49 @@
 			name = Basics;
 			sourceTree = "<group>";
 		};
-		ECB582F21B3E8FD3006EE61C /* Bluetooth3 */ = {
+		ECB582F21B3E8FD3006EE61C /* Bluetooth3: Service, Characteristic */ = {
 			isa = PBXGroup;
 			children = (
 				ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */,
 				ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */,
 			);
-			name = Bluetooth3;
+			name = "Bluetooth3: Service, Characteristic";
+			sourceTree = "<group>";
+		};
+		ECD998BA1B3EBDCA00FEA535 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				ECD998C31B3EC13700FEA535 /* Bluetooth6: Notify */,
+				ECD998C21B3EC12E00FEA535 /* Bluetooth5: Write */,
+				ECD998BB1B3EBDDA00FEA535 /* Bluetooth4: Read */,
+				ECB582F21B3E8FD3006EE61C /* Bluetooth3: Service, Characteristic */,
+				741900231B339A83004AD945 /* Bluetooth2: Connect */,
+				74589EC51B29CDFE000D715D /* Bluetooth1: Scan */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		ECD998BB1B3EBDDA00FEA535 /* Bluetooth4: Read */ = {
+			isa = PBXGroup;
+			children = (
+				ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */,
+				ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */,
+			);
+			name = "Bluetooth4: Read";
+			sourceTree = "<group>";
+		};
+		ECD998C21B3EC12E00FEA535 /* Bluetooth5: Write */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Bluetooth5: Write";
+			sourceTree = "<group>";
+		};
+		ECD998C31B3EC13700FEA535 /* Bluetooth6: Notify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Bluetooth6: Notify";
 			sourceTree = "<group>";
 		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
@@ -2214,6 +2254,7 @@
 				ECB582F71B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */,
 				74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
+				ECD998C01B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */,
 				EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
 				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
@@ -2228,6 +2269,7 @@
 				741900291B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */,
 				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
+				ECD998C11B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */,
 				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
@@ -2392,6 +2434,7 @@
 				ECB582F51B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */,
 				ECDC65611A2BD5AC0080C608 /* ViewController.m in Sources */,
 				741900261B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */,
+				ECD998BE1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */,
 				7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 				7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
@@ -2409,6 +2452,7 @@
 				ECB582F61B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */,
 				7453CDE31A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
+				ECD998BF1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */,
 				74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */,
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
 				EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
