@@ -184,6 +184,9 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
                         
                     2015.06.28: ペアリングをペリフェラルに要求してしまう。
                     ペアリングすると、率直にreadValueすることが、できなくなった。
+                    
+                    参考0
+                    http://stackoverflow.com/questions/30116221/pairing-in-core-bluetooth-peripheral-application-ios
 
                     参考1
                     http://stackoverflow.com/questions/27972757/bluetooth-pairing-vs-connection-in-objective-c
