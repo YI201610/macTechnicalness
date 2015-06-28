@@ -163,7 +163,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
     
     
     /*!
-    @abstract
+    @abstract   キャラクタリスティックを発見した
     */
     func peripheral(peripheral: CBPeripheral!, didDiscoverCharacteristicsForService service: CBService!, error: NSError!) {
         
@@ -172,11 +172,47 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
         for characteristic in characteristicArray {
             
             if let obj = characteristic as? CBCharacteristic {
-                println("***{\(obj)}(\(service.peripheral.name))")
+                println("***{\(obj)}(\(peripheral.name))")
+                
+                /*
+                @comment    キャラクタリスティックを読み出し専用かを判定
+                */
+                if obj.properties == CBCharacteristicProperties.Read {
+                    
+                    /*
+                    @comment    キャラクタリスティックを読む
+
+                    参考1
+                    http://stackoverflow.com/questions/27972757/bluetooth-pairing-vs-connection-in-objective-c
+                    
+                    参考2
+                    http://stackoverflow.com/questions/19589836/ios-bluetooth-le-unable-to-connect-using-stored-pairing-data
+                    */
+                    peripheral.readValueForCharacteristic(obj)
+                }
+                
             }
             
         }
         
+    }
+    
+    /*!
+    @abstract   キャラクタリスティックの読み出しが完了した
+    */
+    func peripheral(peripheral: CBPeripheral!, didUpdateValueForCharacteristic characteristic: CBCharacteristic!, error: NSError!) {
+        println("-----------READ: Characteristic Data [\(peripheral.name)]--------------")
+    
+        let serviceUUID: NSString = characteristic.service.UUID.UUIDString
+        let characteristicUUID: NSString = characteristic.UUID.UUIDString
+        let readValue: NSData? = characteristic.value()
+        let characteristicDescription: NSString = characteristic.description
+        
+        println("- Service UUID: \(serviceUUID)")
+        println("- Characteristic UUID: \(characteristicUUID)")
+        println("- Description: \(characteristicDescription)")
+        println("- Read value: \(readValue)")
+    
     }
     
     
