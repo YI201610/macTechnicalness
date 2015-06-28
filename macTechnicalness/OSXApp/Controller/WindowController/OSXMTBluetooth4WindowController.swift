@@ -72,7 +72,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
             
         case CBCentralManagerState.PoweredOn:
             println("***CBCentralManagerState: PoweredOn")
-            
+                        
             /*
             @comment    PoweredOnになってからスキャニングを開始する
             */
@@ -180,7 +180,10 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
                 if obj.properties == CBCharacteristicProperties.Read {
                     
                     /*
-                    @comment    キャラクタリスティックを読む
+                    @comment    キャラクタリスティックを読む. 
+                        
+                    2015.06.28: ペアリングをペリフェラルに要求してしまう。
+                    ペアリングすると、率直にreadValueすることが、できなくなった。
 
                     参考1
                     http://stackoverflow.com/questions/27972757/bluetooth-pairing-vs-connection-in-objective-c
