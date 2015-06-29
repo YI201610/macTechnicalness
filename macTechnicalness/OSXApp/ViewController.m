@@ -66,6 +66,24 @@
         _tableView.selectedColumn);
 }
 
+- (void)tableView:(NSTableView *)tableView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn
+              row:(NSInteger)row
+{
+
+    NSString* idString = tableColumn.identifier;
+    if([idString isEqualToString:@"someTitle"]){
+        
+        MTMTopMenuEntity* entity = [_dataController itemForRow:row];
+        NSString* wcName = entity.windowControllerNameString;
+        NSWindowController* addwc = [[NSClassFromString(wcName) alloc] initWithWindowNibName:wcName];
+        if(!addwc){
+            [cell setTextColor: [NSColor lightGrayColor]];
+        } else {
+            [cell setTextColor: [NSColor blackColor]];
+        }
+    }
+
+}
 
 - (BOOL)tableView:(NSTableView *)tableView shouldSelectTableColumn:(NSTableColumn *)tableColumn
 {
