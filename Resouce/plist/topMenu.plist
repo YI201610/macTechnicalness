@@ -115,49 +115,49 @@
 					<key>title</key>
 					<string>Bokeh</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateBokeh</string>
+					<string>iOSMTSpriteKitParticleTemplateBokehViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Fire</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateFire</string>
+					<string>iOSMTSpriteKitParticleTemplateFireViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Firefiles</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateFirefiles</string>
+					<string>iOSMTSpriteKitParticleTemplateFirefilesViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Magic</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateMagic</string>
+					<string>iOSMTSpriteKitParticleTemplateMagicViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Rain</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateRain</string>
+					<string>iOSMTSpriteKitParticleTemplateRainViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Smoke</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateSmoke</string>
+					<string>iOSMTSpriteKitParticleTemplateSmokeViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Snow</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateSnow</string>
+					<string>iOSMTSpriteKitParticleTemplateSnowViewController</string>
 				</dict>
 				<dict>
 					<key>title</key>
 					<string>Spark</string>
 					<key>vc</key>
-					<string>iOSMTSpriteKitParticleTemplateSpark</string>
+					<string>iOSMTSpriteKitParticleTemplateSparkViewController</string>
 				</dict>
 			</array>
 		</dict>

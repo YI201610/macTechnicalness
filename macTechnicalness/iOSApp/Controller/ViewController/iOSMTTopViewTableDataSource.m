@@ -7,7 +7,7 @@
 //
 
 #import "iOSMTTopViewTableDataSource.h"
-
+#import "CommonHeader.h"
 
 @implementation iOSMTTopViewTableDataSource
 
@@ -49,9 +49,24 @@
     cell.textLabel.text = itemObj.titleString;
     
     if ([itemObj.viewControllerNameString length] == 0) {
-        cell.textLabel.textColor = [UIColor grayColor];
+        cell.textLabel.textColor = [UIColor lightGrayColor];
+    }
+    
+    UIStoryboard* storyboard = nil;
+    @try {
+        storyboard = [UIStoryboard storyboardWithName:itemObj.viewControllerNameString bundle: nil];
+    }
+    @catch (NSException *exception) {
     }
 
+    UIViewController* vc0 = [storyboard instantiateInitialViewController];
+    UIViewController* vc = [[NSClassFromString(itemObj.viewControllerNameString) alloc] init];
+    if(vc0 == nil && vc == nil){
+        cell.textLabel.textColor = [UIColor lightGrayColor];
+    }else{
+        cell.textLabel.textColor = [UIColor blackColor];
+    }
+    
     return cell;
 }
 

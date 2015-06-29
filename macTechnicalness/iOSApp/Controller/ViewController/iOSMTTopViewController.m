@@ -159,7 +159,7 @@
         storyboard = [UIStoryboard storyboardWithName:vcName bundle: nil];
     }
     @catch (NSException *exception) {
-        debugout(@"Storyboard: %@ は読み込めませんでした", vcName);
+        debugout(@"%@.storyboard は読み込めませんでした", vcName);
     }
     
     if(storyboard){

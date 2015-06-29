@@ -8,7 +8,7 @@
 
 #import "iOSMTSwiftBridge1ViewController.h"
 #import "CommonHeader.h"
-#import <iOSEmbeddedModelKit/iOSEmbeddedModelKit-Swift.h>
+#import <iOSEmbeddedModelKit/iOSEmbeddedModelKit.h>
 
 @interface iOSMTSwiftBridge1ViewController ()
 
