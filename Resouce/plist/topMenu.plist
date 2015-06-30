@@ -219,6 +219,13 @@
 			<array>
 				<dict>
 					<key>title</key>
+					<string>均等配置</string>
+					<key>vc</key>
+					<string>iOSMTAutoLayoutCase4</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
 					<string>Pinテスト</string>
 					<key>vc</key>
 					<string>AutoLaytouCase3</string>
