@@ -45,7 +45,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvl-hG-P7P">
-                                                    <rect key="frame" x="79" y="44" width="97" height="92"/>
+                                                    <rect key="frame" x="118.5" y="44" width="97" height="92"/>
                                                     <color key="backgroundColor" red="0.0007411388920400188" green="0.64613400207839211" blue="0.89146640987107251" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="92" id="eUg-4x-FIL"/>
@@ -53,7 +53,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-ab-aDh">
-                                                    <rect key="frame" x="426.5" y="44.5" width="97" height="92"/>
+                                                    <rect key="frame" x="384.5" y="44.5" width="97" height="92"/>
                                                     <color key="backgroundColor" red="0.00074113889200000003" green="0.64613400210000005" blue="0.89146640990000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="97" id="OVC-Td-w89"/>
@@ -61,7 +61,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TE4-qv-vGp">
-                                                    <rect key="frame" x="252.5" y="45" width="97" height="92"/>
+                                                    <rect key="frame" x="251.5" y="45" width="97" height="92"/>
                                                     <color key="backgroundColor" red="0.00074113889200000003" green="0.64613400210000005" blue="0.89146640990000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="92" id="WFs-KY-aeA"/>
@@ -69,19 +69,23 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jwu-xJ-K8U" userLabel="スペーサー2">
-                                                    <rect key="frame" x="178" y="45" width="72.5" height="92"/>
+                                                    <rect key="frame" x="217.5" y="45" width="32" height="92"/>
                                                     <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkG-ke-Qew" userLabel="スペーサー3">
-                                                    <rect key="frame" x="351.5" y="45" width="73" height="92"/>
+                                                    <rect key="frame" x="350.5" y="45" width="32" height="92"/>
                                                     <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyB-T8-UEa" userLabel="スペーサー4">
-                                                    <rect key="frame" x="525.5" y="45" width="72.5" height="92"/>
+                                                    <rect key="frame" x="483.5" y="45" width="32" height="92"/>
                                                     <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="32" id="Boq-MQ-3gm"/>
+                                                        <constraint firstAttribute="height" constant="92" id="gkm-zm-xHK"/>
+                                                    </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mek-oJ-deQ" userLabel="スペーサー1">
-                                                    <rect key="frame" x="4" y="45" width="73" height="92"/>
+                                                    <rect key="frame" x="84.5" y="45" width="32" height="92"/>
                                                     <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
                                                 </view>
                                             </subviews>
@@ -94,34 +98,22 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="xkG-ke-Qew" secondAttribute="bottom" constant="35.5" id="Aca-rf-RBh"/>
                                                 <constraint firstItem="FyB-T8-UEa" firstAttribute="top" secondItem="gcI-oF-uui" secondAttribute="topMargin" constant="37" id="DId-80-Ppm"/>
                                                 <constraint firstAttribute="centerY" secondItem="TE4-qv-vGp" secondAttribute="centerY" id="Gn6-5f-HzS" userLabel="ビュー２中央寄せY"/>
-                                                <constraint firstAttribute="centerX" secondItem="xkG-ke-Qew" secondAttribute="centerX" constant="-87.5" id="Hkf-vB-Ozj"/>
                                                 <constraint firstItem="Mek-oJ-deQ" firstAttribute="top" secondItem="gcI-oF-uui" secondAttribute="topMargin" constant="37" id="JM1-jK-evy"/>
                                                 <constraint firstItem="FyB-T8-UEa" firstAttribute="width" secondItem="Jwu-xJ-K8U" secondAttribute="width" id="QXc-9v-djM"/>
                                                 <constraint firstItem="zvl-hG-P7P" firstAttribute="leading" secondItem="Mek-oJ-deQ" secondAttribute="trailing" constant="2" id="Qqo-I7-ugz"/>
                                                 <constraint firstItem="EIU-ab-aDh" firstAttribute="leading" secondItem="xkG-ke-Qew" secondAttribute="trailing" constant="2" id="Shy-qI-WQ7"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Jwu-xJ-K8U" secondAttribute="bottom" constant="35.5" id="TcX-sY-lqG"/>
-                                                <constraint firstAttribute="trailing" secondItem="FyB-T8-UEa" secondAttribute="trailing" constant="2" id="Vih-ge-dlY"/>
+                                                <constraint firstAttribute="trailing" secondItem="FyB-T8-UEa" secondAttribute="trailing" priority="999" constant="2" id="Vih-ge-dlY"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Mek-oJ-deQ" secondAttribute="bottom" constant="35.5" id="YLR-xX-biI"/>
                                                 <constraint firstItem="Jwu-xJ-K8U" firstAttribute="top" secondItem="gcI-oF-uui" secondAttribute="topMargin" constant="37" id="cv6-GW-qKl"/>
-                                                <constraint firstAttribute="centerX" secondItem="Mek-oJ-deQ" secondAttribute="centerX" constant="258.5" id="dis-lv-Mv3"/>
                                                 <constraint firstItem="FyB-T8-UEa" firstAttribute="width" secondItem="xkG-ke-Qew" secondAttribute="width" id="eey-ct-hIC"/>
-                                                <constraint firstAttribute="centerX" secondItem="FyB-T8-UEa" secondAttribute="centerX" constant="-256.5" id="gPW-v0-Lvu"/>
                                                 <constraint firstItem="FyB-T8-UEa" firstAttribute="width" secondItem="Mek-oJ-deQ" secondAttribute="width" id="gbD-KB-k7K"/>
                                                 <constraint firstItem="FyB-T8-UEa" firstAttribute="leading" secondItem="EIU-ab-aDh" secondAttribute="trailing" constant="2" id="hAh-Qy-PHT"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="FyB-T8-UEa" secondAttribute="bottom" constant="35.5" id="jGh-5S-HQi"/>
                                                 <constraint firstItem="xkG-ke-Qew" firstAttribute="leading" secondItem="TE4-qv-vGp" secondAttribute="trailing" constant="2" id="kAl-9D-vOj"/>
                                                 <constraint firstAttribute="centerY" secondItem="EIU-ab-aDh" secondAttribute="centerY" id="pHL-n1-CP7"/>
-                                                <constraint firstAttribute="centerX" secondItem="Jwu-xJ-K8U" secondAttribute="centerX" constant="87.5" id="swF-ts-9I5"/>
-                                                <constraint firstItem="Mek-oJ-deQ" firstAttribute="leading" secondItem="gcI-oF-uui" secondAttribute="left" constant="4" id="whI-X7-OKS"/>
+                                                <constraint firstItem="Mek-oJ-deQ" firstAttribute="leading" secondItem="gcI-oF-uui" secondAttribute="left" priority="999" constant="4" id="whI-X7-OKS"/>
                                             </constraints>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="dis-lv-Mv3"/>
-                                                    <exclude reference="swF-ts-9I5"/>
-                                                    <exclude reference="Hkf-vB-Ozj"/>
-                                                    <exclude reference="gPW-v0-Lvu"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="g4k-RA-Qsv">
