@@ -27,7 +27,7 @@
             <objects>
                 <tableViewController id="gsJ-zp-LRS" customClass="iOSMTAutoLayoutCase4ViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dOE-Fb-dua">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -45,7 +45,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvl-hG-P7P">
-                                                    <rect key="frame" x="118.5" y="44" width="97" height="92"/>
+                                                    <rect key="frame" x="7.5" y="44" width="97" height="92"/>
                                                     <color key="backgroundColor" red="0.0007411388920400188" green="0.64613400207839211" blue="0.89146640987107251" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="92" id="eUg-4x-FIL"/>
@@ -53,7 +53,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-ab-aDh">
-                                                    <rect key="frame" x="384.5" y="44.5" width="97" height="92"/>
+                                                    <rect key="frame" x="216" y="44.5" width="97" height="92"/>
                                                     <color key="backgroundColor" red="0.00074113889200000003" green="0.64613400210000005" blue="0.89146640990000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="97" id="OVC-Td-w89"/>
@@ -61,7 +61,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TE4-qv-vGp">
-                                                    <rect key="frame" x="251.5" y="45" width="97" height="92"/>
+                                                    <rect key="frame" x="111.5" y="45" width="97" height="92"/>
                                                     <color key="backgroundColor" red="0.00074113889200000003" green="0.64613400210000005" blue="0.89146640990000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="92" id="WFs-KY-aeA"/>
@@ -69,24 +69,24 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jwu-xJ-K8U" userLabel="スペーサー2">
-                                                    <rect key="frame" x="217.5" y="45" width="32" height="92"/>
-                                                    <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
+                                                    <rect key="frame" x="106.5" y="45" width="3" height="92"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkG-ke-Qew" userLabel="スペーサー3">
-                                                    <rect key="frame" x="350.5" y="45" width="32" height="92"/>
-                                                    <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
+                                                    <rect key="frame" x="210.5" y="45" width="3.5" height="92"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyB-T8-UEa" userLabel="スペーサー4">
-                                                    <rect key="frame" x="483.5" y="45" width="32" height="92"/>
-                                                    <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
+                                                    <rect key="frame" x="315" y="45" width="3" height="92"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="32" id="Boq-MQ-3gm"/>
+                                                        <constraint firstAttribute="width" priority="999" constant="4" id="Boq-MQ-3gm"/>
                                                         <constraint firstAttribute="height" constant="92" id="gkm-zm-xHK"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mek-oJ-deQ" userLabel="スペーサー1">
-                                                    <rect key="frame" x="84.5" y="45" width="32" height="92"/>
-                                                    <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
+                                                    <rect key="frame" x="2" y="45" width="3.5" height="92"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -137,6 +137,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fKE-9u-dXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
