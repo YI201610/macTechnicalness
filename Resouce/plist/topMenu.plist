@@ -3,6 +3,25 @@
 <plist version="1.0">
 <array>
 	<array>
+
+		<dict>
+			<key>title</key>
+			<string>Network</string>
+			<key>items</key>
+			<array>
+
+				<dict>
+					<key>title</key>
+					<string>Background Fetch</string>
+					<key>vc</key>
+					<string>iOSMTNetworkBackgroundFetch1ViewController</string>
+				</dict>
+
+			</array>
+		</dict>
+
+
+
 		<dict>
 			<key>title</key>
 			<string>BlueTooth</string>

@@ -37,6 +37,10 @@
 		743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
 		743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
 		743954351AF8B59D0035A9C8 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954341AF8B59D0035A9C8 /* GameController.framework */; };
+		744481C81B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */; };
+		744481C91B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */; };
+		744481CA1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */; };
+		744481CB1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */; };
 		744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E661AE3F62C00329C51 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E641AE3F62C00329C51 /* Fire.sks */; };
@@ -408,6 +412,8 @@
 		7439542E1AF883380035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		743954301AF8833D0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		743954341AF8B59D0035A9C8 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTNetworkBackgroundFetch1ViewController.swift; path = Controller/ViewController/iOSMTNetworkBackgroundFetch1ViewController.swift; sourceTree = "<group>"; };
+		744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTNetworkBackgroundFetch1ViewController.xib; path = Controller/ViewController/iOSMTNetworkBackgroundFetch1ViewController.xib; sourceTree = "<group>"; };
 		744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = SpriteKit/Bokeh.sks; sourceTree = "<group>"; };
 		744A9E641AE3F62C00329C51 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = SpriteKit/Fire.sks; sourceTree = "<group>"; };
 		744A9E6A1AE3F64100329C51 /* Firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Firefiles.sks; path = SpriteKit/Firefiles.sks; sourceTree = "<group>"; };
@@ -766,6 +772,7 @@
 		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				744481C41B46B09A006C2E12 /* Network */,
 				7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */,
 				EC957CD91B22D7F50097D8A1 /* SwiftBridge */,
 				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
@@ -877,6 +884,23 @@
 				743954271AF882BB0035A9C8 /* MapKit.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		744481C41B46B09A006C2E12 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				744481C51B46B0AE006C2E12 /* BackgroundFetch1 */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		744481C51B46B0AE006C2E12 /* BackgroundFetch1 */ = {
+			isa = PBXGroup;
+			children = (
+				744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */,
+				744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */,
+			);
+			name = BackgroundFetch1;
 			sourceTree = "<group>";
 		};
 		744A9E5D1AE3F58D00329C51 /* SpriteKit */ = {
@@ -2196,6 +2220,7 @@
 				ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				EC68031D1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
+				744481CA1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */,
@@ -2273,6 +2298,7 @@
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECE84FE41AFF3DCA00907EAF /* Transition1.sks in Resources */,
 				EC957CE01B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
+				744481CB1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */,
 				744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
@@ -2419,6 +2445,7 @@
 				EC49DB7F1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				744A9EAB1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
 				EC33ADEF1AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
+				744481C81B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2453,6 +2480,7 @@
 				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC33ADF01AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
+				744481C91B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 				ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
 				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				ECE84FDE1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */,
