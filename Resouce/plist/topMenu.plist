@@ -6,6 +6,29 @@
 
 		<dict>
 			<key>title</key>
+			<string>CoreData</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>NSManagedObjectModel</string>
+					<key>vc</key>
+					<string>iOSMTCoreData1ViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>NSPersistentStoreCoordinator</string>
+					<key>vc</key>
+					<string>iOSMTCoreData1ViewController</string>
+				</dict>
+
+			</array>
+		</dict>
+
+
+		<dict>
+			<key>title</key>
 			<string>Network</string>
 			<key>items</key>
 			<array>
