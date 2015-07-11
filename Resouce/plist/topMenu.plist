@@ -6,6 +6,30 @@
 
 		<dict>
 			<key>title</key>
+			<string>UIKit - ContainerViewController</string>
+			<key>items</key>
+			<array>
+
+				<dict>
+					<key>title</key>
+					<string>複合ケース１</string>
+					<key>vc</key>
+					<string>iOSMTContainerSample2ViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>vc</key>
+					<string>iOSMTContainerViewControllerCase1</string>
+					<key>title</key>
+					<string>例1</string>
+				</dict>
+
+			</array>
+		</dict>
+
+		<dict>
+			<key>title</key>
 			<string>CoreData</string>
 			<key>items</key>
 			<array>
@@ -203,19 +227,8 @@
 				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>title</key>
-			<string>UIKit - コンテナビューコントローラー</string>
-			<key>items</key>
-			<array>
-				<dict>
-					<key>vc</key>
-					<string>iOSMTContainerViewControllerCase1</string>
-					<key>title</key>
-					<string>ケース１</string>
-				</dict>
-			</array>
-		</dict>
+
+
 		<dict>
 			<key>title</key>
 			<string>UIKit - Storyboard</string>
