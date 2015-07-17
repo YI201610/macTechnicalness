@@ -8,6 +8,22 @@
 
 import UIKit
 
+/*!
+@abstract   M/V/Cメモ
+            Viewは、Entityを保持しない。入力のインターフェースのみもつ。
+            Viewのインターフェースに、Modelデータをアサインするのは、Controllerの責務である。
+            --------
+            したがって、MVCデザインにおいては、setupWithEntityというメソッドは、存在しない。
+
+            それ的なな処理をしたいのであれば、
+
+            ViewController側に、setupCellPropertiesWithEntity: といったメソッドを設けて対応する。
+
+            Viewと、Modelは、疎結合であるべきである。
+
+
+
+*/
 class iOSMTContainerSample2TableViewController: UITableViewController {
 
     override func viewDidLoad() {

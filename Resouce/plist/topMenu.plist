@@ -12,7 +12,7 @@
 
 				<dict>
 					<key>title</key>
-					<string>複合ケース１</string>
+					<string>例2</string>
 					<key>vc</key>
 					<string>iOSMTContainerSample2ViewController</string>
 				</dict>
