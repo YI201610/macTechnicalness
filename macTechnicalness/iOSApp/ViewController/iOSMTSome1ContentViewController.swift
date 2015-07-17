@@ -1,22 +1,32 @@
 //
-//  iOSMTCase1PageViewController.swift
+//  iOSMTSome1ContentViewController.swift
 //  macTechnicalness
 //
-//  Created by Yuji Imamura on 2015/07/11.
+//  Created by Yuji Imamura on 2015/07/17.
 //
 //
 
 import UIKit
 
-/*!
-@abstract   複数の画像をページングすることができる
-*/
-class iOSMTCase1PageViewController: UIPageViewController {
+@objc(iOSMTSome1ContentViewController)
+class iOSMTSome1ContentViewController: UIViewController {
 
+    var pageIndexValue: Int = 0
+    var imageNameString: String = ""
+    
+
+    /**
+        画像
+    */
+    @IBOutlet private weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        println("*imageName: \(self.imageNameString)")
+        self.imageView.image = UIImage(named: self.imageNameString)
+        self.imageView.contentMode = UIViewContentMode.ScaleAspectFit
     }
 
     override func didReceiveMemoryWarning() {

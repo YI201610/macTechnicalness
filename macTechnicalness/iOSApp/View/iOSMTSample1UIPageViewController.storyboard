@@ -7,32 +7,53 @@
         <!--ページビュー例-->
         <scene sceneID="MRF-uC-Jus">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" title="ページビュー例" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="C19-r7-Wq9" customClass="iOSMTCase1PageViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" title="ページビュー例" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="pageSheet" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="C19-r7-Wq9" customClass="iOSMTSample1UIPageViewController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="hHh-01-ErU">
-                        <barButtonItem key="leftBarButtonItem" title="戻る" id="OKm-BK-KtS"/>
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="OKm-BK-KtS">
+                            <connections>
+                                <segue destination="LAJ-vd-cHt" kind="unwind" unwindAction="backToTopController:" id="BrU-uY-KXz"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHp-ff-uCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="LAJ-vd-cHt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="897" y="881"/>
         </scene>
-        <!--View Controller-->
+        <!--IOSMT Some1 Content View Controller-->
         <scene sceneID="zdV-hu-Ncz">
             <objects>
-                <viewController id="1dY-Db-RjU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentViewController" modalPresentationStyle="overCurrentContext" id="1dY-Db-RjU" customClass="iOSMTSome1ContentViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UNh-pX-6Bj"/>
                         <viewControllerLayoutGuide type="bottom" id="3rg-nS-2re"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Hfi-T6-y2X">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6sC-LM-OiF">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6sC-LM-OiF" firstAttribute="top" secondItem="Hfi-T6-y2X" secondAttribute="top" id="4hQ-ac-wms"/>
+                            <constraint firstItem="6sC-LM-OiF" firstAttribute="leading" secondItem="Hfi-T6-y2X" secondAttribute="leading" id="75m-EX-sOv"/>
+                            <constraint firstItem="3rg-nS-2re" firstAttribute="top" secondItem="6sC-LM-OiF" secondAttribute="bottom" id="Vnj-5U-KpT"/>
+                            <constraint firstAttribute="trailing" secondItem="6sC-LM-OiF" secondAttribute="trailing" id="tJD-rA-D2e"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="6sC-LM-OiF" id="5FR-6Q-kj4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0BX-US-RqA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1658" y="896"/>
+            <point key="canvasLocation" x="1656" y="881"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YOe-Tb-rxE">
