@@ -10,11 +10,18 @@ import UIKit
 
 /*!
 @abstract   複数の画像をページングすることができる
+
+UIViewControllerに、ContentView組みこまねばならぬかな
+http://stackoverflow.com/questions/21045630/how-to-put-the-uipagecontrol-element-on-top-of-the-sliding-pages-within-a-uipage/21048603#21048603
+
+
 */
 @objc(iOSMTSample1UIPageViewController)
 class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControllerDataSource {
 
     var imageNameStringArray: NSArray!
+    
+    var pageControl: UIPageControl!
     
     /**
     
@@ -30,7 +37,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
         var viewControllers = NSArray(object: startVC)
         self.setViewControllers(viewControllers as [AnyObject], direction: .Forward, animated: true, completion: nil)
-
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -105,7 +112,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
     }
 
 //    /**
-//        ページコントロール
+//        このメソッドを実装すると、UIPageViewControllerのページコントロールが表示される
 //    */
 //    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int
 //    {
