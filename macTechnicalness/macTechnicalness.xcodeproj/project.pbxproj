@@ -286,6 +286,8 @@
 		ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */; };
 		ECFE82D41B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */; };
 		ECFE82D51B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */; };
+		ECFE82D71B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */; };
+		ECFE82D81B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -649,6 +651,7 @@
 		ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutIB1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.m; sourceTree = "<group>"; };
 		ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutIB1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.xib; sourceTree = "<group>"; };
 		ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSome1ContentViewController.swift; path = ViewController/iOSMTSome1ContentViewController.swift; sourceTree = "<group>"; };
+		ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1ContainerViewController.swift; path = ViewController/iOSMTSample1ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1283,6 +1286,7 @@
 		EC2627931B510E6600CBF14F /* PageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */,
 				EC2627941B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift */,
 				ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */,
 			);
@@ -2455,6 +2459,7 @@
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
 				EC49DB731ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
+				ECFE82D71B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */,
 				744A9EB71AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */,
 				ECF63C3B1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
 				744A9EAF1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
@@ -2496,6 +2501,7 @@
 				74BF5E9D1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */,
 				744A9EAC1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
 				EC49DB741ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
+				ECFE82D81B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */,
 				ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
