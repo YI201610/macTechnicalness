@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vhN-lr-A2k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vhN-lr-A2k">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--コンテナビューコントローラーの検証１-->
@@ -18,10 +18,6 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYb-gy-npO">
                                 <rect key="frame" x="30" y="100" width="260" height="368"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="368" id="27b-Z7-S77"/>
-                                    <constraint firstAttribute="width" constant="260" id="BcM-6c-Av6"/>
-                                </constraints>
                                 <connections>
                                     <segue destination="Ncv-Gz-GsI" kind="embed" id="NWE-jx-fTJ"/>
                                 </connections>
@@ -29,8 +25,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="hYb-gy-npO" secondAttribute="centerY" id="pY8-BY-5HD"/>
-                            <constraint firstAttribute="centerX" secondItem="hYb-gy-npO" secondAttribute="centerX" id="rwj-oH-TVp"/>
+                            <constraint firstAttribute="trailing" secondItem="hYb-gy-npO" secondAttribute="trailing" constant="30" id="E9y-Q6-HFF"/>
+                            <constraint firstItem="hYb-gy-npO" firstAttribute="leading" secondItem="SA8-1o-3hg" secondAttribute="leading" constant="30" id="JPy-wq-oNB"/>
+                            <constraint firstItem="GhI-Ir-RxM" firstAttribute="top" secondItem="hYb-gy-npO" secondAttribute="bottom" constant="100" id="n9J-cB-0AN"/>
+                            <constraint firstItem="hYb-gy-npO" firstAttribute="top" secondItem="j9c-Yh-4JD" secondAttribute="bottom" constant="36" id="orn-4N-csM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Oq-t5-FLF">

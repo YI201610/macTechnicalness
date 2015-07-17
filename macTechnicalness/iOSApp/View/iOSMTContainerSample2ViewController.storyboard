@@ -36,26 +36,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="l5H-PS-4EK">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l5H-PS-4EK" id="xZW-MH-Wnn">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBF-Sn-352">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="111"/>
-                                                    <connections>
-                                                        <segue destination="ing-eb-nPn" kind="embed" id="rMl-nJ-7rU"/>
-                                                    </connections>
-                                                </containerView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="tBF-Sn-352" secondAttribute="bottom" id="MPC-q8-1ZU"/>
-                                                <constraint firstItem="tBF-Sn-352" firstAttribute="top" secondItem="xZW-MH-Wnn" secondAttribute="top" id="TgX-kr-Kdh"/>
-                                                <constraint firstAttribute="trailing" secondItem="tBF-Sn-352" secondAttribute="trailing" id="Uwk-TH-QD7"/>
-                                                <constraint firstItem="tBF-Sn-352" firstAttribute="leading" secondItem="xZW-MH-Wnn" secondAttribute="leading" id="dky-jv-0EV"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="266" id="B3e-ty-9Zh">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B3e-ty-9Zh" id="8kf-qk-StH">
@@ -73,6 +53,26 @@
                                                 <constraint firstAttribute="bottom" secondItem="DKo-se-1tQ" secondAttribute="bottom" id="Wn3-Nb-xMm"/>
                                                 <constraint firstItem="DKo-se-1tQ" firstAttribute="top" secondItem="8kf-qk-StH" secondAttribute="top" id="jGF-am-KmN"/>
                                                 <constraint firstAttribute="trailing" secondItem="DKo-se-1tQ" secondAttribute="trailing" id="lBu-mA-BOT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="l5H-PS-4EK">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l5H-PS-4EK" id="xZW-MH-Wnn">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBF-Sn-352">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="111"/>
+                                                    <connections>
+                                                        <segue destination="ing-eb-nPn" kind="embed" id="rMl-nJ-7rU"/>
+                                                    </connections>
+                                                </containerView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="tBF-Sn-352" secondAttribute="bottom" id="MPC-q8-1ZU"/>
+                                                <constraint firstItem="tBF-Sn-352" firstAttribute="top" secondItem="xZW-MH-Wnn" secondAttribute="top" id="TgX-kr-Kdh"/>
+                                                <constraint firstAttribute="trailing" secondItem="tBF-Sn-352" secondAttribute="trailing" id="Uwk-TH-QD7"/>
+                                                <constraint firstItem="tBF-Sn-352" firstAttribute="leading" secondItem="xZW-MH-Wnn" secondAttribute="leading" id="dky-jv-0EV"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -216,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bva-iY-gCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1857" y="-19.5"/>
+            <point key="canvasLocation" x="1849" y="-43.5"/>
         </scene>
         <!--コントローラー２-->
         <scene sceneID="0qW-SN-hEQ">
@@ -242,7 +242,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pqT-xW-WmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1857" y="490"/>
+            <point key="canvasLocation" x="1843" y="279"/>
         </scene>
         <!--コントローラー３-->
         <scene sceneID="KYN-Ij-E3U">
@@ -311,7 +311,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fdb-dj-8YE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1857" y="206.5"/>
+            <point key="canvasLocation" x="1857" y="535.5"/>
         </scene>
         <!--コントローラー４-->
         <scene sceneID="Cun-Cp-wnq">

@@ -9,17 +9,24 @@
 import UIKit
 
 /*!
-@abstract   M/V/Cメモ
-            Viewは、Entityを保持しない。入力のインターフェースのみもつ。
-            Viewのインターフェースに、Modelデータをアサインするのは、Controllerの責務である。
-            --------
-            したがって、MVCデザインにおいては、setupWithEntityというメソッドは、存在しない。
+@abstract 開発の羅針盤
 
-            それ的なな処理をしたいのであれば、
+⬛︎ M/V/C 原則
 
-            ViewController側に、setupCellPropertiesWithEntity: といったメソッドを設けて対応する。
+    Viewは、Entityを保持しない。入力のインターフェースのみもつ。
+    Viewのインターフェースに、Modelデータをアサインするのは、Controllerの責務である。
+    --------
+    したがって、MVCデザインにおいては、ビューが「setupWithEntity: 」というようなメソッドをもつことはない。
 
-            Viewと、Modelは、疎結合であるべきである。
+    それ的な処理をしたいのであれば、ViewController側に、setupCellPropertiesWithEntity: といったメソッドを設けて対応する。
+
+    Viewと、Modelは、疎結合にする。
+    Viewと、Modelを結合する役割は、Controllerが担う。
+
+⬛︎ Container View Controllerと、Content Viewの、連携の原則
+
+    ・継承は使用しない
+    ・プロトコルにより、親と連携する。
 
 
 

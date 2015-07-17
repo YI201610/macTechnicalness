@@ -4,11 +4,13 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--IOSMT Case1 Page View Controller-->
+        <!--ページビュー例-->
         <scene sceneID="MRF-uC-Jus">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="C19-r7-Wq9" customClass="iOSMTCase1PageViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="hHh-01-ErU"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" title="ページビュー例" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="C19-r7-Wq9" customClass="iOSMTCase1PageViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hHh-01-ErU">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="OKm-BK-KtS"/>
+                    </navigationItem>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHp-ff-uCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

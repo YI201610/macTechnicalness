@@ -1448,13 +1448,13 @@
 			name = TopMenu;
 			sourceTree = "<group>";
 		};
-		EC49DB791ACFA9310014880F /* Case2 */ = {
+		EC49DB791ACFA9310014880F /* storyboard - Case2 */ = {
 			isa = PBXGroup;
 			children = (
 				EC49DB7D1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.h */,
 				EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */,
 			);
-			name = Case2;
+			name = "storyboard - Case2";
 			sourceTree = "<group>";
 		};
 		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
@@ -1477,8 +1477,10 @@
 			children = (
 				EC2627931B510E6600CBF14F /* PageViewController */,
 				EC2627861B50BF4000CBF14F /* コンテナビューコントローラー */,
-				ECA139CD1ACAEAC600BFCBFE /* Storyboard */,
-				ECA139CC1ACAEABA00BFCBFE /* CollectionView */,
+				ECA139CE1ACAEACD00BFCBFE /* storyboard - Case1 */,
+				EC49DB791ACFA9310014880F /* storyboard - Case2 */,
+				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
+				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 			);
 			name = UIKit;
@@ -1580,25 +1582,7 @@
 			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
-		ECA139CC1ACAEABA00BFCBFE /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
-				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
-			);
-			name = CollectionView;
-			sourceTree = "<group>";
-		};
-		ECA139CD1ACAEAC600BFCBFE /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				EC49DB791ACFA9310014880F /* Case2 */,
-				ECA139CE1ACAEACD00BFCBFE /* Case1 */,
-			);
-			name = Storyboard;
-			sourceTree = "<group>";
-		};
-		ECA139CE1ACAEACD00BFCBFE /* Case1 */ = {
+		ECA139CE1ACAEACD00BFCBFE /* storyboard - Case1 */ = {
 			isa = PBXGroup;
 			children = (
 				EC49DB751ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.h */,
@@ -1608,7 +1592,7 @@
 				EC49DB711ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.h */,
 				EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */,
 			);
-			name = Case1;
+			name = "storyboard - Case1";
 			sourceTree = "<group>";
 		};
 		ECA1FB471AFEFCF700704134 /* Basics */ = {

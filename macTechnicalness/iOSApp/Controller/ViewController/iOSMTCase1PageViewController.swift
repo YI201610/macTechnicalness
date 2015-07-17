@@ -8,6 +8,9 @@
 
 import UIKit
 
+/*!
+@abstract   複数の画像をページングすることができる
+*/
 class iOSMTCase1PageViewController: UIPageViewController {
 
     override func viewDidLoad() {

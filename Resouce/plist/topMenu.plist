@@ -6,24 +6,47 @@
 
 		<dict>
 			<key>title</key>
-			<string>UIKit - ContainerViewController</string>
+			<string>UIKit - コンテナ, 他</string>
 			<key>items</key>
 			<array>
 
 				<dict>
 					<key>title</key>
-					<string>例2</string>
+					<string>ページビューコントローラー</string>
 					<key>vc</key>
-					<string>iOSMTContainerSample2ViewController</string>
+					<string>iOSMTSample1UIPageViewController</string>
 				</dict>
 
+
+				<dict>
+					<key>title</key>
+					<string>アクティビティビューコントローラー</string>
+					<key>vc</key>
+					<string>iOSMTSample1UIActivityViewController</string>
+				</dict>
 
 				<dict>
 					<key>vc</key>
 					<string>iOSMTContainerViewControllerCase1</string>
 					<key>title</key>
-					<string>例1</string>
+					<string>コンテンツビューx１</string>
 				</dict>
+
+
+				<dict>
+					<key>title</key>
+					<string>コンテンツビューx７</string>
+					<key>vc</key>
+					<string>iOSMTContainerSample2ViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>コンテンツビューx７ + 固定ボタンx2</string>
+					<key>vc</key>
+					<string>iOSMTContainerSample2ViewController</string>
+				</dict>
+
 
 			</array>
 		</dict>
