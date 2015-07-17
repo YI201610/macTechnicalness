@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol iOSMTSample1ContainerViewControllerDelegate{
+    func pageChanged(index: Int)
+}
+
 class iOSMTSample1ContainerViewController: UIViewController {
 
     var pageViewController: iOSMTSample1UIPageViewController!
@@ -19,6 +23,9 @@ class iOSMTSample1ContainerViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.pageControl.currentPage = 0
+        self.pageControl.numberOfPages = 4
+        self.pageControl.targetForAction("pageChanged:", withSender: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,13 +40,21 @@ class iOSMTSample1ContainerViewController: UIViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
+        if segue.identifier == "hogeSegue" {
+            self.pageViewController = segue.destinationViewController as! iOSMTSample1UIPageViewController
+            
+            println(self.pageViewController)
+            
+            self.pageViewController.pageControlDelegate = self
+        }
         
-        self.pageViewController = segue.destinationViewController as! iOSMTSample1UIPageViewController
-
-        println(self.pageViewController)
         
 //         Get the new view controller using segue.destinationViewController.
 //         Pass the selected object to the new view controller.
     }
 
+    internal func pageChanged(index: Int) {
+        println("***pageChanged!! - \(index)")
+        self.pageControl.currentPage = index
+    }
 }

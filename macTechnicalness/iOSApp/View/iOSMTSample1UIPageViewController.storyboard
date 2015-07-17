@@ -19,7 +19,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNY-Yy-K6R">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <connections>
-                                    <segue destination="C19-r7-Wq9" kind="embed" id="Jug-WI-xWY"/>
+                                    <segue destination="C19-r7-Wq9" kind="embed" identifier="hogeSegue" id="Jug-WI-xWY"/>
                                 </connections>
                             </containerView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="aca-84-D35">

@@ -23,6 +23,8 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
     
     var pageControl: UIPageControl!
     
+    var pageControlDelegate: iOSMTSample1ContainerViewController? = nil
+    
     /**
     
     */
@@ -75,6 +77,9 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         var vc = viewController as! iOSMTSome1ContentViewController
         var index = vc.pageIndexValue as Int
         
+        if (self.pageControlDelegate?.respondsToSelector(Selector("pageChanged:")) != nil) {
+            self.pageControlDelegate?.pageChanged(index)
+        }
         
         if (index == 0 || index == NSNotFound)
         {
@@ -83,6 +88,9 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         }
         
         index--
+        
+
+
         return self.viewControllerAtIndex(index)
         
     }
@@ -94,6 +102,11 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         
         var vc = viewController as! iOSMTSome1ContentViewController
         var index = vc.pageIndexValue as Int
+
+        if (self.pageControlDelegate?.respondsToSelector(Selector("pageChanged:")) != nil) {
+            self.pageControlDelegate?.pageChanged(index)
+        }
+        
         
         if (index == NSNotFound)
         {
@@ -106,7 +119,8 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         {
             return nil
         }
-        
+
+
         return self.viewControllerAtIndex(index)
         
     }
