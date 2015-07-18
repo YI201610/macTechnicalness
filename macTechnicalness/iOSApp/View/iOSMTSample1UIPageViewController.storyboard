@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNY-Yy-K6R">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="154" width="600" height="202"/>
                                 <connections>
                                     <segue destination="C19-r7-Wq9" kind="embed" identifier="hogeSegue" id="Jug-WI-xWY"/>
                                 </connections>
                             </containerView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="aca-84-D35">
-                                <rect key="frame" x="0.0" y="497" width="600" height="37"/>
+                                <rect key="frame" x="257" y="282" width="87" height="37"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             </pageControl>
@@ -32,11 +32,10 @@
                         <constraints>
                             <constraint firstItem="iNY-Yy-K6R" firstAttribute="leading" secondItem="cKT-aZ-Edc" secondAttribute="leading" id="B4j-Ya-gBQ"/>
                             <constraint firstAttribute="trailing" secondItem="iNY-Yy-K6R" secondAttribute="trailing" id="OKT-Ok-PZk"/>
-                            <constraint firstItem="aca-84-D35" firstAttribute="leading" secondItem="cKT-aZ-Edc" secondAttribute="leading" id="YKu-3W-zir"/>
-                            <constraint firstItem="OdS-Op-3A4" firstAttribute="top" secondItem="aca-84-D35" secondAttribute="bottom" constant="66" id="bj0-uo-DpO"/>
-                            <constraint firstItem="OdS-Op-3A4" firstAttribute="top" secondItem="iNY-Yy-K6R" secondAttribute="bottom" id="d8F-cL-Owl"/>
-                            <constraint firstAttribute="trailing" secondItem="aca-84-D35" secondAttribute="trailing" id="h4U-g3-8xU"/>
-                            <constraint firstItem="iNY-Yy-K6R" firstAttribute="top" secondItem="wgq-40-eUC" secondAttribute="bottom" id="qE5-2R-k9i"/>
+                            <constraint firstAttribute="centerX" secondItem="aca-84-D35" secondAttribute="centerX" id="c5m-0U-JBh"/>
+                            <constraint firstItem="OdS-Op-3A4" firstAttribute="top" secondItem="iNY-Yy-K6R" secondAttribute="bottom" constant="244" id="d8F-cL-Owl"/>
+                            <constraint firstAttribute="centerY" secondItem="aca-84-D35" secondAttribute="centerY" id="iEe-kn-GcX"/>
+                            <constraint firstItem="iNY-Yy-K6R" firstAttribute="top" secondItem="wgq-40-eUC" secondAttribute="bottom" constant="90" id="qE5-2R-k9i"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7ow-tX-t8p">
