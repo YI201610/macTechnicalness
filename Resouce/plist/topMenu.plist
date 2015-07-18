@@ -12,7 +12,7 @@
 
 				<dict>
 					<key>title</key>
-					<string>ボタンとラベル</string>
+					<string>PDF画像付きボタンとラベル</string>
 					<key>vc</key>
 					<string>iOSMTSample1ButtonAndLabelViewController</string>
 				</dict>
