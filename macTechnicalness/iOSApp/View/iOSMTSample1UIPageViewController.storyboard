@@ -28,7 +28,7 @@
                                 <color key="currentPageIndicatorTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             </pageControl>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iNY-Yy-K6R" firstAttribute="leading" secondItem="cKT-aZ-Edc" secondAttribute="leading" id="B4j-Ya-gBQ"/>
                             <constraint firstAttribute="trailing" secondItem="iNY-Yy-K6R" secondAttribute="trailing" id="OKT-Ok-PZk"/>

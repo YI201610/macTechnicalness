@@ -38,10 +38,11 @@
                                     <constraint firstAttribute="height" constant="163" id="AJk-v7-af2"/>
                                     <constraint firstAttribute="width" constant="125" id="yXv-yk-6Pj"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <inset key="titleEdgeInsets" minX="-120" minY="133" maxX="0.0" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-60" maxY="0.0"/>
                                 <state key="normal" title="スターボタン" image="startPDFstar">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
