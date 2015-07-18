@@ -12,6 +12,14 @@
 
 				<dict>
 					<key>title</key>
+					<string>ボタンとラベル</string>
+					<key>vc</key>
+					<string>iOSMTSample1ButtonAndLabelViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>title</key>
 					<string>ページビューコントローラー</string>
 					<key>vc</key>
 					<string>iOSMTSample1UIPageViewController</string>

@@ -235,6 +235,8 @@
 		ECA1FB511AFF005400704134 /* BasicsMultiAction.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4F1AFF005400704134 /* BasicsMultiAction.sks */; };
 		ECA1FB541AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */; };
 		ECA1FB551AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */; };
+		ECA473AE1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */; };
+		ECA473AF1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */; };
 		ECB582F51B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
 		ECB582F61B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
 		ECB582F71B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */; };
@@ -597,6 +599,7 @@
 		ECA1FB521AFF0E6100704134 /* MTSKBasicsMultiActionScene1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSKBasicsMultiActionScene1.h; path = SpriteKit/MTSKBasicsMultiActionScene1.h; sourceTree = "<group>"; };
 		ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSKBasicsMultiActionScene1.m; path = SpriteKit/MTSKBasicsMultiActionScene1.m; sourceTree = "<group>"; };
 		ECA1FB561AFF123800704134 /* iOSApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iOSApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1ButtonAndLabelViewController.storyboard; path = Storyboard/iOSMTSample1ButtonAndLabelViewController.storyboard; sourceTree = "<group>"; };
 		ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth3WindowController.swift; path = Controller/WindowController/OSXMTBluetooth3WindowController.swift; sourceTree = "<group>"; };
 		ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth3WindowController.xib; path = Controller/WindowController/OSXMTBluetooth3WindowController.xib; sourceTree = "<group>"; };
 		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
@@ -1564,6 +1567,7 @@
 				EC2F8B041AC946DE0048E180 /* AutoLaytouCase3.storyboard */,
 				EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */,
 				EC2627981B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard */,
+				ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */,
 			);
 			name = storyboard;
 			sourceTree = "<group>";
@@ -2278,6 +2282,7 @@
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				EC4552841AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */,
 				EC26278E1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */,
+				ECA473AE1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */,
 				EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				744A9E891AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */,
@@ -2316,6 +2321,7 @@
 				744A9E671AE3F62C00329C51 /* Fire.sks in Resources */,
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				74BF5EA21B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard in Resources */,
+				ECA473AF1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */,
 				744A9E961AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				EC49DB7C1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
