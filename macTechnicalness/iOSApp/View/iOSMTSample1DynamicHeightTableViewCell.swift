@@ -25,26 +25,40 @@ class iOSMTSample1DynamicHeightTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+//    override func layoutSubviews() {
+//        super.layoutSubviews()
+////        self.titleLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.titleLabel.bounds)
+////        self.bodyLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.bodyLabel.bounds)
+//
+//        let maxWidth = CGRectGetWidth(self.mainLabel.bounds)
+//
+//        self.mainLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.mainLabel.bounds)
+//        
+////        let maxWidth = CGRectGetWidth(self.mainLabel.frame)
+////        let size = self.mainLabel.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+////        self.mainLabel.preferredMaxLayoutWidth = maxWidth
+//    }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-
-        var preferedMaxWidth: CGFloat = 0
-
-        /*
-        @comment    デバイスの幅に応じて、preferredMaxValue値を設定。※mainLabel配置のレイアウト設計にも依存
-        */
-        if UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad
-        {
-            //iPad
-            preferedMaxWidth = 760.0
-        }
-        else
-        {
-            //iPhone
-            preferedMaxWidth = 310.0
-        }
-        
-        self.mainLabel.preferredMaxLayoutWidth = preferedMaxWidth
-    }
+//    override func layoutSubviews() {
+//        super.layoutSubviews()
+//
+//        var preferedMaxWidth: CGFloat = 0
+//        preferedMaxWidth = self.frame.size.width
+//
+//        /*
+//        @comment    デバイスの幅に応じて、preferredMaxValue値を設定。※mainLabel配置のレイアウト設計にも依存
+//        */
+//        if UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad
+//        {
+//            //iPad
+//            preferedMaxWidth = 760.0
+//        }
+//        else
+//        {
+//            //iPhone
+//            preferedMaxWidth = 310.0
+//        }
+//        
+//        self.mainLabel.preferredMaxLayoutWidth = preferedMaxWidth
+//    }
 }

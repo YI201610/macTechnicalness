@@ -28,11 +28,11 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-//        /*
-//        @comment
-//        */
-//        self.tableView.estimatedRowHeight = 40
-//        
+        /*
+        @comment
+        */
+        self.tableView.estimatedRowHeight = 40
+        
         /*
         @comment    計測用のセルを取得
         */
@@ -98,19 +98,23 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
         return cell
     }
 
-    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 40.0
-    }
-
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+
+        let maxWidth = CGRectGetWidth(self.tableView.frame)
 
         self.configureCell(self.stubCell!, atIndex: indexPath)
         self.stubCell?.layoutSubviews()
+        
+        //
+        /*
+        @comment    15: leading constraintの定数値
+        */
+        self.stubCell?.mainLabel.preferredMaxLayoutWidth = maxWidth - 15
 
         let cellSize = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
         println("cellSize: \(cellSize)")
         
-        return cellSize.height + 30
+        return cellSize.height + 1
     }
 
 
