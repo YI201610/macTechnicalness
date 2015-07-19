@@ -12,6 +12,27 @@
 
 				<dict>
 					<key>title</key>
+					<string>アクティビティビューコントローラー</string>
+					<key>vc</key>
+					<string>iOSMTSample1UIActivityViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Auto Layoutの仕組みを用いた、高さが可変のテーブルビューセル。</string>
+					<key>vc</key>
+					<string>iOSMTSample1DynamicHeightTableCellViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>２つの表示モードを持つテーブルビュー</string>
+					<key>vc</key>
+					<string></string>
+				</dict>
+
+				<dict>
+					<key>title</key>
 					<string>PDF画像付きボタンとラベル</string>
 					<key>vc</key>
 					<string>iOSMTSample1ButtonAndLabelViewController</string>
@@ -25,13 +46,6 @@
 					<string>iOSMTSample1UIPageViewController</string>
 				</dict>
 
-
-				<dict>
-					<key>title</key>
-					<string>アクティビティビューコントローラー</string>
-					<key>vc</key>
-					<string>iOSMTSample1UIActivityViewController</string>
-				</dict>
 
 				<dict>
 					<key>vc</key>

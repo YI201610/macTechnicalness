@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AKD-d7-bpf">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -20,10 +21,10 @@
             </objects>
             <point key="canvasLocation" x="-424" y="493"/>
         </scene>
-        <!--View Controller-->
+        <!--UIActivityViewController使用例-->
         <scene sceneID="jcX-Km-Edl">
             <objects>
-                <viewController id="IEQ-Uq-QQk" sceneMemberID="viewController">
+                <viewController id="IEQ-Uq-QQk" customClass="iOSMTSample1UIActivityViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KD7-zM-W4Z"/>
                         <viewControllerLayoutGuide type="bottom" id="NHo-RE-usO"/>
@@ -31,13 +32,55 @@
                     <view key="view" contentMode="scaleToFill" id="PYH-87-DFB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="result text" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOj-Ic-brv">
+                                <rect key="frame" x="0.0" y="210" width="600" height="390"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ic2-I2-dLA">
+                                <rect key="frame" x="236" y="110" width="128" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="J63-Gm-4p2"/>
+                                    <constraint firstAttribute="height" constant="87" id="oZM-he-8RU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="表示する">
+                                    <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didSelectShowButton:" destination="IEQ-Uq-QQk" eventType="touchUpInside" id="7Ih-qa-ebc"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NHo-RE-usO" firstAttribute="top" secondItem="mOj-Ic-brv" secondAttribute="bottom" id="Cqu-dU-1tz"/>
+                            <constraint firstAttribute="width" secondItem="mOj-Ic-brv" secondAttribute="width" id="GM9-b9-VcK"/>
+                            <constraint firstItem="Ic2-I2-dLA" firstAttribute="top" secondItem="KD7-zM-W4Z" secondAttribute="bottom" constant="46" id="RaP-WP-9Tb"/>
+                            <constraint firstAttribute="height" secondItem="mOj-Ic-brv" secondAttribute="height" multiplier="2:1.3" id="T1q-XW-edU"/>
+                            <constraint firstAttribute="trailing" secondItem="mOj-Ic-brv" secondAttribute="trailing" id="WRM-LI-NuF"/>
+                            <constraint firstAttribute="centerX" secondItem="Ic2-I2-dLA" secondAttribute="centerX" id="awI-Ki-FMh"/>
+                            <constraint firstItem="mOj-Ic-brv" firstAttribute="leading" secondItem="PYH-87-DFB" secondAttribute="leading" id="nLv-KQ-EzJ"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="KXL-IR-lcV">
-                        <barButtonItem key="leftBarButtonItem" title="戻る" id="fpq-hN-g4R"/>
+                    <navigationItem key="navigationItem" title="UIActivityViewController使用例" id="KXL-IR-lcV">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="fpq-hN-g4R">
+                            <connections>
+                                <segue destination="43p-gX-Gfa" kind="unwind" unwindAction="backToTopController:" id="L7G-O5-SbI"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultTextView" destination="mOj-Ic-brv" id="cI3-YB-wJN"/>
+                        <outlet property="showButton" destination="Ic2-I2-dLA" id="xWm-6z-0y3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oqu-Xa-PiF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="43p-gX-Gfa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="401" y="493"/>
         </scene>

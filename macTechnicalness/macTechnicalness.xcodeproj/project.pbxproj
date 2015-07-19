@@ -239,6 +239,8 @@
 		ECA473AF1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */; };
 		ECA473B11B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */; };
 		ECA473B21B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */; };
+		ECA473B51B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */; };
+		ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */; };
 		ECB582F51B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
 		ECB582F61B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
 		ECB582F71B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */; };
@@ -603,6 +605,7 @@
 		ECA1FB561AFF123800704134 /* iOSApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iOSApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1ButtonAndLabelViewController.storyboard; path = Storyboard/iOSMTSample1ButtonAndLabelViewController.storyboard; sourceTree = "<group>"; };
 		ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1UIActivityViewController.storyboard; path = Storyboard/iOSMTSample1UIActivityViewController.storyboard; sourceTree = "<group>"; };
+		ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1UIActivityViewController.swift; path = ViewController/iOSMTSample1UIActivityViewController.swift; sourceTree = "<group>"; };
 		ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth3WindowController.swift; path = Controller/WindowController/OSXMTBluetooth3WindowController.swift; sourceTree = "<group>"; };
 		ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth3WindowController.xib; path = Controller/WindowController/OSXMTBluetooth3WindowController.xib; sourceTree = "<group>"; };
 		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
@@ -1489,6 +1492,7 @@
 		EC5E786F1A5D89BF0089D226 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				ECA473B31B5A9C5E0034D9C4 /* アクティビティビューコントローラー */,
 				EC2627931B510E6600CBF14F /* PageViewController */,
 				EC2627861B50BF4000CBF14F /* コンテナビューコントローラー */,
 				ECA139CE1ACAEACD00BFCBFE /* storyboard - Case1 */,
@@ -1618,6 +1622,14 @@
 				ECE84FD81AFF3C1B00907EAF /* 複合アクションテスト */,
 			);
 			name = Basics;
+			sourceTree = "<group>";
+		};
+		ECA473B31B5A9C5E0034D9C4 /* アクティビティビューコントローラー */ = {
+			isa = PBXGroup;
+			children = (
+				ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */,
+			);
+			name = "アクティビティビューコントローラー";
 			sourceTree = "<group>";
 		};
 		ECB582F21B3E8FD3006EE61C /* Bluetooth3: Service, Characteristic */ = {
@@ -2454,6 +2466,7 @@
 				ECE84FEE1AFF45B100907EAF /* MTSKBasicTransition2Scene.m in Sources */,
 				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				ECA1FB541AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */,
+				ECA473B51B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				744A9EA31AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
 				ECE84FE71AFF448100907EAF /* MTSKBasicTransition1Scene.m in Sources */,
@@ -2519,6 +2532,7 @@
 				EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
 				EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
+				ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
 				ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */,
 				EC957CDE1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */,
