@@ -28,11 +28,11 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        /*
-        @comment
-        */
-        self.tableView.estimatedRowHeight = 40
-        
+//        /*
+//        @comment
+//        */
+//        self.tableView.estimatedRowHeight = 40
+//        
         /*
         @comment    計測用のセルを取得
         */
@@ -45,8 +45,14 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
             "message" : "The UIActivity class is an abstract class that you subclass in order to implement application-specific services. A service takes data that is passed to it, does something to that data, and returns the results. For example, an social media service might take whatever text, images, or other content is provided to it and post them to the user’s account. Activity objects are used in conjunction with a UIActivityViewController object, which is responsible for presenting services to the user. You should subclass UIActivity only if you want to provide custom services to the user. The system already provides support for many standard services and makes them available through the UIActivityViewController object. For example, the standard activity view controller supports emailing data, posting items to one of the user’s social media accounts, and several other options. You do not have to provide custom services for any of the built-in types.",
             "date" : NSDate()
         ]
-        
+
+        var data2Dictionary: NSMutableDictionary = [
+            "message" : "The UIActivity class is an abstract class that you subclass in order to implement application-specific services. テスト。",
+            "date" : NSDate()
+        ]
+
         self.dataObjectArray.addObject(data1Dictionary)
+        self.dataObjectArray.addObject(data2Dictionary)
         
         
     }
@@ -92,28 +98,19 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
         return cell
     }
 
-//    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//        return 10.0
-//    }
+    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 40.0
+    }
 
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
 
-        let cellSize1 = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
-        println("cellSize1: \(cellSize1)")
-        
         self.configureCell(self.stubCell!, atIndex: indexPath)
-        let cellSize2 = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
-        println("cellSize2: \(cellSize2)")
-
         self.stubCell?.layoutSubviews()
+
+        let cellSize = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+        println("cellSize: \(cellSize)")
         
-//        let cellHeight = self.stubCell?.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
-        
-        
-        let cellSize3 = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
-        println("cellSize3: \(cellSize3)")
-        
-        return cellSize3.height
+        return cellSize.height + 30
     }
 
 
