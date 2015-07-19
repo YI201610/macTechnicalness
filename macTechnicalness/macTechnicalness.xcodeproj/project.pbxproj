@@ -159,6 +159,8 @@
 		EC3A95861B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */; };
 		EC3A958B1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */; };
 		EC3A958C1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */; };
+		EC3A958E1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */; };
+		EC3A958F1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */; };
 		EC3D0B5C1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0B621A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */; };
 		EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0B6A1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m */; };
@@ -545,6 +547,7 @@
 		EC33ECA31AE93FFF00A513B3 /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; };
 		EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1DynamicHeightTableCellViewController.storyboard; path = Storyboard/iOSMTSample1DynamicHeightTableCellViewController.storyboard; sourceTree = "<group>"; };
 		EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1DynamicHeightTableCellTableViewController.swift; path = ViewController/iOSMTSample1DynamicHeightTableCellTableViewController.swift; sourceTree = "<group>"; };
+		EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1DynamicHeightTableViewCell.swift; path = View/iOSMTSample1DynamicHeightTableViewCell.swift; sourceTree = "<group>"; };
 		EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSEmbeddedModelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3D0B5A1A32E99A0097C9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEmbeddedModelKit.h; sourceTree = "<group>"; };
@@ -1339,6 +1342,7 @@
 			isa = PBXGroup;
 			children = (
 				EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */,
+				EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */,
 			);
 			name = "高さ可変テーブルビューセル";
 			sourceTree = "<group>";
@@ -2518,6 +2522,7 @@
 				ECE84FF31AFF4DA600907EAF /* MTSKBasicsSceneController.m in Sources */,
 				ECFE82D41B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */,
 				ECE84FDD1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */,
+				EC3A958E1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				EC49DB771ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */,
@@ -2550,6 +2555,7 @@
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
 				EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
+				EC3A958F1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,

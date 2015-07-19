@@ -8,8 +8,16 @@
 
 import UIKit
 
+/**
+    高さ可変のテーブルビューセル。
+
+    参考文献: http://dev.classmethod.jp/smartphone/iphone/how-to-make-adjustable-cell/
+*/
 @objc(iOSMTSample1DynamicHeightTableCellTableViewController)
 class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewController {
+    
+    var dataObjectArray: NSMutableArray = []
+    var stubCell: iOSMTSample1DynamicHeightTableViewCell?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +27,28 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        /*
+        @comment
+        */
+        self.tableView.estimatedRowHeight = 40
+        
+        /*
+        @comment    計測用のセルを取得
+        */
+        self.stubCell = self.tableView.dequeueReusableCellWithIdentifier("dynamicHeightCell") as? iOSMTSample1DynamicHeightTableViewCell
+        
+        /*
+        @comment    テーブルに乗っけるテストデータを作成
+        */
+        var data1Dictionary: NSMutableDictionary = [
+            "message" : "The UIActivity class is an abstract class that you subclass in order to implement application-specific services. A service takes data that is passed to it, does something to that data, and returns the results. For example, an social media service might take whatever text, images, or other content is provided to it and post them to the user’s account. Activity objects are used in conjunction with a UIActivityViewController object, which is responsible for presenting services to the user. You should subclass UIActivity only if you want to provide custom services to the user. The system already provides support for many standard services and makes them available through the UIActivityViewController object. For example, the standard activity view controller supports emailing data, posting items to one of the user’s social media accounts, and several other options. You do not have to provide custom services for any of the built-in types.",
+            "date" : NSDate()
+        ]
+        
+        self.dataObjectArray.addObject(data1Dictionary)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,68 +61,60 @@ class iOSMTSample1DynamicHeightTableCellTableViewController: UITableViewControll
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return self.dataObjectArray.count
+    }
+    
+    func configureCell(cell: iOSMTSample1DynamicHeightTableViewCell, atIndex:NSIndexPath)
+    {
+        let dataObject: NSDictionary = (self.dataObjectArray[atIndex.row] as? NSDictionary)!
+        
+        cell.mainLabel.text = dataObject.valueForKey("message") as? String
+        
+        var date: NSDate = (dataObject.valueForKey("date") as? NSDate)!
+        var dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "yyyy/mm/dd HH:mm:ss"
+        cell.subLabel.text = dateFormatter.stringFromDate(date)
     }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier("dynamicHeightCell", forIndexPath: indexPath) as! iOSMTSample1DynamicHeightTableViewCell
 
         // Configure the cell...
+        self.configureCell(cell, atIndex: indexPath)
 
         return cell
     }
-    */
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the specified item to be editable.
-        return true
+//    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+//        return 10.0
+//    }
+
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+
+        let cellSize1 = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+        println("cellSize1: \(cellSize1)")
+        
+        self.configureCell(self.stubCell!, atIndex: indexPath)
+        let cellSize2 = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+        println("cellSize2: \(cellSize2)")
+
+        self.stubCell?.layoutSubviews()
+        
+//        let cellHeight = self.stubCell?.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
+        
+        
+        let cellSize3 = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+        println("cellSize3: \(cellSize3)")
+        
+        return cellSize3.height
     }
-    */
 
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
