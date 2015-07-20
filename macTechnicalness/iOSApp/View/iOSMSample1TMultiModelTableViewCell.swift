@@ -1,18 +1,18 @@
 //
-//  iOSMTSample1DynamicHeightTableViewCell.swift
+//  iOSMSample1TMultiModelTableViewCell.swift
 //  macTechnicalness
 //
-//  Created by Yuji Imamura on 2015/07/19.
+//  Created by Yuji Imamura on 2015/07/20.
 //
 //
 
 import UIKit
 
-@objc(iOSMTSample1DynamicHeightTableViewCell)
-class iOSMTSample1DynamicHeightTableViewCell: UITableViewCell {
+@objc(iOSMSample1TMultiModelTableViewCell)
+class iOSMSample1TMultiModelTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var mainLabel: UILabel!
-    @IBOutlet weak var subLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var messageLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,11 +25,11 @@ class iOSMTSample1DynamicHeightTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
     //--------------------------------------------
     // MARK:
-    
     class func cellIdentifier() -> String {
-        return "dynamicHeightCell"
+        return "multiModeCell"
     }
 
 }
