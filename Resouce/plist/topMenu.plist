@@ -12,6 +12,13 @@
 
 				<dict>
 					<key>title</key>
+					<string>複数個のアイコンが並ぶ、高さ可変のコレクションビュー</string>
+					<key>vc</key>
+					<string>iOSMTSample20150720CollectionViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
 					<string>Auto Layoutの仕組みを用いた、マルチデバイス対応の、高さが可変のテーブルビューセル。</string>
 					<key>vc</key>
 					<string>iOSMTSample1DynamicHeightTableCellViewController</string>
@@ -23,14 +30,6 @@
 					<key>vc</key>
 					<string>iOSMTMultiTableViewController</string>
 				</dict>
-
-				<dict>
-					<key>title</key>
-					<string>複数個のアイコンが並ぶ、高さ可変のコレクションビュー</string>
-					<key>vc</key>
-					<string></string>
-				</dict>
-
 
 
 				<dict>
