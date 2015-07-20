@@ -18,9 +18,9 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Register cell classes
-        self.collectionView!.registerClass(iOSMTSample20150720CollectionViewCell.self,
-            forCellWithReuseIdentifier: reuseIdentifier)
+//        // Register cell classes
+//        self.collectionView!.registerClass(iOSMTSample20150720CollectionViewCell.self,
+//            forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
     }
