@@ -11,8 +11,10 @@ import UIKit
 @objc(iOSMTSample20150720CollectionViewCell)
 class iOSMTSample20150720CollectionViewCell: UICollectionViewCell {
 
-    
     @IBOutlet weak var someLabel: UILabel!
+    
+    @IBOutlet weak var someImage: UIImageView!
+    
     
 //    override func awakeFromNib() {
 //        super.awakeFromNib()

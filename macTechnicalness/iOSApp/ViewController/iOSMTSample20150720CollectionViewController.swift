@@ -55,7 +55,8 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
 
     func configureCell(cell: iOSMTSample20150720CollectionViewCell, atIndexPath: NSIndexPath)
     {
-        
+        cell.someLabel.text = "画像" + String(atIndexPath.row+1)
+        cell.someImage.image = UIImage(named: "startPDFstar")
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
