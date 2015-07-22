@@ -25,6 +25,7 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     override func viewDidAppear(animated: Bool) {
         let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
         println("[did]contentSize: \(contentSize)")
