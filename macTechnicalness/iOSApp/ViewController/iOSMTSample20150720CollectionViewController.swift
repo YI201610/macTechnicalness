@@ -25,6 +25,16 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidAppear(animated: Bool) {
+        let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
+        println("[did]contentSize: \(contentSize)")
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
+        println("[will]contentSize: \(contentSize)")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -50,7 +60,7 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
-        return 5
+        return 23
     }
 
     func configureCell(cell: iOSMTSample20150720CollectionViewCell, atIndexPath: NSIndexPath)
