@@ -27,13 +27,13 @@ class iOSMTContainerSample2Sub1ViewController: UIViewController {
         println("[will] sub1 - viewWillAppear...")
     }
 
-    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
-        return true
-    }
-    
-    override func shouldAutomaticallyForwardRotationMethods() -> Bool {
-        return true
-    }
+//    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
+//        return true
+//    }
+//    
+//    override func shouldAutomaticallyForwardRotationMethods() -> Bool {
+//        return true
+//    }
 
     /*
     // MARK: - Navigation

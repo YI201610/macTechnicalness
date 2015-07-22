@@ -21,6 +21,8 @@ class iOSMTMultiTableViewController: UITableViewController {
     
     var stubCell: iOSMSample1TMultiModelTableViewCell?
     
+    @IBOutlet weak var tableHeaderView: UIView!
+    
     //--------------------------------------------
     // MARK: Model Data
     var mode1DataArray: NSMutableArray = []
@@ -186,6 +188,37 @@ class iOSMTMultiTableViewController: UITableViewController {
         println("cellSize: \(cellSize)")
         
         return cellSize.height + 1
+    }
+    
+    
+    //--------------------------------------------
+    // MARK: 
+    func totalContentSize(#maxWidthValue: CGFloat) -> CGFloat {
+        var rowCount = 0
+        
+        if self.button1.selected {
+            rowCount = self.mode1DataArray.count
+        } else {
+            rowCount = self.mode2DataArray.count
+        }
+        
+        var totalHeight: CGFloat = 0
+        for var i = 0; i < rowCount; i++ {
+
+            let maxWidth = maxWidthValue // CGRectGetWidth(self.tableView.frame)
+            self.stubCell?.messageLabel.preferredMaxLayoutWidth = maxWidth - 10
+            
+            let indexPath = NSIndexPath(forRow: i, inSection: 1)
+            self.configureCell(self.stubCell!, atIndex: indexPath)
+            self.stubCell?.layoutSubviews()
+            
+            let cellSize = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+            println("cellSize: \(cellSize)")
+
+            totalHeight += cellSize.height
+        }
+
+        return totalHeight + self.tableHeaderView.frame.height
     }
 
 

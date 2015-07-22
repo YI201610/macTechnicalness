@@ -31,9 +31,11 @@ import UIKit
 
 
 */
+@objc(iOSMTContainerSample2TableViewController)
 class iOSMTContainerSample2TableViewController: UITableViewController {
 
-    @IBOutlet weak var containerView1: UIView!
+    var sub1ViewController: iOSMTContainerSample2Sub1ViewController?
+    var sub2ViewController: iOSMTMultiTableViewController?
     
     
     override func viewDidLoad() {
@@ -46,21 +48,44 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
-    override func viewWillAppear(animated: Bool) {
-        println("[will]コンテナビューを管理するビューコントローラーのviewWillAppear...")
-    }
+//    override func viewWillAppear(animated: Bool) {
+//        println("[will]コンテナビューを管理するビューコントローラーのviewWillAppear...")
+//        
+//
+//        //
+//        self.sub2ViewController?.beginAppearanceTransition(true, animated: true)
+//
+//        let sub2tableSize = self.sub2ViewController!.tableView.contentSize
+//        println("sub2TableSize: \(sub2tableSize)")
+//        
+//        let sub2TotalHeight = self.sub2ViewController!.totalContentSize()
+//        println("sub2TotalHeight: \(sub2tableSize)")
+//
+//    }
+//    
+//    override func viewDidAppear(animated: Bool) {
+//        println("[did]コンテナビューを管理するビューコントローラーのviewDidAppear...")
+//        
+//        let sub2tableSize = self.sub2ViewController!.tableView.contentSize
+//        println("sub2TableSize: \(sub2tableSize)")
+//
+//    }
     
-    override func viewDidAppear(animated: Bool) {
-        println("[did]コンテナビューを管理するビューコントローラーのviewDidAppear...")
-    }
+//    override func viewWillLayoutSubviews() {
+//        println("[willLayout]コンテナビューを管理するビューコントローラーのviewWillLayoutSubviews...")
+//        
+//        let sub2tableSize = self.sub2ViewController!.tableView.contentSize
+//        println("sub2TableSize: \(sub2tableSize)")
+//
+//    }
 
-    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
-        return true
-    }
-    
-    override func shouldAutomaticallyForwardRotationMethods() -> Bool {
-        return true
-    }
+//    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
+//        return true
+//    }
+//    
+//    override func shouldAutomaticallyForwardRotationMethods() -> Bool {
+//        return true
+//    }
     
     // MARK: - Table view data source
 
@@ -76,14 +101,16 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
 //        return 3
 //    }
 
-//    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//        
-//        if indexPath.row == 1 {
-//            return 300
-//        }
-//
-//        return 50
-//    }
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+
+        var heightValue:CGFloat = 50
+        
+        if indexPath.row == 1 {
+            heightValue = self.sub2ViewController!.totalContentSize(maxWidthValue: tableView.frame.width)
+        }
+
+        return heightValue
+    }
     
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -130,15 +157,22 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "sub1ViewController" {
+            self.sub1ViewController = segue.destinationViewController as? iOSMTContainerSample2Sub1ViewController
+        } else if segue.identifier == "sub2ViewController" {
+            self.sub2ViewController = segue.destinationViewController as? iOSMTMultiTableViewController
+        }
+        
+        
     }
-    */
     
 
 
