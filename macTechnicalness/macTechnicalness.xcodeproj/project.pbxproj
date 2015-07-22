@@ -112,6 +112,10 @@
 		7471D9EC1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D9E91B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift */; };
 		7471D9ED1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */; };
 		7471D9EE1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */; };
+		747F35A41B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */; };
+		747F35A51B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */; };
+		747F35A81B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */; };
+		747F35A91B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		749A81201AF344AB001D3607 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A811F1AF344AB001D3607 /* InterfaceController.m */; };
@@ -502,6 +506,8 @@
 		7471D9E41B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth5WindowController.xib; path = Controller/WindowController/OSXMTBluetooth5WindowController.xib; sourceTree = "<group>"; };
 		7471D9E91B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth6WindowController.swift; path = Controller/WindowController/OSXMTBluetooth6WindowController.swift; sourceTree = "<group>"; };
 		7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth6WindowController.xib; path = Controller/WindowController/OSXMTBluetooth6WindowController.xib; sourceTree = "<group>"; };
+		747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTContainerSample2Sub1ViewController.swift; path = ViewController/iOSMTContainerSample2Sub1ViewController.swift; sourceTree = "<group>"; };
+		747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTContainerSample2Sub2TableViewController.swift; path = ViewController/iOSMTContainerSample2Sub2TableViewController.swift; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
@@ -1093,6 +1099,15 @@
 			name = "Bluetooth1: Scan";
 			sourceTree = "<group>";
 		};
+		747F35A61B5F409800CEA8EE /* サブビューコントローラー */ = {
+			isa = PBXGroup;
+			children = (
+				747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */,
+				747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */,
+			);
+			name = "サブビューコントローラー";
+			sourceTree = "<group>";
+		};
 		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -1330,6 +1345,7 @@
 			isa = PBXGroup;
 			children = (
 				EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */,
+				747F35A61B5F409800CEA8EE /* サブビューコントローラー */,
 			);
 			name = "コンテナビューコントローラーxn + 固定ボタン";
 			sourceTree = "<group>";
@@ -1633,13 +1649,13 @@
 				ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */,
 				EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */,
 				EC2F8B041AC946DE0048E180 /* AutoLaytouCase3.storyboard */,
-				EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */,
 				EC2627981B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard */,
 				ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */,
 				ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */,
 				EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */,
 				EC9F91911B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard */,
 				EC7F174F1B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard */,
+				EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */,
 			);
 			name = storyboard;
 			sourceTree = "<group>";
@@ -2563,6 +2579,7 @@
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				EC09367E1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */,
+				747F35A81B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */,
 				744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
 				EC49DB731ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
 				ECFE82D71B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */,
@@ -2579,6 +2596,7 @@
 				744A9EB31AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */,
 				EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 				EC2627911B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift in Sources */,
+				747F35A41B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */,
 				ECE84FF31AFF4DA600907EAF /* MTSKBasicsSceneController.m in Sources */,
 				ECFE82D41B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */,
 				ECE84FDD1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */,
@@ -2621,6 +2639,7 @@
 				EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
 				EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
 				EC3A958F1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */,
+				747F35A91B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
@@ -2640,6 +2659,7 @@
 				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC3A958C1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */,
+				747F35A51B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */,
 				EC33ADF01AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
 				744481C91B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 				ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,

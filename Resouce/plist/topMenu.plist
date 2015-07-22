@@ -62,14 +62,6 @@
 					<string>コンテンツビューx１</string>
 				</dict>
 
-
-				<dict>
-					<key>title</key>
-					<string>コンテンツビューx７</string>
-					<key>vc</key>
-					<string>iOSMTContainerSample2ViewController</string>
-				</dict>
-
 				<dict>
 					<key>title</key>
 					<string>コンテンツビューx７ + 固定ボタンx2</string>

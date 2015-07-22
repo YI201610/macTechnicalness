@@ -1,41 +1,16 @@
 //
-//  iOSMTContainerSample2TableViewController.swift
+//  iOSMTContainerSample2Sub2TableViewController.swift
 //  macTechnicalness
 //
-//  Created by Yuji Imamura on 2015/07/11.
+//  Created by Yuji Imamura on 2015/07/22.
 //
 //
 
 import UIKit
 
-/*!
-@abstract 開発の羅針盤
+@objc(iOSMTContainerSample2Sub2TableViewController)
+class iOSMTContainerSample2Sub2TableViewController: UITableViewController {
 
-⬛︎ M/V/C 原則
-
-    Viewは、Entityを保持しない。入力のインターフェースのみもつ。
-    Viewのインターフェースに、Modelデータをアサインするのは、Controllerの責務である。
-    --------
-    したがって、MVCデザインにおいては、ビューが「setupWithEntity: 」というようなメソッドをもつことはない。
-
-    それ的な処理をしたいのであれば、ViewController側に、setupCellPropertiesWithEntity: といったメソッドを設けて対応する。
-
-    Viewと、Modelは、疎結合にする。
-    Viewと、Modelを結合する役割は、Controllerが担う。
-
-⬛︎ Container View Controllerと、Content Viewの、連携の原則
-
-    ・継承は使用しない
-    ・プロトコルにより、親と連携する。
-
-
-
-*/
-class iOSMTContainerSample2TableViewController: UITableViewController {
-
-    @IBOutlet weak var containerView1: UIView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,21 +22,15 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        println("[will]コンテナビューを管理するビューコントローラーのviewWillAppear...")
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-        println("[did]コンテナビューを管理するビューコントローラーのviewDidAppear...")
+        let tableSize = self.tableView.contentSize
+        println("[will] tableSize: \(tableSize)")
     }
 
-    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
-        return true
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
-    
-    override func shouldAutomaticallyForwardRotationMethods() -> Bool {
-        return true
-    }
-    
+
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -70,30 +39,20 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
         return 1
     }
 
-//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete method implementation.
-//        // Return the number of rows in the section.
-//        return 3
-//    }
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete method implementation.
+        // Return the number of rows in the section.
+        return 1
+    }
 
-//    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//        
-//        if indexPath.row == 1 {
-//            return 300
-//        }
-//
-//        return 50
-//    }
-    
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
+        cell.textLabel?.text = "Apple."
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -139,7 +98,5 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-
 
 }
