@@ -8,6 +8,10 @@
 
 import UIKit
 
+/**
+    storyboardで関連付けしたコンテナビューコントローラー配下だと、
+    管理が煩雑のため、viewWill(/Did)Appearは使用しない
+*/
 @objc(iOSMTContainerSample2Sub2TableViewController)
 class iOSMTContainerSample2Sub2TableViewController: UITableViewController {
 

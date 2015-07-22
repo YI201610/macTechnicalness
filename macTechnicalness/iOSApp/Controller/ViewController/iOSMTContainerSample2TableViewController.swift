@@ -26,9 +26,7 @@ import UIKit
 ⬛︎ Container View Controllerと、Content Viewの、連携の原則
 
     ・継承は使用しない
-    ・プロトコルにより、親と連携する。
-
-
+    ・子は、プロトコルにより、親と連携する。
 
 */
 @objc(iOSMTContainerSample2TableViewController)
@@ -48,45 +46,6 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
-//    override func viewWillAppear(animated: Bool) {
-//        println("[will]コンテナビューを管理するビューコントローラーのviewWillAppear...")
-//        
-//
-//        //
-//        self.sub2ViewController?.beginAppearanceTransition(true, animated: true)
-//
-//        let sub2tableSize = self.sub2ViewController!.tableView.contentSize
-//        println("sub2TableSize: \(sub2tableSize)")
-//        
-//        let sub2TotalHeight = self.sub2ViewController!.totalContentSize()
-//        println("sub2TotalHeight: \(sub2tableSize)")
-//
-//    }
-//    
-//    override func viewDidAppear(animated: Bool) {
-//        println("[did]コンテナビューを管理するビューコントローラーのviewDidAppear...")
-//        
-//        let sub2tableSize = self.sub2ViewController!.tableView.contentSize
-//        println("sub2TableSize: \(sub2tableSize)")
-//
-//    }
-    
-//    override func viewWillLayoutSubviews() {
-//        println("[willLayout]コンテナビューを管理するビューコントローラーのviewWillLayoutSubviews...")
-//        
-//        let sub2tableSize = self.sub2ViewController!.tableView.contentSize
-//        println("sub2TableSize: \(sub2tableSize)")
-//
-//    }
-
-//    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {
-//        return true
-//    }
-//    
-//    override func shouldAutomaticallyForwardRotationMethods() -> Bool {
-//        return true
-//    }
-    
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -95,16 +54,16 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
         return 1
     }
 
-//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete method implementation.
-//        // Return the number of rows in the section.
-//        return 3
-//    }
-
+    /**
+        各コンテナビューコントローラーの高さを計算する
+    */
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
 
         var heightValue:CGFloat = 50
         
+        /*
+        @comment
+        */
         if indexPath.row == 1 {
             heightValue = self.sub2ViewController!.totalContentSize(maxWidthValue: tableView.frame.width)
         }
@@ -112,52 +71,8 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
         return heightValue
     }
     
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    // MARK: - Navigation
+    
+    // MARK: - Segue
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)

@@ -193,6 +193,7 @@ class iOSMTMultiTableViewController: UITableViewController {
     
     //--------------------------------------------
     // MARK: 
+    
     func totalContentSize(#maxWidthValue: CGFloat) -> CGFloat {
         var rowCount = 0
         
@@ -213,7 +214,6 @@ class iOSMTMultiTableViewController: UITableViewController {
             self.stubCell?.layoutSubviews()
             
             let cellSize = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
-            println("cellSize: \(cellSize)")
 
             totalHeight += cellSize.height
         }
