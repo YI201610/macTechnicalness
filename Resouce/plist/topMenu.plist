@@ -6,6 +6,36 @@
 
 		<dict>
 			<key>title</key>
+			<string>CoreData</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Light Weight Migration</string>
+					<key>vc</key>
+					<string>iOSMTCoreData1ViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>title</key>
+					<string>NSManagedObjectModel</string>
+					<key>vc</key>
+					<string>iOSMTCoreData2ViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>NSPersistentStoreCoordinator</string>
+					<key>vc</key>
+					<string>iOSMTCoreData3ViewController</string>
+				</dict>
+
+			</array>
+		</dict>
+
+		<dict>
+			<key>title</key>
 			<string>UIKit - コンテナ, 他</string>
 			<key>items</key>
 			<array>
@@ -73,27 +103,6 @@
 			</array>
 		</dict>
 
-		<dict>
-			<key>title</key>
-			<string>CoreData</string>
-			<key>items</key>
-			<array>
-				<dict>
-					<key>title</key>
-					<string>NSManagedObjectModel</string>
-					<key>vc</key>
-					<string>iOSMTCoreData1ViewController</string>
-				</dict>
-
-				<dict>
-					<key>title</key>
-					<string>NSPersistentStoreCoordinator</string>
-					<key>vc</key>
-					<string>iOSMTCoreData1ViewController</string>
-				</dict>
-
-			</array>
-		</dict>
 
 
 		<dict>
