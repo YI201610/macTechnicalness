@@ -9,6 +9,4 @@
 #ifndef macTechnicalness_iOSApp_Bridging_Header_h
 #define macTechnicalness_iOSApp_Bridging_Header_h
 
-#import "CoodinatorCoreData.h"
-
 #endif

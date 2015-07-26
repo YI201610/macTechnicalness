@@ -7,18 +7,32 @@
 //
 
 import UIKit
+import CoreData
+
 
 @objc(iOSMTCoreData1ViewController)
 class iOSMTCoreData1ViewController: UIViewController {
 
-    var coreDataCoordinator: CoodinatorCoreData?
+    @IBOutlet weak var textView1: UITextView!
+    @IBOutlet weak var textView2: UITextView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        self.coreDataCoordinator = CoodinatorCoreData()
+        /*
+        @comment    NSManagedObjectModelのURLを取得
+        */
+        let momdURL =  NSBundle.mainBundle().URLForResource("iOSMTCoreData1", withExtension: "momd");
+        println("momdURL: \(momdURL?.absoluteString)")
+        self.textView1.text = momdURL?.absoluteString
         
+        /*
+        @comment    NSManagedObjectModelを読み込む
+        */
+        let managedObjectModel = NSManagedObjectModel(contentsOfURL: momdURL!)
+        println("managedObjectModel: \(managedObjectModel)")
+        self.textView2.text = managedObjectModel?.description
     }
 
     override func didReceiveMemoryWarning() {

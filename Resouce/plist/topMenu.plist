@@ -11,7 +11,7 @@
 			<array>
 				<dict>
 					<key>title</key>
-					<string>Light Weight Migration</string>
+					<string>バンドル内のNSManagedObjectModelをロードする</string>
 					<key>vc</key>
 					<string>iOSMTCoreData1ViewController</string>
 				</dict>
@@ -19,7 +19,7 @@
 
 				<dict>
 					<key>title</key>
-					<string>NSManagedObjectModel</string>
+					<string>NSPersistentStoreCoordinator</string>
 					<key>vc</key>
 					<string>iOSMTCoreData2ViewController</string>
 				</dict>

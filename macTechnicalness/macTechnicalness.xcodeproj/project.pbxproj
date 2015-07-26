@@ -122,8 +122,6 @@
 		748018B71B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 748018B41B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld */; };
 		748018BD1B6108030054C88D /* iOSMTCoreData1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */; };
 		748018BE1B6108030054C88D /* iOSMTCoreData1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */; };
-		748018C31B61087A0054C88D /* CoodinatorCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 748018C01B61087A0054C88D /* CoodinatorCoreData.m */; };
-		748018C41B61087A0054C88D /* CoodinatorCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 748018C01B61087A0054C88D /* CoodinatorCoreData.m */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		749A81201AF344AB001D3607 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A811F1AF344AB001D3607 /* InterfaceController.m */; };
@@ -519,8 +517,6 @@
 		748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTCoreData1ViewController.storyboard; path = Storyboard/iOSMTCoreData1ViewController.storyboard; sourceTree = "<group>"; };
 		748018B51B61069D0054C88D /* iOSMTCoreData1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSMTCoreData1.xcdatamodel; sourceTree = "<group>"; };
 		748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTCoreData1ViewController.swift; path = ViewController/iOSMTCoreData1ViewController.swift; sourceTree = "<group>"; };
-		748018BF1B61087A0054C88D /* CoodinatorCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoodinatorCoreData.h; path = Model/CoodinatorCoreData.h; sourceTree = "<group>"; };
-		748018C01B61087A0054C88D /* CoodinatorCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoodinatorCoreData.m; path = Model/CoodinatorCoreData.m; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
@@ -1133,8 +1129,6 @@
 		748018B31B6106700054C88D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				748018BF1B61087A0054C88D /* CoodinatorCoreData.h */,
-				748018C01B61087A0054C88D /* CoodinatorCoreData.m */,
 				748018B41B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld */,
 			);
 			name = Model;
@@ -2624,7 +2618,6 @@
 				744A9EAF1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
 				744A9EA71AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
 				ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
-				748018C31B61087A0054C88D /* CoodinatorCoreData.m in Sources */,
 				EC3A958B1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */,
 				EC7DC0CA1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
 				EC7F17531B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift in Sources */,
@@ -2700,7 +2693,6 @@
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC3A958C1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */,
 				747F35A51B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */,
-				748018C41B61087A0054C88D /* CoodinatorCoreData.m in Sources */,
 				EC33ADF01AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
 				744481C91B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 				ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
