@@ -33,14 +33,46 @@ class iOSMTCoreData1ViewController: UIViewController {
         let managedObjectModel = NSManagedObjectModel(contentsOfURL: momdURL!)
         println("managedObjectModel: \(managedObjectModel)")
         self.textView2.text = managedObjectModel?.description
+        
+        /*
+        @comment    ストア・コーディネーターを作成する。処理は、直ちに完了する。
+        */
+        var storeCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel!)
+        println("storeCoordinator: \(storeCoordinator)")
+        
+        var someQueue: dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+        dispatch_async(someQueue, {
+            
+            println("非同期で、persistentStoreを初期化中...")
+        
+            let fileManager: NSFileManager = NSFileManager.defaultManager()
+            let directoryArray: NSArray = fileManager.URLsForDirectory(NSSearchPathDirectory.DocumentDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask)
+            
+            var storeURL: NSURL? = nil
+            storeURL = directoryArray.lastObject! as? NSURL
+            storeURL = storeURL?.URLByAppendingPathComponent("iOSMTCoreData1.sqlite")
+            
+            var error: NSError? = nil
+            var persistentStore: NSPersistentStore? = storeCoordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: storeURL, options: nil, error: &error)
+            
+            if persistentStore == nil {
+                println("error: \(error?.localizedDescription), userInfo: \(error?.userInfo)")
+            }
+            
+            dispatch_sync(dispatch_get_main_queue(), {
+                self.didFinishPersistentStoreInitialization()
+            })
+        })
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func didFinishPersistentStoreInitialization()
+    {
+        println("CoreDataのSaveコーディネーター、初期化処理が完了しました.")
     }
     
 
+    
     /*
     // MARK: - Navigation
 

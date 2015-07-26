@@ -143,6 +143,10 @@
 		74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
 		EC09367E1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */; };
 		EC09367F1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */; };
+		EC121EAB1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */; };
+		EC121EAC1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */; };
+		EC121EAE1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */; };
+		EC121EAF1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */; };
 		EC26278E1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */; };
 		EC26278F1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */; };
 		EC2627911B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */; };
@@ -558,6 +562,8 @@
 		74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckViewController.m; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.m; sourceTree = "<group>"; };
 		74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGamePadConnectionCheckViewController.xib; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.xib; sourceTree = "<group>"; };
 		EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSomeStateButton.swift; path = View/iOSMTSomeStateButton.swift; sourceTree = "<group>"; };
+		EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTCoreData2ViewController.swift; path = ViewController/iOSMTCoreData2ViewController.swift; sourceTree = "<group>"; };
+		EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTCoreData2ViewController.storyboard; path = Storyboard/iOSMTCoreData2ViewController.storyboard; sourceTree = "<group>"; };
 		EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTContainerSample2ViewController.storyboard; path = View/iOSMTContainerSample2ViewController.storyboard; sourceTree = "<group>"; };
 		EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTContainerSample2TableViewController.swift; path = Controller/ViewController/iOSMTContainerSample2TableViewController.swift; sourceTree = "<group>"; };
 		EC2627941B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1UIPageViewController.swift; path = Controller/ViewController/iOSMTSample1UIPageViewController.swift; sourceTree = "<group>"; };
@@ -1122,6 +1128,7 @@
 			isa = PBXGroup;
 			children = (
 				748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */,
+				EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -1683,6 +1690,7 @@
 				EC7F174F1B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard */,
 				EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */,
 				748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */,
+				EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */,
 			);
 			name = storyboard;
 			sourceTree = "<group>";
@@ -2403,6 +2411,7 @@
 				748018AE1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard in Resources */,
 				744A9E771AE3F69D00329C51 /* Snow.sks in Resources */,
 				744A9E8F1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
+				EC121EAE1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
 				EC957CDF1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
@@ -2443,6 +2452,7 @@
 				744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				ECA1FB511AFF005400704134 /* BasicsMultiAction.sks in Resources */,
+				EC121EAF1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 				ECE84FE01AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */,
 				744A9E721AE3F67500329C51 /* Rain.sks in Resources */,
@@ -2644,6 +2654,7 @@
 				744A9E9F1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
 				EC49DB7F1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				744A9EAB1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
+				EC121EAB1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */,
 				EC33ADEF1AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
 				744481C81B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 			);
@@ -2674,6 +2685,7 @@
 				747F35A91B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
+				EC121EAC1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
 				ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */,
 				EC957CDE1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */,
