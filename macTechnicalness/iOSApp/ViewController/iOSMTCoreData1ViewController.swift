@@ -26,14 +26,20 @@ class iOSMTCoreData1ViewController: UIViewController {
         let momdURL =  NSBundle.mainBundle().URLForResource("iOSMTCoreData1", withExtension: "momd");
         println("momdURL: \(momdURL?.absoluteString)")
         self.textView1.text = momdURL?.absoluteString
-        
+
+        self.textView1.textContainer.lineFragmentPadding = 0;
+        self.textView1.textContainerInset = UIEdgeInsetsMake(5, 5, 5, 5);
+
         /*
         @comment    NSManagedObjectModelを読み込む
         */
         let managedObjectModel = NSManagedObjectModel(contentsOfURL: momdURL!)
         println("managedObjectModel: \(managedObjectModel)")
         self.textView2.text = managedObjectModel?.description
-        
+
+        self.textView2.textContainer.lineFragmentPadding = 0;
+        self.textView2.textContainerInset = UIEdgeInsetsMake(5, 5, 5, 5);
+
         /*
         @comment    ストア・コーディネーターを作成する。処理は、直ちに完了する。
         */

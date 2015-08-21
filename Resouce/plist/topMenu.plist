@@ -16,7 +16,6 @@
 					<string>iOSMTCoreData1ViewController</string>
 				</dict>
 
-
 				<dict>
 					<key>title</key>
 					<string>NSPersistentStoreCoordinator</string>
@@ -26,9 +25,9 @@
 
 				<dict>
 					<key>title</key>
-					<string>NSPersistentStoreCoordinator</string>
+					<string>未定</string>
 					<key>vc</key>
-					<string>iOSMTCoreData3ViewController</string>
+					<string></string>
 				</dict>
 
 			</array>
