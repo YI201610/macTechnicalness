@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y1k-3x-T8c">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -33,30 +32,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="テスト２" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4t-fF-NbM">
-                                <rect key="frame" x="0.0" y="243" width="600" height="357"/>
-                                <color key="backgroundColor" red="0.86218536876808904" green="1" blue="0.91093819518271413" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="テスト１" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obm-ZY-6Ab">
-                                <rect key="frame" x="0.0" y="64" width="600" height="179"/>
-                                <color key="backgroundColor" red="0.88264023943097858" green="0.98289254151614514" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSr-ow-HOm">
+                                <rect key="frame" x="0.0" y="64" width="184" height="71"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzI-Tq-Wmo">
+                                <rect key="frame" x="65" y="247" width="87" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Obm-ZY-6Ab" firstAttribute="leading" secondItem="Ef0-3c-S7V" secondAttribute="leading" id="4ry-13-nPz"/>
-                            <constraint firstItem="U4t-fF-NbM" firstAttribute="top" secondItem="Obm-ZY-6Ab" secondAttribute="bottom" id="P0p-sE-k88"/>
-                            <constraint firstItem="Obm-ZY-6Ab" firstAttribute="height" secondItem="U4t-fF-NbM" secondAttribute="height" multiplier="1:2" id="Pbg-Kc-90g"/>
-                            <constraint firstItem="Obm-ZY-6Ab" firstAttribute="top" secondItem="9Ly-iH-OtQ" secondAttribute="bottom" id="cVC-Ug-pey"/>
-                            <constraint firstAttribute="trailing" secondItem="U4t-fF-NbM" secondAttribute="trailing" id="cmX-RO-bc1"/>
-                            <constraint firstItem="Q0w-z4-yTJ" firstAttribute="top" secondItem="U4t-fF-NbM" secondAttribute="bottom" id="fbr-NR-yye"/>
-                            <constraint firstItem="U4t-fF-NbM" firstAttribute="leading" secondItem="Ef0-3c-S7V" secondAttribute="leading" id="qKr-T4-VyK"/>
-                            <constraint firstAttribute="trailing" secondItem="Obm-ZY-6Ab" secondAttribute="trailing" id="zDL-WX-JSB"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0ka-fZ-7kh">
                         <barButtonItem key="leftBarButtonItem" title="戻る" id="xdW-ty-VQk">
@@ -65,10 +54,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="textView1" destination="Obm-ZY-6Ab" id="2Wt-Fh-gtr"/>
-                        <outlet property="textView2" destination="U4t-fF-NbM" id="6MB-tJ-P0j"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IcU-KY-MTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="oen-Z4-WfN" userLabel="Exit" sceneMemberID="exit"/>
