@@ -37,8 +37,8 @@ class iOSMTCoreData1ViewController: UIViewController {
         println("managedObjectModel: \(managedObjectModel)")
         self.textView2.text = managedObjectModel?.description
 
-        self.textView2.textContainer.lineFragmentPadding = 0;
-        self.textView2.textContainerInset = UIEdgeInsetsMake(5, 5, 5, 5);
+//        self.textView2.textContainer.lineFragmentPadding = 0;
+//        self.textView2.textContainerInset = UIEdgeInsetsMake(5, 5, 5, 5);
 
         /*
         @comment    ストア・コーディネーターを作成する。処理は、直ちに完了する。

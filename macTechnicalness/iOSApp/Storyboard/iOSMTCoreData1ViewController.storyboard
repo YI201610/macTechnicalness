@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y1k-3x-T8c">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y1k-3x-T8c">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -32,20 +32,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSr-ow-HOm">
-                                <rect key="frame" x="0.0" y="64" width="184" height="71"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzI-Tq-Wmo">
-                                <rect key="frame" x="65" y="247" width="87" height="63"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4c7-5W-akc">
+                                <rect key="frame" x="0.0" y="332" width="600" height="268"/>
+                                <color key="backgroundColor" red="0.67670735112311609" green="1" blue="0.66386157770985954" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ris-C4-6Up">
+                                <rect key="frame" x="0.0" y="64" width="600" height="268"/>
+                                <color key="backgroundColor" red="0.72783308572103811" green="0.94290077224044899" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ris-C4-6Up" firstAttribute="leading" secondItem="Ef0-3c-S7V" secondAttribute="leading" id="0FT-Qv-8Xb"/>
+                            <constraint firstItem="ris-C4-6Up" firstAttribute="top" secondItem="9Ly-iH-OtQ" secondAttribute="bottom" id="9In-r4-REN"/>
+                            <constraint firstItem="4c7-5W-akc" firstAttribute="top" secondItem="ris-C4-6Up" secondAttribute="bottom" id="KoW-n1-dMp"/>
+                            <constraint firstAttribute="trailing" secondItem="ris-C4-6Up" secondAttribute="trailing" id="cF5-lc-lGr"/>
+                            <constraint firstAttribute="trailing" secondItem="4c7-5W-akc" secondAttribute="trailing" id="h4B-z0-vH1"/>
+                            <constraint firstItem="ris-C4-6Up" firstAttribute="height" secondItem="4c7-5W-akc" secondAttribute="height" id="kMn-wk-qOl"/>
+                            <constraint firstItem="4c7-5W-akc" firstAttribute="leading" secondItem="Ef0-3c-S7V" secondAttribute="leading" id="o7e-K6-DDD"/>
+                            <constraint firstItem="Q0w-z4-yTJ" firstAttribute="top" secondItem="4c7-5W-akc" secondAttribute="bottom" id="uki-TZ-zUS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0ka-fZ-7kh">
                         <barButtonItem key="leftBarButtonItem" title="戻る" id="xdW-ty-VQk">
@@ -54,6 +66,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textView1" destination="ris-C4-6Up" id="EJR-jc-lWo"/>
+                        <outlet property="textView2" destination="4c7-5W-akc" id="bqI-iI-R3y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IcU-KY-MTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="oen-Z4-WfN" userLabel="Exit" sceneMemberID="exit"/>
