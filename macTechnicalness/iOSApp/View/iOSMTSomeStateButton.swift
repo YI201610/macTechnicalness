@@ -18,7 +18,7 @@ class iOSMTSomeStateButton: UIButton {
     }
     */
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         self.exclusiveTouch = true

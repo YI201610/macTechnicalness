@@ -27,7 +27,7 @@ class iOSMTBlueTooth1ViewController: UIViewController, CBCentralManagerDelegate 
         // Dispose of any resources that can be recreated.
     }
     
-    func centralManagerDidUpdateState(central: CBCentralManager!) {
+    func centralManagerDidUpdateState(central: CBCentralManager) {
         
     }
 

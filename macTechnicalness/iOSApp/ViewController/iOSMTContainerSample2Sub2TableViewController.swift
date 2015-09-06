@@ -27,13 +27,13 @@ class iOSMTContainerSample2Sub2TableViewController: UITableViewController {
     
     override func viewWillAppear(animated: Bool) {
         let tableSize = self.tableView.contentSize
-        println("[sub2:will] tableSize: \(tableSize)")
+        print("[sub2:will] tableSize: \(tableSize)")
     }
     
     override func viewDidAppear(animated: Bool) {
         
         let tableSize = self.tableView.contentSize
-        println("[sub2:did] tableSize: \(tableSize)")
+        print("[sub2:did] tableSize: \(tableSize)")
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,7 +56,7 @@ class iOSMTContainerSample2Sub2TableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) 
 
         // Configure the cell...
         cell.textLabel?.text = "Apple."

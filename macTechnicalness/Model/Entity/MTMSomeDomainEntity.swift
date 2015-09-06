@@ -19,7 +19,7 @@ import Foundation
     @abstract
     */
     public func hogeOutput() -> Float {
-        println("this is swift mix and match test...")
+        print("this is swift mix and match test...")
         return x + width + y + height
     }
     

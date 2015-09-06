@@ -24,7 +24,7 @@ class iOSMTSome1ContentViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        println("*imageName: \(self.imageNameString)")
+        print("*imageName: \(self.imageNameString)")
         self.imageView.image = UIImage(named: self.imageNameString)
         self.imageView.contentMode = UIViewContentMode.ScaleAspectFit
     }

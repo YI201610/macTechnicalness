@@ -174,7 +174,7 @@ class SurveyQuestion {
     }
     
     func ask() {
-        println(text)
+        print(text)
     }
 }
 
@@ -211,7 +211,7 @@ class SurveyQuestion2 {
     }
     
     func ask() {
-        println(text)
+        print(text)
     }
 }
 
@@ -425,7 +425,7 @@ class Vehicle {
 
 
 let vehicle = Vehicle()
-println("Vehicle: \(vehicle.description)")
+print("Vehicle: \(vehicle.description)")
 // Vehicle: 0 wheel(s)
 
 
@@ -439,7 +439,7 @@ class Bicycle: Vehicle {
 
 
 let bicycle = Bicycle()
-println("Bicycle: \(bicycle.description)")
+print("Bicycle: \(bicycle.description)")
 // Bicycle: 2 wheel(s)
 
 
@@ -525,7 +525,7 @@ var breakfastList = [
 breakfastList[0].name = "Orange juice"
 breakfastList[0].purchased = true
 for item in breakfastList {
-    println(item.description)
+    print(item.description)
 }
 // 1 x Orange juice ✔
 // 1 x Bacon ✘
@@ -559,7 +559,7 @@ let someCreature = Animal(species: "Giraffe")
 // someCreature is of type Animal?, not Animal
 
 if let giraffe = someCreature {
-    println("An animal was initialized with a species of \(giraffe.species)")
+    print("An animal was initialized with a species of \(giraffe.species)")
 }
 // prints "An animal was initialized with a species of Giraffe"
 
@@ -569,7 +569,7 @@ let anonymousCreature = Animal(species: "")
 // anonymousCreature is of type Animal?, not Animal
 
 if anonymousCreature == nil {
-    println("The anonymous creature could not be initialized")
+    print("The anonymous creature could not be initialized")
 }
 // prints "The anonymous creature could not be initialized"
 
@@ -599,13 +599,13 @@ enum TemperatureUnit {
 
 let fahrenheitUnit = TemperatureUnit(symbol: "F")
 if fahrenheitUnit != nil {
-    println("This is a defined temperature unit, so initialization succeeded.")
+    print("This is a defined temperature unit, so initialization succeeded.")
 }
 // prints "This is a defined temperature unit, so initialization succeeded."
 
 let unknownUnit = TemperatureUnit(symbol: "X")
 if unknownUnit == nil {
-    println("This is not a defined temperature unit, so initialization failed.")
+    print("This is not a defined temperature unit, so initialization failed.")
 }
 // prints "This is not a defined temperature unit, so initialization failed."
 
@@ -624,13 +624,13 @@ enum TemperatureUnit3: Character {
 
 let fahrenheitUnit3 = TemperatureUnit3(rawValue: "F")
 if fahrenheitUnit3 != nil {
-    println("This is a defined temperature unit, so initialization succeeded.")
+    print("This is a defined temperature unit, so initialization succeeded.")
 }
 // prints "This is a defined temperature unit, so initialization succeeded."
 
 let unknownUnit3 = TemperatureUnit3(rawValue: "X")
 if unknownUnit3 == nil {
-    println("This is not a defined temperature unit, so initialization failed.")
+    print("This is not a defined temperature unit, so initialization failed.")
 }
 // prints "This is not a defined temperature unit, so initialization failed."
 
@@ -654,7 +654,7 @@ class Product {
 
 if let bowTie = Product(name: "bow tie") {
     // no need to check if bowTie.name == nil
-    println("The product's name is \(bowTie.name)")
+    print("The product's name is \(bowTie.name)")
 }
 // prints "The product's name is bow tie"
 
@@ -681,15 +681,15 @@ class CartItem: Product {
 
 
 if let twoSocks = CartItem(name: "sock", quantity: 2) {
-    println("Item: \(twoSocks.name), quantity: \(twoSocks.quantity)")
+    print("Item: \(twoSocks.name), quantity: \(twoSocks.quantity)")
 }
 // prints "Item: sock, quantity: 2"
 
 
 if let zeroShirts = CartItem(name: "shirt", quantity: 0) {
-    println("Item: \(zeroShirts.name), quantity: \(zeroShirts.quantity)")
+    print("Item: \(zeroShirts.name), quantity: \(zeroShirts.quantity)")
 } else {
-    println("Unable to initialize zero shirts")
+    print("Unable to initialize zero shirts")
 }
 // prints "Unable to initialize zero shirts"
 
@@ -697,9 +697,9 @@ if let zeroShirts = CartItem(name: "shirt", quantity: 0) {
 
 
 if let oneUnnamed = CartItem(name: "", quantity: 1) {
-    println("Item: \(oneUnnamed.name), quantity: \(oneUnnamed.quantity)")
+    print("Item: \(oneUnnamed.name), quantity: \(oneUnnamed.quantity)")
 } else {
-    println("Unable to initialize one unnamed product")
+    print("Unable to initialize one unnamed product")
 }
 // prints "Unable to initialize one unnamed product"
 
@@ -836,9 +836,9 @@ struct Checkerboard {
 
 
 let board = Checkerboard()
-println(board.squareIsBlackAtRow(0, column: 1))
+print(board.squareIsBlackAtRow(0, column: 1))
 // prints "true"
-println(board.squareIsBlackAtRow(9, column: 9))
+print(board.squareIsBlackAtRow(9, column: 9))
 // prints "false"
 
 

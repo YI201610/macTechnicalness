@@ -38,7 +38,8 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         
         var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
         var viewControllers = NSArray(object: startVC)
-        self.setViewControllers(viewControllers as [AnyObject], direction: .Forward, animated: true, completion: nil)
+        
+        //self.setViewControllers(viewControllers as [AnyObject], direction: .Forward, animated: true, completion: nil)
         
     }
 
@@ -56,7 +57,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         /**
             storyboardからコンテナビューコントローラーのインスタンスを取得する
         */
-        var contentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! iOSMTSome1ContentViewController
+        let contentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! iOSMTSome1ContentViewController
         
         contentViewController.pageIndexValue = index
         contentViewController.imageNameString = self.imageNameStringArray[index] as! String
@@ -74,7 +75,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController?
     {
         
-        var vc = viewController as! iOSMTSome1ContentViewController
+        let vc = viewController as! iOSMTSome1ContentViewController
         var index = vc.pageIndexValue as Int
         
         if (self.pageControlDelegate?.respondsToSelector(Selector("pageChanged:")) != nil) {
@@ -100,7 +101,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
     */
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         
-        var vc = viewController as! iOSMTSome1ContentViewController
+        let vc = viewController as! iOSMTSome1ContentViewController
         var index = vc.pageIndexValue as Int
 
         if (self.pageControlDelegate?.respondsToSelector(Selector("pageChanged:")) != nil) {

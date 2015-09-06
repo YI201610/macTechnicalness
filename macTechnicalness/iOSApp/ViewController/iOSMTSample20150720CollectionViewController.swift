@@ -28,12 +28,12 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
     
     override func viewDidAppear(animated: Bool) {
         let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
-        println("[did]contentSize: \(contentSize)")
+        print("[did]contentSize: \(contentSize)")
     }
     
     override func viewWillAppear(animated: Bool) {
         let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
-        println("[will]contentSize: \(contentSize)")
+        print("[will]contentSize: \(contentSize)")
     }
     
     override func didReceiveMemoryWarning() {

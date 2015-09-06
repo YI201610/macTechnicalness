@@ -62,27 +62,27 @@ class iOSMTMultiTableViewController: UITableViewController {
         /*
         @comment    テーブルに乗っけるテストデータを作成
         */
-        var data0Dictionary: NSMutableDictionary = [
+        let data0Dictionary: NSMutableDictionary = [
             "message" : "１行目。",
             "date" : NSDate()
         ]
 
-        var data1Dictionary: NSMutableDictionary = [
+        let data1Dictionary: NSMutableDictionary = [
             "message" : "The UIActivity class is an abstract class that you subclass in order to implement application-specific services. A service takes data that is passed to it, does something to that data, and returns the results. For example, an social media service might take whatever text, images, or other content is provided to it and post them to the user’s account. Activity objects are used in conjunction with a UIActivityViewController object, which is responsible for presenting services to the user. You should subclass UIActivity only if you want to provide custom services to the user. The system already provides support for many standard services and makes them available through the UIActivityViewController object. For example, the standard activity view controller supports emailing data, posting items to one of the user’s social media accounts, and several other options. You do not have to provide custom services for any of the built-in types.",
             "date" : NSDate()
         ]
         
-        var data2Dictionary: NSMutableDictionary = [
+        let data2Dictionary: NSMutableDictionary = [
             "message" : "The UIActivity class is an abstract class that you subclass in order to implement application-specific services. テスト。",
             "date" : NSDate()
         ]
         
-        var data3Dictionary: NSMutableDictionary = [
+        let data3Dictionary: NSMutableDictionary = [
             "message" : " スマートウオッチ比較　電池はソニー、画面はＬＧ［有料会員限定］米アップルが2015年4月に発売した「Apple Watch（アップルウォッチ）」をはじめ、腕時計型端末のスマートウォッチが続々発売された。何ができて、どれだ…続き",
             "date" : NSDate()
         ]
         
-        var data4Dictionary: NSMutableDictionary = [
+        let data4Dictionary: NSMutableDictionary = [
             "message" : "接客の隙間時間に、ｅラーニングでスタッフのおもてなし力をアップ――。こんな取り組みをしているのが、靴専門店、ASBeeイオンモール多摩平の森店だ。同店は昨年11月、東京都日野市に新設されたショッピングモールのオープンと同時に営業を開始。店舗運営が軌道に乗った2015年１月から、iPadを使ったｅラーニングを本格的に始めている。アルバイトを中心としたスタッフは、店舗で顧客を待つ合間に集中的に自習する。「クイズ形式で学べて堅苦しさがないと、スタッフから好評」と、ASBeeイオンモール多摩平の森店の仲手川亜美店長は話す。このシステムを構築したのは、ASBeeの運営会社でイオングループのジーフット。ライトワークス（東京・千代田）のｅラーニング向けクラウドサービスに、独自の教育コンテンツを載せた。１年がかりで開発を進め、昨年10月に稼働させた。ASBeeにとどまらず、イオンの靴売り場であるGreenboxなど、ジーフットが運営する全国800以上の店舗にiPadを導入。教育での活用が進む。",
             "date" : NSDate()
         ]
@@ -155,8 +155,8 @@ class iOSMTMultiTableViewController: UITableViewController {
             dataObject = (self.mode2DataArray[atIndex.row] as? NSDictionary)!
         }
 
-        var date: NSDate = (dataObject!.valueForKey("date") as? NSDate)!
-        var dateFormatter = NSDateFormatter()
+        let date: NSDate = (dataObject!.valueForKey("date") as? NSDate)!
+        let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "yyyy/mm/dd HH:mm:ss"
         cell.titleLabel.text = dateFormatter.stringFromDate(date)
 
@@ -185,7 +185,7 @@ class iOSMTMultiTableViewController: UITableViewController {
         
         
         let cellSize = self.stubCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
-        println("cellSize: \(cellSize)")
+        print("cellSize: \(cellSize)")
         
         return cellSize.height + 1
     }
@@ -194,7 +194,7 @@ class iOSMTMultiTableViewController: UITableViewController {
     //--------------------------------------------
     // MARK: 
     
-    func totalContentSize(#maxWidthValue: CGFloat) -> CGFloat {
+    func totalContentSize(maxWidthValue maxWidthValue: CGFloat) -> CGFloat {
         var rowCount = 0
         
         if self.button1.selected {

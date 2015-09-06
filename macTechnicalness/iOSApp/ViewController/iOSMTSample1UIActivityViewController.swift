@@ -39,6 +39,7 @@ class iOSMTSample1UIActivityViewController: UIViewController {
 
     @IBAction func didSelectShowButton(sender: UIButton) {
 
+        /*
         let activityViewController = UIActivityViewController(activityItems: ["サンプルメッセージ"], applicationActivities: nil)
 //        activityViewController.excludedActivityTypes = [
 //            UIActivityTypeMessage,
@@ -57,12 +58,14 @@ class iOSMTSample1UIActivityViewController: UIViewController {
         activityViewController.completionWithItemsHandler = {(activityType, completed:Bool, returnedItems:Array!, error:NSError!) in
             
             var resultText: String = "[activityType] \(activityType), \n[completed] \(completed), \n[error] \(error)"
-            println(resultText)
+            print(resultText)
             
             self.resultTextView.text = resultText
         }
         
         self.presentViewController(activityViewController, animated: true, completion: nil)
+        */
+
     }
     
     

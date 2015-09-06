@@ -43,7 +43,7 @@ class iOSMTSample1ContainerViewController: UIViewController {
         if segue.identifier == "hogeSegue" {
             self.pageViewController = segue.destinationViewController as! iOSMTSample1UIPageViewController
             
-            println(self.pageViewController)
+            print(self.pageViewController)
             
             self.pageViewController.pageControlDelegate = self
         }
@@ -54,7 +54,7 @@ class iOSMTSample1ContainerViewController: UIViewController {
     }
 
     internal func pageChanged(index: Int) {
-        println("***pageChanged!! - \(index)")
+        print("***pageChanged!! - \(index)")
         self.pageControl.currentPage = index
     }
 }

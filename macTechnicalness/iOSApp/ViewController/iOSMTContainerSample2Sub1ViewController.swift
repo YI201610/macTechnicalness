@@ -24,7 +24,7 @@ class iOSMTContainerSample2Sub1ViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        println("[will] sub1 - viewWillAppear...")
+        print("[will] sub1 - viewWillAppear...")
     }
 
 //    override func shouldAutomaticallyForwardAppearanceMethods() -> Bool {

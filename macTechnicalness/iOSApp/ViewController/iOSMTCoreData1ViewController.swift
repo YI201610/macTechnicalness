@@ -24,7 +24,7 @@ class iOSMTCoreData1ViewController: UIViewController {
         @comment    NSManagedObjectModelのURLを取得
         */
         let momdURL =  NSBundle.mainBundle().URLForResource("iOSMTCoreData1", withExtension: "momd");
-        println("momdURL: \(momdURL?.absoluteString)")
+        print("momdURL: \(momdURL?.absoluteString)")
         self.textView1.text = momdURL?.absoluteString
 
         self.textView1.textContainer.lineFragmentPadding = 0;
@@ -34,7 +34,7 @@ class iOSMTCoreData1ViewController: UIViewController {
         @comment    NSManagedObjectModelを読み込む
         */
         let managedObjectModel = NSManagedObjectModel(contentsOfURL: momdURL!)
-        println("managedObjectModel: \(managedObjectModel)")
+        print("managedObjectModel: \(managedObjectModel)")
         self.textView2.text = managedObjectModel?.description
 
 //        self.textView2.textContainer.lineFragmentPadding = 0;
@@ -43,13 +43,13 @@ class iOSMTCoreData1ViewController: UIViewController {
         /*
         @comment    ストア・コーディネーターを作成する。処理は、直ちに完了する。
         */
-        var storeCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel!)
-        println("storeCoordinator: \(storeCoordinator)")
+        let storeCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel!)
+        print("storeCoordinator: \(storeCoordinator)")
         
-        var someQueue: dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+        let someQueue: dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
         dispatch_async(someQueue, {
             
-            println("非同期で、persistentStoreを初期化中...")
+            print("非同期で、persistentStoreを初期化中...")
         
             let fileManager: NSFileManager = NSFileManager.defaultManager()
             let directoryArray: NSArray = fileManager.URLsForDirectory(NSSearchPathDirectory.DocumentDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask)
@@ -59,10 +59,18 @@ class iOSMTCoreData1ViewController: UIViewController {
             storeURL = storeURL?.URLByAppendingPathComponent("iOSMTCoreData1.sqlite")
             
             var error: NSError? = nil
-            var persistentStore: NSPersistentStore? = storeCoordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: storeURL, options: nil, error: &error)
+            var persistentStore: NSPersistentStore?
+            do {
+                persistentStore = try storeCoordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: storeURL, options: nil)
+            } catch let error1 as NSError {
+                error = error1
+                persistentStore = nil
+            } catch {
+                fatalError()
+            }
             
             if persistentStore == nil {
-                println("error: \(error?.localizedDescription), userInfo: \(error?.userInfo)")
+                print("error: \(error?.localizedDescription), userInfo: \(error?.userInfo)")
             }
             
             dispatch_sync(dispatch_get_main_queue(), {
@@ -74,7 +82,7 @@ class iOSMTCoreData1ViewController: UIViewController {
 
     func didFinishPersistentStoreInitialization()
     {
-        println("CoreDataのSaveコーディネーター、初期化処理が完了しました.")
+        print("CoreDataのSaveコーディネーター、初期化処理が完了しました.")
     }
     
 

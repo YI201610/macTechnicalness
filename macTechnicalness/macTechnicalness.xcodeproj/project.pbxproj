@@ -2205,6 +2205,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MT;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					749A81181AF344AB001D3607 = {
