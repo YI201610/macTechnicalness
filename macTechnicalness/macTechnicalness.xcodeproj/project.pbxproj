@@ -135,8 +135,6 @@
 		749A81441AF3C796001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		74BF5E9C1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */; };
 		74BF5E9D1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */; };
-		74BF5EA11B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BF5EA01B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard */; };
-		74BF5EA21B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BF5EA01B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard */; };
 		74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
@@ -557,7 +555,6 @@
 		74A206411A8F919600E8E35E /* Unicode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unicode.playground; sourceTree = "<group>"; };
 		74A206461A8F92A600E8E35E /* closureTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = closureTest.playground; sourceTree = "<group>"; };
 		74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTAutoLayoutCase4ViewController.swift; path = UIKit/AutoLayout/iOSMTAutoLayoutCase4ViewController.swift; sourceTree = "<group>"; };
-		74BF5EA01B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTAutoLayoutCase4.storyboard; path = UIKit/AutoLayout/iOSMTAutoLayoutCase4.storyboard; sourceTree = "<group>"; };
 		74CCE17C1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckViewController.h; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.h; sourceTree = "<group>"; };
 		74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckViewController.m; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.m; sourceTree = "<group>"; };
 		74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGamePadConnectionCheckViewController.xib; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.xib; sourceTree = "<group>"; };
@@ -1281,7 +1278,6 @@
 			isa = PBXGroup;
 			children = (
 				74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */,
-				74BF5EA01B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard */,
 			);
 			name = "均等配置";
 			sourceTree = "<group>";
@@ -2418,7 +2414,6 @@
 				EC957CDF1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
 				ECE84FDF1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */,
-				74BF5EA11B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard in Resources */,
 				744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */,
@@ -2471,7 +2466,6 @@
 				ECA473B21B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */,
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				748018AF1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard in Resources */,
-				74BF5EA21B42B29E00FE5A93 /* iOSMTAutoLayoutCase4.storyboard in Resources */,
 				ECA473AF1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */,
 				744A9E961AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
@@ -3516,7 +3510,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = iOSApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3562,7 +3556,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = iOSApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
