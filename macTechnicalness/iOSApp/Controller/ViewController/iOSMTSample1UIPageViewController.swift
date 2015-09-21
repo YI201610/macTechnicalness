@@ -36,9 +36,9 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         
         self.dataSource = self;
         
-        var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
-        var viewControllers = NSArray(object: startVC)
-        
+//        var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
+//        var viewControllers = NSArray(object: startVC)
+//        
         //self.setViewControllers(viewControllers as [AnyObject], direction: .Forward, animated: true, completion: nil)
         
     }

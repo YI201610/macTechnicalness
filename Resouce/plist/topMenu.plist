@@ -6,6 +6,29 @@
 
 		<dict>
 			<key>title</key>
+			<string>Search(iOS9)</string>
+			<key>items</key>
+			<array>
+
+				<dict>
+					<key>title</key>
+					<string>private on-device indexテスト</string>
+					<key>vc</key>
+					<string></string>
+				</dict>
+
+				<dict>
+					<key>title</key>
+					<string>Apple's server-side indexテスト</string>
+					<key>vc</key>
+					<string></string>
+				</dict>
+
+
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
 			<string>CoreData</string>
 			<key>items</key>
 			<array>

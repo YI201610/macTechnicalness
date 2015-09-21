@@ -82,7 +82,7 @@
     /*
      @comment
      */
-    CGRect app_frame = [[UIScreen mainScreen] applicationFrame];
+    CGRect app_frame = [[UIScreen mainScreen] bounds];
     UIView* baseview = [[UIView alloc] initWithFrame:app_frame];
     [baseview setBackgroundColor:[UIColor blueColor]];
     self.view = baseview;

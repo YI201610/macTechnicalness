@@ -57,6 +57,7 @@
         storyboard = [UIStoryboard storyboardWithName:itemObj.viewControllerNameString bundle: nil];
     }
     @catch (NSException *exception) {
+        debugout(@"exception: %@", exception);
     }
 
     UIViewController* vc0 = [storyboard instantiateInitialViewController];
