@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8re-9Q-XZx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="h3E-C7-itJ">
+            <objects>
+                <navigationController id="8re-9Q-XZx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eE8-4B-xEg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gOk-dO-PnA" kind="relationship" relationship="rootViewController" id="Ndk-EF-H3x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tma-MU-plf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167" y="489"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lCE-fK-8Lg">
+            <objects>
+                <viewController id="gOk-dO-PnA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DRa-yE-xCT"/>
+                        <viewControllerLayoutGuide type="bottom" id="wsb-pX-Gqd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ySe-AW-5zf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GkP-aU-ip6">
+                                <rect key="frame" x="238" y="219" width="125" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="AJk-v7-af2"/>
+                                    <constraint firstAttribute="width" constant="125" id="yXv-yk-6Pj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <inset key="titleEdgeInsets" minX="-120" minY="133" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-60" maxY="0.0"/>
+                                <state key="normal" title="スターボタン" image="startPDFstar">
+                                    <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="GkP-aU-ip6" secondAttribute="centerX" id="PS5-mD-2ux"/>
+                            <constraint firstAttribute="centerY" secondItem="GkP-aU-ip6" secondAttribute="centerY" id="PeU-AW-Kn2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1BL-Sg-UXO">
+                        <barButtonItem key="leftBarButtonItem" title="戻る" id="Yez-PF-6wZ">
+                            <connections>
+                                <segue destination="izC-o8-DVQ" kind="unwind" unwindAction="backToTopController:" id="Chl-gN-g23"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSN-Cs-uB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="izC-o8-DVQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="558" y="489"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="startPDFstar" width="120" height="120"/>
+    </resources>
+</document>

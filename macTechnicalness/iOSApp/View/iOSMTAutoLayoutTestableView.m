@@ -29,7 +29,7 @@
     if(self.hasAmbiguousLayout){
         debugout(@"[%@(tag:%ld)] Auto Layoutの定義に曖昧さがあります。", [self class], (long)self.tag);
     }else{
-        debugout(@"[%@(tag:%ld)] Auto Layoutの定義に曖昧さがありません。", [self class], self.tag);
+        debugout(@"[%@(tag:%ld)] Auto Layoutの定義に曖昧さがありません。", [self class], (long)self.tag);
     }
     
     /*!

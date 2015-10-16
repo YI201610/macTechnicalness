@@ -74,22 +74,22 @@
  */
 - (void) loadView
 {
-    /*!
+    /*
      @comment
      */
     self.navigationItem.title = NSLocalizedString(@"検証項目一覧", nil);
     
-    /*!
+    /*
      @comment
      */
-    CGRect app_frame = [[UIScreen mainScreen] applicationFrame];
+    CGRect app_frame = [[UIScreen mainScreen] bounds];
     UIView* baseview = [[UIView alloc] initWithFrame:app_frame];
     [baseview setBackgroundColor:[UIColor blueColor]];
     self.view = baseview;
     self.view.multipleTouchEnabled = NO;
     self.view.exclusiveTouch = YES;
     
-    /*!
+    /*
      @comment
      */
     //
@@ -159,7 +159,7 @@
         storyboard = [UIStoryboard storyboardWithName:vcName bundle: nil];
     }
     @catch (NSException *exception) {
-        debugout(@"Storyboard: %@ は読み込めませんでした", vcName);
+        debugout(@"%@.storyboard は読み込めませんでした", vcName);
     }
     
     if(storyboard){

@@ -27,7 +27,8 @@
     /*
      @comment   ルートSKViewの設定
      */
-    SKView * skView = (SKView *)self.view;
+    SKView* skView = [SKView new];
+    self.view = skView;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     

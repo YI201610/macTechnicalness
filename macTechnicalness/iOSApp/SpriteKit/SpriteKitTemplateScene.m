@@ -40,12 +40,14 @@
  @abstract  SKSceneが表示された直後に、システムが実行する。
  */
 -(void)didMoveToView:(SKView *)view {
+    
     /* Setup your scene here */
     _methodname_;
     
     if([_particleNameString length] > 0){
+
         /*
-         @comment
+         @comment   パーティクルを読み込む
          */
         NSString* emitterPathString = [[NSBundle mainBundle] pathForResource:_particleNameString ofType:@"sks"];
         SKEmitterNode* emitterNode = [NSKeyedUnarchiver unarchiveObjectWithFile:emitterPathString];
@@ -75,6 +77,7 @@
 //         */
 //        //CGPoint location = [touch locationInNode:self];
 //    }
+    
 }
 
 -(void)update:(CFTimeInterval)currentTime {

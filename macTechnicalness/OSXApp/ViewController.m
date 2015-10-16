@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "CommonHeader.h"
 
+#import "OSXApp-Swift.h"
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -64,6 +66,24 @@
         _tableView.selectedColumn);
 }
 
+- (void)tableView:(NSTableView *)tableView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn
+              row:(NSInteger)row
+{
+
+    NSString* idString = tableColumn.identifier;
+    if([idString isEqualToString:@"someTitle"]){
+        
+        MTMTopMenuEntity* entity = [_dataController itemForRow:row];
+        NSString* wcName = entity.windowControllerNameString;
+        NSWindowController* addwc = [[NSClassFromString(wcName) alloc] initWithWindowNibName:wcName];
+        if(!addwc){
+            [cell setTextColor: [NSColor lightGrayColor]];
+        } else {
+            [cell setTextColor: [NSColor blackColor]];
+        }
+    }
+
+}
 
 - (BOOL)tableView:(NSTableView *)tableView shouldSelectTableColumn:(NSTableColumn *)tableColumn
 {
@@ -102,28 +122,29 @@
     NSString* keyString = [theEvent charactersIgnoringModifiers];
     if([keyString length] == 1){
         unichar key = [[theEvent charactersIgnoringModifiers] characterAtIndex:0];
+        
+        /*
+         @comment   Enter Keyの選択があったか判定する
+         */
         if(key == NSCarriageReturnCharacter){
             
-            /*!
-             @comment   Enter Keyが選択された
-             */
             MTMTopMenuEntity* entity = [_dataController itemForRow:_tableView.selectedRow];
             debugout(@"[Enter Key Pressed] entity: %@, %@, %@",
                      entity.sectionNameString,
                      entity.titleString,
-                     entity.viewControllerNameString);
+                     entity.windowControllerNameString);
             
-            /*!
+            /*
              @comment
              */
             
             /*
-             @comment   選択された検証項目に対応するView Controller名称を求めます。
+             @comment   選択された検証項目に対応するView Controller名称を求める
              */
             NSString* wcName = entity.windowControllerNameString;
             
             if([wcName length] == 0){
-                debugout(@"Error: Target Class wan't set. ");
+                debugout(@"Error: Target Class is not determined. ");
                 return;
             }
             
@@ -141,7 +162,7 @@
             }else{
                 _windowController = addwc;
                 
-                /*!
+                /*
                  @comment   検証項目のWindowを表示
                  */
                 [_windowController showWindow:nil];

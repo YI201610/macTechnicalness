@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74007C361AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */; };
 		740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
@@ -15,6 +16,14 @@
 		740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
 		740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
 		740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */; };
+		741900261B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */; };
+		741900271B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */; };
+		741900281B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */; };
+		741900291B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */; };
+		7434E2321B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */; };
+		7434E2331B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */; };
+		7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */; };
+		7434E2351B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */; };
 		7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
 		7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */; };
 		7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */; };
@@ -23,6 +32,15 @@
 		7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */; };
 		7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
 		7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */; };
+		743954281AF882BB0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954271AF882BB0035A9C8 /* MapKit.framework */; };
+		7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7439542E1AF883380035A9C8 /* CloudKit.framework */; };
+		743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
+		743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954301AF8833D0035A9C8 /* MapKit.framework */; };
+		743954351AF8B59D0035A9C8 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743954341AF8B59D0035A9C8 /* GameController.framework */; };
+		744481C81B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */; };
+		744481C91B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */; };
+		744481CA1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */; };
+		744481CB1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */; };
 		744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */; };
 		744A9E661AE3F62C00329C51 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 744A9E641AE3F62C00329C51 /* Fire.sks */; };
@@ -81,13 +99,60 @@
 		7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */; };
 		7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
 		7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */; };
-		7484C4B91A33138600A310DE /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484C4B81A33138600A310DE /* GameController.framework */; };
+		74589ECA1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */; };
+		74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */; };
+		74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */; };
+		74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */; };
+		74589ECF1B2AF873000D715D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74589ECE1B2AF873000D715D /* CoreBluetooth.framework */; };
+		7471D9E51B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D9E31B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift */; };
+		7471D9E61B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D9E31B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift */; };
+		7471D9E71B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471D9E41B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib */; };
+		7471D9E81B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471D9E41B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib */; };
+		7471D9EB1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D9E91B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift */; };
+		7471D9EC1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D9E91B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift */; };
+		7471D9ED1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */; };
+		7471D9EE1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */; };
+		747F35A41B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */; };
+		747F35A51B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */; };
+		747F35A81B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */; };
+		747F35A91B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */; };
+		748018AE1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */; };
+		748018AF1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */; };
+		748018B61B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 748018B41B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld */; };
+		748018B71B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 748018B41B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld */; };
+		748018BD1B6108030054C88D /* iOSMTCoreData1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */; };
+		748018BE1B6108030054C88D /* iOSMTCoreData1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */; };
 		7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
 		7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */; };
+		749A81201AF344AB001D3607 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A811F1AF344AB001D3607 /* InterfaceController.m */; };
+		749A81231AF344AB001D3607 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A81221AF344AB001D3607 /* NotificationController.m */; };
+		749A81261AF344AB001D3607 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A81251AF344AB001D3607 /* GlanceController.m */; };
+		749A81281AF344AB001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749A81271AF344AB001D3607 /* Images.xcassets */; };
+		749A812C1AF344AB001D3607 /* iOSApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */; };
+		749A81341AF344AB001D3607 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A81321AF344AB001D3607 /* Interface.storyboard */; };
+		749A81391AF344AB001D3607 /* iOSApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		749A81431AF3C793001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
+		749A81441AF3C796001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
+		74BF5E9C1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */; };
+		74BF5E9D1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */; };
 		74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
 		74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
+		EC09367E1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */; };
+		EC09367F1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */; };
+		EC121EAB1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */; };
+		EC121EAC1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */; };
+		EC121EAE1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */; };
+		EC121EAF1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */; };
+		EC26278E1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */; };
+		EC26278F1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */; };
+		EC2627911B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */; };
+		EC2627921B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */; };
+		EC2627951B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2627941B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift */; };
+		EC2627961B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2627941B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift */; };
+		EC2627991B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2627981B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard */; };
+		EC26279A1B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2627981B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard */; };
 		EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */; };
 		EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */; };
 		EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */; };
@@ -104,6 +169,12 @@
 		EC33ADFC1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33ADF91AC6C0840068A74C /* iOSMTCollectionView2Cell.m */; };
 		EC33ADFD1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC33ADFA1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib */; };
 		EC33ADFE1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC33ADFA1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib */; };
+		EC3A95851B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */; };
+		EC3A95861B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */; };
+		EC3A958B1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */; };
+		EC3A958C1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */; };
+		EC3A958E1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */; };
+		EC3A958F1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */; };
 		EC3D0B5C1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0B621A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */; };
 		EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0B6A1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m */; };
@@ -123,9 +194,7 @@
 		EC3D0BCC1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0BC41A32EB1E0097C9E2 /* MTMTopMenuDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0BCD1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3D0BC41A32EB1E0097C9E2 /* MTMTopMenuDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3D0BCE1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
-		EC3D0BCF1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
 		EC3D0BD01A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
-		EC3D0BD11A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BC51A32EB1E0097C9E2 /* MTMTopMenuDataController.m */; };
 		EC3D0BD91A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BD81A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m */; };
 		EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */; };
 		EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3D0BE81A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m */; };
@@ -148,10 +217,18 @@
 		EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */; };
 		EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
 		EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */; };
+		EC6365961B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6365951B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift */; };
+		EC6365971B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6365951B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift */; };
 		EC68031D1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */; };
 		EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */; };
 		EC7DC0CA1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7DC0C91ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m */; };
 		EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7DC0C91ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m */; };
+		EC7F174D1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F174C1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift */; };
+		EC7F174E1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F174C1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift */; };
+		EC7F17501B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7F174F1B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard */; };
+		EC7F17511B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7F174F1B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard */; };
+		EC7F17531B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F17521B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift */; };
+		EC7F17541B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F17521B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift */; };
 		EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */; };
 		EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */; };
 		EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */; };
@@ -160,10 +237,50 @@
 		EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */; };
 		EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
 		EC8016CD1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */; };
+		EC957C601B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */; };
+		EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */; };
+		EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */; };
+		EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */; };
+		EC957C7A1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957C7B1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957C7C1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957C7D1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; };
+		EC957CD71B22D5F80097D8A1 /* MTMSomeDomainEntity.swift in Headers */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC957CD81B22D5FF0097D8A1 /* MTMSomeDomainEntity.swift in Headers */ = {isa = PBXBuildFile; fileRef = EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC957CDD1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */; };
+		EC957CDE1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */; };
+		EC957CDF1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */; };
+		EC957CE01B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */; };
 		EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
+		EC9F91921B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9F91911B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard */; };
+		EC9F91931B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9F91911B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard */; };
+		EC9F91951B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F91941B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift */; };
+		EC9F91961B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F91941B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift */; };
 		ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
 		ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */; };
+		ECA1FB4B1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m */; };
+		ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m */; };
+		ECA1FB4D1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib */; };
+		ECA1FB4E1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib */; };
+		ECA1FB501AFF005400704134 /* BasicsMultiAction.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4F1AFF005400704134 /* BasicsMultiAction.sks */; };
+		ECA1FB511AFF005400704134 /* BasicsMultiAction.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECA1FB4F1AFF005400704134 /* BasicsMultiAction.sks */; };
+		ECA1FB541AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */; };
+		ECA1FB551AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */; };
+		ECA473AE1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */; };
+		ECA473AF1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */; };
+		ECA473B11B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */; };
+		ECA473B21B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */; };
+		ECA473B51B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */; };
+		ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */; };
+		ECB582F51B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
+		ECB582F61B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */; };
+		ECB582F71B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */; };
+		ECB582F81B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */; };
+		ECD998BE1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */; };
+		ECD998BF1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */; };
+		ECD998C01B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */; };
+		ECD998C11B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */; };
 		ECDC65311A2BD58B0080C608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65301A2BD58B0080C608 /* main.m */; };
 		ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65331A2BD58B0080C608 /* AppDelegate.m */; };
 		ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65381A2BD58B0080C608 /* Main.storyboard */; };
@@ -175,6 +292,20 @@
 		ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65621A2BD5AC0080C608 /* Images.xcassets */; };
 		ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC65641A2BD5AC0080C608 /* Main.storyboard */; };
 		ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC65711A2BD5AC0080C608 /* OSXAppTests.m */; };
+		ECE84FDD1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FDB1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m */; };
+		ECE84FDE1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FDB1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m */; };
+		ECE84FDF1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE84FDC1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib */; };
+		ECE84FE01AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE84FDC1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib */; };
+		ECE84FE31AFF3DCA00907EAF /* Transition1.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECE84FE21AFF3DCA00907EAF /* Transition1.sks */; };
+		ECE84FE41AFF3DCA00907EAF /* Transition1.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECE84FE21AFF3DCA00907EAF /* Transition1.sks */; };
+		ECE84FE71AFF448100907EAF /* MTSKBasicTransition1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FE61AFF448100907EAF /* MTSKBasicTransition1Scene.m */; };
+		ECE84FE81AFF448100907EAF /* MTSKBasicTransition1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FE61AFF448100907EAF /* MTSKBasicTransition1Scene.m */; };
+		ECE84FEA1AFF453700907EAF /* Transition2.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECE84FE91AFF453700907EAF /* Transition2.sks */; };
+		ECE84FEB1AFF453700907EAF /* Transition2.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECE84FE91AFF453700907EAF /* Transition2.sks */; };
+		ECE84FEE1AFF45B100907EAF /* MTSKBasicTransition2Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FED1AFF45B100907EAF /* MTSKBasicTransition2Scene.m */; };
+		ECE84FEF1AFF45B100907EAF /* MTSKBasicTransition2Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FED1AFF45B100907EAF /* MTSKBasicTransition2Scene.m */; };
+		ECE84FF31AFF4DA600907EAF /* MTSKBasicsSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FF21AFF4DA600907EAF /* MTSKBasicsSceneController.m */; };
+		ECE84FF41AFF4DA600907EAF /* MTSKBasicsSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84FF21AFF4DA600907EAF /* MTSKBasicsSceneController.m */; };
 		ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */; };
 		ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */; };
 		ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEBD15F1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib */; };
@@ -191,9 +322,27 @@
 		ECF63C3C1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */; };
 		ECF63C3D1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */; };
 		ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */; };
+		ECFE82D41B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */; };
+		ECFE82D51B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */; };
+		ECFE82D71B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */; };
+		ECFE82D81B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		749A812D1AF344AB001D3607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC03CCBC1A2BD234009C741E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749A812A1AF344AB001D3607;
+			remoteInfo = "iOSApp WatchKit App";
+		};
+		749A81371AF344AB001D3607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC03CCBC1A2BD234009C741E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749A81181AF344AB001D3607;
+			remoteInfo = "iOSApp WatchKit Extension";
+		};
 		EC3D0B631A32E99B0097C9E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC03CCBC1A2BD234009C741E /* Project object */;
@@ -253,6 +402,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		749A81401AF344AB001D3607 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				749A81391AF344AB001D3607 /* iOSApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC3D0B3E1A32E82A0097C9E2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,12 +438,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapSceneSampleInterfaceController.h; sourceTree = "<group>"; };
+		74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMapSceneSampleInterfaceController.m; sourceTree = "<group>"; };
 		740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewController.h; path = Controller/ViewController/iOSMTTopViewController.h; sourceTree = "<group>"; };
 		740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewController.m; path = Controller/ViewController/iOSMTTopViewController.m; sourceTree = "<group>"; };
 		740EF5791A2DD4A300735C4E /* topMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topMenu.plist; sourceTree = "<group>"; };
 		740EF5E11A307EDD00735C4E /* iOSMTTopViewTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewTableDataSource.h; path = Controller/ViewController/iOSMTTopViewTableDataSource.h; sourceTree = "<group>"; };
 		740EF5E21A307EDD00735C4E /* iOSMTTopViewTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTTopViewTableDataSource.m; path = Controller/ViewController/iOSMTTopViewTableDataSource.m; sourceTree = "<group>"; };
 		740EF5ED1A30844D00735C4E /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeader.h; path = ../CommonHeader.h; sourceTree = "<group>"; };
+		741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth2WindowController.swift; path = Controller/WindowController/OSXMTBluetooth2WindowController.swift; sourceTree = "<group>"; };
+		741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth2WindowController.xib; path = Controller/WindowController/OSXMTBluetooth2WindowController.xib; sourceTree = "<group>"; };
+		7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTBlueTooth1ViewController.swift; path = BlueTooth1/iOSMTBlueTooth1ViewController.swift; sourceTree = "<group>"; };
+		7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTBlueTooth1ViewController.xib; path = BlueTooth1/iOSMTBlueTooth1ViewController.xib; sourceTree = "<group>"; };
 		7437A8FD1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutInconsistentRuleViewController.h; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.h; sourceTree = "<group>"; };
 		7437A8FE1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutInconsistentRuleViewController.m; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.m; sourceTree = "<group>"; };
 		7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutInconsistentRuleViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutInconsistentRuleViewController.xib; sourceTree = "<group>"; };
@@ -291,6 +457,13 @@
 		7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutTestableView.m; path = View/iOSMTAutoLayoutTestableView.m; sourceTree = "<group>"; };
 		7437A90C1A57B4A80097D921 /* OSXMTTopTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTTopTableDataSource.h; path = Controller/OSXMTTopTableDataSource.h; sourceTree = "<group>"; };
 		7437A90D1A57B4A80097D921 /* OSXMTTopTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTTopTableDataSource.m; path = Controller/OSXMTTopTableDataSource.m; sourceTree = "<group>"; };
+		743954271AF882BB0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OSXApp.entitlements; sourceTree = "<group>"; };
+		7439542E1AF883380035A9C8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		743954301AF8833D0035A9C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		743954341AF8B59D0035A9C8 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTNetworkBackgroundFetch1ViewController.swift; path = Controller/ViewController/iOSMTNetworkBackgroundFetch1ViewController.swift; sourceTree = "<group>"; };
+		744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTNetworkBackgroundFetch1ViewController.xib; path = Controller/ViewController/iOSMTNetworkBackgroundFetch1ViewController.xib; sourceTree = "<group>"; };
 		744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bokeh.sks; path = SpriteKit/Bokeh.sks; sourceTree = "<group>"; };
 		744A9E641AE3F62C00329C51 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = SpriteKit/Fire.sks; sourceTree = "<group>"; };
 		744A9E6A1AE3F64100329C51 /* Firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Firefiles.sks; path = SpriteKit/Firefiles.sks; sourceTree = "<group>"; };
@@ -332,10 +505,36 @@
 		7453CDE91A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTAutoLayout2WindowController.m; path = Controller/WindowController/OSXMTAutoLayout2WindowController.m; sourceTree = "<group>"; };
 		7453CDEA1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTAutoLayout2WindowController.xib; path = Controller/WindowController/OSXMTAutoLayout2WindowController.xib; sourceTree = "<group>"; };
 		745650661A672BD300BCC0FA /* MTMAnalytics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MTMAnalytics.playground; path = ../../Model/MTMAnalytics.playground; sourceTree = "<group>"; };
+		74589EC61B29CE5E000D715D /* OSXApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBlueTooth1WindowController.swift; path = Controller/WindowController/OSXMTBlueTooth1WindowController.swift; sourceTree = "<group>"; };
+		74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBlueTooth1WindowController.xib; path = Controller/WindowController/OSXMTBlueTooth1WindowController.xib; sourceTree = "<group>"; };
+		74589ECE1B2AF873000D715D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7471D9E31B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth5WindowController.swift; path = Controller/WindowController/OSXMTBluetooth5WindowController.swift; sourceTree = "<group>"; };
+		7471D9E41B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth5WindowController.xib; path = Controller/WindowController/OSXMTBluetooth5WindowController.xib; sourceTree = "<group>"; };
+		7471D9E91B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth6WindowController.swift; path = Controller/WindowController/OSXMTBluetooth6WindowController.swift; sourceTree = "<group>"; };
+		7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth6WindowController.xib; path = Controller/WindowController/OSXMTBluetooth6WindowController.xib; sourceTree = "<group>"; };
+		747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTContainerSample2Sub1ViewController.swift; path = ViewController/iOSMTContainerSample2Sub1ViewController.swift; sourceTree = "<group>"; };
+		747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTContainerSample2Sub2TableViewController.swift; path = ViewController/iOSMTContainerSample2Sub2TableViewController.swift; sourceTree = "<group>"; };
+		748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTCoreData1ViewController.storyboard; path = Storyboard/iOSMTCoreData1ViewController.storyboard; sourceTree = "<group>"; };
+		748018B51B61069D0054C88D /* iOSMTCoreData1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSMTCoreData1.xcdatamodel; sourceTree = "<group>"; };
+		748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTCoreData1ViewController.swift; path = ViewController/iOSMTCoreData1ViewController.swift; sourceTree = "<group>"; };
 		7484C4B61A330FB500A310DE /* iOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOSApp.entitlements; sourceTree = "<group>"; };
-		7484C4B81A33138600A310DE /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		7485AC3C1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckButtonAView.h; path = View/iOSMTGamePadConnectionCheckButtonAView.h; sourceTree = "<group>"; };
 		7485AC3D1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckButtonAView.m; path = View/iOSMTGamePadConnectionCheckButtonAView.m; sourceTree = "<group>"; };
+		749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOSApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749A811C1AF344AB001D3607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749A811D1AF344AB001D3607 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		749A811E1AF344AB001D3607 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		749A811F1AF344AB001D3607 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		749A81211AF344AB001D3607 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		749A81221AF344AB001D3607 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		749A81241AF344AB001D3607 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		749A81251AF344AB001D3607 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		749A81271AF344AB001D3607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749A81311AF344AB001D3607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749A81331AF344AB001D3607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		74A2062E1A8F919600E8E35E /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; };
 		74A2062F1A8F919600E8E35E /* demo20140905.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo20140905.playground; sourceTree = "<group>"; };
 		74A206301A8F919600E8E35E /* demo20150206.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo20150206.playground; sourceTree = "<group>"; };
@@ -355,9 +554,17 @@
 		74A206401A8F919600E8E35E /* TheBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TheBasics.playground; sourceTree = "<group>"; };
 		74A206411A8F919600E8E35E /* Unicode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unicode.playground; sourceTree = "<group>"; };
 		74A206461A8F92A600E8E35E /* closureTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = closureTest.playground; sourceTree = "<group>"; };
+		74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTAutoLayoutCase4ViewController.swift; path = UIKit/AutoLayout/iOSMTAutoLayoutCase4ViewController.swift; sourceTree = "<group>"; };
 		74CCE17C1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTGamePadConnectionCheckViewController.h; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.h; sourceTree = "<group>"; };
 		74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTGamePadConnectionCheckViewController.m; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.m; sourceTree = "<group>"; };
 		74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTGamePadConnectionCheckViewController.xib; path = Controller/ViewController/iOSMTGamePadConnectionCheckViewController.xib; sourceTree = "<group>"; };
+		EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSomeStateButton.swift; path = View/iOSMTSomeStateButton.swift; sourceTree = "<group>"; };
+		EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTCoreData2ViewController.swift; path = ViewController/iOSMTCoreData2ViewController.swift; sourceTree = "<group>"; };
+		EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTCoreData2ViewController.storyboard; path = Storyboard/iOSMTCoreData2ViewController.storyboard; sourceTree = "<group>"; };
+		EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTContainerSample2ViewController.storyboard; path = View/iOSMTContainerSample2ViewController.storyboard; sourceTree = "<group>"; };
+		EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTContainerSample2TableViewController.swift; path = Controller/ViewController/iOSMTContainerSample2TableViewController.swift; sourceTree = "<group>"; };
+		EC2627941B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1UIPageViewController.swift; path = Controller/ViewController/iOSMTSample1UIPageViewController.swift; sourceTree = "<group>"; };
+		EC2627981B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1UIPageViewController.storyboard; path = View/iOSMTSample1UIPageViewController.storyboard; sourceTree = "<group>"; };
 		EC2F8AEE1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase2ViewController.h; path = "UIKit:AutoLayoutCase2/iOSMTAutoLayoutCase2ViewController.h"; sourceTree = "<group>"; };
 		EC2F8AEF1AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase2ViewController.m; path = "UIKit:AutoLayoutCase2/iOSMTAutoLayoutCase2ViewController.m"; sourceTree = "<group>"; };
 		EC2F8AF01AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase2ViewController.xib; path = "UIKit:AutoLayoutCase2/iOSMTAutoLayoutCase2ViewController.xib"; sourceTree = "<group>"; };
@@ -370,6 +577,10 @@
 		EC33ADF81AC6C0840068A74C /* iOSMTCollectionView2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTCollectionView2Cell.h; path = CollectionView2/iOSMTCollectionView2Cell.h; sourceTree = "<group>"; };
 		EC33ADF91AC6C0840068A74C /* iOSMTCollectionView2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTCollectionView2Cell.m; path = CollectionView2/iOSMTCollectionView2Cell.m; sourceTree = "<group>"; };
 		EC33ADFA1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTCollectionView2Cell.xib; path = CollectionView2/iOSMTCollectionView2Cell.xib; sourceTree = "<group>"; };
+		EC33ECA31AE93FFF00A513B3 /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; };
+		EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1DynamicHeightTableCellViewController.storyboard; path = Storyboard/iOSMTSample1DynamicHeightTableCellViewController.storyboard; sourceTree = "<group>"; };
+		EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1DynamicHeightTableCellTableViewController.swift; path = ViewController/iOSMTSample1DynamicHeightTableCellTableViewController.swift; sourceTree = "<group>"; };
+		EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1DynamicHeightTableViewCell.swift; path = View/iOSMTSample1DynamicHeightTableViewCell.swift; sourceTree = "<group>"; };
 		EC3D0B571A32E99A0097C9E2 /* iOSEmbeddedModelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSEmbeddedModelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3D0B5A1A32E99A0097C9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3D0B5B1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEmbeddedModelKit.h; sourceTree = "<group>"; };
@@ -404,20 +615,51 @@
 		EC5D4C051A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTDemystifyAutoLayout1ViewController.h; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.h; sourceTree = "<group>"; };
 		EC5D4C061A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTDemystifyAutoLayout1ViewController.m; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.m; sourceTree = "<group>"; };
 		EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTDemystifyAutoLayout1ViewController.xib; path = Controller/ViewController/iOSMTDemystifyAutoLayout1ViewController.xib; sourceTree = "<group>"; };
+		EC6365951B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample20150720CollectionViewController.swift; path = ViewController/iOSMTSample20150720CollectionViewController.swift; sourceTree = "<group>"; };
 		EC68031C1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTContainerViewControllerCase1.storyboard; path = View/iOSMTContainerViewControllerCase1.storyboard; sourceTree = "<group>"; };
+		EC7602711B40C7A500B6444F /* iOSApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC7602721B40C89C00B6444F /* iOSAppTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOSAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		EC7DC0C81ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTStoryboardCase1Scene2ViewController.h; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene2ViewController.h; sourceTree = "<group>"; };
 		EC7DC0C91ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTStoryboardCase1Scene2ViewController.m; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1Scene2ViewController.m; sourceTree = "<group>"; };
+		EC7F174C1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMSample1TMultiModelTableViewCell.swift; path = View/iOSMSample1TMultiModelTableViewCell.swift; sourceTree = "<group>"; };
+		EC7F174F1B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample20150720CollectionViewController.storyboard; path = Storyboard/iOSMTSample20150720CollectionViewController.storyboard; sourceTree = "<group>"; };
+		EC7F17521B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample20150720CollectionViewCell.swift; path = View/iOSMTSample20150720CollectionViewCell.swift; sourceTree = "<group>"; };
 		EC8016C01A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.h; sourceTree = "<group>"; };
 		EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.m; sourceTree = "<group>"; };
 		EC8016C21A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutCase1ViewController.xib; sourceTree = "<group>"; };
 		EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutCase1ElementView.h; path = View/iOSMTAutoLayoutCase1ElementView.h; sourceTree = "<group>"; };
 		EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutCase1ElementView.m; path = View/iOSMTAutoLayoutCase1ElementView.m; sourceTree = "<group>"; };
 		EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutCase1ElementView.xib; path = View/iOSMTAutoLayoutCase1ElementView.xib; sourceTree = "<group>"; };
+		EC957C5D1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXMTSwiftBridge1WindowController.h; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.h; sourceTree = "<group>"; };
+		EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSXMTSwiftBridge1WindowController.m; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.m; sourceTree = "<group>"; };
+		EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTSwiftBridge1WindowController.xib; path = Controller/WindowController/OSXMTSwiftBridge1WindowController.xib; sourceTree = "<group>"; };
+		EC957C771B22A43E0097D8A1 /* iOSEmbeddedModelKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSEmbeddedModelKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC957C781B22A43E0097D8A1 /* OSXEmbededdModelKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXEmbededdModelKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMSomeDomainEntity.swift; sourceTree = "<group>"; };
+		EC957CDA1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSwiftBridge1ViewController.h; path = SwiftBridge/iOSMTSwiftBridge1ViewController.h; sourceTree = "<group>"; };
+		EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSwiftBridge1ViewController.m; path = SwiftBridge/iOSMTSwiftBridge1ViewController.m; sourceTree = "<group>"; };
+		EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTSwiftBridge1ViewController.xib; path = SwiftBridge/iOSMTSwiftBridge1ViewController.xib; sourceTree = "<group>"; };
 		EC9C52D81A9226AF009D516A /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; };
 		EC9F49051AE7045A00C6401D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		EC9F91911B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTMultiTableViewController.storyboard; path = Storyboard/iOSMTMultiTableViewController.storyboard; sourceTree = "<group>"; };
+		EC9F91941B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTMultiTableViewController.swift; path = ViewController/iOSMTMultiTableViewController.swift; sourceTree = "<group>"; };
 		ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTStoryboardCase1.storyboard; path = UIKit/Storyboard/Case1/iOSMTStoryboardCase1.storyboard; sourceTree = "<group>"; };
+		ECA1FB481AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSpriteKitBasicsMultiSKAction1ViewController.h; path = Controller/ViewController/iOSMTSpriteKitBasicsMultiSKAction1ViewController.h; sourceTree = "<group>"; };
+		ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSpriteKitBasicsMultiSKAction1ViewController.m; path = Controller/ViewController/iOSMTSpriteKitBasicsMultiSKAction1ViewController.m; sourceTree = "<group>"; };
+		ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib; path = Controller/ViewController/iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib; sourceTree = "<group>"; };
+		ECA1FB4F1AFF005400704134 /* BasicsMultiAction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BasicsMultiAction.sks; path = SpriteKit/BasicsMultiAction.sks; sourceTree = "<group>"; };
+		ECA1FB521AFF0E6100704134 /* MTSKBasicsMultiActionScene1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSKBasicsMultiActionScene1.h; path = SpriteKit/MTSKBasicsMultiActionScene1.h; sourceTree = "<group>"; };
+		ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSKBasicsMultiActionScene1.m; path = SpriteKit/MTSKBasicsMultiActionScene1.m; sourceTree = "<group>"; };
+		ECA1FB561AFF123800704134 /* iOSApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iOSApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1ButtonAndLabelViewController.storyboard; path = Storyboard/iOSMTSample1ButtonAndLabelViewController.storyboard; sourceTree = "<group>"; };
+		ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iOSMTSample1UIActivityViewController.storyboard; path = Storyboard/iOSMTSample1UIActivityViewController.storyboard; sourceTree = "<group>"; };
+		ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1UIActivityViewController.swift; path = ViewController/iOSMTSample1UIActivityViewController.swift; sourceTree = "<group>"; };
+		ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth3WindowController.swift; path = Controller/WindowController/OSXMTBluetooth3WindowController.swift; sourceTree = "<group>"; };
+		ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth3WindowController.xib; path = Controller/WindowController/OSXMTBluetooth3WindowController.xib; sourceTree = "<group>"; };
 		ECBD02311AD0EFE400F98E7C /* UIKitEXP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKitEXP.playground; sourceTree = "<group>"; };
 		ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes_and_Structures.playground; sourceTree = "<group>"; };
+		ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSXMTBluetooth4WindowController.swift; path = Controller/WindowController/OSXMTBluetooth4WindowController.swift; sourceTree = "<group>"; };
+		ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OSXMTBluetooth4WindowController.xib; path = Controller/WindowController/OSXMTBluetooth4WindowController.xib; sourceTree = "<group>"; };
 		ECDC652B1A2BD58B0080C608 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC652F1A2BD58B0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65301A2BD58B0080C608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -440,6 +682,17 @@
 		ECDC656B1A2BD5AC0080C608 /* OSXAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC65701A2BD5AC0080C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDC65711A2BD5AC0080C608 /* OSXAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXAppTests.m; sourceTree = "<group>"; };
+		ECE84FDA1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTSKBasicsTransition1ViewController.h; path = SpriteKit/iOSMTSKBasicsTransition1ViewController.h; sourceTree = "<group>"; };
+		ECE84FDB1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTSKBasicsTransition1ViewController.m; path = SpriteKit/iOSMTSKBasicsTransition1ViewController.m; sourceTree = "<group>"; };
+		ECE84FDC1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTSKBasicsTransition1ViewController.xib; path = SpriteKit/iOSMTSKBasicsTransition1ViewController.xib; sourceTree = "<group>"; };
+		ECE84FE21AFF3DCA00907EAF /* Transition1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Transition1.sks; path = SpriteKit/Transition1.sks; sourceTree = "<group>"; };
+		ECE84FE51AFF448100907EAF /* MTSKBasicTransition1Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSKBasicTransition1Scene.h; path = SpriteKit/MTSKBasicTransition1Scene.h; sourceTree = "<group>"; };
+		ECE84FE61AFF448100907EAF /* MTSKBasicTransition1Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSKBasicTransition1Scene.m; path = SpriteKit/MTSKBasicTransition1Scene.m; sourceTree = "<group>"; };
+		ECE84FE91AFF453700907EAF /* Transition2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Transition2.sks; path = SpriteKit/Transition2.sks; sourceTree = "<group>"; };
+		ECE84FEC1AFF45B100907EAF /* MTSKBasicTransition2Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSKBasicTransition2Scene.h; path = SpriteKit/MTSKBasicTransition2Scene.h; sourceTree = "<group>"; };
+		ECE84FED1AFF45B100907EAF /* MTSKBasicTransition2Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSKBasicTransition2Scene.m; path = SpriteKit/MTSKBasicTransition2Scene.m; sourceTree = "<group>"; };
+		ECE84FF11AFF4DA600907EAF /* MTSKBasicsSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSKBasicsSceneController.h; path = SpriteKit/MTSKBasicsSceneController.h; sourceTree = "<group>"; };
+		ECE84FF21AFF4DA600907EAF /* MTSKBasicsSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSKBasicsSceneController.m; path = SpriteKit/MTSKBasicsSceneController.m; sourceTree = "<group>"; };
 		ECEBD15B1A94D393001AD551 /* AutoLayoutTest2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutoLayoutTest2.playground; sourceTree = "<group>"; };
 		ECEBD15D1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutVisualFormat2ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.h; sourceTree = "<group>"; };
 		ECEBD15E1A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutVisualFormat2ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutVisualFormat2ViewController.m; sourceTree = "<group>"; };
@@ -454,9 +707,18 @@
 		ECF63C381A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTAutoLayoutIB1ViewController.h; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.h; sourceTree = "<group>"; };
 		ECF63C391A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSMTAutoLayoutIB1ViewController.m; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.m; sourceTree = "<group>"; };
 		ECF63C3A1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iOSMTAutoLayoutIB1ViewController.xib; path = Controller/ViewController/iOSMTAutoLayoutIB1ViewController.xib; sourceTree = "<group>"; };
+		ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSome1ContentViewController.swift; path = ViewController/iOSMTSome1ContentViewController.swift; sourceTree = "<group>"; };
+		ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSMTSample1ContainerViewController.swift; path = ViewController/iOSMTSample1ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		749A81161AF344AB001D3607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC3D0B531A32E99A0097C9E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,8 +753,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743954351AF8B59D0035A9C8 /* GameController.framework in Frameworks */,
 				EC4552871AE554A60033F9F1 /* SpriteKit.framework in Frameworks */,
-				7484C4B91A33138600A310DE /* GameController.framework in Frameworks */,
+				743954321AF8B5630035A9C8 /* MapKit.framework in Frameworks */,
+				743954281AF882BB0035A9C8 /* MapKit.framework in Frameworks */,
 				EC3D0B6E1A32E99B0097C9E2 /* iOSEmbeddedModelKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,7 +772,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74589ECF1B2AF873000D715D /* CoreBluetooth.framework in Frameworks */,
 				EC3D0BB71A32EAAB0097C9E2 /* OSXEmbededdModelKit.framework in Frameworks */,
+				743954311AF8833D0035A9C8 /* MapKit.framework in Frameworks */,
+				7439542F1AF883380035A9C8 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,11 +789,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74007C301AF9FE34003233F8 /* InterfaceController */ = {
+			isa = PBXGroup;
+			children = (
+				749A811E1AF344AB001D3607 /* InterfaceController.h */,
+				749A811F1AF344AB001D3607 /* InterfaceController.m */,
+				74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */,
+				74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */,
+			);
+			name = InterfaceController;
+			sourceTree = "<group>";
+		};
+		74007C311AF9FE3D003233F8 /* GlanceController */ = {
+			isa = PBXGroup;
+			children = (
+				749A81241AF344AB001D3607 /* GlanceController.h */,
+				749A81251AF344AB001D3607 /* GlanceController.m */,
+			);
+			name = GlanceController;
+			sourceTree = "<group>";
+		};
+		74007C321AF9FE45003233F8 /* NotificationController */ = {
+			isa = PBXGroup;
+			children = (
+				749A81211AF344AB001D3607 /* NotificationController.h */,
+				749A81221AF344AB001D3607 /* NotificationController.m */,
+			);
+			name = NotificationController;
+			sourceTree = "<group>";
+		};
 		740EF56D1A2C89D300735C4E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
-				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
+				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				740EF5731A2C8E4C00735C4E /* ContentViewController */,
 			);
 			name = Controller;
@@ -535,12 +830,9 @@
 		740EF56E1A2C89E300735C4E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */,
-				7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */,
-				EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */,
-				EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */,
+				EC09367C1B5C9FA9006736A8 /* UIView */,
 				EC9F49041AE6FFEC00C6401D /* CollectionViewCell */,
-				EC9F49031AE6FF5E00C6401D /* sks */,
+				EC9F49031AE6FF5E00C6401D /* SpriteKitScene */,
 				EC9F49021AE6FF1E00C6401D /* storyboard */,
 				EC9F49011AE6FF1800C6401D /* xib */,
 			);
@@ -550,8 +842,11 @@
 		740EF5731A2C8E4C00735C4E /* ContentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				748018AC1B6105920054C88D /* CoreData */,
+				744481C41B46B09A006C2E12 /* Network */,
+				7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */,
+				EC957CD91B22D7F50097D8A1 /* SwiftBridge */,
 				744A9E5D1AE3F58D00329C51 /* SpriteKit */,
-				EC3D0BEE1A32F7FC0097C9E2 /* TopMenu */,
 				EC3D0BE61A32F7260097C9E2 /* GameController */,
 				EC5E786F1A5D89BF0089D226 /* UIKit */,
 			);
@@ -561,7 +856,6 @@
 		740EF5761A2DD4A300735C4E /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
-				ECF63C471A988F82004302B3 /* images */,
 				740EF5771A2DD4A300735C4E /* plist */,
 			);
 			name = Resouce;
@@ -574,6 +868,24 @@
 				740EF5791A2DD4A300735C4E /* topMenu.plist */,
 			);
 			path = plist;
+			sourceTree = "<group>";
+		};
+		741900231B339A83004AD945 /* Bluetooth2: Connect */ = {
+			isa = PBXGroup;
+			children = (
+				741900241B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift */,
+				741900251B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib */,
+			);
+			name = "Bluetooth2: Connect";
+			sourceTree = "<group>";
+		};
+		7434E22F1B2C7E2000FD42A5 /* BlueTooth1 */ = {
+			isa = PBXGroup;
+			children = (
+				7434E2301B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift */,
+				7434E2311B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib */,
+			);
+			name = BlueTooth1;
 			sourceTree = "<group>";
 		};
 		74374C2E1A5308CE00014A0E /* visualFormatによるテスト１ */ = {
@@ -632,9 +944,40 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		743954331AF8B5700035A9C8 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				74589ECE1B2AF873000D715D /* CoreBluetooth.framework */,
+				743954341AF8B59D0035A9C8 /* GameController.framework */,
+				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
+				743954301AF8833D0035A9C8 /* MapKit.framework */,
+				7439542E1AF883380035A9C8 /* CloudKit.framework */,
+				743954271AF882BB0035A9C8 /* MapKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		744481C41B46B09A006C2E12 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				744481C51B46B0AE006C2E12 /* BackgroundFetch1 */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		744481C51B46B0AE006C2E12 /* BackgroundFetch1 */ = {
+			isa = PBXGroup;
+			children = (
+				744481C61B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift */,
+				744481C71B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib */,
+			);
+			name = BackgroundFetch1;
+			sourceTree = "<group>";
+		};
 		744A9E5D1AE3F58D00329C51 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				ECA1FB471AFEFCF700704134 /* Basics */,
 				744A9E7C1AE3F8B200329C51 /* Templates */,
 			);
 			name = SpriteKit;
@@ -732,6 +1075,8 @@
 		7453CDDE1A580FCD006B7AB5 /* WindowController */ = {
 			isa = PBXGroup;
 			children = (
+				ECD998BA1B3EBDCA00FEA535 /* Bluetooth */,
+				EC957C5C1B229A480097D8A1 /* SwiftBridge1 */,
 				7453CDE61A581AFA006B7AB5 /* AutoLayout1: visualFormat */,
 				7453CDE71A581B07006B7AB5 /* AutoLayout2 */,
 			);
@@ -758,13 +1103,94 @@
 			name = AutoLayout2;
 			sourceTree = "<group>";
 		};
-		7484C4B71A33136900A310DE /* Framework */ = {
+		74589EC51B29CDFE000D715D /* Bluetooth1: Scan */ = {
 			isa = PBXGroup;
 			children = (
-				EC4552861AE554A60033F9F1 /* SpriteKit.framework */,
-				7484C4B81A33138600A310DE /* GameController.framework */,
+				74589EC81B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift */,
+				74589EC91B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib */,
 			);
-			name = Framework;
+			name = "Bluetooth1: Scan";
+			sourceTree = "<group>";
+		};
+		747F35A61B5F409800CEA8EE /* サブビューコントローラー */ = {
+			isa = PBXGroup;
+			children = (
+				747F35A31B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift */,
+				747F35A71B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift */,
+			);
+			name = "サブビューコントローラー";
+			sourceTree = "<group>";
+		};
+		748018AC1B6105920054C88D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				748018BC1B6108030054C88D /* iOSMTCoreData1ViewController.swift */,
+				EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		748018B31B6106700054C88D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				748018B41B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1FB561AFF123800704134 /* iOSApp WatchKit Extension.entitlements */,
+				749A81461AF3CEF2001D3607 /* Controller */,
+				749A81271AF344AB001D3607 /* Images.xcassets */,
+				749A811B1AF344AB001D3607 /* Supporting Files */,
+			);
+			path = "iOSApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		749A811B1AF344AB001D3607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749A811C1AF344AB001D3607 /* Info.plist */,
+				749A811D1AF344AB001D3607 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		749A812F1AF344AB001D3607 /* iOSApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				749A81321AF344AB001D3607 /* Interface.storyboard */,
+				749A81301AF344AB001D3607 /* Supporting Files */,
+			);
+			path = "iOSApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		749A81301AF344AB001D3607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749A81311AF344AB001D3607 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		749A81421AF3BDB5001D3607 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ECF63C471A988F82004302B3 /* images */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		749A81461AF3CEF2001D3607 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74007C321AF9FE45003233F8 /* NotificationController */,
+				74007C311AF9FE3D003233F8 /* GlanceController */,
+				74007C301AF9FE34003233F8 /* InterfaceController */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		74A2062C1A8F919600E8E35E /* Playground */ = {
@@ -814,6 +1240,7 @@
 				EC9C52D81A9226AF009D516A /* Closures.playground */,
 				ECBD02321AD1058B00F98E7C /* Classes_and_Structures.playground */,
 				ECF521691AD3475F001B0B21 /* Subscripts.playground */,
+				EC33ECA31AE93FFF00A513B3 /* Initialization.playground */,
 			);
 			name = LanguageGuide;
 			sourceTree = "<group>";
@@ -847,9 +1274,50 @@
 			name = tmp;
 			sourceTree = "<group>";
 		};
+		74BF5E991B42B13F00FE5A93 /* 均等配置 */ = {
+			isa = PBXGroup;
+			children = (
+				74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */,
+			);
+			name = "均等配置";
+			sourceTree = "<group>";
+		};
+		74DCCCD61B08AEDD0003270E /* SharedSpriteKitSource */ = {
+			isa = PBXGroup;
+			children = (
+				74DCCCD71B08AF140003270E /* SKScene */,
+				74DCCCD81B08AF270003270E /* SKSpriteNode */,
+				74DCCCD91B08B18A0003270E /* Resource */,
+			);
+			name = SharedSpriteKitSource;
+			sourceTree = "<group>";
+		};
+		74DCCCD71B08AF140003270E /* SKScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SKScene;
+			sourceTree = "<group>";
+		};
+		74DCCCD81B08AF270003270E /* SKSpriteNode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SKSpriteNode;
+			sourceTree = "<group>";
+		};
+		74DCCCD91B08B18A0003270E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		EC03CCBB1A2BD234009C741E = {
 			isa = PBXGroup;
 			children = (
+				74DCCCD61B08AEDD0003270E /* SharedSpriteKitSource */,
+				743954331AF8B5700035A9C8 /* Framework */,
 				740EF5ED1A30844D00735C4E /* CommonHeader.h */,
 				EC3D0B9A1A32E9C10097C9E2 /* EmbeddedModelKit */,
 				740EF5761A2DD4A300735C4E /* Resouce */,
@@ -863,6 +1331,8 @@
 				EC3D0B671A32E99B0097C9E2 /* iOSEmbeddedModelKitTests */,
 				ECEBD1641A94D901001AD551 /* docs */,
 				74A2062C1A8F919600E8E35E /* Playground */,
+				749A811A1AF344AB001D3607 /* iOSApp WatchKit Extension */,
+				749A812F1AF344AB001D3607 /* iOSApp WatchKit App */,
 				ECDC652C1A2BD58B0080C608 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -874,6 +1344,49 @@
 				ECEE15A81ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m */,
 			);
 			name = CollectionView1;
+			sourceTree = "<group>";
+		};
+		EC09367C1B5C9FA9006736A8 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				7437A9041A566D530097D921 /* iOSMTAutoLayoutTestableView.h */,
+				7437A9051A566D530097D921 /* iOSMTAutoLayoutTestableView.m */,
+				EC8016C71A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.h */,
+				EC8016C81A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m */,
+				EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */,
+				EC3A958D1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift */,
+				EC7F174C1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift */,
+				EC7F17521B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		EC2627851B50BE9000CBF14F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC65321A2BD58B0080C608 /* AppDelegate.h */,
+				ECDC65331A2BD58B0080C608 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		EC2627861B50BF4000CBF14F /* コンテナビューコントローラーxn + 固定ボタン */ = {
+			isa = PBXGroup;
+			children = (
+				EC2627901B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift */,
+				747F35A61B5F409800CEA8EE /* サブビューコントローラー */,
+			);
+			name = "コンテナビューコントローラーxn + 固定ボタン";
+			sourceTree = "<group>";
+		};
+		EC2627931B510E6600CBF14F /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE82D61B59633200688775 /* iOSMTSample1ContainerViewController.swift */,
+				EC2627941B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift */,
+				ECFE82D31B59423A00688775 /* iOSMTSome1ContentViewController.swift */,
+			);
+			name = PageViewController;
 			sourceTree = "<group>";
 		};
 		EC2F8AED1AC91D0D0048E180 /* Alignテスト */ = {
@@ -901,6 +1414,14 @@
 				EC33ADED1AC658680068A74C /* iOSMTCollectionView2ViewController.m */,
 			);
 			name = CollectionView2;
+			sourceTree = "<group>";
+		};
+		EC3A95831B5B6E8800FC0655 /* 高さ可変テーブルビューセル */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A958A1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift */,
+			);
+			name = "高さ可変テーブルビューセル";
 			sourceTree = "<group>";
 		};
 		EC3D0B581A32E99A0097C9E2 /* iOSEmbeddedModelKit */ = {
@@ -987,6 +1508,9 @@
 			children = (
 				EC3D0BC11A32EB1E0097C9E2 /* MTMTopMenuEntity.h */,
 				EC3D0BC21A32EB1E0097C9E2 /* MTMTopMenuEntity.m */,
+				EC957C791B22A43F0097D8A1 /* MTMSomeDomainEntity.swift */,
+				EC957C771B22A43E0097D8A1 /* iOSEmbeddedModelKitTests-Bridging-Header.h */,
+				EC957C781B22A43E0097D8A1 /* OSXEmbededdModelKitTests-Bridging-Header.h */,
 			);
 			name = Entity;
 			path = Model/Entity;
@@ -1036,18 +1560,19 @@
 			name = TopMenu;
 			sourceTree = "<group>";
 		};
-		EC49DB791ACFA9310014880F /* Case2 */ = {
+		EC49DB791ACFA9310014880F /* storyboard - Case2 */ = {
 			isa = PBXGroup;
 			children = (
 				EC49DB7D1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.h */,
 				EC49DB7E1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m */,
 			);
-			name = Case2;
+			name = "storyboard - Case2";
 			sourceTree = "<group>";
 		};
 		EC5D4C041A3DC37F0058C078 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				74BF5E991B42B13F00FE5A93 /* 均等配置 */,
 				EC2F8AF51AC93ECE0048E180 /* Pinテスト */,
 				EC2F8AED1AC91D0D0048E180 /* Alignテスト */,
 				ECF63C371A98787F004302B3 /* IBを用いた検証1 */,
@@ -1062,11 +1587,27 @@
 		EC5E786F1A5D89BF0089D226 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				ECA139CD1ACAEAC600BFCBFE /* Storyboard */,
-				ECA139CC1ACAEABA00BFCBFE /* CollectionView */,
+				EC7F17551B5D131E006917E3 /* CollectionViewController20150720 */,
+				EC9F91901B5BEA8900033CFC /* 複数のタブをもつテーブルビュー */,
+				EC3A95831B5B6E8800FC0655 /* 高さ可変テーブルビューセル */,
+				ECA473B31B5A9C5E0034D9C4 /* アクティビティビューコントローラー */,
+				EC2627931B510E6600CBF14F /* PageViewController */,
+				EC2627861B50BF4000CBF14F /* コンテナビューコントローラーxn + 固定ボタン */,
+				ECA139CE1ACAEACD00BFCBFE /* storyboard - Case1 */,
+				EC49DB791ACFA9310014880F /* storyboard - Case2 */,
+				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
+				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		EC7F17551B5D131E006917E3 /* CollectionViewController20150720 */ = {
+			isa = PBXGroup;
+			children = (
+				EC6365951B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift */,
+			);
+			name = CollectionViewController20150720;
 			sourceTree = "<group>";
 		};
 		EC8016BF1A938682003BC74A /* case1 */ = {
@@ -1076,6 +1617,26 @@
 				EC8016C11A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m */,
 			);
 			name = case1;
+			sourceTree = "<group>";
+		};
+		EC957C5C1B229A480097D8A1 /* SwiftBridge1 */ = {
+			isa = PBXGroup;
+			children = (
+				EC957C5D1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.h */,
+				EC957C5E1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m */,
+				EC957C5F1B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib */,
+			);
+			name = SwiftBridge1;
+			sourceTree = "<group>";
+		};
+		EC957CD91B22D7F50097D8A1 /* SwiftBridge */ = {
+			isa = PBXGroup;
+			children = (
+				EC957CDA1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.h */,
+				EC957CDB1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m */,
+				EC957CDC1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib */,
+			);
+			name = SwiftBridge;
 			sourceTree = "<group>";
 		};
 		EC9F49011AE6FF1800C6401D /* xib */ = {
@@ -1095,6 +1656,8 @@
 				EC8016CB1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib */,
 				7437A8FF1A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib */,
 				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
+				ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib */,
+				ECE84FDC1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -1115,24 +1678,28 @@
 				ECA139CF1ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard */,
 				EC49DB7A1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard */,
 				EC2F8B041AC946DE0048E180 /* AutoLaytouCase3.storyboard */,
+				EC2627981B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard */,
+				ECA473AD1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard */,
+				ECA473B01B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard */,
+				EC3A95841B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard */,
+				EC9F91911B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard */,
+				EC7F174F1B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard */,
+				EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */,
+				748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */,
+				EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */,
 			);
 			name = storyboard;
 			sourceTree = "<group>";
 		};
-		EC9F49031AE6FF5E00C6401D /* sks */ = {
+		EC9F49031AE6FF5E00C6401D /* SpriteKitScene */ = {
 			isa = PBXGroup;
 			children = (
-				EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */,
-				744A9E791AE3F6B500329C51 /* Spark.sks */,
-				744A9E761AE3F69D00329C51 /* Snow.sks */,
-				744A9E731AE3F68800329C51 /* Smoke.sks */,
-				744A9E701AE3F67500329C51 /* Rain.sks */,
-				744A9E6D1AE3F66100329C51 /* Magic.sks */,
-				744A9E6A1AE3F64100329C51 /* Firefiles.sks */,
-				744A9E641AE3F62C00329C51 /* Fire.sks */,
-				744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */,
+				ECE84FE11AFF3DA500907EAF /* templates */,
+				ECA1FB4F1AFF005400704134 /* BasicsMultiAction.sks */,
+				ECE84FE21AFF3DCA00907EAF /* Transition1.sks */,
+				ECE84FE91AFF453700907EAF /* Transition2.sks */,
 			);
-			name = sks;
+			name = SpriteKitScene;
 			sourceTree = "<group>";
 		};
 		EC9F49041AE6FFEC00C6401D /* CollectionViewCell */ = {
@@ -1146,25 +1713,15 @@
 			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
-		ECA139CC1ACAEABA00BFCBFE /* CollectionView */ = {
+		EC9F91901B5BEA8900033CFC /* 複数のタブをもつテーブルビュー */ = {
 			isa = PBXGroup;
 			children = (
-				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
-				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
+				EC9F91941B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift */,
 			);
-			name = CollectionView;
+			name = "複数のタブをもつテーブルビュー";
 			sourceTree = "<group>";
 		};
-		ECA139CD1ACAEAC600BFCBFE /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				EC49DB791ACFA9310014880F /* Case2 */,
-				ECA139CE1ACAEACD00BFCBFE /* Case1 */,
-			);
-			name = Storyboard;
-			sourceTree = "<group>";
-		};
-		ECA139CE1ACAEACD00BFCBFE /* Case1 */ = {
+		ECA139CE1ACAEACD00BFCBFE /* storyboard - Case1 */ = {
 			isa = PBXGroup;
 			children = (
 				EC49DB751ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.h */,
@@ -1174,7 +1731,73 @@
 				EC49DB711ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.h */,
 				EC49DB721ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m */,
 			);
-			name = Case1;
+			name = "storyboard - Case1";
+			sourceTree = "<group>";
+		};
+		ECA1FB471AFEFCF700704134 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				ECE84FD91AFF3C2A00907EAF /* トランジション */,
+				ECE84FD81AFF3C1B00907EAF /* 複合アクションテスト */,
+			);
+			name = Basics;
+			sourceTree = "<group>";
+		};
+		ECA473B31B5A9C5E0034D9C4 /* アクティビティビューコントローラー */ = {
+			isa = PBXGroup;
+			children = (
+				ECA473B41B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift */,
+			);
+			name = "アクティビティビューコントローラー";
+			sourceTree = "<group>";
+		};
+		ECB582F21B3E8FD3006EE61C /* Bluetooth3: Service, Characteristic */ = {
+			isa = PBXGroup;
+			children = (
+				ECB582F31B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift */,
+				ECB582F41B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib */,
+			);
+			name = "Bluetooth3: Service, Characteristic";
+			sourceTree = "<group>";
+		};
+		ECD998BA1B3EBDCA00FEA535 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				ECD998C31B3EC13700FEA535 /* Bluetooth6: Notify */,
+				ECD998C21B3EC12E00FEA535 /* Bluetooth5: Write */,
+				ECD998BB1B3EBDDA00FEA535 /* Bluetooth4: Read */,
+				ECB582F21B3E8FD3006EE61C /* Bluetooth3: Service, Characteristic */,
+				741900231B339A83004AD945 /* Bluetooth2: Connect */,
+				74589EC51B29CDFE000D715D /* Bluetooth1: Scan */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		ECD998BB1B3EBDDA00FEA535 /* Bluetooth4: Read */ = {
+			isa = PBXGroup;
+			children = (
+				ECD998BC1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift */,
+				ECD998BD1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib */,
+			);
+			name = "Bluetooth4: Read";
+			sourceTree = "<group>";
+		};
+		ECD998C21B3EC12E00FEA535 /* Bluetooth5: Write */ = {
+			isa = PBXGroup;
+			children = (
+				7471D9E31B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift */,
+				7471D9E41B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib */,
+			);
+			name = "Bluetooth5: Write";
+			sourceTree = "<group>";
+		};
+		ECD998C31B3EC13700FEA535 /* Bluetooth6: Notify */ = {
+			isa = PBXGroup;
+			children = (
+				7471D9E91B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift */,
+				7471D9EA1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib */,
+			);
+			name = "Bluetooth6: Notify";
 			sourceTree = "<group>";
 		};
 		ECDC652C1A2BD58B0080C608 /* Products */ = {
@@ -1188,6 +1811,8 @@
 				EC3D0B611A32E99A0097C9E2 /* iOSEmbeddedModelKitTests.xctest */,
 				EC3D0BA01A32EAAA0097C9E2 /* OSXEmbededdModelKit.framework */,
 				EC3D0BAA1A32EAAA0097C9E2 /* OSXEmbededdModelKitTests.xctest */,
+				749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */,
+				749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1195,10 +1820,14 @@
 		ECDC652D1A2BD58B0080C608 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC7602711B40C7A500B6444F /* iOSApp-Bridging-Header.h */,
+				EC7602721B40C89C00B6444F /* iOSAppTests-Bridging-Header.h */,
+				748018B31B6106700054C88D /* Model */,
+				749A81421AF3BDB5001D3607 /* Resource */,
+				EC2627851B50BE9000CBF14F /* Delegate */,
 				740EF56E1A2C89E300735C4E /* View */,
 				740EF56D1A2C89D300735C4E /* Controller */,
 				ECDC652E1A2BD58B0080C608 /* Supporting Files */,
-				7484C4B71A33136900A310DE /* Framework */,
 			);
 			path = iOSApp;
 			sourceTree = "<group>";
@@ -1233,6 +1862,9 @@
 		ECDC65571A2BD5AC0080C608 /* OSXApp */ = {
 			isa = PBXGroup;
 			children = (
+				74589EC61B29CE5E000D715D /* OSXApp-Bridging-Header.h */,
+				74589EC71B29CE5E000D715D /* OSXAppTests-Bridging-Header.h */,
+				7439542D1AF8832A0035A9C8 /* OSXApp.entitlements */,
 				7437A90B1A57931E0097D921 /* Resource */,
 				7437A90A1A57930E0097D921 /* View */,
 				7437A9081A5792F20097D921 /* Controller */,
@@ -1267,6 +1899,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ECE84FD81AFF3C1B00907EAF /* 複合アクションテスト */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1FB481AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.h */,
+				ECA1FB491AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m */,
+				ECA1FB521AFF0E6100704134 /* MTSKBasicsMultiActionScene1.h */,
+				ECA1FB531AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m */,
+			);
+			name = "複合アクションテスト";
+			sourceTree = "<group>";
+		};
+		ECE84FD91AFF3C2A00907EAF /* トランジション */ = {
+			isa = PBXGroup;
+			children = (
+				ECE84FDA1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.h */,
+				ECE84FDB1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m */,
+				ECE84FF11AFF4DA600907EAF /* MTSKBasicsSceneController.h */,
+				ECE84FF21AFF4DA600907EAF /* MTSKBasicsSceneController.m */,
+				ECE84FF61AFF4E1D00907EAF /* SKScene */,
+			);
+			name = "トランジション";
+			sourceTree = "<group>";
+		};
+		ECE84FE11AFF3DA500907EAF /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				EC4552831AE5544F0033F9F1 /* SpriteKitTemplateScene.sks */,
+				744A9E791AE3F6B500329C51 /* Spark.sks */,
+				744A9E761AE3F69D00329C51 /* Snow.sks */,
+				744A9E731AE3F68800329C51 /* Smoke.sks */,
+				744A9E701AE3F67500329C51 /* Rain.sks */,
+				744A9E6D1AE3F66100329C51 /* Magic.sks */,
+				744A9E6A1AE3F64100329C51 /* Firefiles.sks */,
+				744A9E641AE3F62C00329C51 /* Fire.sks */,
+				744A9E5E1AE3F5FD00329C51 /* Bokeh.sks */,
+			);
+			name = templates;
+			sourceTree = "<group>";
+		};
+		ECE84FF61AFF4E1D00907EAF /* SKScene */ = {
+			isa = PBXGroup;
+			children = (
+				ECE84FE51AFF448100907EAF /* MTSKBasicTransition1Scene.h */,
+				ECE84FE61AFF448100907EAF /* MTSKBasicTransition1Scene.m */,
+				ECE84FEC1AFF45B100907EAF /* MTSKBasicTransition2Scene.h */,
+				ECE84FED1AFF45B100907EAF /* MTSKBasicTransition2Scene.m */,
+			);
+			name = SKScene;
+			sourceTree = "<group>";
+		};
 		ECEBD15C1A94D3E1001AD551 /* visualFormatテスト2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1297,7 +1979,8 @@
 			children = (
 				EC9F49051AE7045A00C6401D /* Images.xcassets */,
 			);
-			path = images;
+			name = images;
+			path = ../../Resouce/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1308,6 +1991,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC3D0B5C1A32E99A0097C9E2 /* iOSEmbeddedModelKit.h in Headers */,
+				EC957CD81B22D5FF0097D8A1 /* MTMSomeDomainEntity.swift in Headers */,
 				EC3D0BC61A32EB1E0097C9E2 /* MTMTopMenuEntity.h in Headers */,
 				EC3D0BCC1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */,
 			);
@@ -1319,6 +2003,7 @@
 			files = (
 				EC3D0BA51A32EAAA0097C9E2 /* OSXEmbededdModelKit.h in Headers */,
 				EC3D0BC71A32EB1E0097C9E2 /* MTMTopMenuEntity.h in Headers */,
+				EC957CD71B22D5F80097D8A1 /* MTMSomeDomainEntity.swift in Headers */,
 				EC3D0BCD1A32EB1E0097C9E2 /* MTMTopMenuDataController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1326,6 +2011,39 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		749A81181AF344AB001D3607 /* iOSApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749A813F1AF344AB001D3607 /* Build configuration list for PBXNativeTarget "iOSApp WatchKit Extension" */;
+			buildPhases = (
+				749A81151AF344AB001D3607 /* Sources */,
+				749A81161AF344AB001D3607 /* Frameworks */,
+				749A81171AF344AB001D3607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749A812E1AF344AB001D3607 /* PBXTargetDependency */,
+			);
+			name = "iOSApp WatchKit Extension";
+			productName = "iOSApp WatchKit Extension";
+			productReference = 749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		749A812A1AF344AB001D3607 /* iOSApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749A813E1AF344AB001D3607 /* Build configuration list for PBXNativeTarget "iOSApp WatchKit App" */;
+			buildPhases = (
+				749A81291AF344AB001D3607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSApp WatchKit App";
+			productName = "iOSApp WatchKit App";
+			productReference = 749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		EC3D0B561A32E99A0097C9E2 /* iOSEmbeddedModelKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC3D0B701A32E99B0097C9E2 /* Build configuration list for PBXNativeTarget "iOSEmbeddedModelKit" */;
@@ -1408,11 +2126,13 @@
 				ECDC65281A2BD58B0080C608 /* Frameworks */,
 				ECDC65291A2BD58B0080C608 /* Resources */,
 				EC3D0B3E1A32E82A0097C9E2 /* Embed Frameworks */,
+				749A81401AF344AB001D3607 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				EC3D0B6D1A32E99B0097C9E2 /* PBXTargetDependency */,
+				749A81381AF344AB001D3607 /* PBXTargetDependency */,
 			);
 			name = iOSApp;
 			productName = iOSApp;
@@ -1481,8 +2201,26 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MT;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				TargetAttributes = {
+					749A81181AF344AB001D3607 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KCQC4QP985;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					749A812A1AF344AB001D3607 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KCQC4QP985;
+					};
 					EC3D0B561A32E99A0097C9E2 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = KCQC4QP985;
@@ -1505,6 +2243,36 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
 							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
 						};
 					};
 					ECDC65431A2BD58B0080C608 = {
@@ -1513,6 +2281,18 @@
 					};
 					ECDC65551A2BD5AC0080C608 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = KCQC4QP985;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Maps.Mac = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					ECDC656A1A2BD5AC0080C608 = {
 						CreatedOnToolsVersion = 6.1;
@@ -1541,11 +2321,32 @@
 				EC3D0B601A32E99A0097C9E2 /* iOSEmbeddedModelKitTests */,
 				EC3D0B9F1A32EAAA0097C9E2 /* OSXEmbededdModelKit */,
 				EC3D0BA91A32EAAA0097C9E2 /* OSXEmbededdModelKitTests */,
+				749A81181AF344AB001D3607 /* iOSApp WatchKit Extension */,
+				749A812A1AF344AB001D3607 /* iOSApp WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		749A81171AF344AB001D3607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749A81441AF3C796001D3607 /* Images.xcassets in Resources */,
+				749A812C1AF344AB001D3607 /* iOSApp WatchKit App.app in Resources */,
+				749A81281AF344AB001D3607 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749A81291AF344AB001D3607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749A81341AF344AB001D3607 /* Interface.storyboard in Resources */,
+				749A81431AF3C793001D3607 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC3D0B551A32E99A0097C9E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1578,9 +2379,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9F91921B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard in Resources */,
 				744A9E951AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				EC49DB7B1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
+				EC3A95851B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard in Resources */,
+				ECE84FE31AFF3DCA00907EAF /* Transition1.sks in Resources */,
 				744A9E7A1AE3F6B500329C51 /* Spark.sks in Resources */,
+				ECA1FB4D1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib in Resources */,
 				EC3D0BEC1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
 				744A9E6E1AE3F66100329C51 /* Magic.sks in Resources */,
 				744A9E8C1AE3F99600329C51 /* iOSMTSpriteKitParticleTemplateSnow.storyboard in Resources */,
@@ -1591,6 +2396,7 @@
 				ECA139D01ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
 				EC68031D1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
 				EC33ADF11AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
+				744481CA1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */,
 				ECDC653A1A2BD58B0080C608 /* Main.storyboard in Resources */,
 				74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
 				EC9F49061AE7045A00C6401D /* Images.xcassets in Resources */,
@@ -1599,23 +2405,35 @@
 				744A9E711AE3F67500329C51 /* Rain.sks in Resources */,
 				744A9E921AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECF63C3D1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
+				EC2627991B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard in Resources */,
+				748018AE1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard in Resources */,
 				744A9E771AE3F69D00329C51 /* Snow.sks in Resources */,
 				744A9E8F1AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
+				EC121EAE1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */,
 				ECDC653F1A2BD58B0080C608 /* LaunchScreen.xib in Resources */,
+				EC957CDF1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
 				EC8016C51A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
+				ECE84FDF1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */,
 				744A9E981AE3F9CB00329C51 /* iOSMTSpriteKitParticleTemplateFire.storyboard in Resources */,
 				740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */,
+				7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */,
 				744A9E741AE3F68800329C51 /* Smoke.sks in Resources */,
+				ECA1FB501AFF005400704134 /* BasicsMultiAction.sks in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				EC4552841AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */,
+				EC26278E1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */,
+				ECA473AE1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */,
 				EC2F8AF31AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
+				ECA473B11B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */,
 				EC8016CC1A93884E003BC74A /* iOSMTAutoLayoutCase1ElementView.xib in Resources */,
 				744A9E891AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */,
 				ECEBD1621A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
 				744A9E601AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				ECEE15AC1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.xib in Resources */,
+				EC7F17501B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard in Resources */,
 				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
+				ECE84FEA1AFF453700907EAF /* Transition2.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1630,8 +2448,12 @@
 				ECF63C3E1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.xib in Resources */,
 				744A9E931AE3F9B200329C51 /* iOSMTSpriteKitParticleTemplateMagic.storyboard in Resources */,
 				ECEBD1631A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.xib in Resources */,
+				ECA1FB511AFF005400704134 /* BasicsMultiAction.sks in Resources */,
+				EC121EAF1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard in Resources */,
 				EC5D4C0B1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
+				ECE84FE01AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib in Resources */,
 				744A9E721AE3F67500329C51 /* Rain.sks in Resources */,
+				EC26279A1B510EEB00CBF14F /* iOSMTSample1UIPageViewController.storyboard in Resources */,
 				EC9F49071AE7045A00C6401D /* Images.xcassets in Resources */,
 				744A9E9C1AE3F9DE00329C51 /* iOSMTSpriteKitParticleTemplateBokeh.storyboard in Resources */,
 				744A9E901AE3F9A500329C51 /* iOSMTSpriteKitParticleTemplateSmoke.storyboard in Resources */,
@@ -1641,19 +2463,32 @@
 				744A9E8A1AE3F98B00329C51 /* iOSMTSpriteKitParticleTemplateSpark.storyboard in Resources */,
 				744A9E6F1AE3F66100329C51 /* Magic.sks in Resources */,
 				744A9E671AE3F62C00329C51 /* Fire.sks in Resources */,
+				ECA473B21B5A67910034D9C4 /* iOSMTSample1UIActivityViewController.storyboard in Resources */,
 				74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */,
+				748018AF1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard in Resources */,
+				ECA473AF1B5A5EAA0034D9C4 /* iOSMTSample1ButtonAndLabelViewController.storyboard in Resources */,
 				744A9E961AE3F9C100329C51 /* iOSMTSpriteKitParticleTemplateFirefiles.storyboard in Resources */,
 				EC3D0BED1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.xib in Resources */,
+				EC7F17511B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard in Resources */,
 				EC49DB7C1ACFA95D0014880F /* iOSMTStoryboardCase2.storyboard in Resources */,
 				EC2F8AF41AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.xib in Resources */,
 				EC33ADF21AC658680068A74C /* iOSMTCollectionView2ViewController.xib in Resources */,
+				EC3A95861B5B6EBC00FC0655 /* iOSMTSample1DynamicHeightTableCellViewController.storyboard in Resources */,
 				744A9E7B1AE3F6B500329C51 /* Spark.sks in Resources */,
 				ECA139D11ACAEB0300BFCBFE /* iOSMTStoryboardCase1.storyboard in Resources */,
+				EC26278F1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard in Resources */,
 				744A9E781AE3F69D00329C51 /* Snow.sks in Resources */,
 				EC33ADFE1AC6C0840068A74C /* iOSMTCollectionView2Cell.xib in Resources */,
 				744A9E871AE3F97000329C51 /* iOSMTSpriteKitParticleTemplateRain.storyboard in Resources */,
+				ECE84FEB1AFF453700907EAF /* Transition2.sks in Resources */,
+				ECA1FB4E1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib in Resources */,
+				7434E2351B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */,
 				740EF57F1A2DD4A300735C4E /* topMenu.plist in Resources */,
 				EC8016C61A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.xib in Resources */,
+				ECE84FE41AFF3DCA00907EAF /* Transition1.sks in Resources */,
+				EC957CE01B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.xib in Resources */,
+				744481CB1B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.xib in Resources */,
+				EC9F91931B5BEAB500033CFC /* iOSMTMultiTableViewController.storyboard in Resources */,
 				744A9E611AE3F5FD00329C51 /* Bokeh.sks in Resources */,
 				7437A9031A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				EC68031E1AE27D9500A66586 /* iOSMTContainerViewControllerCase1.storyboard in Resources */,
@@ -1669,8 +2504,15 @@
 				7453CDE41A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
 				7453CDED1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				ECDC65631A2BD5AC0080C608 /* Images.xcassets in Resources */,
+				741900281B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */,
+				ECB582F71B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */,
+				74589ECC1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
+				7471D9E71B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib in Resources */,
 				ECDC65661A2BD5AC0080C608 /* Main.storyboard in Resources */,
+				ECD998C01B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */,
+				EC957C621B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
 				740EF5801A2DD4A300735C4E /* topMenu.plist in Resources */,
+				7471D9ED1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1678,7 +2520,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC957C631B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.xib in Resources */,
+				7471D9E81B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.xib in Resources */,
+				ECB582F81B3E9026006EE61C /* OSXMTBluetooth3WindowController.xib in Resources */,
+				741900291B339AE6004AD945 /* OSXMTBluetooth2WindowController.xib in Resources */,
 				7453CDE51A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.xib in Resources */,
+				7471D9EE1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.xib in Resources */,
+				74589ECD1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.xib in Resources */,
+				ECD998C11B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.xib in Resources */,
 				7453CDEE1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.xib in Resources */,
 				740EF5811A2DD4A300735C4E /* topMenu.plist in Resources */,
 			);
@@ -1687,10 +2536,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		749A81151AF344AB001D3607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749A81231AF344AB001D3607 /* NotificationController.m in Sources */,
+				749A81201AF344AB001D3607 /* InterfaceController.m in Sources */,
+				74007C361AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m in Sources */,
+				749A81261AF344AB001D3607 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC3D0B521A32E99A0097C9E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC957C7A1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 				EC3D0BC81A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BCE1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 			);
@@ -1700,10 +2561,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3D0BCF1A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 				EC3D0BD91A32EE950097C9E2 /* MTMTopMenuDataControllerTests.m in Sources */,
 				EC3D0BC91A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0B6B1A32E99B0097C9E2 /* iOSEmbeddedModelKitTests.m in Sources */,
+				EC957C7B1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1711,6 +2572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC957C7C1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 				EC3D0BCA1A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BD01A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 			);
@@ -1720,9 +2582,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3D0BD11A32EB1E0097C9E2 /* MTMTopMenuDataController.m in Sources */,
 				EC3D0BCB1A32EB1E0097C9E2 /* MTMTopMenuEntity.m in Sources */,
 				EC3D0BB41A32EAAB0097C9E2 /* OSXEmbededdModelKitTests.m in Sources */,
+				EC957C7D1B22A43F0097D8A1 /* MTMSomeDomainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1731,39 +2593,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				74538C111A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
+				ECE84FEE1AFF45B100907EAF /* MTSKBasicTransition2Scene.m in Sources */,
 				7437A9001A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
+				ECA1FB541AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */,
+				EC9F91951B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift in Sources */,
+				ECA473B51B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
 				74CCE17F1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
 				744A9EA31AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
+				ECE84FE71AFF448100907EAF /* MTSKBasicTransition1Scene.m in Sources */,
 				EC3D0BEA1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
+				74BF5E9C1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */,
 				ECEE15AA1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
 				ECEE15A31ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
 				EC33ADFB1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */,
 				EC8016C31A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
+				748018B61B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld in Sources */,
 				EC2F8B091AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
 				EC45528A1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
+				7434E2321B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */,
+				ECA1FB4B1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */,
 				ECDC65341A2BD58B0080C608 /* AppDelegate.m in Sources */,
 				7485AC3E1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
+				EC09367E1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */,
+				747F35A81B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */,
 				744A9EBB1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
 				EC49DB731ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
+				ECFE82D71B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */,
 				744A9EB71AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */,
 				ECF63C3B1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
 				744A9EAF1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
 				744A9EA71AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
 				ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
+				EC3A958B1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */,
 				EC7DC0CA1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
+				EC7F17531B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift in Sources */,
+				EC957CDD1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */,
 				EC5D4C081A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
 				744A9EB31AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */,
 				EC2F8AF11AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
+				EC2627911B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift in Sources */,
+				748018BD1B6108030054C88D /* iOSMTCoreData1ViewController.swift in Sources */,
+				747F35A41B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */,
+				ECE84FF31AFF4DA600907EAF /* MTSKBasicsSceneController.m in Sources */,
+				ECFE82D41B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */,
+				ECE84FDD1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */,
+				EC3A958E1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */,
 				ECDC65311A2BD58B0080C608 /* main.m in Sources */,
 				740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				EC49DB771ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */,
+				EC7F174D1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift in Sources */,
+				EC6365961B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift in Sources */,
 				740EF5E31A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
 				7437A9061A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
 				EC8016C91A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
+				EC2627951B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift in Sources */,
 				744A9E9F1AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
 				EC49DB7F1ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				744A9EAB1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
+				EC121EAB1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */,
 				EC33ADEF1AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
+				744481C81B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1771,38 +2660,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7F17541B5D129A006917E3 /* iOSMTSample20150720CollectionViewCell.swift in Sources */,
 				744A9EB81AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */,
 				7485AC3F1A3C980400CB953F /* iOSMTGamePadConnectionCheckButtonAView.m in Sources */,
 				EC3D0BEB1A32F78C0097C9E2 /* iOSMTGameControllerVerificationTopViewController.m in Sources */,
 				7437A9011A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.m in Sources */,
 				EC2F8B0A1AC9473A0048E180 /* iOSMTAutoLayoutCase3ViewController.m in Sources */,
+				74BF5E9D1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */,
+				EC09367F1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */,
 				744A9EAC1AE3FAB800329C51 /* iOSMTSpriteKitParticleTemplateRainViewController.m in Sources */,
+				EC9F91961B5BEAEC00033CFC /* iOSMTMultiTableViewController.swift in Sources */,
 				EC49DB741ACF87D30014880F /* iOSMTStoryboardCase1Scene3Tab1ViewController.m in Sources */,
+				ECFE82D81B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */,
 				ECEBD1611A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,
+				748018B71B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld in Sources */,
 				74538C121A35262900850210 /* iOSMTHIDeviceController.m in Sources */,
 				EC45528B1AE555960033F9F1 /* SpriteKitTemplateScene.m in Sources */,
 				EC7DC0CB1ACB5BF800B1EB92 /* iOSMTStoryboardCase1Scene2ViewController.m in Sources */,
+				EC3A958F1B5B76C500FC0655 /* iOSMTSample1DynamicHeightTableViewCell.swift in Sources */,
+				747F35A91B5F40B800CEA8EE /* iOSMTContainerSample2Sub2TableViewController.swift in Sources */,
 				ECEE15AB1ABDB04F0098C118 /* iOSMTCollectionView1ViewController.m in Sources */,
+				ECA473B61B5A9C780034D9C4 /* iOSMTSample1UIActivityViewController.swift in Sources */,
+				EC121EAC1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */,
 				EC8016CA1A938833003BC74A /* iOSMTAutoLayoutCase1ElementView.m in Sources */,
+				ECA1FB4C1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.m in Sources */,
+				EC957CDE1B22D8200097D8A1 /* iOSMTSwiftBridge1ViewController.m in Sources */,
 				EC33ADFC1AC6C0840068A74C /* iOSMTCollectionView2Cell.m in Sources */,
+				ECE84FE81AFF448100907EAF /* MTSKBasicTransition1Scene.m in Sources */,
 				EC49DB801ACFADB10014880F /* iOSMTStoryboardCase2Scene1ViewController.m in Sources */,
 				EC8016C41A9386F8003BC74A /* iOSMTAutoLayoutCase1ViewController.m in Sources */,
+				EC6365971B5FA02100FF7A35 /* iOSMTSample20150720CollectionViewController.swift in Sources */,
+				ECE84FEF1AFF45B100907EAF /* MTSKBasicTransition2Scene.m in Sources */,
+				ECFE82D51B59423A00688775 /* iOSMTSome1ContentViewController.swift in Sources */,
 				740EF5E41A307EDD00735C4E /* iOSMTTopViewTableDataSource.m in Sources */,
+				EC2627961B510ECA00CBF14F /* iOSMTSample1UIPageViewController.swift in Sources */,
 				EC49DB781ACF8B660014880F /* iOSMTStoryboardCase1Scene1ViewController.m in Sources */,
 				744A9EBC1AE3FB2B00329C51 /* iOSMTSpriteKitParticleTemplateBokehViewController.m in Sources */,
+				EC7F174E1B5CF265006917E3 /* iOSMSample1TMultiModelTableViewCell.swift in Sources */,
 				740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */,
 				7437A9071A566D530097D921 /* iOSMTAutoLayoutTestableView.m in Sources */,
+				EC3A958C1B5B741900FC0655 /* iOSMTSample1DynamicHeightTableCellTableViewController.swift in Sources */,
+				747F35A51B5F406300CEA8EE /* iOSMTContainerSample2Sub1ViewController.swift in Sources */,
 				EC33ADF01AC658680068A74C /* iOSMTCollectionView2ViewController.m in Sources */,
+				744481C91B46B0E2006C2E12 /* iOSMTNetworkBackgroundFetch1ViewController.swift in Sources */,
 				ECEE15A41ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.m in Sources */,
 				EC5D4C091A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.m in Sources */,
+				ECE84FDE1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.m in Sources */,
 				744A9EB41AE3FADE00329C51 /* iOSMTSpriteKitParticleTemplateFirefilesViewController.m in Sources */,
 				744A9EB01AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
 				ECF63C3C1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
 				ECDC654B1A2BD58B0080C608 /* iOSAppTests.m in Sources */,
+				748018BE1B6108030054C88D /* iOSMTCoreData1ViewController.swift in Sources */,
+				EC2627921B50C70A00CBF14F /* iOSMTContainerSample2TableViewController.swift in Sources */,
 				744A9EA41AE3FA9900329C51 /* iOSMTSpriteKitParticleTemplateSnowViewController.m in Sources */,
 				744A9EA81AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
+				ECE84FF41AFF4DA600907EAF /* MTSKBasicsSceneController.m in Sources */,
 				744A9EA01AE3FA7D00329C51 /* iOSMTSpriteKitParticleTemplateSparkViewController.m in Sources */,
+				ECA1FB551AFF0E6100704134 /* MTSKBasicsMultiActionScene1.m in Sources */,
 				74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */,
+				7434E2331B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.swift in Sources */,
 				EC2F8AF21AC91D4E0048E180 /* iOSMTAutoLayoutCase2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1811,12 +2727,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB582F51B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */,
 				ECDC65611A2BD5AC0080C608 /* ViewController.m in Sources */,
+				741900261B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */,
+				ECD998BE1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */,
 				7437A90E1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
 				7453CDE21A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
+				7471D9E51B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift in Sources */,
 				7453CDEB1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
 				ECDC655E1A2BD5AC0080C608 /* main.m in Sources */,
+				EC957C601B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
+				74589ECA1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */,
 				ECDC655C1A2BD5AC0080C608 /* AppDelegate.m in Sources */,
+				7471D9EB1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1824,16 +2747,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB582F61B3E9026006EE61C /* OSXMTBluetooth3WindowController.swift in Sources */,
 				7453CDE31A5810E7006B7AB5 /* OSXMTAutoLayout1WindowController.m in Sources */,
 				7453CDEC1A581B25006B7AB5 /* OSXMTAutoLayout2WindowController.m in Sources */,
+				ECD998BF1B3EBE3800FEA535 /* OSXMTBluetooth4WindowController.swift in Sources */,
+				7471D9E61B3EDC3100CEA44F /* OSXMTBluetooth5WindowController.swift in Sources */,
+				74589ECB1B29CE5F000D715D /* OSXMTBlueTooth1WindowController.swift in Sources */,
 				ECDC65721A2BD5AC0080C608 /* OSXAppTests.m in Sources */,
+				EC957C611B229A700097D8A1 /* OSXMTSwiftBridge1WindowController.m in Sources */,
+				741900271B339AE6004AD945 /* OSXMTBluetooth2WindowController.swift in Sources */,
 				7437A90F1A57B4A80097D921 /* OSXMTTopTableDataSource.m in Sources */,
+				7471D9EC1B3EDC4800CEA44F /* OSXMTBluetooth6WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		749A812E1AF344AB001D3607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749A812A1AF344AB001D3607 /* iOSApp WatchKit App */;
+			targetProxy = 749A812D1AF344AB001D3607 /* PBXContainerItemProxy */;
+		};
+		749A81381AF344AB001D3607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749A81181AF344AB001D3607 /* iOSApp WatchKit Extension */;
+			targetProxy = 749A81371AF344AB001D3607 /* PBXContainerItemProxy */;
+		};
 		EC3D0B641A32E99B0097C9E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC3D0B561A32E99A0097C9E2 /* iOSEmbeddedModelKit */;
@@ -1877,6 +2817,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		749A81321AF344AB001D3607 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749A81331AF344AB001D3607 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		ECDC65381A2BD58B0080C608 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1904,9 +2852,196 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		749A813A1AF344AB001D3607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "iOSApp WatchKit Extension/iOSApp WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOSApp WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		749A813B1AF344AB001D3607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "iOSApp WatchKit Extension/iOSApp WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOSApp WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		749A813C1AF344AB001D3607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_MODULE = iOSApp_WatchKit_Extension;
+				INFOPLIST_FILE = "iOSApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		749A813D1AF344AB001D3607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_MODULE = iOSApp_WatchKit_Extension;
+				INFOPLIST_FILE = "iOSApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EC03CCC01A2BD234009C741E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -1914,6 +3049,7 @@
 		EC03CCC11A2BD234009C741E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 			};
 			name = Release;
 		};
@@ -1942,6 +3078,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1959,7 +3096,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = iOSEmbeddedModelKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1967,6 +3104,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1998,6 +3136,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2009,7 +3148,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = iOSEmbeddedModelKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2043,6 +3182,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -2070,6 +3211,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/iOSEmbeddedModelKitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
 			name = Debug;
@@ -2094,6 +3237,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2114,6 +3259,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/iOSEmbeddedModelKitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2144,6 +3290,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2169,6 +3316,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2200,6 +3348,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
@@ -2242,6 +3391,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -2268,6 +3419,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/OSXEmbededdModelKitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Debug;
@@ -2292,6 +3445,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2311,6 +3466,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/OSXEmbededdModelKitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Release;
@@ -2354,7 +3510,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = iOSApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2400,7 +3556,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = iOSApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2531,7 +3687,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = OSXApp/OSXApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2555,7 +3713,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -2577,7 +3738,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = OSXApp/OSXApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2595,7 +3758,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -2645,6 +3810,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Debug;
@@ -2689,6 +3856,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXAppTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXApp.app/Contents/MacOS/OSXApp";
 			};
 			name = Release;
@@ -2696,6 +3864,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		749A813E1AF344AB001D3607 /* Build configuration list for PBXNativeTarget "iOSApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749A813C1AF344AB001D3607 /* Debug */,
+				749A813D1AF344AB001D3607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749A813F1AF344AB001D3607 /* Build configuration list for PBXNativeTarget "iOSApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749A813A1AF344AB001D3607 /* Debug */,
+				749A813B1AF344AB001D3607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EC03CCBF1A2BD234009C741E /* Build configuration list for PBXProject "macTechnicalness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2778,6 +3964,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		748018B41B61069D0054C88D /* iOSMTCoreData1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				748018B51B61069D0054C88D /* iOSMTCoreData1.xcdatamodel */,
+			);
+			currentVersion = 748018B51B61069D0054C88D /* iOSMTCoreData1.xcdatamodel */;
+			name = iOSMTCoreData1.xcdatamodeld;
+			path = Model/iOSMTCoreData1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC03CCBC1A2BD234009C741E /* Project object */;
 }

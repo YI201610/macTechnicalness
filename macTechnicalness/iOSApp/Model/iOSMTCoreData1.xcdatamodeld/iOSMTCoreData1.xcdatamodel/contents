@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AbstractItem" syncable="YES">
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="superContainer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Container" inverseName="contents" inverseEntity="Container" syncable="YES"/>
+    </entity>
+    <entity name="ConcreteItem" parentEntity="AbstractItem" syncable="YES">
+        <attribute name="someAttribute1" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Container" parentEntity="AbstractItem" syncable="YES">
+        <relationship name="contents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AbstractItem" inverseName="superContainer" inverseEntity="AbstractItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AbstractItem" positionX="-173" positionY="-45" width="128" height="73"/>
+        <element name="ConcreteItem" positionX="-90" positionY="68" width="128" height="58"/>
+        <element name="Container" positionX="-315" positionY="63" width="128" height="58"/>
+    </elements>
+</model>

@@ -1,0 +1,281 @@
+Last login: Thu Sep  3 20:38:39 on ttys002
+PersonalComputer:tmp username$ curl -s https://getcomposer.org/installer | php
+#!/usr/bin/env php
+All settings correct for using Composer
+Downloading...
+
+Composer successfully installed to: /Users/username/tmp/composer.phar
+Use it: php composer.phar
+PersonalComputer:tmp username$ php composer.phar 
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.0-dev (afd98b74f13b9def1b2447f16fd0bfd4d96dff94) 2015-08-31 09:58:50
+
+Usage:
+ command [options] [arguments]
+
+Options:
+ --help (-h)           Display this help message
+ --quiet (-q)          Do not output any message
+ --verbose (-v|vv|vvv) Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+ --version (-V)        Display this application version
+ --ansi                Force ANSI output
+ --no-ansi             Disable ANSI output
+ --no-interaction (-n) Do not ask any interactive question
+ --profile             Display timing and memory usage information
+ --working-dir (-d)    If specified, use the given directory as working directory.
+
+Available commands:
+ about            Short information about Composer
+ archive          Create an archive of this composer package
+ browse           Opens the package's repository URL or homepage in your browser.
+ clear-cache      Clears composer's internal package cache.
+ clearcache       Clears composer's internal package cache.
+ config           Set config options
+ create-project   Create new project from a package into given directory.
+ depends          Shows which packages depend on the given package
+ diagnose         Diagnoses the system to identify common errors.
+ dump-autoload    Dumps the autoloader
+ dumpautoload     Dumps the autoloader
+ global           Allows running commands in the global composer dir ($COMPOSER_HOME).
+ help             Displays help for a command
+ home             Opens the package's repository URL or homepage in your browser.
+ info             Show information about packages
+ init             Creates a basic composer.json file in current directory.
+ install          Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+ licenses         Show information about licenses of dependencies
+ list             Lists commands
+ remove           Removes a package from the require or require-dev
+ require          Adds required packages to your composer.json and installs them
+ run-script       Run the scripts defined in composer.json.
+ search           Search for packages
+ self-update      Updates composer.phar to the latest version.
+ selfupdate       Updates composer.phar to the latest version.
+ show             Show information about packages
+ status           Show a list of locally modified packages
+ suggests         Show package suggestions
+ update           Updates your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+ validate         Validates a composer.json and composer.lock
+
+PersonalComputer:tmp username$ php composer.phar about
+Composer - Package Management for PHP
+Composer is a dependency manager tracking local dependencies of your projects and libraries.
+See https://getcomposer.org/ for more information.
+
+PersonalComputer:tmp username$ php -r 'phpinfo();' | grep 'php.ini'
+Configuration File (php.ini) Path => /etc
+
+
+PersonalComputer:php username$ sudo php install-pear-nozlib.phar
+Password:
+[PEAR] Archive_Tar    - installed: 1.3.11
+[PEAR] Console_Getopt - installed: 1.3.1
+warning: pear/PEAR requires package "pear/Structures_Graph" (recommended version 1.0.4)
+warning: pear/PEAR requires package "pear/XML_Util" (recommended version 1.2.1)
+[PEAR] PEAR           - installed: 1.9.4
+Wrote PEAR system config file at: /private/etc/pear.conf
+You may want to add: /usr/lib/php/pear to your php.ini include_path
+[PEAR] Structures_Graph- installed: 1.0.4
+[PEAR] XML_Util       - installed: 1.2.1
+
+PersonalComputer:tmp username$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/Library/...
+/usr/local/share/man/man1/brew.1
+==> The following directories will be made group writable:
+/usr/local/.
+/usr/local/bin
+==> The following directories will have their group set to admin:
+/usr/local/.
+/usr/local/bin
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/. /usr/local/bin
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/. /usr/local/bin
+==> /usr/bin/sudo /bin/mkdir /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Counting objects: 3725, done.
+remote: Compressing objects: 100% (3559/3559), done.
+remote: Total 3725 (delta 37), reused 639 (delta 26), pack-reused 0
+Receiving objects: 100% (3725/3725), 3.11 MiB | 92.00 KiB/s, done.
+Resolving deltas: 100% (37/37), done.
+From https://github.com/Homebrew/homebrew
+ * [new branch]      master     -> origin/master
+HEAD is now at 7aaf84f zabbix: update 2.4.6 bottle.
+==> Installation successful!
+==> Next steps
+Run `brew help` to get started
+
+PersonalComputer:tmp username$ brew install icu4c
+==> Downloading https://homebrew.bintray.com/bottles/icu4c-55.1.yosemite.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring icu4c-55.1.yosemite.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+OS X provides libicucore.dylib (but nothing else).
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/icu4c/lib
+    CPPFLAGS: -I/usr/local/opt/icu4c/include
+
+==> Summary
+🍺  /usr/local/Cellar/icu4c/55.1: 244 files, 66M
+
+PersonalComputer:etc username$ cd /usr/lib/php/extensions/
+PersonalComputer:extensions username$ ls
+PersonalComputer:extensions username$ cd no-debug-non-zts-20121212/
+PersonalComputer:no-debug-non-zts-20121212 username$ ls
+opcache.a	opcache.so	xdebug.so
+
+PersonalComputer:no-debug-non-zts-20121212 username$ brew install autoconf
+==> Downloading https://homebrew.bintray.com/bottles/autoconf-2.69.yosemite.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Pouring autoconf-2.69.yosemite.bottle.1.tar.gz
+==> Caveats
+Emacs Lisp files have been installed to:
+/usr/local/share/emacs/site-lisp/
+
+Add the following to your init file to have packages installed by Homebrew added to your load-path:
+(let ((default-directory "/usr/local/share/emacs/site-lisp/"))
+  (normal-top-level-add-subdirs-to-load-path))
+==> Summary
+🍺  /usr/local/Cellar/autoconf/2.69: 70 files, 3.1M
+
+PersonalComputer:no-debug-non-zts-20121212 username$ sudo pecl install intl
+downloading intl-3.0.0.tgz ...
+Starting to download intl-3.0.0.tgz (248,200 bytes)
+................................done: 248,200 bytes
+150 source files, building
+〜中略〜
+Build process completed successfully
+Installing '/usr/lib/php/extensions/no-debug-non-zts-20121212/intl.so'
+install ok: channel://pecl.php.net/intl-3.0.0
+configuration option "php_ini" is not set to php.ini location
+You should add "extension=intl.so" to php.ini
+
+
+PersonalComputer:no-debug-non-zts-20121212 username$ sudo vi /etc/php.ini
+
+PersonalComputer:tmp username$ php composer.phar create-project --prefer-dist cakephp/app bookmarker
+Installing cakephp/app (3.0.5)
+  - Installing cakephp/app (3.0.5)
+    Loading from cache
+
+Created project in bookmarker
+Loading composer repositories with package information
+Installing dependencies (including require-dev)
+  - Installing aura/installer-default (1.0.0)
+    Downloading: 100%         
+
+  - Installing cakephp/plugin-installer (0.0.12)
+    Downloading: 100%         
+
+  - Installing psr/log (1.0.0)
+    Downloading: 100%         
+
+  - Installing nesbot/carbon (1.13.0)
+    Downloading: 100%         
+
+  - Installing mobiledetect/mobiledetectlib (2.8.16)
+    Downloading: 100%         
+
+  - Installing aura/intl (1.1.1)
+    Downloading: 100%         
+
+  - Installing ircmaxell/password-compat (v1.0.4)
+    Downloading: 100%         
+
+  - Installing cakephp/cakephp (3.0.12)
+    Downloading: 100%         
+
+  - Installing symfony/yaml (v2.7.3)
+    Downloading: 100%         
+
+  - Installing symfony/filesystem (v2.7.3)
+    Downloading: 100%         
+
+  - Installing symfony/config (v2.7.3)
+    Downloading: 100%         
+
+  - Installing symfony/console (v2.7.3)
+    Downloading: 100%         
+
+  - Installing robmorgan/phinx (v0.4.5)
+    Downloading: 100%         
+
+  - Installing cakephp/migrations (1.2.2)
+    Downloading: 100%         
+
+  - Installing jakub-onderka/php-console-color (0.1)
+    Downloading: 100%         
+
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2)
+    Downloading: 100%         
+
+  - Installing dnoegel/php-xdg-base-dir (0.1)
+    Downloading: 100%         
+
+  - Installing nikic/php-parser (v1.4.0)
+    Downloading: 100%         
+
+  - Installing symfony/var-dumper (v2.7.3)
+    Downloading: 100%         
+
+  - Installing psy/psysh (v0.5.2)
+    Downloading: 100%         
+
+  - Installing jdorn/sql-formatter (v1.2.17)
+    Downloading: 100%         
+
+  - Installing cakephp/debug_kit (3.1.10)
+    Downloading: 100%         
+
+  - Installing cakephp/bake (1.0.13)
+    Downloading: 100%         
+
+symfony/console suggests installing symfony/event-dispatcher ()
+symfony/console suggests installing symfony/process ()
+symfony/var-dumper suggests installing ext-symfony_debug ()
+psy/psysh suggests installing ext-pcntl (Enabling the PCNTL extension makes PsySH a lot happier :))
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+cakephp/debug_kit suggests installing ext-sqlite (DebugKit needs to store panel data in a database. SQLite is simple and easy to use.)
+Writing lock file
+Generating autoload files
+> Cake\Composer\Installer\PluginInstaller::postAutoloadDump
+> App\Console\Installer::postInstall
+Created `config/app.php` file
+Set Folder Permissions ? (Default to Y) [Y,n]? y
+Permissions set on /Users/username/tmp/bookmarker/tmp/cache
+Permissions set on /Users/username/tmp/bookmarker/tmp/cache/models
+Permissions set on /Users/username/tmp/bookmarker/tmp/cache/persistent
+Permissions set on /Users/username/tmp/bookmarker/tmp/cache/views
+Permissions set on /Users/username/tmp/bookmarker/tmp/sessions
+Permissions set on /Users/username/tmp/bookmarker/tmp/tests
+Permissions set on /Users/username/tmp/bookmarker/tmp
+Permissions set on /Users/username/tmp/bookmarker/logs
+Updated Security.salt value in config/app.php
+PersonalComputer:tmp username$ 
+PersonalComputer:tmp username$ bin/cake server
+-bash: bin/cake: No such file or directory
+PersonalComputer:tmp username$ cd bookmarker/bin/
+PersonalComputer:bin username$ ./cake server
+
+Welcome to CakePHP v3.0.12 Console
+---------------------------------------------------------------
+App : src
+Path: /Users/username/tmp/bookmarker/src/
+DocumentRoot: /Users/username/tmp/bookmarker/webroot
+---------------------------------------------------------------
+built-in server is running in http://localhost:8765/
+You can exit with `CTRL-C`
+
