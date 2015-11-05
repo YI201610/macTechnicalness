@@ -128,9 +128,7 @@
 		749A81231AF344AB001D3607 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A81221AF344AB001D3607 /* NotificationController.m */; };
 		749A81261AF344AB001D3607 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A81251AF344AB001D3607 /* GlanceController.m */; };
 		749A81281AF344AB001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749A81271AF344AB001D3607 /* Images.xcassets */; };
-		749A812C1AF344AB001D3607 /* iOSApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */; };
 		749A81341AF344AB001D3607 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A81321AF344AB001D3607 /* Interface.storyboard */; };
-		749A81391AF344AB001D3607 /* iOSApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		749A81431AF3C793001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		749A81441AF3C796001D3607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F49051AE7045A00C6401D /* Images.xcassets */; };
 		74BF5E9C1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF5E9A1B42B1CE00FE5A93 /* iOSMTAutoLayoutCase4ViewController.swift */; };
@@ -139,6 +137,8 @@
 		74CCE1801A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CCE17D1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.m */; };
 		74CCE1811A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
 		74CCE1821A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CCE17E1A34606C006F2141 /* iOSMTGamePadConnectionCheckViewController.xib */; };
+		74D075C51BEBA5CA00181156 /* iOSApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74D075C81BEBA5CA00181156 /* iOSApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */; };
 		EC09367E1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */; };
 		EC09367F1B5CA00E006736A8 /* iOSMTSomeStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09367D1B5CA00E006736A8 /* iOSMTSomeStateButton.swift */; };
 		EC121EAB1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC121EAA1B6481AF00D88490 /* iOSMTCoreData2ViewController.swift */; };
@@ -329,19 +329,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		749A812D1AF344AB001D3607 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC03CCBC1A2BD234009C741E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 749A812A1AF344AB001D3607;
-			remoteInfo = "iOSApp WatchKit App";
-		};
-		749A81371AF344AB001D3607 /* PBXContainerItemProxy */ = {
+		74D075C31BEBA5CA00181156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC03CCBC1A2BD234009C741E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 749A81181AF344AB001D3607;
 			remoteInfo = "iOSApp WatchKit Extension";
+		};
+		74D075C61BEBA5CA00181156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC03CCBC1A2BD234009C741E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749A812A1AF344AB001D3607;
+			remoteInfo = "iOSApp WatchKit App";
 		};
 		EC3D0B631A32E99B0097C9E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -402,15 +402,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		749A81401AF344AB001D3607 /* Embed App Extensions */ = {
+		74D075C91BEBA5CA00181156 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				749A81391AF344AB001D3607 /* iOSApp WatchKit Extension.appex in Embed App Extensions */,
+				74D075C51BEBA5CA00181156 /* iOSApp WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D075CA1BEBA5CA00181156 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				74D075C81BEBA5CA00181156 /* iOSApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EC3D0B3E1A32E82A0097C9E2 /* Embed Frameworks */ = {
@@ -2022,27 +2033,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				749A812E1AF344AB001D3607 /* PBXTargetDependency */,
 			);
 			name = "iOSApp WatchKit Extension";
 			productName = "iOSApp WatchKit Extension";
 			productReference = 749A81191AF344AB001D3607 /* iOSApp WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		749A812A1AF344AB001D3607 /* iOSApp WatchKit App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 749A813E1AF344AB001D3607 /* Build configuration list for PBXNativeTarget "iOSApp WatchKit App" */;
 			buildPhases = (
 				749A81291AF344AB001D3607 /* Resources */,
+				74D075C91BEBA5CA00181156 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				74D075C41BEBA5CA00181156 /* PBXTargetDependency */,
 			);
 			name = "iOSApp WatchKit App";
 			productName = "iOSApp WatchKit App";
 			productReference = 749A812B1AF344AB001D3607 /* iOSApp WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
+			productType = "com.apple.product-type.application.watchapp2";
 		};
 		EC3D0B561A32E99A0097C9E2 /* iOSEmbeddedModelKit */ = {
 			isa = PBXNativeTarget;
@@ -2126,13 +2138,13 @@
 				ECDC65281A2BD58B0080C608 /* Frameworks */,
 				ECDC65291A2BD58B0080C608 /* Resources */,
 				EC3D0B3E1A32E82A0097C9E2 /* Embed Frameworks */,
-				749A81401AF344AB001D3607 /* Embed App Extensions */,
+				74D075CA1BEBA5CA00181156 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				EC3D0B6D1A32E99B0097C9E2 /* PBXTargetDependency */,
-				749A81381AF344AB001D3607 /* PBXTargetDependency */,
+				74D075C71BEBA5CA00181156 /* PBXTargetDependency */,
 			);
 			name = iOSApp;
 			productName = iOSApp;
@@ -2203,7 +2215,7 @@
 				CLASSPREFIX = MT;
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				TargetAttributes = {
 					749A81181AF344AB001D3607 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -2333,7 +2345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				749A81441AF3C796001D3607 /* Images.xcassets in Resources */,
-				749A812C1AF344AB001D3607 /* iOSApp WatchKit App.app in Resources */,
 				749A81281AF344AB001D3607 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2764,15 +2775,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		749A812E1AF344AB001D3607 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 749A812A1AF344AB001D3607 /* iOSApp WatchKit App */;
-			targetProxy = 749A812D1AF344AB001D3607 /* PBXContainerItemProxy */;
-		};
-		749A81381AF344AB001D3607 /* PBXTargetDependency */ = {
+		74D075C41BEBA5CA00181156 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 749A81181AF344AB001D3607 /* iOSApp WatchKit Extension */;
-			targetProxy = 749A81371AF344AB001D3607 /* PBXContainerItemProxy */;
+			targetProxy = 74D075C31BEBA5CA00181156 /* PBXContainerItemProxy */;
+		};
+		74D075C71BEBA5CA00181156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749A812A1AF344AB001D3607 /* iOSApp WatchKit App */;
+			targetProxy = 74D075C61BEBA5CA00181156 /* PBXContainerItemProxy */;
 		};
 		EC3D0B641A32E99B0097C9E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2894,10 +2905,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localhost.iOSApp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -2937,11 +2951,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localhost.iOSApp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -2984,13 +3001,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = iOSApp_WatchKit_Extension;
 				INFOPLIST_FILE = "iOSApp WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localhost.iOSApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -3027,20 +3044,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = iOSApp_WatchKit_Extension;
 				INFOPLIST_FILE = "iOSApp WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localhost.iOSApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 		EC03CCC01A2BD234009C741E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -3100,6 +3118,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3151,6 +3170,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3208,6 +3228,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3256,6 +3277,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3313,6 +3335,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -3364,6 +3387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -3417,6 +3441,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/OSXEmbededdModelKitTests-Bridging-Header.h";
@@ -3464,6 +3489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Model/Entity/OSXEmbededdModelKitTests-Bridging-Header.h";
@@ -3492,6 +3518,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSApp/iOSApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -3514,6 +3541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3544,6 +3572,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSApp/iOSApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -3559,6 +3588,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3613,6 +3643,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3660,6 +3691,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3712,6 +3744,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3757,6 +3790,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3808,6 +3842,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXAppTests-Bridging-Header.h";
@@ -3854,6 +3889,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.localhost.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "OSXApp/OSXAppTests-Bridging-Header.h";

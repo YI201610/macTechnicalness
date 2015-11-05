@@ -34,12 +34,12 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         // Do any additional setup after loading the view.
         self.imageNameStringArray = NSArray(objects: "purple240x2000", "red240x120", "green240x120", "blue120x320")
         
-        self.dataSource = self;
+        self.dataSource = self
         
-//        var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
-//        var viewControllers = NSArray(object: startVC)
-//        
-        //self.setViewControllers(viewControllers as [AnyObject], direction: .Forward, animated: true, completion: nil)
+        var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
+        var viewControllers = NSArray(object: startVC)
+        
+//        self.setViewControllers(self.viewControllers, direction: .Forward, animated: true, completion: nil)
         
     }
 

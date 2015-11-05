@@ -76,7 +76,7 @@
     debugout(@"location use flag: %d", locationUseFlag);
     
     if(locationUseFlag){
-        [_locationManager startUpdatingLocation];
+//        [_locationManager startUpdatingLocation];
     }
     
 }

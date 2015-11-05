@@ -78,7 +78,7 @@
     debugout(@"location use flag: %d", locationUseFlag);
     
     if(locationUseFlag){
-        [_locationManager startUpdatingLocation];
+ //       [_locationManager startUpdatingLocation];
     }
 
 }
@@ -171,7 +171,8 @@
      */
     [self reverseGeocordeWithLatitude:_currentLocationCoordinate.latitude longitude:_currentLocationCoordinate.longitude];
     
-    
+
+#if 0
     // Sends a non-nil result to the parent iOS application.
     /*
      @comment   本体にメッセージを送信する
@@ -185,6 +186,9 @@
                           }];
     
     NSLog(didOpenParent == YES ? @"{Success}" : @"{Error}");
+#endif
+    
+    
 }
 
 @end
