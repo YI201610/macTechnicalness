@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8E1C8219314F6F005EB1A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8E1C8119314F6F005EB1A8 /* Cocoa.framework */; };
+		EC8E1C8C19314F6F005EB1A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8E1C8A19314F6F005EB1A8 /* InfoPlist.strings */; };
+		EC8E1C8E19314F6F005EB1A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8E1C8D19314F6F005EB1A8 /* main.m */; };
+		EC8E1C9219314F6F005EB1A8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EC8E1C9019314F6F005EB1A8 /* Credits.rtf */; };
+		EC8E1C9519314F6F005EB1A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8E1C9419314F6F005EB1A8 /* AppDelegate.m */; };
+		EC8E1C9819314F6F005EB1A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8E1C9619314F6F005EB1A8 /* MainMenu.xib */; };
+		EC8E1C9A19314F6F005EB1A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8E1C9919314F6F005EB1A8 /* Images.xcassets */; };
+		EC8E1CA119314F6F005EB1A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8E1CA019314F6F005EB1A8 /* XCTest.framework */; };
+		EC8E1CA219314F6F005EB1A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8E1C8119314F6F005EB1A8 /* Cocoa.framework */; };
+		EC8E1CAA19314F6F005EB1A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8E1CA819314F6F005EB1A8 /* InfoPlist.strings */; };
+		EC8E1CAC19314F6F005EB1A8 /* osxAppLearning10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8E1CAB19314F6F005EB1A8 /* osxAppLearning10Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8E1CA319314F6F005EB1A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8E1C7619314F6F005EB1A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8E1C7D19314F6F005EB1A8;
+			remoteInfo = osxAppLearning10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8E1C7E19314F6F005EB1A8 /* osxAppLearning10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxAppLearning10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8E1C8119314F6F005EB1A8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EC8E1C8419314F6F005EB1A8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EC8E1C8519314F6F005EB1A8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC8E1C8619314F6F005EB1A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC8E1C8919314F6F005EB1A8 /* osxAppLearning10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxAppLearning10-Info.plist"; sourceTree = "<group>"; };
+		EC8E1C8B19314F6F005EB1A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8E1C8D19314F6F005EB1A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8E1C8F19314F6F005EB1A8 /* osxAppLearning10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxAppLearning10-Prefix.pch"; sourceTree = "<group>"; };
+		EC8E1C9119314F6F005EB1A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EC8E1C9319314F6F005EB1A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8E1C9419314F6F005EB1A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8E1C9719314F6F005EB1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC8E1C9919314F6F005EB1A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC8E1C9F19314F6F005EB1A8 /* osxAppLearning10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxAppLearning10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8E1CA019314F6F005EB1A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC8E1CA719314F6F005EB1A8 /* osxAppLearning10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxAppLearning10Tests-Info.plist"; sourceTree = "<group>"; };
+		EC8E1CA919314F6F005EB1A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8E1CAB19314F6F005EB1A8 /* osxAppLearning10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAppLearning10Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8E1C7B19314F6F005EB1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E1C8219314F6F005EB1A8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E1C9C19314F6F005EB1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E1CA219314F6F005EB1A8 /* Cocoa.framework in Frameworks */,
+				EC8E1CA119314F6F005EB1A8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8E1C7519314F6F005EB1A8 = {
+			isa = PBXGroup;
+			children = (
+				EC8E1C8719314F6F005EB1A8 /* osxAppLearning10 */,
+				EC8E1CA519314F6F005EB1A8 /* osxAppLearning10Tests */,
+				EC8E1C8019314F6F005EB1A8 /* Frameworks */,
+				EC8E1C7F19314F6F005EB1A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8E1C7F19314F6F005EB1A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1C7E19314F6F005EB1A8 /* osxAppLearning10.app */,
+				EC8E1C9F19314F6F005EB1A8 /* osxAppLearning10Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8E1C8019314F6F005EB1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1C8119314F6F005EB1A8 /* Cocoa.framework */,
+				EC8E1CA019314F6F005EB1A8 /* XCTest.framework */,
+				EC8E1C8319314F6F005EB1A8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC8E1C8319314F6F005EB1A8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1C8419314F6F005EB1A8 /* AppKit.framework */,
+				EC8E1C8519314F6F005EB1A8 /* CoreData.framework */,
+				EC8E1C8619314F6F005EB1A8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EC8E1C8719314F6F005EB1A8 /* osxAppLearning10 */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1C9319314F6F005EB1A8 /* AppDelegate.h */,
+				EC8E1C9419314F6F005EB1A8 /* AppDelegate.m */,
+				EC8E1C9619314F6F005EB1A8 /* MainMenu.xib */,
+				EC8E1C9919314F6F005EB1A8 /* Images.xcassets */,
+				EC8E1C8819314F6F005EB1A8 /* Supporting Files */,
+			);
+			path = osxAppLearning10;
+			sourceTree = "<group>";
+		};
+		EC8E1C8819314F6F005EB1A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1C8919314F6F005EB1A8 /* osxAppLearning10-Info.plist */,
+				EC8E1C8A19314F6F005EB1A8 /* InfoPlist.strings */,
+				EC8E1C8D19314F6F005EB1A8 /* main.m */,
+				EC8E1C8F19314F6F005EB1A8 /* osxAppLearning10-Prefix.pch */,
+				EC8E1C9019314F6F005EB1A8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8E1CA519314F6F005EB1A8 /* osxAppLearning10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1CAB19314F6F005EB1A8 /* osxAppLearning10Tests.m */,
+				EC8E1CA619314F6F005EB1A8 /* Supporting Files */,
+			);
+			path = osxAppLearning10Tests;
+			sourceTree = "<group>";
+		};
+		EC8E1CA619314F6F005EB1A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E1CA719314F6F005EB1A8 /* osxAppLearning10Tests-Info.plist */,
+				EC8E1CA819314F6F005EB1A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8E1C7D19314F6F005EB1A8 /* osxAppLearning10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8E1CAF19314F6F005EB1A8 /* Build configuration list for PBXNativeTarget "osxAppLearning10" */;
+			buildPhases = (
+				EC8E1C7A19314F6F005EB1A8 /* Sources */,
+				EC8E1C7B19314F6F005EB1A8 /* Frameworks */,
+				EC8E1C7C19314F6F005EB1A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxAppLearning10;
+			productName = osxAppLearning10;
+			productReference = EC8E1C7E19314F6F005EB1A8 /* osxAppLearning10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8E1C9E19314F6F005EB1A8 /* osxAppLearning10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8E1CB219314F6F005EB1A8 /* Build configuration list for PBXNativeTarget "osxAppLearning10Tests" */;
+			buildPhases = (
+				EC8E1C9B19314F6F005EB1A8 /* Sources */,
+				EC8E1C9C19314F6F005EB1A8 /* Frameworks */,
+				EC8E1C9D19314F6F005EB1A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8E1CA419314F6F005EB1A8 /* PBXTargetDependency */,
+			);
+			name = osxAppLearning10Tests;
+			productName = osxAppLearning10Tests;
+			productReference = EC8E1C9F19314F6F005EB1A8 /* osxAppLearning10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8E1C7619314F6F005EB1A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					EC8E1C9E19314F6F005EB1A8 = {
+						TestTargetID = EC8E1C7D19314F6F005EB1A8;
+					};
+				};
+			};
+			buildConfigurationList = EC8E1C7919314F6F005EB1A8 /* Build configuration list for PBXProject "osxAppLearning10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8E1C7519314F6F005EB1A8;
+			productRefGroup = EC8E1C7F19314F6F005EB1A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8E1C7D19314F6F005EB1A8 /* osxAppLearning10 */,
+				EC8E1C9E19314F6F005EB1A8 /* osxAppLearning10Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8E1C7C19314F6F005EB1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E1C8C19314F6F005EB1A8 /* InfoPlist.strings in Resources */,
+				EC8E1C9A19314F6F005EB1A8 /* Images.xcassets in Resources */,
+				EC8E1C9219314F6F005EB1A8 /* Credits.rtf in Resources */,
+				EC8E1C9819314F6F005EB1A8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E1C9D19314F6F005EB1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E1CAA19314F6F005EB1A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8E1C7A19314F6F005EB1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E1C9519314F6F005EB1A8 /* AppDelegate.m in Sources */,
+				EC8E1C8E19314F6F005EB1A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E1C9B19314F6F005EB1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E1CAC19314F6F005EB1A8 /* osxAppLearning10Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8E1CA419314F6F005EB1A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8E1C7D19314F6F005EB1A8 /* osxAppLearning10 */;
+			targetProxy = EC8E1CA319314F6F005EB1A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8E1C8A19314F6F005EB1A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8E1C8B19314F6F005EB1A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC8E1C9019314F6F005EB1A8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8E1C9119314F6F005EB1A8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EC8E1C9619314F6F005EB1A8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8E1C9719314F6F005EB1A8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EC8E1CA819314F6F005EB1A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8E1CA919314F6F005EB1A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8E1CAD19314F6F005EB1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC8E1CAE19314F6F005EB1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC8E1CB019314F6F005EB1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning10/osxAppLearning10-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning10/osxAppLearning10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC8E1CB119314F6F005EB1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning10/osxAppLearning10-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning10/osxAppLearning10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC8E1CB319314F6F005EB1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning10.app/Contents/MacOS/osxAppLearning10";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning10/osxAppLearning10-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "osxAppLearning10Tests/osxAppLearning10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC8E1CB419314F6F005EB1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning10.app/Contents/MacOS/osxAppLearning10";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning10/osxAppLearning10-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning10Tests/osxAppLearning10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8E1C7919314F6F005EB1A8 /* Build configuration list for PBXProject "osxAppLearning10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E1CAD19314F6F005EB1A8 /* Debug */,
+				EC8E1CAE19314F6F005EB1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8E1CAF19314F6F005EB1A8 /* Build configuration list for PBXNativeTarget "osxAppLearning10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E1CB019314F6F005EB1A8 /* Debug */,
+				EC8E1CB119314F6F005EB1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC8E1CB219314F6F005EB1A8 /* Build configuration list for PBXNativeTarget "osxAppLearning10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E1CB319314F6F005EB1A8 /* Debug */,
+				EC8E1CB419314F6F005EB1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8E1C7619314F6F005EB1A8 /* Project object */;
+}

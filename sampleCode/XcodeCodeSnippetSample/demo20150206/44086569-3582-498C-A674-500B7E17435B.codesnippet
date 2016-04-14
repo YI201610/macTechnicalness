@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_16</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例１６：入力パラメーターの値を変更している関数
+*/
+var someString = "AAA"
+func 指定した文字数まで特定文字で埋める(var someString: String, countValue:Int, padChar: Character) -&gt; String {
+    let amountToPad = countValue - countElements(someString)
+    
+    /*
+    @comment    指定された文字数よりも、渡された文字列が短い場合、何もせずに、渡された文字列を返します。
+    */
+    if amountToPad &lt; 1 {
+        return someString
+    }
+    
+    /*
+    @comment    処理する型を揃えるために、char型からString型を作成
+    */
+    let padString = String(padChar)
+    
+    /*
+    @comment    指定された文字数まで、padCharで埋める。
+    */
+    for _ in 1...amountToPad {
+        
+        /*
+        @comment (!)入力されたパラメータを変更している！
+        */
+        someString = padString + someString
+    }
+    
+    /*
+    @comment    更新された「入力パラメータ」を返す
+    */
+    return someString
+}
+指定した文字数まで特定文字で埋める(someString, 10, "_")
+
+/*
+@comment (!)注意: varなパラメーターの寿命は、func内のみ。関数の外に出れば、varなパラメーターをfunc内部で操作した結果は、残らない。
+*/
+someString
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>44086569-3582-498C-A674-500B7E17435B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

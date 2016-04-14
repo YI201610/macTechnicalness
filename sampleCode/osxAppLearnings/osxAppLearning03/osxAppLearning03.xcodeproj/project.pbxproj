@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC16684218BC151500655B79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16684118BC151500655B79 /* Cocoa.framework */; };
+		EC16684C18BC151500655B79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC16684A18BC151500655B79 /* InfoPlist.strings */; };
+		EC16684E18BC151500655B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16684D18BC151500655B79 /* main.m */; };
+		EC16685218BC151500655B79 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EC16685018BC151500655B79 /* Credits.rtf */; };
+		EC16685518BC151500655B79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16685418BC151500655B79 /* AppDelegate.m */; };
+		EC16685818BC151600655B79 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC16685618BC151600655B79 /* MainMenu.xib */; };
+		EC16685A18BC151600655B79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16685918BC151600655B79 /* Images.xcassets */; };
+		EC16686118BC151600655B79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16686018BC151600655B79 /* XCTest.framework */; };
+		EC16686218BC151600655B79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16684118BC151500655B79 /* Cocoa.framework */; };
+		EC16686A18BC151600655B79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC16686818BC151600655B79 /* InfoPlist.strings */; };
+		EC16686C18BC151600655B79 /* osxAppLearning03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16686B18BC151600655B79 /* osxAppLearning03Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC16686318BC151600655B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC16683618BC151500655B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC16683D18BC151500655B79;
+			remoteInfo = osxAppLearning03;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC16683E18BC151500655B79 /* osxAppLearning03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxAppLearning03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16684118BC151500655B79 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EC16684418BC151500655B79 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EC16684518BC151500655B79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC16684618BC151500655B79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC16684918BC151500655B79 /* osxAppLearning03-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxAppLearning03-Info.plist"; sourceTree = "<group>"; };
+		EC16684B18BC151500655B79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC16684D18BC151500655B79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC16684F18BC151500655B79 /* osxAppLearning03-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxAppLearning03-Prefix.pch"; sourceTree = "<group>"; };
+		EC16685118BC151500655B79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EC16685318BC151500655B79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC16685418BC151500655B79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC16685718BC151600655B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC16685918BC151600655B79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC16685F18BC151600655B79 /* osxAppLearning03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxAppLearning03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16686018BC151600655B79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC16686718BC151600655B79 /* osxAppLearning03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxAppLearning03Tests-Info.plist"; sourceTree = "<group>"; };
+		EC16686918BC151600655B79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC16686B18BC151600655B79 /* osxAppLearning03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAppLearning03Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC16683B18BC151500655B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16684218BC151500655B79 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16685C18BC151600655B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16686218BC151600655B79 /* Cocoa.framework in Frameworks */,
+				EC16686118BC151600655B79 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC16683518BC151500655B79 = {
+			isa = PBXGroup;
+			children = (
+				EC16684718BC151500655B79 /* osxAppLearning03 */,
+				EC16686518BC151600655B79 /* osxAppLearning03Tests */,
+				EC16684018BC151500655B79 /* Frameworks */,
+				EC16683F18BC151500655B79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC16683F18BC151500655B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC16683E18BC151500655B79 /* osxAppLearning03.app */,
+				EC16685F18BC151600655B79 /* osxAppLearning03Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC16684018BC151500655B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC16684118BC151500655B79 /* Cocoa.framework */,
+				EC16686018BC151600655B79 /* XCTest.framework */,
+				EC16684318BC151500655B79 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC16684318BC151500655B79 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC16684418BC151500655B79 /* AppKit.framework */,
+				EC16684518BC151500655B79 /* CoreData.framework */,
+				EC16684618BC151500655B79 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EC16684718BC151500655B79 /* osxAppLearning03 */ = {
+			isa = PBXGroup;
+			children = (
+				EC16685318BC151500655B79 /* AppDelegate.h */,
+				EC16685418BC151500655B79 /* AppDelegate.m */,
+				EC16685618BC151600655B79 /* MainMenu.xib */,
+				EC16685918BC151600655B79 /* Images.xcassets */,
+				EC16684818BC151500655B79 /* Supporting Files */,
+			);
+			path = osxAppLearning03;
+			sourceTree = "<group>";
+		};
+		EC16684818BC151500655B79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC16684918BC151500655B79 /* osxAppLearning03-Info.plist */,
+				EC16684A18BC151500655B79 /* InfoPlist.strings */,
+				EC16684D18BC151500655B79 /* main.m */,
+				EC16684F18BC151500655B79 /* osxAppLearning03-Prefix.pch */,
+				EC16685018BC151500655B79 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC16686518BC151600655B79 /* osxAppLearning03Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC16686B18BC151600655B79 /* osxAppLearning03Tests.m */,
+				EC16686618BC151600655B79 /* Supporting Files */,
+			);
+			path = osxAppLearning03Tests;
+			sourceTree = "<group>";
+		};
+		EC16686618BC151600655B79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC16686718BC151600655B79 /* osxAppLearning03Tests-Info.plist */,
+				EC16686818BC151600655B79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC16683D18BC151500655B79 /* osxAppLearning03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16686F18BC151600655B79 /* Build configuration list for PBXNativeTarget "osxAppLearning03" */;
+			buildPhases = (
+				EC16683A18BC151500655B79 /* Sources */,
+				EC16683B18BC151500655B79 /* Frameworks */,
+				EC16683C18BC151500655B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxAppLearning03;
+			productName = osxAppLearning03;
+			productReference = EC16683E18BC151500655B79 /* osxAppLearning03.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC16685E18BC151600655B79 /* osxAppLearning03Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16687218BC151600655B79 /* Build configuration list for PBXNativeTarget "osxAppLearning03Tests" */;
+			buildPhases = (
+				EC16685B18BC151600655B79 /* Sources */,
+				EC16685C18BC151600655B79 /* Frameworks */,
+				EC16685D18BC151600655B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC16686418BC151600655B79 /* PBXTargetDependency */,
+			);
+			name = osxAppLearning03Tests;
+			productName = osxAppLearning03Tests;
+			productReference = EC16685F18BC151600655B79 /* osxAppLearning03Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC16683618BC151500655B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					EC16685E18BC151600655B79 = {
+						TestTargetID = EC16683D18BC151500655B79;
+					};
+				};
+			};
+			buildConfigurationList = EC16683918BC151500655B79 /* Build configuration list for PBXProject "osxAppLearning03" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC16683518BC151500655B79;
+			productRefGroup = EC16683F18BC151500655B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC16683D18BC151500655B79 /* osxAppLearning03 */,
+				EC16685E18BC151600655B79 /* osxAppLearning03Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC16683C18BC151500655B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16684C18BC151500655B79 /* InfoPlist.strings in Resources */,
+				EC16685A18BC151600655B79 /* Images.xcassets in Resources */,
+				EC16685218BC151500655B79 /* Credits.rtf in Resources */,
+				EC16685818BC151600655B79 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16685D18BC151600655B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16686A18BC151600655B79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC16683A18BC151500655B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16685518BC151500655B79 /* AppDelegate.m in Sources */,
+				EC16684E18BC151500655B79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16685B18BC151600655B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16686C18BC151600655B79 /* osxAppLearning03Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC16686418BC151600655B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC16683D18BC151500655B79 /* osxAppLearning03 */;
+			targetProxy = EC16686318BC151600655B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC16684A18BC151500655B79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16684B18BC151500655B79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC16685018BC151500655B79 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16685118BC151500655B79 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EC16685618BC151600655B79 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16685718BC151600655B79 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EC16686818BC151600655B79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16686918BC151600655B79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC16686D18BC151600655B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC16686E18BC151600655B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC16687018BC151600655B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning03/osxAppLearning03-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning03/osxAppLearning03-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC16687118BC151600655B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning03/osxAppLearning03-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning03/osxAppLearning03-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC16687318BC151600655B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning03.app/Contents/MacOS/osxAppLearning03";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning03/osxAppLearning03-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "osxAppLearning03Tests/osxAppLearning03Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC16687418BC151600655B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning03.app/Contents/MacOS/osxAppLearning03";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning03/osxAppLearning03-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning03Tests/osxAppLearning03Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC16683918BC151500655B79 /* Build configuration list for PBXProject "osxAppLearning03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16686D18BC151600655B79 /* Debug */,
+				EC16686E18BC151600655B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC16686F18BC151600655B79 /* Build configuration list for PBXNativeTarget "osxAppLearning03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16687018BC151600655B79 /* Debug */,
+				EC16687118BC151600655B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC16687218BC151600655B79 /* Build configuration list for PBXNativeTarget "osxAppLearning03Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16687318BC151600655B79 /* Debug */,
+				EC16687418BC151600655B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC16683618BC151500655B79 /* Project object */;
+}

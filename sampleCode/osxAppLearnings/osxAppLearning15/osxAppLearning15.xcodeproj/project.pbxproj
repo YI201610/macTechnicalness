@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7467A89B199CB3D500D4DE10 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7467A89A199CB3D500D4DE10 /* README.md */; };
+		EC5E8BB4198670B300C7BE76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E8BB3198670B300C7BE76 /* main.m */; };
+		EC5E8BB7198670B300C7BE76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E8BB6198670B300C7BE76 /* AppDelegate.m */; };
+		EC5E8BB9198670B300C7BE76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5E8BB8198670B300C7BE76 /* Images.xcassets */; };
+		EC5E8BBC198670B300C7BE76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5E8BBA198670B300C7BE76 /* MainMenu.xib */; };
+		EC5E8BC8198670B300C7BE76 /* osxAppLearning15Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E8BC7198670B300C7BE76 /* osxAppLearning15Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5E8BC2198670B300C7BE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5E8BA6198670B300C7BE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5E8BAD198670B300C7BE76;
+			remoteInfo = osxAppLearning15;
+		};
+		EC5E8BD11986729600C7BE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5E8BA6198670B300C7BE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5E8BAD198670B300C7BE76;
+			remoteInfo = osxAppLearning15;
+		};
+		EC5E8BD31986729600C7BE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5E8BA6198670B300C7BE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5E8BAD198670B300C7BE76;
+			remoteInfo = osxAppLearning15;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		744D09C119871B4C00DF5A09 /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		7467A89A199CB3D500D4DE10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		EC5E8BAE198670B300C7BE76 /* osxAppLearning15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxAppLearning15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E8BB2198670B300C7BE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5E8BB3198670B300C7BE76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5E8BB5198670B300C7BE76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC5E8BB6198670B300C7BE76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC5E8BB8198670B300C7BE76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5E8BBB198670B300C7BE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC5E8BC1198670B300C7BE76 /* osxAppLearning15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxAppLearning15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E8BC6198670B300C7BE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5E8BC7198670B300C7BE76 /* osxAppLearning15Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAppLearning15Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5E8BAB198670B300C7BE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E8BBE198670B300C7BE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5E8BA5198670B300C7BE76 = {
+			isa = PBXGroup;
+			children = (
+				EC5E8BB0198670B300C7BE76 /* osxAppLearning15 */,
+				EC5E8BC4198670B300C7BE76 /* osxAppLearning15Tests */,
+				EC5E8BAF198670B300C7BE76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5E8BAF198670B300C7BE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E8BAE198670B300C7BE76 /* osxAppLearning15.app */,
+				EC5E8BC1198670B300C7BE76 /* osxAppLearning15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5E8BB0198670B300C7BE76 /* osxAppLearning15 */ = {
+			isa = PBXGroup;
+			children = (
+				744D09C119871B4C00DF5A09 /* CommonHeader.h */,
+				EC5E8BB5198670B300C7BE76 /* AppDelegate.h */,
+				EC5E8BB6198670B300C7BE76 /* AppDelegate.m */,
+				EC5E8BB8198670B300C7BE76 /* Images.xcassets */,
+				EC5E8BBA198670B300C7BE76 /* MainMenu.xib */,
+				EC5E8BB1198670B300C7BE76 /* Supporting Files */,
+				7467A89A199CB3D500D4DE10 /* README.md */,
+			);
+			path = osxAppLearning15;
+			sourceTree = "<group>";
+		};
+		EC5E8BB1198670B300C7BE76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E8BB2198670B300C7BE76 /* Info.plist */,
+				EC5E8BB3198670B300C7BE76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5E8BC4198670B300C7BE76 /* osxAppLearning15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E8BC7198670B300C7BE76 /* osxAppLearning15Tests.m */,
+				EC5E8BC5198670B300C7BE76 /* Supporting Files */,
+			);
+			path = osxAppLearning15Tests;
+			sourceTree = "<group>";
+		};
+		EC5E8BC5198670B300C7BE76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E8BC6198670B300C7BE76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5E8BAD198670B300C7BE76 /* osxAppLearning15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5E8BCB198670B300C7BE76 /* Build configuration list for PBXNativeTarget "osxAppLearning15" */;
+			buildPhases = (
+				EC5E8BAA198670B300C7BE76 /* Sources */,
+				EC5E8BAB198670B300C7BE76 /* Frameworks */,
+				EC5E8BAC198670B300C7BE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxAppLearning15;
+			productName = osxAppLearning15;
+			productReference = EC5E8BAE198670B300C7BE76 /* osxAppLearning15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5E8BC0198670B300C7BE76 /* osxAppLearning15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5E8BCE198670B300C7BE76 /* Build configuration list for PBXNativeTarget "osxAppLearning15Tests" */;
+			buildPhases = (
+				EC5E8BBD198670B300C7BE76 /* Sources */,
+				EC5E8BBE198670B300C7BE76 /* Frameworks */,
+				EC5E8BBF198670B300C7BE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5E8BC3198670B300C7BE76 /* PBXTargetDependency */,
+				EC5E8BD21986729600C7BE76 /* PBXTargetDependency */,
+				EC5E8BD41986729600C7BE76 /* PBXTargetDependency */,
+			);
+			name = osxAppLearning15Tests;
+			productName = osxAppLearning15Tests;
+			productReference = EC5E8BC1198670B300C7BE76 /* osxAppLearning15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5E8BA6198670B300C7BE76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					EC5E8BAD198670B300C7BE76 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EC5E8BC0198670B300C7BE76 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EC5E8BAD198670B300C7BE76;
+					};
+				};
+			};
+			buildConfigurationList = EC5E8BA9198670B300C7BE76 /* Build configuration list for PBXProject "osxAppLearning15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5E8BA5198670B300C7BE76;
+			productRefGroup = EC5E8BAF198670B300C7BE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5E8BAD198670B300C7BE76 /* osxAppLearning15 */,
+				EC5E8BC0198670B300C7BE76 /* osxAppLearning15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5E8BAC198670B300C7BE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E8BB9198670B300C7BE76 /* Images.xcassets in Resources */,
+				EC5E8BBC198670B300C7BE76 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E8BBF198670B300C7BE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5E8BAA198670B300C7BE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7467A89B199CB3D500D4DE10 /* README.md in Sources */,
+				EC5E8BB7198670B300C7BE76 /* AppDelegate.m in Sources */,
+				EC5E8BB4198670B300C7BE76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E8BBD198670B300C7BE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E8BC8198670B300C7BE76 /* osxAppLearning15Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5E8BC3198670B300C7BE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5E8BAD198670B300C7BE76 /* osxAppLearning15 */;
+			targetProxy = EC5E8BC2198670B300C7BE76 /* PBXContainerItemProxy */;
+		};
+		EC5E8BD21986729600C7BE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5E8BAD198670B300C7BE76 /* osxAppLearning15 */;
+			targetProxy = EC5E8BD11986729600C7BE76 /* PBXContainerItemProxy */;
+		};
+		EC5E8BD41986729600C7BE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5E8BAD198670B300C7BE76 /* osxAppLearning15 */;
+			targetProxy = EC5E8BD31986729600C7BE76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5E8BBA198670B300C7BE76 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5E8BBB198670B300C7BE76 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5E8BC9198670B300C7BE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC5E8BCA198670B300C7BE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC5E8BCC198670B300C7BE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = osxAppLearning15/CommonHeader.h;
+				INFOPLIST_FILE = osxAppLearning15/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5E8BCD198670B300C7BE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = osxAppLearning15/CommonHeader.h;
+				INFOPLIST_FILE = osxAppLearning15/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC5E8BCF198670B300C7BE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning15.app/Contents/MacOS/osxAppLearning15";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxAppLearning15Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EC5E8BD0198670B300C7BE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning15.app/Contents/MacOS/osxAppLearning15";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxAppLearning15Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5E8BA9198670B300C7BE76 /* Build configuration list for PBXProject "osxAppLearning15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E8BC9198670B300C7BE76 /* Debug */,
+				EC5E8BCA198670B300C7BE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5E8BCB198670B300C7BE76 /* Build configuration list for PBXNativeTarget "osxAppLearning15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E8BCC198670B300C7BE76 /* Debug */,
+				EC5E8BCD198670B300C7BE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5E8BCE198670B300C7BE76 /* Build configuration list for PBXNativeTarget "osxAppLearning15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E8BCF198670B300C7BE76 /* Debug */,
+				EC5E8BD0198670B300C7BE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5E8BA6198670B300C7BE76 /* Project object */;
+}

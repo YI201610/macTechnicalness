@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_8</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例８：複数の戻り値がある関数
+*/
+func minAndMax(someArray: [Int]) -&gt; (min: Int, max: Int) {
+    
+    /*
+    @comment 　入力配列の先頭要素で最小値と最大値を初期化します。
+    */
+    var currentMin = someArray[0]
+    var currentMax = someArray[0]
+    
+    /*
+    @comment    先頭から２番目の要素から、入力配列の最後の要素までの間で、最小値と最大値を求めます。
+    */
+    for value in someArray[1 ..&lt; someArray.count] {
+        if value &lt; currentMin {
+            currentMin = value
+        }else if value &gt; currentMax {
+            currentMax = value
+        }
+    }
+    
+    /*
+    @comment    入力配列における最小値と最大値を返します。
+    */
+    return (currentMin, currentMax)
+}
+
+let minMaxResult = minAndMax([10, 20, 13, 125, 265, 28282, -2])
+println(minMaxResult.min)   //最小値
+println(minMaxResult.max)   //最大値</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>71CEE61C-2995-47E5-A068-75B1F30F18EA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

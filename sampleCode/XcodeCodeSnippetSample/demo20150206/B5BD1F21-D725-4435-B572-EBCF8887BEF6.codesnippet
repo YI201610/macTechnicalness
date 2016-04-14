@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_20</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func addTwoInts(a: Int, b:Int) -&gt; Int {
+    return a + b
+}
+
+func multTwoInts(a: Int, b: Int) -&gt; Int {
+    return a * b
+}
+
+
+/*
+@comment    型推論を期待して、関数をbbbFunc変数に代入
+*/
+var bbbbFunc = addTwoInts
+
+
+/*!
+@abstract   例２０：関数をパラメータとしてうけとる関数
+*/
+func 計算結果を出力する(mathFunction:(Int,Int)-&gt;Int, a:Int, b:Int) {
+    println("計算結果: \(mathFunction(a,b))")
+}
+
+
+/*
+@comment    関数をパラメータに渡して、「計算結果を出力する」関数を実行します。
+*/
+計算結果を出力する(bbbbFunc, 10, 20)
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B5BD1F21-D725-4435-B572-EBCF8887BEF6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

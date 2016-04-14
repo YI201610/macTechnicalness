@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC23123419DAF9BD00061B2D /* osxAL21SingleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EC23123219DAF9BD00061B2D /* osxAL21SingleItem.m */; };
+		EC23123519DAF9BD00061B2D /* osxAL21SingleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EC23123219DAF9BD00061B2D /* osxAL21SingleItem.m */; };
+		EC23123619DAF9BD00061B2D /* osxAL21SingleItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC23123319DAF9BD00061B2D /* osxAL21SingleItem.xib */; };
+		EC23123719DAF9BD00061B2D /* osxAL21SingleItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC23123319DAF9BD00061B2D /* osxAL21SingleItem.xib */; };
+		ECC9CFE419D19F5D0045D3C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9CFE319D19F5D0045D3C0 /* main.m */; };
+		ECC9CFE719D19F5D0045D3C0 /* osxAL21AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9CFE619D19F5D0045D3C0 /* osxAL21AppDelegate.m */; };
+		ECC9CFE919D19F5D0045D3C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC9CFE819D19F5D0045D3C0 /* Images.xcassets */; };
+		ECC9CFEC19D19F5D0045D3C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC9CFEA19D19F5D0045D3C0 /* MainMenu.xib */; };
+		ECC9CFF819D19F5D0045D3C0 /* osxAppLearning21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9CFF719D19F5D0045D3C0 /* osxAppLearning21Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC9CFF219D19F5D0045D3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC9CFD619D19F5D0045D3C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC9CFDD19D19F5D0045D3C0;
+			remoteInfo = osxAppLearning21;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC23123119DAF9BD00061B2D /* osxAL21SingleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osxAL21SingleItem.h; sourceTree = "<group>"; };
+		EC23123219DAF9BD00061B2D /* osxAL21SingleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = osxAL21SingleItem.m; sourceTree = "<group>"; };
+		EC23123319DAF9BD00061B2D /* osxAL21SingleItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = osxAL21SingleItem.xib; sourceTree = "<group>"; };
+		EC90FEED19D38A12007DD1EA /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		ECC9CFDE19D19F5D0045D3C0 /* osxAppLearning21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxAppLearning21.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC9CFE219D19F5D0045D3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC9CFE319D19F5D0045D3C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC9CFE519D19F5D0045D3C0 /* osxAL21AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osxAL21AppDelegate.h; sourceTree = "<group>"; };
+		ECC9CFE619D19F5D0045D3C0 /* osxAL21AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAL21AppDelegate.m; sourceTree = "<group>"; };
+		ECC9CFE819D19F5D0045D3C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECC9CFEB19D19F5D0045D3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ECC9CFF119D19F5D0045D3C0 /* osxAppLearning21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxAppLearning21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC9CFF619D19F5D0045D3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC9CFF719D19F5D0045D3C0 /* osxAppLearning21Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAppLearning21Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC9CFDB19D19F5D0045D3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9CFEE19D19F5D0045D3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7422D2D919D4D8300028D53A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC23123119DAF9BD00061B2D /* osxAL21SingleItem.h */,
+				EC23123219DAF9BD00061B2D /* osxAL21SingleItem.m */,
+				EC23123319DAF9BD00061B2D /* osxAL21SingleItem.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ECC9CFD519D19F5D0045D3C0 = {
+			isa = PBXGroup;
+			children = (
+				ECC9CFE019D19F5D0045D3C0 /* osxAppLearning21 */,
+				ECC9CFF419D19F5D0045D3C0 /* osxAppLearning21Tests */,
+				ECC9CFDF19D19F5D0045D3C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC9CFDF19D19F5D0045D3C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9CFDE19D19F5D0045D3C0 /* osxAppLearning21.app */,
+				ECC9CFF119D19F5D0045D3C0 /* osxAppLearning21Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC9CFE019D19F5D0045D3C0 /* osxAppLearning21 */ = {
+			isa = PBXGroup;
+			children = (
+				7422D2D919D4D8300028D53A /* Controller */,
+				EC90FEED19D38A12007DD1EA /* CommonHeader.h */,
+				ECC9CFE519D19F5D0045D3C0 /* osxAL21AppDelegate.h */,
+				ECC9CFE619D19F5D0045D3C0 /* osxAL21AppDelegate.m */,
+				ECC9CFE819D19F5D0045D3C0 /* Images.xcassets */,
+				ECC9CFEA19D19F5D0045D3C0 /* MainMenu.xib */,
+				ECC9CFE119D19F5D0045D3C0 /* Supporting Files */,
+			);
+			path = osxAppLearning21;
+			sourceTree = "<group>";
+		};
+		ECC9CFE119D19F5D0045D3C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9CFE219D19F5D0045D3C0 /* Info.plist */,
+				ECC9CFE319D19F5D0045D3C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC9CFF419D19F5D0045D3C0 /* osxAppLearning21Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9CFF719D19F5D0045D3C0 /* osxAppLearning21Tests.m */,
+				ECC9CFF519D19F5D0045D3C0 /* Supporting Files */,
+			);
+			path = osxAppLearning21Tests;
+			sourceTree = "<group>";
+		};
+		ECC9CFF519D19F5D0045D3C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9CFF619D19F5D0045D3C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC9CFDD19D19F5D0045D3C0 /* osxAppLearning21 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC9CFFB19D19F5D0045D3C0 /* Build configuration list for PBXNativeTarget "osxAppLearning21" */;
+			buildPhases = (
+				ECC9CFDA19D19F5D0045D3C0 /* Sources */,
+				ECC9CFDB19D19F5D0045D3C0 /* Frameworks */,
+				ECC9CFDC19D19F5D0045D3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxAppLearning21;
+			productName = osxAppLearning21;
+			productReference = ECC9CFDE19D19F5D0045D3C0 /* osxAppLearning21.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC9CFF019D19F5D0045D3C0 /* osxAppLearning21Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC9CFFE19D19F5D0045D3C0 /* Build configuration list for PBXNativeTarget "osxAppLearning21Tests" */;
+			buildPhases = (
+				ECC9CFED19D19F5D0045D3C0 /* Sources */,
+				ECC9CFEE19D19F5D0045D3C0 /* Frameworks */,
+				ECC9CFEF19D19F5D0045D3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC9CFF319D19F5D0045D3C0 /* PBXTargetDependency */,
+			);
+			name = osxAppLearning21Tests;
+			productName = osxAppLearning21Tests;
+			productReference = ECC9CFF119D19F5D0045D3C0 /* osxAppLearning21Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC9CFD619D19F5D0045D3C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = osxAL21;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					ECC9CFDD19D19F5D0045D3C0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					ECC9CFF019D19F5D0045D3C0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = ECC9CFDD19D19F5D0045D3C0;
+					};
+				};
+			};
+			buildConfigurationList = ECC9CFD919D19F5D0045D3C0 /* Build configuration list for PBXProject "osxAppLearning21" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC9CFD519D19F5D0045D3C0;
+			productRefGroup = ECC9CFDF19D19F5D0045D3C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC9CFDD19D19F5D0045D3C0 /* osxAppLearning21 */,
+				ECC9CFF019D19F5D0045D3C0 /* osxAppLearning21Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC9CFDC19D19F5D0045D3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23123619DAF9BD00061B2D /* osxAL21SingleItem.xib in Resources */,
+				ECC9CFE919D19F5D0045D3C0 /* Images.xcassets in Resources */,
+				ECC9CFEC19D19F5D0045D3C0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9CFEF19D19F5D0045D3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23123719DAF9BD00061B2D /* osxAL21SingleItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC9CFDA19D19F5D0045D3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC23123419DAF9BD00061B2D /* osxAL21SingleItem.m in Sources */,
+				ECC9CFE719D19F5D0045D3C0 /* osxAL21AppDelegate.m in Sources */,
+				ECC9CFE419D19F5D0045D3C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9CFED19D19F5D0045D3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC9CFF819D19F5D0045D3C0 /* osxAppLearning21Tests.m in Sources */,
+				EC23123519DAF9BD00061B2D /* osxAL21SingleItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC9CFF319D19F5D0045D3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC9CFDD19D19F5D0045D3C0 /* osxAppLearning21 */;
+			targetProxy = ECC9CFF219D19F5D0045D3C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC9CFEA19D19F5D0045D3C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC9CFEB19D19F5D0045D3C0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC9CFF919D19F5D0045D3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECC9CFFA19D19F5D0045D3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECC9CFFC19D19F5D0045D3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = osxAppLearning21/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC9CFFD19D19F5D0045D3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = osxAppLearning21/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECC9CFFF19D19F5D0045D3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxAppLearning21Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxAppLearning21.app/Contents/MacOS/osxAppLearning21";
+			};
+			name = Debug;
+		};
+		ECC9D00019D19F5D0045D3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxAppLearning21Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxAppLearning21.app/Contents/MacOS/osxAppLearning21";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC9CFD919D19F5D0045D3C0 /* Build configuration list for PBXProject "osxAppLearning21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9CFF919D19F5D0045D3C0 /* Debug */,
+				ECC9CFFA19D19F5D0045D3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC9CFFB19D19F5D0045D3C0 /* Build configuration list for PBXNativeTarget "osxAppLearning21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9CFFC19D19F5D0045D3C0 /* Debug */,
+				ECC9CFFD19D19F5D0045D3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC9CFFE19D19F5D0045D3C0 /* Build configuration list for PBXNativeTarget "osxAppLearning21Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9CFFF19D19F5D0045D3C0 /* Debug */,
+				ECC9D00019D19F5D0045D3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC9CFD619D19F5D0045D3C0 /* Project object */;
+}

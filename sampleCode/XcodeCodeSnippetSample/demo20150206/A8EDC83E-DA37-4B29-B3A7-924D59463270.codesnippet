@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_21</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func funcA(inputValue: Int) -&gt; Int {
+    return inputValue + 1
+}
+
+func funcB(InputValue: Int) -&gt; Int {
+    return InputValue - 1
+}
+
+/*!
+@abstract   例２１：戻り値に「関数型の値」を返す関数
+*/
+func 関数を選択する(flag: Bool) -&gt; (Int) -&gt; Int {
+    return flag ? funcA : funcB
+}
+
+var someValue = 20
+let 選ばれた関数 = 関数を選択する(someValue &gt; 25)   //わざと、funcB（減算）がひっかかるように判定を書いている
+
+/*
+@comment    someValueが0になる直前まで（減算し続ける）
+*/
+while someValue != 0 {
+    someValue = 選ばれた関数(someValue)
+    println(someValue)
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A8EDC83E-DA37-4B29-B3A7-924D59463270</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

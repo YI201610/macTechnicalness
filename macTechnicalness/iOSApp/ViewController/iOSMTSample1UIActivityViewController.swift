@@ -39,8 +39,8 @@ class iOSMTSample1UIActivityViewController: UIViewController {
 
     @IBAction func didSelectShowButton(sender: UIButton) {
 
-        /*
         let activityViewController = UIActivityViewController(activityItems: ["サンプルメッセージ"], applicationActivities: nil)
+        
 //        activityViewController.excludedActivityTypes = [
 //            UIActivityTypeMessage,
 //            UIActivityTypeMail,
@@ -55,16 +55,25 @@ class iOSMTSample1UIActivityViewController: UIViewController {
 //            UIActivityTypePostToWeibo,
 //            UIActivityTypeAirDrop]
         
-        activityViewController.completionWithItemsHandler = {(activityType, completed:Bool, returnedItems:Array!, error:NSError!) in
-            
-            var resultText: String = "[activityType] \(activityType), \n[completed] \(completed), \n[error] \(error)"
-            print(resultText)
-            
-            self.resultTextView.text = resultText
-        }
+        //        activityViewController.completionWithItemsHandler = {(activityType, completed:Bool, returnedItems:Array!, error:NSError!) in
+        //
+        //            var resultText: String = "[activityType] \(activityType), \n[completed] \(completed), \n[error] \(error)"
+        //            print(resultText)
+        //
+        //            self.resultTextView.text = resultText
+        //        }
         
+        activityViewController.completionWithItemsHandler = {(activityType, completed:Bool, returnedItems:[AnyObject]?, error: NSError?) in
+            
+            // Return if cancelled
+            if (!completed) {
+                return
+            }
+            
+            //activity complete
+            //some code here
+        }
         self.presentViewController(activityViewController, animated: true, completion: nil)
-        */
 
     }
     

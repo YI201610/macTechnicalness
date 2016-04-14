@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF455511915CF580011DF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF455501915CF580011DF55 /* Foundation.framework */; };
+		ECF455531915CF580011DF55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF455521915CF580011DF55 /* CoreGraphics.framework */; };
+		ECF455551915CF580011DF55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF455541915CF580011DF55 /* UIKit.framework */; };
+		ECF4555B1915CF590011DF55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECF455591915CF590011DF55 /* InfoPlist.strings */; };
+		ECF4555D1915CF590011DF55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4555C1915CF590011DF55 /* main.m */; };
+		ECF455611915CF590011DF55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF455601915CF590011DF55 /* AppDelegate.m */; };
+		ECF455641915CF590011DF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF455621915CF590011DF55 /* Main.storyboard */; };
+		ECF455671915CF590011DF55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF455661915CF590011DF55 /* ViewController.m */; };
+		ECF455691915CF590011DF55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF455681915CF590011DF55 /* Images.xcassets */; };
+		ECF455701915CF590011DF55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4556F1915CF590011DF55 /* XCTest.framework */; };
+		ECF455711915CF590011DF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF455501915CF580011DF55 /* Foundation.framework */; };
+		ECF455721915CF590011DF55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF455541915CF580011DF55 /* UIKit.framework */; };
+		ECF4557A1915CF590011DF55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECF455781915CF590011DF55 /* InfoPlist.strings */; };
+		ECF4557C1915CF590011DF55 /* patternLearningDecoratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4557B1915CF590011DF55 /* patternLearningDecoratorTests.m */; };
+		ECF455951918AB690011DF55 /* UIImage+CustomizedShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF455941918AB690011DF55 /* UIImage+CustomizedShadow.m */; };
+		ECF455981918ABA50011DF55 /* UIImage+CustomizedTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF455971918ABA50011DF55 /* UIImage+CustomizedTransformation.m */; };
+		ECF455991918ABB00011DF55 /* UIImage+CustomizedTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF455971918ABA50011DF55 /* UIImage+CustomizedTransformation.m */; };
+		ECF4559A1918ABB30011DF55 /* UIImage+CustomizedShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF455941918AB690011DF55 /* UIImage+CustomizedShadow.m */; };
+		ECF4559E1918AC1D0011DF55 /* UIImage+ExtendedMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4559D1918AC1D0011DF55 /* UIImage+ExtendedMethod.m */; };
+		ECF4559F1918AC1D0011DF55 /* UIImage+ExtendedMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4559D1918AC1D0011DF55 /* UIImage+ExtendedMethod.m */; };
+		ECF455A21918C06F0011DF55 /* star20140506.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF455A01918C06F0011DF55 /* star20140506.png */; };
+		ECF455A31918C06F0011DF55 /* star20140506.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF455A01918C06F0011DF55 /* star20140506.png */; };
+		ECF455A41918C06F0011DF55 /* star20140506@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF455A11918C06F0011DF55 /* star20140506@2x.png */; };
+		ECF455A51918C06F0011DF55 /* star20140506@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF455A11918C06F0011DF55 /* star20140506@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF455731915CF590011DF55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF455451915CF580011DF55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF4554C1915CF580011DF55;
+			remoteInfo = patternLearningDecorator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF4554D1915CF580011DF55 /* patternLearningDecorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patternLearningDecorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF455501915CF580011DF55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECF455521915CF580011DF55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECF455541915CF580011DF55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECF455581915CF580011DF55 /* patternLearningDecorator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "patternLearningDecorator-Info.plist"; sourceTree = "<group>"; };
+		ECF4555A1915CF590011DF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECF4555C1915CF590011DF55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF4555E1915CF590011DF55 /* patternLearningDecorator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patternLearningDecorator-Prefix.pch"; sourceTree = "<group>"; };
+		ECF4555F1915CF590011DF55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECF455601915CF590011DF55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECF455631915CF590011DF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF455651915CF590011DF55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECF455661915CF590011DF55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECF455681915CF590011DF55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECF4556E1915CF590011DF55 /* patternLearningDecoratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patternLearningDecoratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF4556F1915CF590011DF55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECF455771915CF590011DF55 /* patternLearningDecoratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "patternLearningDecoratorTests-Info.plist"; sourceTree = "<group>"; };
+		ECF455791915CF590011DF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECF4557B1915CF590011DF55 /* patternLearningDecoratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = patternLearningDecoratorTests.m; sourceTree = "<group>"; };
+		ECF455931918AB690011DF55 /* UIImage+CustomizedShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CustomizedShadow.h"; sourceTree = "<group>"; };
+		ECF455941918AB690011DF55 /* UIImage+CustomizedShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CustomizedShadow.m"; sourceTree = "<group>"; };
+		ECF455961918ABA50011DF55 /* UIImage+CustomizedTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CustomizedTransformation.h"; sourceTree = "<group>"; };
+		ECF455971918ABA50011DF55 /* UIImage+CustomizedTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CustomizedTransformation.m"; sourceTree = "<group>"; };
+		ECF4559C1918AC1D0011DF55 /* UIImage+ExtendedMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ExtendedMethod.h"; sourceTree = "<group>"; };
+		ECF4559D1918AC1D0011DF55 /* UIImage+ExtendedMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtendedMethod.m"; sourceTree = "<group>"; };
+		ECF455A01918C06F0011DF55 /* star20140506.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star20140506.png; path = Resource/star20140506.png; sourceTree = SOURCE_ROOT; };
+		ECF455A11918C06F0011DF55 /* star20140506@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star20140506@2x.png"; path = "Resource/star20140506@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF4554A1915CF580011DF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF455531915CF580011DF55 /* CoreGraphics.framework in Frameworks */,
+				ECF455551915CF580011DF55 /* UIKit.framework in Frameworks */,
+				ECF455511915CF580011DF55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF4556B1915CF590011DF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF455701915CF590011DF55 /* XCTest.framework in Frameworks */,
+				ECF455721915CF590011DF55 /* UIKit.framework in Frameworks */,
+				ECF455711915CF590011DF55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF455441915CF580011DF55 = {
+			isa = PBXGroup;
+			children = (
+				ECF455561915CF580011DF55 /* patternLearningDecorator */,
+				ECF455751915CF590011DF55 /* patternLearningDecoratorTests */,
+				ECF4554F1915CF580011DF55 /* Frameworks */,
+				ECF4554E1915CF580011DF55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF4554E1915CF580011DF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4554D1915CF580011DF55 /* patternLearningDecorator.app */,
+				ECF4556E1915CF590011DF55 /* patternLearningDecoratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF4554F1915CF580011DF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455501915CF580011DF55 /* Foundation.framework */,
+				ECF455521915CF580011DF55 /* CoreGraphics.framework */,
+				ECF455541915CF580011DF55 /* UIKit.framework */,
+				ECF4556F1915CF590011DF55 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECF455561915CF580011DF55 /* patternLearningDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4558E1918A7360011DF55 /* Resource */,
+				ECF4558C1918A6FA0011DF55 /* View */,
+				ECF4558D1918A7010011DF55 /* Controller */,
+				ECF4555F1915CF590011DF55 /* AppDelegate.h */,
+				ECF455601915CF590011DF55 /* AppDelegate.m */,
+				ECF455681915CF590011DF55 /* Images.xcassets */,
+				ECF455571915CF580011DF55 /* Supporting Files */,
+			);
+			path = patternLearningDecorator;
+			sourceTree = "<group>";
+		};
+		ECF455571915CF580011DF55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455581915CF580011DF55 /* patternLearningDecorator-Info.plist */,
+				ECF455591915CF590011DF55 /* InfoPlist.strings */,
+				ECF4555C1915CF590011DF55 /* main.m */,
+				ECF4555E1915CF590011DF55 /* patternLearningDecorator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF455751915CF590011DF55 /* patternLearningDecoratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4557B1915CF590011DF55 /* patternLearningDecoratorTests.m */,
+				ECF455761915CF590011DF55 /* Supporting Files */,
+			);
+			path = patternLearningDecoratorTests;
+			sourceTree = "<group>";
+		};
+		ECF455761915CF590011DF55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455771915CF590011DF55 /* patternLearningDecoratorTests-Info.plist */,
+				ECF455781915CF590011DF55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF4558C1918A6FA0011DF55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455621915CF590011DF55 /* Main.storyboard */,
+				ECF4558F1918A7F20011DF55 /* Category */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ECF4558D1918A7010011DF55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455651915CF590011DF55 /* ViewController.h */,
+				ECF455661915CF590011DF55 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ECF4558E1918A7360011DF55 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455A01918C06F0011DF55 /* star20140506.png */,
+				ECF455A11918C06F0011DF55 /* star20140506@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		ECF4558F1918A7F20011DF55 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4559C1918AC1D0011DF55 /* UIImage+ExtendedMethod.h */,
+				ECF4559D1918AC1D0011DF55 /* UIImage+ExtendedMethod.m */,
+				ECF455931918AB690011DF55 /* UIImage+CustomizedShadow.h */,
+				ECF455941918AB690011DF55 /* UIImage+CustomizedShadow.m */,
+				ECF455961918ABA50011DF55 /* UIImage+CustomizedTransformation.h */,
+				ECF455971918ABA50011DF55 /* UIImage+CustomizedTransformation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF4554C1915CF580011DF55 /* patternLearningDecorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF4557F1915CF590011DF55 /* Build configuration list for PBXNativeTarget "patternLearningDecorator" */;
+			buildPhases = (
+				ECF455491915CF580011DF55 /* Sources */,
+				ECF4554A1915CF580011DF55 /* Frameworks */,
+				ECF4554B1915CF580011DF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patternLearningDecorator;
+			productName = patternLearningDecorator;
+			productReference = ECF4554D1915CF580011DF55 /* patternLearningDecorator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF4556D1915CF590011DF55 /* patternLearningDecoratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF455821915CF590011DF55 /* Build configuration list for PBXNativeTarget "patternLearningDecoratorTests" */;
+			buildPhases = (
+				ECF4556A1915CF590011DF55 /* Sources */,
+				ECF4556B1915CF590011DF55 /* Frameworks */,
+				ECF4556C1915CF590011DF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF455741915CF590011DF55 /* PBXTargetDependency */,
+			);
+			name = patternLearningDecoratorTests;
+			productName = patternLearningDecoratorTests;
+			productReference = ECF4556E1915CF590011DF55 /* patternLearningDecoratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF455451915CF580011DF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					ECF4556D1915CF590011DF55 = {
+						TestTargetID = ECF4554C1915CF580011DF55;
+					};
+				};
+			};
+			buildConfigurationList = ECF455481915CF580011DF55 /* Build configuration list for PBXProject "patternLearningDecorator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF455441915CF580011DF55;
+			productRefGroup = ECF4554E1915CF580011DF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF4554C1915CF580011DF55 /* patternLearningDecorator */,
+				ECF4556D1915CF590011DF55 /* patternLearningDecoratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF4554B1915CF580011DF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF455691915CF590011DF55 /* Images.xcassets in Resources */,
+				ECF4555B1915CF590011DF55 /* InfoPlist.strings in Resources */,
+				ECF455641915CF590011DF55 /* Main.storyboard in Resources */,
+				ECF455A21918C06F0011DF55 /* star20140506.png in Resources */,
+				ECF455A41918C06F0011DF55 /* star20140506@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF4556C1915CF590011DF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF4557A1915CF590011DF55 /* InfoPlist.strings in Resources */,
+				ECF455A31918C06F0011DF55 /* star20140506.png in Resources */,
+				ECF455A51918C06F0011DF55 /* star20140506@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF455491915CF580011DF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF455671915CF590011DF55 /* ViewController.m in Sources */,
+				ECF455611915CF590011DF55 /* AppDelegate.m in Sources */,
+				ECF455951918AB690011DF55 /* UIImage+CustomizedShadow.m in Sources */,
+				ECF4559E1918AC1D0011DF55 /* UIImage+ExtendedMethod.m in Sources */,
+				ECF4555D1915CF590011DF55 /* main.m in Sources */,
+				ECF455981918ABA50011DF55 /* UIImage+CustomizedTransformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF4556A1915CF590011DF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF4557C1915CF590011DF55 /* patternLearningDecoratorTests.m in Sources */,
+				ECF4559F1918AC1D0011DF55 /* UIImage+ExtendedMethod.m in Sources */,
+				ECF455991918ABB00011DF55 /* UIImage+CustomizedTransformation.m in Sources */,
+				ECF4559A1918ABB30011DF55 /* UIImage+CustomizedShadow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF455741915CF590011DF55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF4554C1915CF580011DF55 /* patternLearningDecorator */;
+			targetProxy = ECF455731915CF590011DF55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF455591915CF590011DF55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF4555A1915CF590011DF55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECF455621915CF590011DF55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF455631915CF590011DF55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF455781915CF590011DF55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF455791915CF590011DF55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF4557D1915CF590011DF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECF4557E1915CF590011DF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF455801915CF590011DF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningDecorator/patternLearningDecorator-Prefix.pch";
+				INFOPLIST_FILE = "patternLearningDecorator/patternLearningDecorator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECF455811915CF590011DF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningDecorator/patternLearningDecorator-Prefix.pch";
+				INFOPLIST_FILE = "patternLearningDecorator/patternLearningDecorator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECF455831915CF590011DF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/patternLearningDecorator.app/patternLearningDecorator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningDecorator/patternLearningDecorator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "patternLearningDecoratorTests/patternLearningDecoratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECF455841915CF590011DF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/patternLearningDecorator.app/patternLearningDecorator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningDecorator/patternLearningDecorator-Prefix.pch";
+				INFOPLIST_FILE = "patternLearningDecoratorTests/patternLearningDecoratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF455481915CF580011DF55 /* Build configuration list for PBXProject "patternLearningDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF4557D1915CF590011DF55 /* Debug */,
+				ECF4557E1915CF590011DF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF4557F1915CF590011DF55 /* Build configuration list for PBXNativeTarget "patternLearningDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF455801915CF590011DF55 /* Debug */,
+				ECF455811915CF590011DF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF455821915CF590011DF55 /* Build configuration list for PBXNativeTarget "patternLearningDecoratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF455831915CF590011DF55 /* Debug */,
+				ECF455841915CF590011DF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF455451915CF580011DF55 /* Project object */;
+}

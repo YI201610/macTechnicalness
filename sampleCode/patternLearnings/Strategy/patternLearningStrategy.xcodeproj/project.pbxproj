@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC832E5D18E84DF300B81BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC832E5C18E84DF300B81BFE /* Foundation.framework */; };
+		EC832E5F18E84DF300B81BFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC832E5E18E84DF300B81BFE /* CoreGraphics.framework */; };
+		EC832E6118E84DF300B81BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC832E6018E84DF300B81BFE /* UIKit.framework */; };
+		EC832E6718E84DF300B81BFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC832E6518E84DF300B81BFE /* InfoPlist.strings */; };
+		EC832E6918E84DF300B81BFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E6818E84DF300B81BFE /* main.m */; };
+		EC832E6D18E84DF300B81BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E6C18E84DF300B81BFE /* AppDelegate.m */; };
+		EC832E7018E84DF300B81BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC832E6E18E84DF300B81BFE /* Main.storyboard */; };
+		EC832E7318E84DF300B81BFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E7218E84DF300B81BFE /* ViewController.m */; };
+		EC832E7518E84DF300B81BFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC832E7418E84DF300B81BFE /* Images.xcassets */; };
+		EC832E7C18E84DF300B81BFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC832E7B18E84DF300B81BFE /* XCTest.framework */; };
+		EC832E7D18E84DF300B81BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC832E5C18E84DF300B81BFE /* Foundation.framework */; };
+		EC832E7E18E84DF300B81BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC832E6018E84DF300B81BFE /* UIKit.framework */; };
+		EC832E8618E84DF300B81BFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC832E8418E84DF300B81BFE /* InfoPlist.strings */; };
+		EC832E8818E84DF300B81BFE /* patternLearningStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E8718E84DF300B81BFE /* patternLearningStrategyTests.m */; };
+		EC832E9418E84E7000B81BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E6C18E84DF300B81BFE /* AppDelegate.m */; };
+		EC832E9718E84FD800B81BFE /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E9618E84FD800B81BFE /* Context.m */; };
+		EC832E9818E84FD800B81BFE /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E9618E84FD800B81BFE /* Context.m */; };
+		EC832E9B18E84FED00B81BFE /* AbstractStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E9A18E84FED00B81BFE /* AbstractStrategy.m */; };
+		EC832E9C18E84FED00B81BFE /* AbstractStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832E9A18E84FED00B81BFE /* AbstractStrategy.m */; };
+		EC832EAB18E852CE00B81BFE /* ConcreteStrategy1.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832EAA18E852CE00B81BFE /* ConcreteStrategy1.m */; };
+		EC832EAC18E852CE00B81BFE /* ConcreteStrategy1.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832EAA18E852CE00B81BFE /* ConcreteStrategy1.m */; };
+		EC832EAF18E852E200B81BFE /* ConcreteStrategy2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832EAE18E852E200B81BFE /* ConcreteStrategy2.m */; };
+		EC832EB018E852E200B81BFE /* ConcreteStrategy2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832EAE18E852E200B81BFE /* ConcreteStrategy2.m */; };
+		EC832EB318E852F400B81BFE /* ConcteteStrategy3.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832EB218E852F400B81BFE /* ConcteteStrategy3.m */; };
+		EC832EB418E852F400B81BFE /* ConcteteStrategy3.m in Sources */ = {isa = PBXBuildFile; fileRef = EC832EB218E852F400B81BFE /* ConcteteStrategy3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC832E7F18E84DF300B81BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC832E5118E84DF300B81BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC832E5818E84DF300B81BFE;
+			remoteInfo = patternLearningStrategy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC832E5918E84DF300B81BFE /* patternLearningStrategy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patternLearningStrategy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC832E5C18E84DF300B81BFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC832E5E18E84DF300B81BFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC832E6018E84DF300B81BFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC832E6418E84DF300B81BFE /* patternLearningStrategy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "patternLearningStrategy-Info.plist"; sourceTree = "<group>"; };
+		EC832E6618E84DF300B81BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC832E6818E84DF300B81BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC832E6A18E84DF300B81BFE /* patternLearningStrategy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patternLearningStrategy-Prefix.pch"; sourceTree = "<group>"; };
+		EC832E6B18E84DF300B81BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC832E6C18E84DF300B81BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC832E6F18E84DF300B81BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC832E7118E84DF300B81BFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC832E7218E84DF300B81BFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC832E7418E84DF300B81BFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC832E7A18E84DF300B81BFE /* patternLearningStrategyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patternLearningStrategyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC832E7B18E84DF300B81BFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC832E8318E84DF300B81BFE /* patternLearningStrategyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "patternLearningStrategyTests-Info.plist"; sourceTree = "<group>"; };
+		EC832E8518E84DF300B81BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC832E8718E84DF300B81BFE /* patternLearningStrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = patternLearningStrategyTests.m; sourceTree = "<group>"; };
+		EC832E9518E84FD800B81BFE /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Context.h; path = Model/Context.h; sourceTree = "<group>"; };
+		EC832E9618E84FD800B81BFE /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Context.m; path = Model/Context.m; sourceTree = "<group>"; };
+		EC832E9918E84FED00B81BFE /* AbstractStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractStrategy.h; path = Model/AbstractStrategy.h; sourceTree = "<group>"; };
+		EC832E9A18E84FED00B81BFE /* AbstractStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractStrategy.m; path = Model/AbstractStrategy.m; sourceTree = "<group>"; };
+		EC832EA918E852CE00B81BFE /* ConcreteStrategy1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteStrategy1.h; path = Model/ConcreteStrategy1.h; sourceTree = "<group>"; };
+		EC832EAA18E852CE00B81BFE /* ConcreteStrategy1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteStrategy1.m; path = Model/ConcreteStrategy1.m; sourceTree = "<group>"; };
+		EC832EAD18E852E200B81BFE /* ConcreteStrategy2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteStrategy2.h; path = Model/ConcreteStrategy2.h; sourceTree = "<group>"; };
+		EC832EAE18E852E200B81BFE /* ConcreteStrategy2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteStrategy2.m; path = Model/ConcreteStrategy2.m; sourceTree = "<group>"; };
+		EC832EB118E852F400B81BFE /* ConcteteStrategy3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcteteStrategy3.h; path = Model/ConcteteStrategy3.h; sourceTree = "<group>"; };
+		EC832EB218E852F400B81BFE /* ConcteteStrategy3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcteteStrategy3.m; path = Model/ConcteteStrategy3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC832E5618E84DF300B81BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC832E5F18E84DF300B81BFE /* CoreGraphics.framework in Frameworks */,
+				EC832E6118E84DF300B81BFE /* UIKit.framework in Frameworks */,
+				EC832E5D18E84DF300B81BFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC832E7718E84DF300B81BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC832E7C18E84DF300B81BFE /* XCTest.framework in Frameworks */,
+				EC832E7E18E84DF300B81BFE /* UIKit.framework in Frameworks */,
+				EC832E7D18E84DF300B81BFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC832E5018E84DF300B81BFE = {
+			isa = PBXGroup;
+			children = (
+				EC832E6218E84DF300B81BFE /* patternLearningStrategy */,
+				EC832E8118E84DF300B81BFE /* patternLearningStrategyTests */,
+				EC832E5B18E84DF300B81BFE /* Frameworks */,
+				EC832E5A18E84DF300B81BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC832E5A18E84DF300B81BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E5918E84DF300B81BFE /* patternLearningStrategy.app */,
+				EC832E7A18E84DF300B81BFE /* patternLearningStrategyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC832E5B18E84DF300B81BFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E5C18E84DF300B81BFE /* Foundation.framework */,
+				EC832E5E18E84DF300B81BFE /* CoreGraphics.framework */,
+				EC832E6018E84DF300B81BFE /* UIKit.framework */,
+				EC832E7B18E84DF300B81BFE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC832E6218E84DF300B81BFE /* patternLearningStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E9318E84E0E00B81BFE /* Controller */,
+				EC832E9218E84E0800B81BFE /* View */,
+				EC832E9118E84DFE00B81BFE /* Model */,
+				EC832E6B18E84DF300B81BFE /* AppDelegate.h */,
+				EC832E6C18E84DF300B81BFE /* AppDelegate.m */,
+				EC832E7418E84DF300B81BFE /* Images.xcassets */,
+				EC832E6318E84DF300B81BFE /* Supporting Files */,
+			);
+			path = patternLearningStrategy;
+			sourceTree = "<group>";
+		};
+		EC832E6318E84DF300B81BFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E6418E84DF300B81BFE /* patternLearningStrategy-Info.plist */,
+				EC832E6518E84DF300B81BFE /* InfoPlist.strings */,
+				EC832E6818E84DF300B81BFE /* main.m */,
+				EC832E6A18E84DF300B81BFE /* patternLearningStrategy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC832E8118E84DF300B81BFE /* patternLearningStrategyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E8718E84DF300B81BFE /* patternLearningStrategyTests.m */,
+				EC832E8218E84DF300B81BFE /* Supporting Files */,
+			);
+			path = patternLearningStrategyTests;
+			sourceTree = "<group>";
+		};
+		EC832E8218E84DF300B81BFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E8318E84DF300B81BFE /* patternLearningStrategyTests-Info.plist */,
+				EC832E8418E84DF300B81BFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC832E9118E84DFE00B81BFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E9518E84FD800B81BFE /* Context.h */,
+				EC832E9618E84FD800B81BFE /* Context.m */,
+				EC832E9918E84FED00B81BFE /* AbstractStrategy.h */,
+				EC832E9A18E84FED00B81BFE /* AbstractStrategy.m */,
+				EC832EA918E852CE00B81BFE /* ConcreteStrategy1.h */,
+				EC832EAA18E852CE00B81BFE /* ConcreteStrategy1.m */,
+				EC832EAD18E852E200B81BFE /* ConcreteStrategy2.h */,
+				EC832EAE18E852E200B81BFE /* ConcreteStrategy2.m */,
+				EC832EB118E852F400B81BFE /* ConcteteStrategy3.h */,
+				EC832EB218E852F400B81BFE /* ConcteteStrategy3.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EC832E9218E84E0800B81BFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E6E18E84DF300B81BFE /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EC832E9318E84E0E00B81BFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC832E7118E84DF300B81BFE /* ViewController.h */,
+				EC832E7218E84DF300B81BFE /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC832E5818E84DF300B81BFE /* patternLearningStrategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC832E8B18E84DF300B81BFE /* Build configuration list for PBXNativeTarget "patternLearningStrategy" */;
+			buildPhases = (
+				EC832E5518E84DF300B81BFE /* Sources */,
+				EC832E5618E84DF300B81BFE /* Frameworks */,
+				EC832E5718E84DF300B81BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patternLearningStrategy;
+			productName = patternLearningStrategy;
+			productReference = EC832E5918E84DF300B81BFE /* patternLearningStrategy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC832E7918E84DF300B81BFE /* patternLearningStrategyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC832E8E18E84DF300B81BFE /* Build configuration list for PBXNativeTarget "patternLearningStrategyTests" */;
+			buildPhases = (
+				EC832E7618E84DF300B81BFE /* Sources */,
+				EC832E7718E84DF300B81BFE /* Frameworks */,
+				EC832E7818E84DF300B81BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC832E8018E84DF300B81BFE /* PBXTargetDependency */,
+			);
+			name = patternLearningStrategyTests;
+			productName = patternLearningStrategyTests;
+			productReference = EC832E7A18E84DF300B81BFE /* patternLearningStrategyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC832E5118E84DF300B81BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					EC832E7918E84DF300B81BFE = {
+						TestTargetID = EC832E5818E84DF300B81BFE;
+					};
+				};
+			};
+			buildConfigurationList = EC832E5418E84DF300B81BFE /* Build configuration list for PBXProject "patternLearningStrategy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC832E5018E84DF300B81BFE;
+			productRefGroup = EC832E5A18E84DF300B81BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC832E5818E84DF300B81BFE /* patternLearningStrategy */,
+				EC832E7918E84DF300B81BFE /* patternLearningStrategyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC832E5718E84DF300B81BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC832E7518E84DF300B81BFE /* Images.xcassets in Resources */,
+				EC832E6718E84DF300B81BFE /* InfoPlist.strings in Resources */,
+				EC832E7018E84DF300B81BFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC832E7818E84DF300B81BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC832E8618E84DF300B81BFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC832E5518E84DF300B81BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC832E7318E84DF300B81BFE /* ViewController.m in Sources */,
+				EC832EB318E852F400B81BFE /* ConcteteStrategy3.m in Sources */,
+				EC832E9718E84FD800B81BFE /* Context.m in Sources */,
+				EC832EAF18E852E200B81BFE /* ConcreteStrategy2.m in Sources */,
+				EC832E6D18E84DF300B81BFE /* AppDelegate.m in Sources */,
+				EC832E6918E84DF300B81BFE /* main.m in Sources */,
+				EC832E9B18E84FED00B81BFE /* AbstractStrategy.m in Sources */,
+				EC832EAB18E852CE00B81BFE /* ConcreteStrategy1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC832E7618E84DF300B81BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC832E9C18E84FED00B81BFE /* AbstractStrategy.m in Sources */,
+				EC832E9418E84E7000B81BFE /* AppDelegate.m in Sources */,
+				EC832EB018E852E200B81BFE /* ConcreteStrategy2.m in Sources */,
+				EC832EB418E852F400B81BFE /* ConcteteStrategy3.m in Sources */,
+				EC832E9818E84FD800B81BFE /* Context.m in Sources */,
+				EC832EAC18E852CE00B81BFE /* ConcreteStrategy1.m in Sources */,
+				EC832E8818E84DF300B81BFE /* patternLearningStrategyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC832E8018E84DF300B81BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC832E5818E84DF300B81BFE /* patternLearningStrategy */;
+			targetProxy = EC832E7F18E84DF300B81BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC832E6518E84DF300B81BFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC832E6618E84DF300B81BFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC832E6E18E84DF300B81BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC832E6F18E84DF300B81BFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC832E8418E84DF300B81BFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC832E8518E84DF300B81BFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC832E8918E84DF300B81BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC832E8A18E84DF300B81BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC832E8C18E84DF300B81BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningStrategy/patternLearningStrategy-Prefix.pch";
+				INFOPLIST_FILE = "patternLearningStrategy/patternLearningStrategy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC832E8D18E84DF300B81BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningStrategy/patternLearningStrategy-Prefix.pch";
+				INFOPLIST_FILE = "patternLearningStrategy/patternLearningStrategy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC832E8F18E84DF300B81BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/patternLearningStrategy.app/patternLearningStrategy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningStrategy/patternLearningStrategy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "patternLearningStrategyTests/patternLearningStrategyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC832E9018E84DF300B81BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/patternLearningStrategy.app/patternLearningStrategy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patternLearningStrategy/patternLearningStrategy-Prefix.pch";
+				INFOPLIST_FILE = "patternLearningStrategyTests/patternLearningStrategyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC832E5418E84DF300B81BFE /* Build configuration list for PBXProject "patternLearningStrategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC832E8918E84DF300B81BFE /* Debug */,
+				EC832E8A18E84DF300B81BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC832E8B18E84DF300B81BFE /* Build configuration list for PBXNativeTarget "patternLearningStrategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC832E8C18E84DF300B81BFE /* Debug */,
+				EC832E8D18E84DF300B81BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC832E8E18E84DF300B81BFE /* Build configuration list for PBXNativeTarget "patternLearningStrategyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC832E8F18E84DF300B81BFE /* Debug */,
+				EC832E9018E84DF300B81BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC832E5118E84DF300B81BFE /* Project object */;
+}

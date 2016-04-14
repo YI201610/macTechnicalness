@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_10</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例１０：対外的なパラメータ名称がある関数
+*/
+func someFunction(対外的なパラメータ名称 localパラメータ名: Int) -&gt; String {
+    return "Yeah!!: \(localパラメータ名)"
+}
+
+
+/*
+@comment    このようにソースコードを文書化できます。
+*/
+someFunction(対外的なパラメータ名称: 1325)
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A4FDC519-7F86-4A6C-8674-0AB4B7826C2C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

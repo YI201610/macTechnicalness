@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_11</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例１１：対外的なパラメーターを用いている関数の例、その２
+*/
+func superJoin(入力文字列1 s1:String, 入力文字列2 s2:String, 区切り文字 joiner:String) -&gt; String {
+    return s1 + joiner + s2
+}
+
+superJoin(入力文字列1: "google", 入力文字列2: "yahoo", 区切り文字: " vs ")
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BC9EE8D3-5314-4572-84DF-8C4F497478BF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

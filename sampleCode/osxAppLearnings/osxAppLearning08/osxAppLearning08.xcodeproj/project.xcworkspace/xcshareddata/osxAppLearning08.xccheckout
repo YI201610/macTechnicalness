@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37D94A58-5F8B-449A-92E0-A08D3DF6573F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>osxAppLearning08</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4A83521-0885-4038-ACF2-37165651ED2A</key>
+		<string>https://github.com/iMarketSceneViewer/sampleCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>osxAppLearning08/osxAppLearning08.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4A83521-0885-4038-ACF2-37165651ED2A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iMarketSceneViewer/sampleCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4A83521-0885-4038-ACF2-37165651ED2A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4A83521-0885-4038-ACF2-37165651ED2A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sampleCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

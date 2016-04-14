@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_22</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+@abstract   例２２：内部に関数を宣言し、使用している関数
+*/
+func 関数を選択するVer2(flag: Bool) -&gt; (Int) -&gt; Int {
+    func localFuncA(hoge: Int) -&gt; Int {
+        return hoge+20
+    }
+    
+    func localFuncB(hoge: Int) -&gt; Int {
+        return hoge+1
+    }
+    
+    return flag ? localFuncA : localFuncB
+}
+
+
+var somethingValue = 100
+for i in 1 ... 10 {
+    let hogeFunction = 関数を選択するVer2(i % 2 == 1)
+    somethingValue = hogeFunction(somethingValue)
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>06FB6417-DA63-477D-B724-A61D46A77731</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

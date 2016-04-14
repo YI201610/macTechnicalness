@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_13</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例１３：パラメーターにデフォルト値を定義している関数
+*/
+func hyperJoin(入力文字列1 s1:String = "AAA", 入力文字列2 s2:String = "BBB", 区切り文字 joiner:String = " &amp; ") -&gt; String {
+    return s1 + joiner + s2
+}
+
+/*
+@comment    デフォルト値を定義してあるがため、必ずしも全てのパラメーターを指定する必要は、ありません。
+*/
+hyperJoin()
+hyperJoin(入力文字列1: "わーーー")
+hyperJoin(入力文字列2: "ふーーー")
+hyperJoin(区切り文字: "@@@")
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CE474C89-B321-4B3E-AE4E-61D466AFA6F7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

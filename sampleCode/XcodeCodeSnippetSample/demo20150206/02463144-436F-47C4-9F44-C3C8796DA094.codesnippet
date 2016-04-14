@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_9</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例９：nilかもしれないタプルを返す関数
+*/
+func minAndMax2(someArray: [Int]) -&gt; (min: Int, max: Int)? {
+    
+    /*
+    @comment 　入力配列の先頭要素で最小値と最大値を初期化します。
+    */
+    var currentMin = someArray[0]
+    var currentMax = someArray[0]
+    
+    if currentMin == 5 {
+        return nil
+    }
+    
+    /*
+    @comment    先頭から２番目の要素から、入力配列の最後の要素までの間で、最小値と最大値を求めます。
+    */
+    for value in someArray[1 ..&lt; someArray.count] {
+        if value &lt; currentMin {
+            currentMin = value
+        }else if value &gt; currentMax {
+            currentMax = value
+        }
+    }
+    
+    /*
+    @comment    入力配列における最小値と最大値を返します。
+    */
+    return (currentMin, currentMax)
+}
+
+if let result2 = minAndMax2([85, 365, 12, 8, -16, 256, 128, 16]) {
+    println("min: \(result2.min), max: \(result2.max)")
+}
+
+if let result3 = minAndMax2([5, 365, 12, 8, -16, 256, 128, 16]) {
+    println("min: \(result3.min), max: \(result3.max)")
+}else{
+    println("nilが返された!")
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>02463144-436F-47C4-9F44-C3C8796DA094</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6205"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+            <connections>
+                <outlet property="baseFileNameTextField" destination="fZy-eG-m8B" id="0Wf-GF-LNr"/>
+                <outlet property="check128_128x2" destination="IFh-zt-5ay" id="4nY-95-e1M"/>
+                <outlet property="check16_16x2" destination="hjg-2c-Yto" id="OjW-xs-oTH"/>
+                <outlet property="check256_256x2" destination="iEo-4R-Jaw" id="4rL-5I-Xc0"/>
+                <outlet property="check32_32x2" destination="foX-qT-Qah" id="GyB-xU-g8g"/>
+                <outlet property="check512_512x2" destination="0F8-bd-vDa" id="0cn-b0-3Ld"/>
+                <outlet property="check64_64x2" destination="0Yx-rQ-aIL" id="fLN-bg-MBv"/>
+                <outlet property="currentImagePathLabel" destination="SHe-P0-G32" id="eu3-TW-vyg"/>
+                <outlet property="currentImageView" destination="zfY-EM-zyS" id="eSf-mK-QFW"/>
+                <outlet property="outputFolderPathLabel" destination="nnF-VI-QgO" id="1Pw-H5-1pd"/>
+                <outlet property="overideOlderFilesCheck" destination="beH-jc-5xb" id="YR7-3e-fAB"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+            <items>
+                <menuItem title="osxAppLearning15" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="osxAppLearning15" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="About osxAppLearning15" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                            <menuItem title="Services" id="NMo-om-nkz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                            <menuItem title="Hide osxAppLearning15" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show All" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="Quit osxAppLearning15" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="File" id="dMs-cI-mzQ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="File" id="bib-Uj-vzu">
+                        <items>
+                            <menuItem title="Select Base Image" keyEquivalent="s" id="qcS-01-2Ki">
+                                <connections>
+                                    <action selector="selectBaseImage:" target="Voe-Tx-rLC" id="Dfz-Do-Z4V"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select Output Folder" keyEquivalent="f" id="OmN-IN-CwM">
+                                <connections>
+                                    <action selector="selectOutputFolder:" target="Voe-Tx-rLC" id="gxd-vP-nRR"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Make Icons" keyEquivalent="r" id="ReZ-qP-fEp">
+                                <connections>
+                                    <action selector="makeIcons:" target="Voe-Tx-rLC" id="WHG-Cp-Uir"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Format" id="jxT-CU-nIS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+        <window title="osxAppLearning15" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="50" y="155" width="666" height="466"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="666" height="466"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AEs-cN-GB7">
+                        <rect key="frame" x="22" y="105" width="107" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Output Folder:" id="gQn-Sx-noE">
+                            <font key="font" metaFont="systemBold"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oaw-LY-IZ5">
+                        <rect key="frame" x="15" y="67" width="120" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="File Base Name" id="DgT-bp-NMc">
+                            <font key="font" metaFont="systemBold"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZy-eG-m8B">
+                        <rect key="frame" x="132" y="64" width="299" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="myAppIcon" drawsBackground="YES" id="oJF-zZ-exK">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nnF-VI-QgO">
+                        <rect key="frame" x="130" y="105" width="686" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="&lt;Output Folder Path&gt;" id="WlY-qM-Cyv">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-EM-zyS">
+                        <rect key="frame" x="16" y="142" width="499" height="274"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" id="RHT-go-UrI"/>
+                    </imageView>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="beH-jc-5xb">
+                        <rect key="frame" x="274" y="33" width="159" height="18"/>
+                        <buttonCell key="cell" type="check" title="Override older Files" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="tNR-wC-4X4">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cGO-Th-zLf">
+                        <rect key="frame" x="530" y="429" width="91" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Icon Sizes:" id="a4e-J3-OA1">
+                            <font key="font" metaFont="systemBold"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button fixedFrame="YES" tag="16" translatesAutoresizingMaskIntoConstraints="NO" id="hjg-2c-Yto">
+                        <rect key="frame" x="530" y="399" width="126" height="18"/>
+                        <buttonCell key="cell" type="check" title="16 &amp; 16x2" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Hkr-i6-E7N">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" tag="32" translatesAutoresizingMaskIntoConstraints="NO" id="foX-qT-Qah">
+                        <rect key="frame" x="530" y="379" width="126" height="18"/>
+                        <buttonCell key="cell" type="check" title="32 &amp; 32x2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="qiF-N8-YKQ">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" tag="64" translatesAutoresizingMaskIntoConstraints="NO" id="0Yx-rQ-aIL">
+                        <rect key="frame" x="530" y="359" width="126" height="18"/>
+                        <buttonCell key="cell" type="check" title="64 &amp; 64x2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Y4p-d1-o8X">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" tag="128" translatesAutoresizingMaskIntoConstraints="NO" id="IFh-zt-5ay">
+                        <rect key="frame" x="530" y="339" width="126" height="18"/>
+                        <buttonCell key="cell" type="check" title="128 &amp; 128x2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="7zu-RS-VXS">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" tag="256" translatesAutoresizingMaskIntoConstraints="NO" id="iEo-4R-Jaw">
+                        <rect key="frame" x="530" y="319" width="126" height="18"/>
+                        <buttonCell key="cell" type="check" title="256 &amp; 256x2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="RAU-nO-vbs">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" tag="512" translatesAutoresizingMaskIntoConstraints="NO" id="0F8-bd-vDa">
+                        <rect key="frame" x="530" y="299" width="126" height="18"/>
+                        <buttonCell key="cell" type="check" title="512 &amp; 512x2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="NVO-ji-FpJ">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SHe-P0-G32">
+                        <rect key="frame" x="15" y="429" width="499" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="&lt;current image path&gt;" id="EOw-eJ-cdR">
+                            <font key="font" metaFont="systemBold"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="9B0A4C1C-12E0-4043-94BA-4CB6840F5053" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="lEf-Si-Ha3">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="36136172-5B8C-4271-B41E-F81EAB77B741" label="Select Image" paletteLabel="tb1" tag="-1" image="NSFolder" id="QIR-3i-ACK">
+                        <connections>
+                            <action selector="selectBaseImage:" target="Voe-Tx-rLC" id="pBs-QN-WWW"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="05D0489E-D492-4544-957A-853C80FFB071" label="Output Folder" paletteLabel="tb2" tag="-1" image="NSFolderSmart" id="yFE-Bs-WKx">
+                        <connections>
+                            <action selector="selectOutputFolder:" target="Voe-Tx-rLC" id="GY2-BU-oHF"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="RNV-Mi-DSl"/>
+                    <toolbarItem implicitItemIdentifier="15CA8297-DBB7-47E4-92F0-0593399B386A" label="Make" paletteLabel="tb3" tag="-1" image="NSSlideshowTemplate" id="hlf-fC-w80">
+                        <connections>
+                            <action selector="makeIcons:" target="Voe-Tx-rLC" id="WY2-YT-OTK"/>
+                        </connections>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="QIR-3i-ACK"/>
+                    <toolbarItem reference="yFE-Bs-WKx"/>
+                    <toolbarItem reference="RNV-Mi-DSl"/>
+                    <toolbarItem reference="hlf-fC-w80"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <point key="canvasLocation" x="57" y="396"/>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="Xee-2z-t9T"/>
+    </objects>
+    <resources>
+        <image name="NSFolder" width="32" height="32"/>
+        <image name="NSFolderSmart" width="32" height="32"/>
+        <image name="NSSlideshowTemplate" width="17" height="14"/>
+    </resources>
+</document>

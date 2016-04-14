@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2E6B2018FE04C000F10D4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E6B1F18FE04C000F10D4B /* Cocoa.framework */; };
+		EC2E6B2A18FE04C000F10D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC2E6B2818FE04C000F10D4B /* InfoPlist.strings */; };
+		EC2E6B2C18FE04C000F10D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2E6B2B18FE04C000F10D4B /* main.m */; };
+		EC2E6B3018FE04C000F10D4B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EC2E6B2E18FE04C000F10D4B /* Credits.rtf */; };
+		EC2E6B3318FE04C000F10D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2E6B3218FE04C000F10D4B /* AppDelegate.m */; };
+		EC2E6B3618FE04C000F10D4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2E6B3418FE04C000F10D4B /* MainMenu.xib */; };
+		EC2E6B3818FE04C000F10D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2E6B3718FE04C000F10D4B /* Images.xcassets */; };
+		EC2E6B3F18FE04C100F10D4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E6B3E18FE04C100F10D4B /* XCTest.framework */; };
+		EC2E6B4018FE04C100F10D4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2E6B1F18FE04C000F10D4B /* Cocoa.framework */; };
+		EC2E6B4818FE04C100F10D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC2E6B4618FE04C100F10D4B /* InfoPlist.strings */; };
+		EC2E6B4A18FE04C100F10D4B /* osxAppLearning09Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2E6B4918FE04C100F10D4B /* osxAppLearning09Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2E6B4118FE04C100F10D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2E6B1418FE04C000F10D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2E6B1B18FE04C000F10D4B;
+			remoteInfo = osxAppLearning09;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2E6B1C18FE04C000F10D4B /* osxAppLearning09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxAppLearning09.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2E6B1F18FE04C000F10D4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EC2E6B2218FE04C000F10D4B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EC2E6B2318FE04C000F10D4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC2E6B2418FE04C000F10D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC2E6B2718FE04C000F10D4B /* osxAppLearning09-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxAppLearning09-Info.plist"; sourceTree = "<group>"; };
+		EC2E6B2918FE04C000F10D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC2E6B2B18FE04C000F10D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2E6B2D18FE04C000F10D4B /* osxAppLearning09-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxAppLearning09-Prefix.pch"; sourceTree = "<group>"; };
+		EC2E6B2F18FE04C000F10D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EC2E6B3118FE04C000F10D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC2E6B3218FE04C000F10D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2E6B3518FE04C000F10D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC2E6B3718FE04C000F10D4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC2E6B3D18FE04C100F10D4B /* osxAppLearning09Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxAppLearning09Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2E6B3E18FE04C100F10D4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC2E6B4518FE04C100F10D4B /* osxAppLearning09Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxAppLearning09Tests-Info.plist"; sourceTree = "<group>"; };
+		EC2E6B4718FE04C100F10D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC2E6B4918FE04C100F10D4B /* osxAppLearning09Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAppLearning09Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2E6B1918FE04C000F10D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E6B2018FE04C000F10D4B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2E6B3A18FE04C100F10D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E6B4018FE04C100F10D4B /* Cocoa.framework in Frameworks */,
+				EC2E6B3F18FE04C100F10D4B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2E6B1318FE04C000F10D4B = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B2518FE04C000F10D4B /* osxAppLearning09 */,
+				EC2E6B4318FE04C100F10D4B /* osxAppLearning09Tests */,
+				EC2E6B1E18FE04C000F10D4B /* Frameworks */,
+				EC2E6B1D18FE04C000F10D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2E6B1D18FE04C000F10D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B1C18FE04C000F10D4B /* osxAppLearning09.app */,
+				EC2E6B3D18FE04C100F10D4B /* osxAppLearning09Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2E6B1E18FE04C000F10D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B1F18FE04C000F10D4B /* Cocoa.framework */,
+				EC2E6B3E18FE04C100F10D4B /* XCTest.framework */,
+				EC2E6B2118FE04C000F10D4B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2E6B2118FE04C000F10D4B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B2218FE04C000F10D4B /* AppKit.framework */,
+				EC2E6B2318FE04C000F10D4B /* CoreData.framework */,
+				EC2E6B2418FE04C000F10D4B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EC2E6B2518FE04C000F10D4B /* osxAppLearning09 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B3118FE04C000F10D4B /* AppDelegate.h */,
+				EC2E6B3218FE04C000F10D4B /* AppDelegate.m */,
+				EC2E6B3418FE04C000F10D4B /* MainMenu.xib */,
+				EC2E6B3718FE04C000F10D4B /* Images.xcassets */,
+				EC2E6B2618FE04C000F10D4B /* Supporting Files */,
+			);
+			path = osxAppLearning09;
+			sourceTree = "<group>";
+		};
+		EC2E6B2618FE04C000F10D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B2718FE04C000F10D4B /* osxAppLearning09-Info.plist */,
+				EC2E6B2818FE04C000F10D4B /* InfoPlist.strings */,
+				EC2E6B2B18FE04C000F10D4B /* main.m */,
+				EC2E6B2D18FE04C000F10D4B /* osxAppLearning09-Prefix.pch */,
+				EC2E6B2E18FE04C000F10D4B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2E6B4318FE04C100F10D4B /* osxAppLearning09Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B4918FE04C100F10D4B /* osxAppLearning09Tests.m */,
+				EC2E6B4418FE04C100F10D4B /* Supporting Files */,
+			);
+			path = osxAppLearning09Tests;
+			sourceTree = "<group>";
+		};
+		EC2E6B4418FE04C100F10D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E6B4518FE04C100F10D4B /* osxAppLearning09Tests-Info.plist */,
+				EC2E6B4618FE04C100F10D4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2E6B1B18FE04C000F10D4B /* osxAppLearning09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2E6B4D18FE04C100F10D4B /* Build configuration list for PBXNativeTarget "osxAppLearning09" */;
+			buildPhases = (
+				EC2E6B1818FE04C000F10D4B /* Sources */,
+				EC2E6B1918FE04C000F10D4B /* Frameworks */,
+				EC2E6B1A18FE04C000F10D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxAppLearning09;
+			productName = osxAppLearning09;
+			productReference = EC2E6B1C18FE04C000F10D4B /* osxAppLearning09.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2E6B3C18FE04C100F10D4B /* osxAppLearning09Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2E6B5018FE04C100F10D4B /* Build configuration list for PBXNativeTarget "osxAppLearning09Tests" */;
+			buildPhases = (
+				EC2E6B3918FE04C100F10D4B /* Sources */,
+				EC2E6B3A18FE04C100F10D4B /* Frameworks */,
+				EC2E6B3B18FE04C100F10D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2E6B4218FE04C100F10D4B /* PBXTargetDependency */,
+			);
+			name = osxAppLearning09Tests;
+			productName = osxAppLearning09Tests;
+			productReference = EC2E6B3D18FE04C100F10D4B /* osxAppLearning09Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2E6B1418FE04C000F10D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					EC2E6B3C18FE04C100F10D4B = {
+						TestTargetID = EC2E6B1B18FE04C000F10D4B;
+					};
+				};
+			};
+			buildConfigurationList = EC2E6B1718FE04C000F10D4B /* Build configuration list for PBXProject "osxAppLearning09" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2E6B1318FE04C000F10D4B;
+			productRefGroup = EC2E6B1D18FE04C000F10D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2E6B1B18FE04C000F10D4B /* osxAppLearning09 */,
+				EC2E6B3C18FE04C100F10D4B /* osxAppLearning09Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2E6B1A18FE04C000F10D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E6B2A18FE04C000F10D4B /* InfoPlist.strings in Resources */,
+				EC2E6B3818FE04C000F10D4B /* Images.xcassets in Resources */,
+				EC2E6B3018FE04C000F10D4B /* Credits.rtf in Resources */,
+				EC2E6B3618FE04C000F10D4B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2E6B3B18FE04C100F10D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E6B4818FE04C100F10D4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2E6B1818FE04C000F10D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E6B3318FE04C000F10D4B /* AppDelegate.m in Sources */,
+				EC2E6B2C18FE04C000F10D4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2E6B3918FE04C100F10D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2E6B4A18FE04C100F10D4B /* osxAppLearning09Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2E6B4218FE04C100F10D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2E6B1B18FE04C000F10D4B /* osxAppLearning09 */;
+			targetProxy = EC2E6B4118FE04C100F10D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2E6B2818FE04C000F10D4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2E6B2918FE04C000F10D4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC2E6B2E18FE04C000F10D4B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2E6B2F18FE04C000F10D4B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EC2E6B3418FE04C000F10D4B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2E6B3518FE04C000F10D4B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EC2E6B4618FE04C100F10D4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2E6B4718FE04C100F10D4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2E6B4B18FE04C100F10D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC2E6B4C18FE04C100F10D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC2E6B4E18FE04C100F10D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning09/osxAppLearning09-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning09/osxAppLearning09-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC2E6B4F18FE04C100F10D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning09/osxAppLearning09-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning09/osxAppLearning09-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC2E6B5118FE04C100F10D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning09.app/Contents/MacOS/osxAppLearning09";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning09/osxAppLearning09-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "osxAppLearning09Tests/osxAppLearning09Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC2E6B5218FE04C100F10D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxAppLearning09.app/Contents/MacOS/osxAppLearning09";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxAppLearning09/osxAppLearning09-Prefix.pch";
+				INFOPLIST_FILE = "osxAppLearning09Tests/osxAppLearning09Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2E6B1718FE04C000F10D4B /* Build configuration list for PBXProject "osxAppLearning09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2E6B4B18FE04C100F10D4B /* Debug */,
+				EC2E6B4C18FE04C100F10D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2E6B4D18FE04C100F10D4B /* Build configuration list for PBXNativeTarget "osxAppLearning09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2E6B4E18FE04C100F10D4B /* Debug */,
+				EC2E6B4F18FE04C100F10D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2E6B5018FE04C100F10D4B /* Build configuration list for PBXNativeTarget "osxAppLearning09Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2E6B5118FE04C100F10D4B /* Debug */,
+				EC2E6B5218FE04C100F10D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2E6B1418FE04C000F10D4B /* Project object */;
+}

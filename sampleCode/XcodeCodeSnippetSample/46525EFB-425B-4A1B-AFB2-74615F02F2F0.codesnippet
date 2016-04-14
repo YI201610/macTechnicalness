@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pch_template_code</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+#if ! defined(DEBUG) &amp;&amp; ! defined(__NDEBUG__)
+#warning Neither of __DEBUG__/__NDEBUG__ macros are #defined
+#endif
+
+#ifdef DEBUG
+
+#define debugout(s, ...) NSLog(s, ##__VA_ARGS__)
+#define dp(format, ...) printf(format, ##__VA_ARGS__); printf("\n");
+#define _methodname_ NSLog(@"%s(line:%d)", __func__, __LINE__)
+#define _c_methodname_ printf("%s(line:%d)", __func__, __LINE__); printf("\n");
+
+#define _checkRetainCount(str, obj) debugout(@"CHECK_RETAIN_CNT{%s}[%@]: retain count: %d", __func__, str, [obj retainCount]);
+
+#else
+
+#define debugout(s, ...)
+#define dp(format, ...)
+#define _methodname_
+#define _c_methodname_
+
+#define _checkRetainCount(str, obj)
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>46525EFB-425B-4A1B-AFB2-74615F02F2F0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>pch template</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>pch template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

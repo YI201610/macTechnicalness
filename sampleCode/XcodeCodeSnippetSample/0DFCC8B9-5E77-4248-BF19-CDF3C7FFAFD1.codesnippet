@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nsalert_sample_default_button_altenate_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    NSAlert* alert = [NSAlert alertWithMessageText:@"連絡先情報を削除しますか？"
+                                     defaultButton:@"Cancel"
+                                   alternateButton:@"Delete"
+                                       otherButton:nil
+                         informativeTextWithFormat:@"削除すると、連絡先情報は、永遠に削除されます。"];
+    NSInteger returnCode = [alert runModal];
+    debugout(@"returnCode: %ld", returnCode);
+    
+    if(returnCode == NSAlertAlternateReturn){
+        
+    }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0DFCC8B9-5E77-4248-BF19-CDF3C7FFAFD1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ns alert sample type - 2</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSAlertSample2</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

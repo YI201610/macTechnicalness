@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_17</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例１７：inoutパラメーターをうけとる関数
+*/
+var a = 10
+var b = 20
+func swapToInts(inout a: Int, inout b:Int) {
+    let tempA = a;
+    a = b
+    b = tempA
+}
+swapToInts(&amp;a, &amp;b)
+
+/*
+@comment    inoutパラメーターであれば、関数の処理が終わった後も、関数内でおこなった処理の結果が効いています。
+*/
+a
+b
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8FCD4816-B406-41E8-850E-070AE247385F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC69A05619A9AFF300D5070F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A05519A9AFF300D5070F /* main.m */; };
+		EC69A05919A9AFF300D5070F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A05819A9AFF300D5070F /* AppDelegate.m */; };
+		EC69A05B19A9AFF300D5070F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC69A05A19A9AFF300D5070F /* Images.xcassets */; };
+		EC69A05E19A9AFF300D5070F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC69A05C19A9AFF300D5070F /* MainMenu.xib */; };
+		EC69A06A19A9AFF300D5070F /* osxAppLearning18Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A06919A9AFF300D5070F /* osxAppLearning18Tests.m */; };
+		EC69A07819A9B0A300D5070F /* HogeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A07719A9B0A300D5070F /* HogeController.m */; };
+		EC69A07919A9B0A300D5070F /* HogeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A07719A9B0A300D5070F /* HogeController.m */; };
+		EC69A07D19A9B44400D5070F /* OSXApp18TestClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A07C19A9B44400D5070F /* OSXApp18TestClass1.m */; };
+		EC69A07E19A9B44400D5070F /* OSXApp18TestClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69A07C19A9B44400D5070F /* OSXApp18TestClass1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC69A06419A9AFF300D5070F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC69A04819A9AFF300D5070F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC69A04F19A9AFF300D5070F;
+			remoteInfo = osxAppLearning18;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC69A05019A9AFF300D5070F /* osxAppLearning18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxAppLearning18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC69A05419A9AFF300D5070F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC69A05519A9AFF300D5070F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC69A05719A9AFF300D5070F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC69A05819A9AFF300D5070F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC69A05A19A9AFF300D5070F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC69A05D19A9AFF300D5070F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC69A06319A9AFF300D5070F /* osxAppLearning18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxAppLearning18Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC69A06819A9AFF300D5070F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC69A06919A9AFF300D5070F /* osxAppLearning18Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxAppLearning18Tests.m; sourceTree = "<group>"; };
+		EC69A07619A9B0A300D5070F /* HogeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogeController.h; sourceTree = "<group>"; };
+		EC69A07719A9B0A300D5070F /* HogeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogeController.m; sourceTree = "<group>"; };
+		EC69A07A19A9B13600D5070F /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		EC69A07B19A9B44400D5070F /* OSXApp18TestClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSXApp18TestClass1.h; sourceTree = "<group>"; };
+		EC69A07C19A9B44400D5070F /* OSXApp18TestClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSXApp18TestClass1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC69A04D19A9AFF300D5070F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC69A06019A9AFF300D5070F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC69A04719A9AFF300D5070F = {
+			isa = PBXGroup;
+			children = (
+				EC69A05219A9AFF300D5070F /* osxAppLearning18 */,
+				EC69A06619A9AFF300D5070F /* osxAppLearning18Tests */,
+				EC69A05119A9AFF300D5070F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC69A05119A9AFF300D5070F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC69A05019A9AFF300D5070F /* osxAppLearning18.app */,
+				EC69A06319A9AFF300D5070F /* osxAppLearning18Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC69A05219A9AFF300D5070F /* osxAppLearning18 */ = {
+			isa = PBXGroup;
+			children = (
+				EC69A07B19A9B44400D5070F /* OSXApp18TestClass1.h */,
+				EC69A07C19A9B44400D5070F /* OSXApp18TestClass1.m */,
+				EC69A07A19A9B13600D5070F /* CommonHeader.h */,
+				EC69A05719A9AFF300D5070F /* AppDelegate.h */,
+				EC69A05819A9AFF300D5070F /* AppDelegate.m */,
+				EC69A05A19A9AFF300D5070F /* Images.xcassets */,
+				EC69A05C19A9AFF300D5070F /* MainMenu.xib */,
+				EC69A05319A9AFF300D5070F /* Supporting Files */,
+				EC69A07619A9B0A300D5070F /* HogeController.h */,
+				EC69A07719A9B0A300D5070F /* HogeController.m */,
+			);
+			path = osxAppLearning18;
+			sourceTree = "<group>";
+		};
+		EC69A05319A9AFF300D5070F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC69A05419A9AFF300D5070F /* Info.plist */,
+				EC69A05519A9AFF300D5070F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC69A06619A9AFF300D5070F /* osxAppLearning18Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC69A06919A9AFF300D5070F /* osxAppLearning18Tests.m */,
+				EC69A06719A9AFF300D5070F /* Supporting Files */,
+			);
+			path = osxAppLearning18Tests;
+			sourceTree = "<group>";
+		};
+		EC69A06719A9AFF300D5070F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC69A06819A9AFF300D5070F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC69A04F19A9AFF300D5070F /* osxAppLearning18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC69A06D19A9AFF300D5070F /* Build configuration list for PBXNativeTarget "osxAppLearning18" */;
+			buildPhases = (
+				EC69A04C19A9AFF300D5070F /* Sources */,
+				EC69A04D19A9AFF300D5070F /* Frameworks */,
+				EC69A04E19A9AFF300D5070F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxAppLearning18;
+			productName = osxAppLearning18;
+			productReference = EC69A05019A9AFF300D5070F /* osxAppLearning18.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC69A06219A9AFF300D5070F /* osxAppLearning18Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC69A07019A9AFF300D5070F /* Build configuration list for PBXNativeTarget "osxAppLearning18Tests" */;
+			buildPhases = (
+				EC69A05F19A9AFF300D5070F /* Sources */,
+				EC69A06019A9AFF300D5070F /* Frameworks */,
+				EC69A06119A9AFF300D5070F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC69A06519A9AFF300D5070F /* PBXTargetDependency */,
+			);
+			name = osxAppLearning18Tests;
+			productName = osxAppLearning18Tests;
+			productReference = EC69A06319A9AFF300D5070F /* osxAppLearning18Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC69A04819A9AFF300D5070F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OSXApp18;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yuji Imamura";
+				TargetAttributes = {
+					EC69A04F19A9AFF300D5070F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EC69A06219A9AFF300D5070F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EC69A04F19A9AFF300D5070F;
+					};
+				};
+			};
+			buildConfigurationList = EC69A04B19A9AFF300D5070F /* Build configuration list for PBXProject "osxAppLearning18" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC69A04719A9AFF300D5070F;
+			productRefGroup = EC69A05119A9AFF300D5070F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC69A04F19A9AFF300D5070F /* osxAppLearning18 */,
+				EC69A06219A9AFF300D5070F /* osxAppLearning18Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC69A04E19A9AFF300D5070F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC69A05B19A9AFF300D5070F /* Images.xcassets in Resources */,
+				EC69A05E19A9AFF300D5070F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC69A06119A9AFF300D5070F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC69A04C19A9AFF300D5070F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC69A05919A9AFF300D5070F /* AppDelegate.m in Sources */,
+				EC69A05619A9AFF300D5070F /* main.m in Sources */,
+				EC69A07D19A9B44400D5070F /* OSXApp18TestClass1.m in Sources */,
+				EC69A07819A9B0A300D5070F /* HogeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC69A05F19A9AFF300D5070F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC69A06A19A9AFF300D5070F /* osxAppLearning18Tests.m in Sources */,
+				EC69A07919A9B0A300D5070F /* HogeController.m in Sources */,
+				EC69A07E19A9B44400D5070F /* OSXApp18TestClass1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC69A06519A9AFF300D5070F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC69A04F19A9AFF300D5070F /* osxAppLearning18 */;
+			targetProxy = EC69A06419A9AFF300D5070F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC69A05C19A9AFF300D5070F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC69A05D19A9AFF300D5070F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC69A06B19A9AFF300D5070F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC69A06C19A9AFF300D5070F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC69A06E19A9AFF300D5070F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = osxAppLearning18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC69A06F19A9AFF300D5070F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = osxAppLearning18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC69A07119A9AFF300D5070F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxAppLearning18Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxAppLearning18.app/Contents/MacOS/osxAppLearning18";
+			};
+			name = Debug;
+		};
+		EC69A07219A9AFF300D5070F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxAppLearning18Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxAppLearning18.app/Contents/MacOS/osxAppLearning18";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC69A04B19A9AFF300D5070F /* Build configuration list for PBXProject "osxAppLearning18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC69A06B19A9AFF300D5070F /* Debug */,
+				EC69A06C19A9AFF300D5070F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC69A06D19A9AFF300D5070F /* Build configuration list for PBXNativeTarget "osxAppLearning18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC69A06E19A9AFF300D5070F /* Debug */,
+				EC69A06F19A9AFF300D5070F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC69A07019A9AFF300D5070F /* Build configuration list for PBXNativeTarget "osxAppLearning18Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC69A07119A9AFF300D5070F /* Debug */,
+				EC69A07219A9AFF300D5070F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC69A04819A9AFF300D5070F /* Project object */;
+}

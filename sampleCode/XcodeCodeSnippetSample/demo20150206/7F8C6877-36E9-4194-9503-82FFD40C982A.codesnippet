@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_18_19</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+@abstract   例１８：
+            ・２つのIntをパラメータに受け取り、合算して、Intとして結果を返す関数
+            ・２つのIntをパラメータに受け取り、乗算して、Intとして結果を返す関数
+*/
+func addTwoInts(a: Int, b:Int) -&gt; Int {
+    return a + b
+}
+
+func multTwoInts(a: Int, b: Int) -&gt; Int {
+    return a * b
+}
+
+/*!
+@abstract   例１９：関数型の変数に代入された関数を実行している例。
+                「関数型」が同じであれば、関数を、「関数型の変数」に格納することができます。
+*/
+var someMathFunc: (Int, Int) -&gt; Int = multTwoInts
+
+someMathFunc(5,5)
+
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7F8C6877-36E9-4194-9503-82FFD40C982A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

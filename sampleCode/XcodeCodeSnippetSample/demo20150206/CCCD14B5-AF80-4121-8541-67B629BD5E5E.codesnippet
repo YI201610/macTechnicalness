@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>demo_15</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+* @abstract 例１５：可変個のパラメーターをもつ関数
+*/
+func 平均(someNumbers: Double...) -&gt; Double {
+    var total: Double = 0
+    
+    for a_number in someNumbers {
+        total += a_number
+    }
+    
+    return total / Double(someNumbers.count)
+}
+
+平均(1,2, 256.28, 3.14, 08, 81, 1348, 585,5)
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CCCD14B5-AF80-4121-8541-67B629BD5E5E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>demo0206</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
