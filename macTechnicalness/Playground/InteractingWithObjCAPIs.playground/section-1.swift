@@ -25,7 +25,7 @@ let someColor = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
 if let fileContents = NSString(contentsOfFile: "sampleText.md", encoding: NSUTF8StringEncoding, error: nil) {
     println(fileContents)
 }else{
-    println("The file is not available!")
+    print("The file is not available!")
 }
 
 
@@ -105,7 +105,7 @@ let myChar = myObj.characterAtIndex?(5)
             なので、その場面で得たoptional値は、下記のようにif-let文できちんと成功しているかチェックすることができる。
 */
 if let hogeChar = myObj.characterAtIndex?(1000) {
-    println("hogeChar: \(hogeChar)")
+    print("hogeChar: \(hogeChar)")
 }
 
 let userDefaults = NSUserDefaults.standardUserDefaults()
@@ -114,13 +114,13 @@ userDefaults.setValue(NSDate(), forKey: "lastRefreshDate")
 let lastRefreshDate: AnyObject? = userDefaults.objectForKey("lastRefreshDate")
 
 if let aDate = lastRefreshDate as? NSDate {
-    println("hoge: \(aDate.timeIntervalSinceReferenceDate)")
+    print("hoge: \(aDate.timeIntervalSinceReferenceDate)")
 }
 
 /*
 @abstract 　as演算子を使用して、メソッドの実行を強行する書き方もできる。
 */
-let myDate2 = lastRefreshDate as NSDate
+let myDate2 = lastRefreshDate as! NSDate
 let timeInterval = myDate2.timeIntervalSinceReferenceDate
 
 

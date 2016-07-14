@@ -43,13 +43,13 @@ func 中央値(ソース:Array<Int>) -> Float {
         /*
         @comment    偶数の場合
         */
-        var 候補IDX = Int(countOfSource/2)-1
-        var 候補IDX2 = 候補IDX+1
+        let 候補IDX = Int(countOfSource/2)-1
+        let 候補IDX2 = 候補IDX+1
         
-        var value1:Float = Float(ソース[候補IDX])
-        var value2:Float = Float(ソース[候補IDX2])
+        let value1:Float = Float(ソース[候補IDX])
+        let value2:Float = Float(ソース[候補IDX2])
         
-        var hoge:Float = (value1 + value2)/2
+        let hoge:Float = (value1 + value2)/2
 
         return hoge //Float(ソース[idx] + ソース[候補IDX2])
     }else{
@@ -71,12 +71,12 @@ func 中央値(ソース:Array<Int>) -> Float {
 */
 func 母集団の標準偏差(ソース:Array<Int>) -> Double {
     var sum1:Int32 = 0
-    var 平均値 = 平均(ソース)
+    let 平均値 = 平均(ソース)
     for value in ソース {
         let a = pow(Double(Double(value) - Double(平均値)), 2)
         sum1 += Int32(a)
     }
-    var hoge = Double(sum1)/Double(ソース.count)
+    let hoge = Double(sum1)/Double(ソース.count)
     return sqrt(hoge)
 }
 母集団の標準偏差(Aチーム得点)
@@ -89,13 +89,13 @@ func 母集団の標準偏差(ソース:Array<Int>) -> Double {
 */
 func 標本の標準偏差(ソース:Array<Int>) -> Double {
     var sum1:Int32 = 0
-    var 平均値 = 平均(ソース)
+    let 平均値 = 平均(ソース)
     for value in ソース {
         let a = pow(Double(Double(value) - Double(平均値)), 2)
         sum1 += Int32(a)
     }
-    var b = ソース.count - 1
-    var hoge = Double(sum1)/Double(b)
+    let b = ソース.count - 1
+    let hoge = Double(sum1)/Double(b)
     return sqrt(hoge)
 }
 標本の標準偏差(Aチーム得点)
@@ -106,7 +106,7 @@ func 標本の標準偏差(ソース:Array<Int>) -> Double {
 * @abstract 階級の個数を求める
 */
 func 階級の個数(個数:Int) -> Double {
-    var numOfData = 個数
+    let numOfData = 個数
     let elem1 = log10(Double(numOfData))
     let elem2 = log10(2.0)
 
@@ -123,20 +123,20 @@ func 階級の個数(個数:Int) -> Double {
 /*!
 * @abstract 階級の幅を求める
 */
-func 階級の幅(ソース:Array<Int>) -> Int {
-    let maxValue = Double(maxElement(ソース))
-    let minValue = Double(minElement(ソース))
-    let elem3 = 階級の個数(ソース.count)
-
-    var ret:Double = 0
-    
-    if(elem3 > 0) {
-        ret = (maxValue - minValue) / elem3
-    }
-    
-    return Int(ceil(ret))
-}
-階級の幅(Aチーム得点)
+//func 階級の幅(ソース:Array<Int>) -> Int {
+//    let maxValue = Double(maxElement(ソース))
+//    let minValue = Double(minElement(ソース))
+//    let elem3 = 階級の個数(ソース.count)
+//
+//    var ret:Double = 0
+//    
+//    if(elem3 > 0) {
+//        ret = (maxValue - minValue) / elem3
+//    }
+//    
+//    return Int(ceil(ret))
+//}
+//階級の幅(Aチーム得点)
 
 /*!
 @abstract   偏差値

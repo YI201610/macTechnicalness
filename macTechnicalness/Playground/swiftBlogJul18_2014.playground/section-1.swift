@@ -12,4 +12,4 @@ func assert(x : Bool) {
 }
 
 
-println(str)
+print(str)
