@@ -78,7 +78,7 @@ class Square : NamedShape {
     
     override func hogeAction() -> String {
         let a = "{\(name) square side length: \(sideLength)"
-        println(a)
+        print(a)
         return a
     }
 }
@@ -121,7 +121,7 @@ class EquilateralTriangle : NamedShape {
     
     override func hogeAction() -> String {
         var tmp: String = "{\(name) Equilateral Triangle with sides of length: \(sideLength)}"
-        println(tmp)
+        print(tmp)
         return tmp
     }
 }

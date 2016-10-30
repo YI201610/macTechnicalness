@@ -22,8 +22,8 @@ class iOSMTAutoLayoutCase4ViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didSelectBackButton(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func didSelectBackButton(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     

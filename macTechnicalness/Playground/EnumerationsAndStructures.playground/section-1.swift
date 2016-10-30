@@ -28,7 +28,7 @@ enum SampleEnumRanking: Int {
 
 let hoge = SampleEnumRanking.Two
 let gooo = hoge.toRaw() //Enum型から実値に変換
-println(hoge.toRaw())
+print(hoge.toRaw())
 
 let foo = SampleEnumRanking.hogeAction(hoge)
 

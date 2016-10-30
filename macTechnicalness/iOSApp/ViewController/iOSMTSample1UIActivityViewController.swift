@@ -37,7 +37,7 @@ class iOSMTSample1UIActivityViewController: UIViewController {
     }
     */
 
-    @IBAction func didSelectShowButton(sender: UIButton) {
+    @IBAction func didSelectShowButton(_ sender: UIButton) {
 
         let activityViewController = UIActivityViewController(activityItems: ["サンプルメッセージ"], applicationActivities: nil)
         
@@ -63,17 +63,17 @@ class iOSMTSample1UIActivityViewController: UIViewController {
         //            self.resultTextView.text = resultText
         //        }
         
-        activityViewController.completionWithItemsHandler = {(activityType, completed:Bool, returnedItems:[AnyObject]?, error: NSError?) in
-            
-            // Return if cancelled
-            if (!completed) {
-                return
-            }
-            
-            //activity complete
-            //some code here
-        }
-        self.presentViewController(activityViewController, animated: true, completion: nil)
+//        activityViewController.completionWithItemsHandler = {(activityType, completed:Bool, returnedItems:[AnyObject]?, error: NSError?) in
+//            
+//            // Return if cancelled
+//            if (!completed) {
+//                return
+//            }
+//            
+//            //activity complete
+//            //some code here
+//        }
+//        self.present(activityViewController, animated: true, completion: nil)
 
     }
     

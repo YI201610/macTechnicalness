@@ -4,7 +4,7 @@
 
 let str = "Hello, Test"
 
-println(str)
+print(str)
 
 let floatValue: Float = 7.014
 let explicitFloat: Float = 4

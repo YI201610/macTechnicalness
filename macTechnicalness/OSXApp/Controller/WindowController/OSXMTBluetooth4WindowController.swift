@@ -56,22 +56,22 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
         switch central.state {
             
         case CBCentralManagerState.Unknown:
-            println("***CBCentralManagerState: Unknown")
+            print("***CBCentralManagerState: Unknown")
             
         case CBCentralManagerState.Resetting:
-            println("***CBCentralManagerState: Resetting")
+            print("***CBCentralManagerState: Resetting")
             
         case CBCentralManagerState.Unsupported:
-            println("***CBCentralManagerState: Unsupported")
+            print("***CBCentralManagerState: Unsupported")
             
         case CBCentralManagerState.Unauthorized:
-            println("***CBCentralManagerState: Unauthorized")
+            print("***CBCentralManagerState: Unauthorized")
             
         case CBCentralManagerState.PoweredOff:
-            println("***CBCentralManagerState: PoweredOff")
+            print("***CBCentralManagerState: PoweredOff")
             
         case CBCentralManagerState.PoweredOn:
-            println("***CBCentralManagerState: PoweredOn")
+            print("***CBCentralManagerState: PoweredOn")
                         
             /*
             @comment    PoweredOnになってからスキャニングを開始する
@@ -96,10 +96,10 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
             }
         }
         
-        println("===============Peripheral SCANED======================")
-        println("BLE Device Name: \(peripheral)")
-        println("Ad: \(advertisementData)")
-        println("RSSI: \(RSSI)")
+        print("===============Peripheral SCANED======================")
+        print("BLE Device Name: \(peripheral)")
+        print("Ad: \(advertisementData)")
+        print("RSSI: \(RSSI)")
         
         self.peripheralArray.append(peripheral)
         
@@ -115,7 +115,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
     */
     func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!)
     {
-        println("[\(peripheral.name)]ペリフェラルに接続しました。")
+        print("[\(peripheral.name)]ペリフェラルに接続しました。")
         
         /*
         @comment    サービスの検索を開始する
@@ -135,7 +135,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
     */
     func centralManager(central: CBCentralManager!, didFailToConnectPeripheral peripheral: CBPeripheral!, error: NSError!)
     {
-        println("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
+        print("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
     }
     
     //--------------------------------------------
@@ -152,7 +152,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
         @comment    ペリフェラルのサービスを列挙する
         */
         for service in serviceArray {
-            println("*[\(peripheral)] service: \(service.debugDescription)")
+            print("*[\(peripheral)] service: \(service.debugDescription)")
             
             /*
             @comment    キャラクタリスティックの検索を開始する
@@ -172,7 +172,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
         for characteristic in characteristicArray {
             
             if let obj = characteristic as? CBCharacteristic {
-                println("***{\(obj)}(\(peripheral.name))")
+                print("***{\(obj)}(\(peripheral.name))")
                 
                 /*
                 @comment    キャラクタリスティックを読み出し専用かを判定
@@ -207,17 +207,17 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
     @abstract   キャラクタリスティックの読み出しが完了した
     */
     func peripheral(peripheral: CBPeripheral!, didUpdateValueForCharacteristic characteristic: CBCharacteristic!, error: NSError!) {
-        println("-----------READ: Characteristic Data [\(peripheral.name)]--------------")
+        print("-----------READ: Characteristic Data [\(peripheral.name)]--------------")
     
         let serviceUUID: NSString = characteristic.service.UUID.UUIDString
         let characteristicUUID: NSString = characteristic.UUID.UUIDString
         let readValue: NSData? = characteristic.value()
         let characteristicDescription: NSString = characteristic.description
         
-        println("- Service UUID: \(serviceUUID)")
-        println("- Characteristic UUID: \(characteristicUUID)")
-        println("- Description: \(characteristicDescription)")
-        println("- Read value: \(readValue)")
+        print("- Service UUID: \(serviceUUID)")
+        print("- Characteristic UUID: \(characteristicUUID)")
+        print("- Description: \(characteristicDescription)")
+        print("- Read value: \(readValue)")
     
     }
     
@@ -226,7 +226,7 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
     // MARK: キーダウンイベント
     override func keyDown(theEvent: NSEvent) {
         
-        println("===============current state===================")
+        print("===============current state===================")
         /*
         @comment
         */
@@ -236,13 +236,13 @@ class OSXMTBluetooth4WindowController: NSWindowController, CBCentralManagerDeleg
                 
                 
             case CBPeripheralState.Disconnected:
-                println("peripheral[\(peripheralObject.name)]: Disconnected.")
+                print("peripheral[\(peripheralObject.name)]: Disconnected.")
                 
             case CBPeripheralState.Connecting:
-                println("peripheral[\(peripheralObject.name)]: Connecting...")
+                print("peripheral[\(peripheralObject.name)]: Connecting...")
                 
             case CBPeripheralState.Connected:
-                println("peripheral[\(peripheralObject.name)]: Connected.")
+                print("peripheral[\(peripheralObject.name)]: Connected.")
                 
             }
         }

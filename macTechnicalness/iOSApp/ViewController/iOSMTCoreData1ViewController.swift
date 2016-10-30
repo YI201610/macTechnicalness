@@ -23,7 +23,7 @@ class iOSMTCoreData1ViewController: UIViewController {
         /*
         @comment    NSManagedObjectModelのURLを取得
         */
-        let momdURL =  NSBundle.mainBundle().URLForResource("iOSMTCoreData1", withExtension: "momd");
+        let momdURL =  Bundle.main.url(forResource: "iOSMTCoreData1", withExtension: "momd");
         print("momdURL: \(momdURL?.absoluteString)")
         self.textView1.text = momdURL?.absoluteString
 
@@ -33,7 +33,7 @@ class iOSMTCoreData1ViewController: UIViewController {
         /*
         @comment    NSManagedObjectModelを読み込む
         */
-        let managedObjectModel = NSManagedObjectModel(contentsOfURL: momdURL!)
+        let managedObjectModel = NSManagedObjectModel(contentsOf: momdURL!)
         print("managedObjectModel: \(managedObjectModel)")
         self.textView2.text = managedObjectModel?.description
 
@@ -46,22 +46,22 @@ class iOSMTCoreData1ViewController: UIViewController {
         let storeCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel!)
         print("storeCoordinator: \(storeCoordinator)")
         
-        let someQueue: dispatch_queue_t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-        dispatch_async(someQueue, {
+        let someQueue: DispatchQueue = DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.default)
+        someQueue.async(execute: {
             
             print("非同期で、persistentStoreを初期化中...")
         
-            let fileManager: NSFileManager = NSFileManager.defaultManager()
-            let directoryArray: NSArray = fileManager.URLsForDirectory(NSSearchPathDirectory.DocumentDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask)
+            let fileManager: FileManager = FileManager.default
+            let directoryArray: NSArray = fileManager.urls(for: FileManager.SearchPathDirectory.documentDirectory, in: FileManager.SearchPathDomainMask.userDomainMask) as NSArray
             
-            var storeURL: NSURL? = nil
-            storeURL = directoryArray.lastObject! as? NSURL
-            storeURL = storeURL?.URLByAppendingPathComponent("iOSMTCoreData1.sqlite")
+            var storeURL: URL? = nil
+            storeURL = directoryArray.lastObject! as? URL
+            storeURL = storeURL?.appendingPathComponent("iOSMTCoreData1.sqlite")
             
             var error: NSError? = nil
             var persistentStore: NSPersistentStore?
             do {
-                persistentStore = try storeCoordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: storeURL, options: nil)
+                persistentStore = try storeCoordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
             } catch let error1 as NSError {
                 error = error1
                 persistentStore = nil
@@ -73,7 +73,7 @@ class iOSMTCoreData1ViewController: UIViewController {
                 print("error: \(error?.localizedDescription), userInfo: \(error?.userInfo)")
             }
             
-            dispatch_sync(dispatch_get_main_queue(), {
+            DispatchQueue.main.sync(execute: {
                 self.didFinishPersistentStoreInitialization()
             })
         })

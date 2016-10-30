@@ -20,7 +20,7 @@ class iOSMTSample20150720CollectionViewCell: UICollectionViewCell {
 //        super.awakeFromNib()
 //        // Initialization code
 //        
-//        println("*collection view cell, awakeFromNib()...")
+//        print("*collection view cell, awakeFromNib()...")
 //    }
 
 }

@@ -9,7 +9,7 @@
 import UIKit
 
 protocol iOSMTSample1ContainerViewControllerDelegate{
-    func pageChanged(index: Int)
+    func pageChanged(_ index: Int)
 }
 
 class iOSMTSample1ContainerViewController: UIViewController {
@@ -25,7 +25,7 @@ class iOSMTSample1ContainerViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.pageControl.currentPage = 0
         self.pageControl.numberOfPages = 4
-        self.pageControl.targetForAction("pageChanged:", withSender: self)
+        self.pageControl.target(forAction: #selector(iOSMTSample1ContainerViewController.pageChanged(_:)), withSender: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,10 +38,10 @@ class iOSMTSample1ContainerViewController: UIViewController {
 //
 //     In a storyboard-based application, you will often want to do a little preparation before navigation
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
         if segue.identifier == "hogeSegue" {
-            self.pageViewController = segue.destinationViewController as! iOSMTSample1UIPageViewController
+            self.pageViewController = segue.destination as! iOSMTSample1UIPageViewController
             
             print(self.pageViewController)
             
@@ -53,7 +53,7 @@ class iOSMTSample1ContainerViewController: UIViewController {
 //         Pass the selected object to the new view controller.
     }
 
-    internal func pageChanged(index: Int) {
+    internal func pageChanged(_ index: Int) {
         print("***pageChanged!! - \(index)")
         self.pageControl.currentPage = index
     }

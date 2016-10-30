@@ -27,7 +27,7 @@ func combination(n: Int, r: Int) -> Int {
 
 let r = 3
 for n in 1...10 {
-    var y = combination(n, r)
+    var y = combination(n, r: r)
     y
 }
 
@@ -38,7 +38,7 @@ for n in 1...10 {
 func visualization<T>(data: [T], title: String){
     for x in data {
         x
-        XCPCaptureValue(title, x)
+        XCPCaptureValue(title, value: x)
     }
 }
 
@@ -52,7 +52,7 @@ for i in 0..<10 {
     data.append(tmp)
     
     //データに乱数が格納されてゆく様を、可視化する
-    visualization(data, "経過:\(i)")
+    visualization(data, title: "経過:\(i)")
 }
 data
 

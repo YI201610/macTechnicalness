@@ -12,7 +12,7 @@ for score in individualScores {
     if score > 50 {
         teamScore += 3
     }else{
-        teamScore++
+        teamScore += 1
     }
     
 }
@@ -104,7 +104,7 @@ n
 //***************************************
 var m = 2
 
-do {
+repeat {
     m *= 2
 }while m < 200
 m
@@ -122,7 +122,7 @@ firstForRoop
 
 
 var secondForRoop = 0
-for var i = 0; i < 3; ++i {
+for i in 0 ..< 3 {
     secondForRoop += 1
 }
 secondForRoop

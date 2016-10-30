@@ -26,13 +26,13 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
     }
 
     
-    override func viewDidAppear(animated: Bool) {
-        let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
+    override func viewDidAppear(_ animated: Bool) {
+        let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize
         print("[did]contentSize: \(contentSize)")
     }
     
-    override func viewWillAppear(animated: Bool) {
-        let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize()
+    override func viewWillAppear(_ animated: Bool) {
+        let contentSize = self.collectionView?.collectionViewLayout.collectionViewContentSize
         print("[will]contentSize: \(contentSize)")
     }
     
@@ -53,27 +53,27 @@ class iOSMTSample20150720CollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    override func numberOfSections(in collectionView: UICollectionView) -> Int {
         //#warning Incomplete method implementation -- Return the number of sections
         return 1
     }
 
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
         return 23
     }
 
-    func configureCell(cell: iOSMTSample20150720CollectionViewCell, atIndexPath: NSIndexPath)
+    func configureCell(_ cell: iOSMTSample20150720CollectionViewCell, atIndexPath: IndexPath)
     {
         cell.someLabel.text = "画像" + String(atIndexPath.row+1)
         cell.someImage.image = UIImage(named: "startPDFstar")
     }
     
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier,
-            forIndexPath: indexPath) as! iOSMTSample20150720CollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
+            for: indexPath) as! iOSMTSample20150720CollectionViewCell
     
         // Configure the cell
         self.configureCell(cell, atIndexPath: indexPath)

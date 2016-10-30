@@ -34,7 +34,7 @@ public class ListItem {
     */
 }
 
-println(str)
+print(str)
 
 
 

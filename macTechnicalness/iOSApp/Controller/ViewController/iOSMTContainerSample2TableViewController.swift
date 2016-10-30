@@ -48,7 +48,7 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
     
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         return 1
@@ -57,7 +57,7 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
     /**
         各コンテナビューコントローラーの高さを計算する
     */
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 
         var heightValue:CGFloat = 50
         
@@ -75,15 +75,15 @@ class iOSMTContainerSample2TableViewController: UITableViewController {
     // MARK: - Segue
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
         if segue.identifier == "sub1ViewController" {
-            self.sub1ViewController = segue.destinationViewController as? iOSMTContainerSample2Sub1ViewController
+            self.sub1ViewController = segue.destination as? iOSMTContainerSample2Sub1ViewController
         } else if segue.identifier == "sub2ViewController" {
-            self.sub2ViewController = segue.destinationViewController as? iOSMTMultiTableViewController
+            self.sub2ViewController = segue.destination as? iOSMTMultiTableViewController
         }
         
         

@@ -36,7 +36,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         
         self.dataSource = self
         
-        var startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
+        let startVC = self.viewControllerAtIndex(0) as iOSMTSome1ContentViewController
         var viewControllers = NSArray(object: startVC)
         
 //        self.setViewControllers(self.viewControllers, direction: .Forward, animated: true, completion: nil)
@@ -48,7 +48,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         // Dispose of any resources that can be recreated.
     }
 
-    func viewControllerAtIndex(index: Int) -> iOSMTSome1ContentViewController
+    func viewControllerAtIndex(_ index: Int) -> iOSMTSome1ContentViewController
     {
         if index >= self.imageNameStringArray.count {
             return iOSMTSome1ContentViewController()
@@ -57,7 +57,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
         /**
             storyboardからコンテナビューコントローラーのインスタンスを取得する
         */
-        let contentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! iOSMTSome1ContentViewController
+        let contentViewController = self.storyboard?.instantiateViewController(withIdentifier: "ContentViewController") as! iOSMTSome1ContentViewController
         
         contentViewController.pageIndexValue = index
         contentViewController.imageNameString = self.imageNameStringArray[index] as! String
@@ -72,13 +72,13 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
     /**
     前ページを返す
     */
-    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController?
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
         
         let vc = viewController as! iOSMTSome1ContentViewController
         var index = vc.pageIndexValue as Int
         
-        if (self.pageControlDelegate?.respondsToSelector(Selector("pageChanged:")) != nil) {
+        if (self.pageControlDelegate?.responds(to: Selector("pageChanged:")) != nil) {
             self.pageControlDelegate?.pageChanged(index)
         }
         
@@ -88,7 +88,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
             
         }
         
-        index--
+        index -= 1
         
 
 
@@ -99,12 +99,12 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
     /**
     次ページを返す
     */
-    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
         let vc = viewController as! iOSMTSome1ContentViewController
         var index = vc.pageIndexValue as Int
 
-        if (self.pageControlDelegate?.respondsToSelector(Selector("pageChanged:")) != nil) {
+        if (self.pageControlDelegate?.responds(to: Selector("pageChanged:")) != nil) {
             self.pageControlDelegate?.pageChanged(index)
         }
         
@@ -114,7 +114,7 @@ class iOSMTSample1UIPageViewController: UIPageViewController, UIPageViewControll
             return nil
         }
         
-        index++
+        index += 1
         
         if (index == self.imageNameStringArray.count)
         {

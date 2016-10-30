@@ -114,7 +114,7 @@ struct TimesTable {
         @comment    システムが提供してくれる、デフォルトのsetter入力パラメータ名は、newValue
         */
         set {
-            println("newValue: \(newValue), hogeElement: \(self.hogeElement)")
+            print("newValue: \(newValue), hogeElement: \(self.hogeElement)")
             hogeElement *= (newValue+100)
         }
     }
@@ -150,7 +150,7 @@ var ３倍テーブル = TimesTable(multiplier: 3, hogeElement: 5)
 /*
 @comment    サブスクリプトを介して値を取得
 */
-println("6の３倍は、\(３倍テーブル[6])")     //
+print("6の３倍は、\(３倍テーブル[6])")     //
 ３倍テーブル.hogeElement
 
 /*

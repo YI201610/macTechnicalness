@@ -8,17 +8,17 @@
 
 import Foundation
 
-@objc public class MTMSomeDomainEntity: NSObject {
+@objc open class MTMSomeDomainEntity: NSObject {
 
-    public var x: Float = 0
-    public var y: Float = 0
-    public var width: Float = 0
-    public var height: Float = 0
+    open var x: Float = 0
+    open var y: Float = 0
+    open var width: Float = 0
+    open var height: Float = 0
     
     /*!
     @abstract
     */
-    public func hogeOutput() -> Float {
+    open func hogeOutput() -> Float {
         print("this is swift mix and match test...")
         return x + width + y + height
     }
@@ -27,7 +27,7 @@ import Foundation
     /*!
     @abstract
     */
-    public func sampleTextString() -> String {
+    open func sampleTextString() -> String {
         return "このメッセージはSwiftクラスで実装されました。"
     }
 

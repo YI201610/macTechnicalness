@@ -23,7 +23,7 @@ let someColor = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
 @abstract   失敗する可能性がある初期化処理
 */
 if let fileContents = NSString(contentsOfFile: "sampleText.md", encoding: NSUTF8StringEncoding, error: nil) {
-    println(fileContents)
+    print(fileContents)
 }else{
     print("The file is not available!")
 }

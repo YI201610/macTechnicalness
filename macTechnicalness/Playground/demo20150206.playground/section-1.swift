@@ -6,6 +6,6 @@ func sayHello(personName: String) -> String {
     return greeting
 }
 
-println(sayHello("テスト"))
-println(sayHello("iOS"))
+print(sayHello("テスト"))
+print(sayHello("iOS"))
 

@@ -20,5 +20,5 @@ let a1 = repeat("knock", 4)
 
 let a2 = repeat(3.14, 50)
 
-println(a1)
-println(a2)
+print(a1)
+print(a2)

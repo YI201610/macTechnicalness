@@ -38,18 +38,18 @@ let 求人コード = "あいうえお"
 let 業務ID = "日本語を使用することができます"
 業務ID
 
-println(業務ID)
-println("This is println() String...")
-println("出力テスト")
+print(業務ID)
+print("This is print() String...")
+print("出力テスト")
 
-println("from Macbook Pro")
+print("from Macbook Pro")
 
 
 /************************************
 コメント記述。
 ************************************/
 let dog = "🐶"
-println(dog)
+print(dog)
 
 let minValue = UInt8.min
 let maxValue = UInt8.max

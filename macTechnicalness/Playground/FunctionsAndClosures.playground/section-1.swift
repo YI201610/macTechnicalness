@@ -12,7 +12,7 @@ import Cocoa
 func greet(name:String, day:String) -> String {
     return "Hello \(name), today is \(day)."
 }
-println(greet("Yuji Imamura", "good day!"))
+print(greet("Yuji Imamura", "good day!"))
 
 /*!
 @abstract　ガス料金を返す
@@ -123,7 +123,7 @@ Use in to separate the arguments and return type from the body.
 someNumbers.map({
     (number: Int) -> Int in
     let result = 3 * number
-    println(result)
+    print(result)
     return result
 })
 

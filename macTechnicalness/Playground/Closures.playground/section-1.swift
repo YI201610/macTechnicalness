@@ -96,7 +96,7 @@ reversed = sorted(names, <)
 */
 func someFunctionThatTakesAClosure(closure: () -> String) {
     // function body goes here
-    println("クロージャを受け取る関数を実行した結果: " + closure())
+    print("クロージャを受け取る関数を実行した結果: " + closure())
 }
 
 

@@ -15,10 +15,10 @@ var ほげほげほげ: Int?
 ほげほげほげ = nil
 
 var str = "Hello, playground"
-println("str: \(str)")
+print("str: \(str)")
 
 print(str)
-println(str)
+print(str)
 
 
 var data0 = [12, 53, 15, 68, 46, 7, 0, 12, 36, 12, 744, 100, 50, 44, 43, 85]

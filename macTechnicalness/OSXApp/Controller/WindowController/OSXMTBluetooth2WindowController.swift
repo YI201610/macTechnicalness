@@ -47,22 +47,22 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
         switch central.state {
             
         case CBCentralManagerState.Unknown:
-            println("***CBCentralManagerState: Unknown")
+            print("***CBCentralManagerState: Unknown")
             
         case CBCentralManagerState.Resetting:
-            println("***CBCentralManagerState: Resetting")
+            print("***CBCentralManagerState: Resetting")
             
         case CBCentralManagerState.Unsupported:
-            println("***CBCentralManagerState: Unsupported")
+            print("***CBCentralManagerState: Unsupported")
             
         case CBCentralManagerState.Unauthorized:
-            println("***CBCentralManagerState: Unauthorized")
+            print("***CBCentralManagerState: Unauthorized")
             
         case CBCentralManagerState.PoweredOff:
-            println("***CBCentralManagerState: PoweredOff")
+            print("***CBCentralManagerState: PoweredOff")
             
         case CBCentralManagerState.PoweredOn:
-            println("***CBCentralManagerState: PoweredOn")
+            print("***CBCentralManagerState: PoweredOn")
 
             /*
             @comment    PoweredOnになってからスキャニングを開始する
@@ -87,10 +87,10 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
             }
         }
 
-        println("===============Peripheral SCANED======================")
-        println("BLE Device Name: \(peripheral)")
-        println("Ad: \(advertisementData)")
-        println("RSSI: \(RSSI)")
+        print("===============Peripheral SCANED======================")
+        print("BLE Device Name: \(peripheral)")
+        print("Ad: \(advertisementData)")
+        print("RSSI: \(RSSI)")
         
         peripheral.delegate = self
         self.peripheralArray.append(peripheral)
@@ -107,7 +107,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     */
     func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!)
     {
-        println("[\(peripheral.name)]ペリフェラルに接続しました。")
+        print("[\(peripheral.name)]ペリフェラルに接続しました。")
  
         /*
         @comment    接続を解除する
@@ -120,7 +120,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     */
     func centralManager(central: CBCentralManager!, didFailToConnectPeripheral peripheral: CBPeripheral!, error: NSError!)
     {
-        println("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
+        print("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
     }
     
     //--------------------------------------------

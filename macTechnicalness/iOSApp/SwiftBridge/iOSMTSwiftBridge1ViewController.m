@@ -40,12 +40,12 @@
 
 - (IBAction)didSelectSwiftCodeButton:(id)sender {
 
-    MTMSomeDomainEntity* a = [MTMSomeDomainEntity new];
-    a.x = 5555;
-    a.y = 10555;
-    a.width = 128555;
-    a.height = 256555;
-    debugout(@"hoge Action: %f", [a hogeOutput]);
+//    MTMSomeDomainEntity* a = [MTMSomeDomainEntity new];
+//    a.x = 5555;
+//    a.y = 10555;
+//    a.width = 128555;
+//    a.height = 256555;
+//    debugout(@"hoge Action: %f", [a hogeOutput]);
 
 }
 

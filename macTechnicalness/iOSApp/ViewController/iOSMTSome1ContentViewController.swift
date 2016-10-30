@@ -18,7 +18,7 @@ class iOSMTSome1ContentViewController: UIViewController {
     /**
         画像
     */
-    @IBOutlet private weak var imageView: UIImageView!
+    @IBOutlet fileprivate weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,7 @@ class iOSMTSome1ContentViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("*imageName: \(self.imageNameString)")
         self.imageView.image = UIImage(named: self.imageNameString)
-        self.imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        self.imageView.contentMode = UIViewContentMode.scaleAspectFit
     }
 
     override func didReceiveMemoryWarning() {

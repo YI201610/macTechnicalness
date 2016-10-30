@@ -21,10 +21,10 @@ class iOSMTSomeStateButton: UIButton {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        self.exclusiveTouch = true
+        self.isExclusiveTouch = true
     }
     
-    func changeState(nextState: UIControlState) {
+    func changeState(_ nextState: UIControlState) {
         
         /*
         @comment
@@ -38,14 +38,14 @@ class iOSMTSomeStateButton: UIButton {
 
         */
         switch nextState {
-        case UIControlState.Selected:
-            self.selected = true
+        case UIControlState.selected:
+            self.isSelected = true
             self.backgroundColor = UIColor(red: 254/255.0, green:194/255.0, blue: 11/255.0, alpha:1)
             break
             
         default:
-            self.selected = false
-            self.backgroundColor = UIColor.lightGrayColor()
+            self.isSelected = false
+            self.backgroundColor = UIColor.lightGray
             break
         }
         

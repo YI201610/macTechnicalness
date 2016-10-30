@@ -30,15 +30,15 @@ func sayHello(personName: String) -> String {
     return greeting
 }
 
-println(sayHello("テスト"))
-println(sayHello("iOS"))
+print(sayHello("テスト"))
+print(sayHello("iOS"))
 
 
 func sayHelloAgain(personName: String) -> String {
     return "Hello, again, " + personName + "!"
 }
 
-println(sayHelloAgain("ほげアプリ"))
+print(sayHelloAgain("ほげアプリ"))
 
 
 
@@ -54,7 +54,7 @@ func ２点間の距離(start: Int, end:Int) -> Int {
     return end - start
 }
 
-println(２点間の距離(234, 1000))
+print(２点間の距離(234, 1000))
 
 
 //Functions Without Parameters: パラメータをもたない関数
@@ -68,13 +68,13 @@ sayHelloWorld()
 //Functions Without Return Values: 戻り値がない関数
 
 func sayGoodbye(personName: String) {
-    println("Goodbye, \(personName)")
+    print("Goodbye, \(personName)")
 }
 sayGoodbye("サンプルさん")
 
 //The return value of a function can be ignored when it is called.
 func printAndCount(someString: String) -> Int {
-    println(someString)
+    print(someString)
     return count(someString)
 }
 printAndCount("ほげほげ")
@@ -116,8 +116,8 @@ func minAndMax(someArray: [Int]) -> (min: Int, max: Int) {
 }
 
 let minMaxResult = minAndMax([10, 20, 13, 125, 265, 28282, -2])
-println(minMaxResult.min)   //最小値
-println(minMaxResult.max)   //最大値
+print(minMaxResult.min)   //最小値
+print(minMaxResult.max)   //最大値
 
 
 //Optional Tuple Return Types: nilかもしれないタプルを返す関数
@@ -152,13 +152,13 @@ func minAndMax2(someArray: [Int]) -> (min: Int, max: Int)? {
 }
 
 if let result2 = minAndMax2([85, 365, 12, 8, -16, 256, 128, 16]) {
-    println("min: \(result2.min), max: \(result2.max)")
+    print("min: \(result2.min), max: \(result2.max)")
 }
 
 if let result3 = minAndMax2([5, 365, 12, 8, -16, 256, 128, 16]) {
-    println("min: \(result3.min), max: \(result3.max)")
+    print("min: \(result3.min), max: \(result3.max)")
 }else{
-    println("nilが返された!")
+    print("nilが返された!")
 }
 
 
@@ -315,7 +315,7 @@ var bbbbFunc = addTwoInts
 
 //Function Types as Parameter Types: パラメータの型としての、関数型
 func 計算結果を出力する(mathFunction:(Int,Int)->Int, a:Int, b:Int) {
-    println("計算結果: \(mathFunction(a,b))")
+    print("計算結果: \(mathFunction(a,b))")
 }
 計算結果を出力する(bbbbFunc, 10, 20)
 
@@ -342,7 +342,7 @@ let 何かの計算結果 = 関数を選択する(someValue > 25)   //わざと�
 */
 while someValue != 0 {
     someValue = 何かの計算結果(someValue)
-    println(someValue)
+    print(someValue)
 }
 
 

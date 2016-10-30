@@ -4,4 +4,4 @@ import Cocoa
 
 var str = "Hello, playground"
 
-println(str)
+print(str)
