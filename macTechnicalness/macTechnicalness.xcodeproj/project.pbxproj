@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		390B54702072C5DB009CBD24 /* Verification20180403ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */; };
 		390B54742072C825009CBD24 /* Verification20180403ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B54732072C825009CBD24 /* Verification20180403ViewController.m */; };
+		390B54762072C978009CBD24 /* Popup20180403View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390B54752072C978009CBD24 /* Popup20180403View.xib */; };
 		740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
@@ -418,6 +419,7 @@
 		390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Verification20180403ViewController.storyboard; path = Storyboard/Verification20180403ViewController.storyboard; sourceTree = "<group>"; };
 		390B54722072C825009CBD24 /* Verification20180403ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Verification20180403ViewController.h; path = UIKit/Verification20180403ViewController.h; sourceTree = "<group>"; };
 		390B54732072C825009CBD24 /* Verification20180403ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Verification20180403ViewController.m; path = UIKit/Verification20180403ViewController.m; sourceTree = "<group>"; };
+		390B54752072C978009CBD24 /* Popup20180403View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Popup20180403View.xib; path = View/Popup20180403View.xib; sourceTree = "<group>"; };
 		74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapSceneSampleInterfaceController.h; sourceTree = "<group>"; };
 		74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMapSceneSampleInterfaceController.m; sourceTree = "<group>"; };
 		740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewController.h; path = Controller/ViewController/iOSMTTopViewController.h; sourceTree = "<group>"; };
@@ -1630,6 +1632,7 @@
 				EC5D4C071A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib */,
 				ECA1FB4A1AFEFE6300704134 /* iOSMTSpriteKitBasicsMultiSKAction1ViewController.xib */,
 				ECE84FDC1AFF3C4D00907EAF /* iOSMTSKBasicsTransition1ViewController.xib */,
+				390B54752072C978009CBD24 /* Popup20180403View.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -2336,6 +2339,7 @@
 				EC7F17501B5D10F4006917E3 /* iOSMTSample20150720CollectionViewController.storyboard in Resources */,
 				EC5D4C0A1A3DC3AD0058C078 /* iOSMTDemystifyAutoLayout1ViewController.xib in Resources */,
 				ECE84FEA1AFF453700907EAF /* Transition2.sks in Resources */,
+				390B54762072C978009CBD24 /* Popup20180403View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
