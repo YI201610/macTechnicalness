@@ -40,32 +40,32 @@ class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDeleg
     // =========================================================================
     // MARK: CBCentralManagerDelegate
     
-    func centralManagerDidUpdateState(central: CBCentralManager!) {
+    func centralManagerDidUpdateState(_ central: CBCentralManager!) {
         
         switch central.state {
             
-        case CBCentralManagerState.Unknown:
+        case CBCentralManagerState.unknown:
             print("***CBCentralManagerState: Unknown")
             
-        case CBCentralManagerState.Resetting:
+        case CBCentralManagerState.resetting:
             print("***CBCentralManagerState: Resetting")
             
-        case CBCentralManagerState.Unsupported:
+        case CBCentralManagerState.unsupported:
             print("***CBCentralManagerState: Unsupported")
             
-        case CBCentralManagerState.Unauthorized:
+        case CBCentralManagerState.unauthorized:
             print("***CBCentralManagerState: Unauthorized")
             
-        case CBCentralManagerState.PoweredOff:
+        case CBCentralManagerState.poweredOff:
             print("***CBCentralManagerState: PoweredOff")
             
-        case CBCentralManagerState.PoweredOn:
+        case CBCentralManagerState.poweredOn:
             print("***CBCentralManagerState: PoweredOn")
             
             /*
             @comment    PoweredOnになってからスキャニングを開始する
             */
-            self.centralManager.scanForPeripheralsWithServices(nil, options: nil)
+            self.centralManager.scanForPeripherals(withServices: nil, options: nil)
             
         }
     }
@@ -73,9 +73,9 @@ class OSXMTBlueTooth1WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract   スキャン中、ペリフェラルを発見した
     */
-    func centralManager(central: CBCentralManager!,
+    func centralManager(_ central: CBCentralManager!,
         didDiscoverPeripheral peripheral: CBPeripheral!,
-        advertisementData: [NSObject : AnyObject]!,
+        advertisementData: [AnyHashable: Any]!,
         RSSI: NSNumber!)
     {
         print("===============Peripheral SCANED======================")

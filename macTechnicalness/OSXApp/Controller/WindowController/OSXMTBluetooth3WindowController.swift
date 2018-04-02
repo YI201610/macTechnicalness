@@ -37,7 +37,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     //--------------------------------------------
     // MARK: NSWindowDelegate
     
-    func windowWillClose(notification: NSNotification) {
+    func windowWillClose(_ notification: Notification) {
         
         /*
         @comment    スキャンを停止する
@@ -51,32 +51,32 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract   セントラル・マネージャーの状態が変化した
     */
-    func centralManagerDidUpdateState(central: CBCentralManager!) {
+    func centralManagerDidUpdateState(_ central: CBCentralManager!) {
         
         switch central.state {
             
-        case CBCentralManagerState.Unknown:
+        case CBCentralManagerState.unknown:
             print("***CBCentralManagerState: Unknown")
             
-        case CBCentralManagerState.Resetting:
+        case CBCentralManagerState.resetting:
             print("***CBCentralManagerState: Resetting")
             
-        case CBCentralManagerState.Unsupported:
+        case CBCentralManagerState.unsupported:
             print("***CBCentralManagerState: Unsupported")
             
-        case CBCentralManagerState.Unauthorized:
+        case CBCentralManagerState.unauthorized:
             print("***CBCentralManagerState: Unauthorized")
             
-        case CBCentralManagerState.PoweredOff:
+        case CBCentralManagerState.poweredOff:
             print("***CBCentralManagerState: PoweredOff")
             
-        case CBCentralManagerState.PoweredOn:
+        case CBCentralManagerState.poweredOn:
             print("***CBCentralManagerState: PoweredOn")
             
             /*
             @comment    PoweredOnになってからスキャニングを開始する
             */
-            centralObject.scanForPeripheralsWithServices(nil, options: nil)
+            centralObject.scanForPeripherals(withServices: nil, options: nil)
             print("scanning peripheral...")
         }
     }
@@ -84,7 +84,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract   スキャン中、ペリフェラルを発見した
     */
-    func centralManager(central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [NSObject : AnyObject]!, RSSI: NSNumber!)
+    func centralManager(_ central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [AnyHashable: Any]!, RSSI: NSNumber!)
     {
         
         /*
@@ -107,13 +107,13 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
         @comment    ペリフェラルに接続する
         */
         peripheral.delegate = self
-        self.centralObject.connectPeripheral(peripheral, options: nil)
+        self.centralObject.connect(peripheral, options: nil)
     }
     
     /*!
     @abstract
     */
-    func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!)
+    func centralManager(_ central: CBCentralManager!, didConnect peripheral: CBPeripheral!)
     {
         print("[\(peripheral.name)]ペリフェラルに接続しました。")
 
@@ -133,7 +133,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract
     */
-    func centralManager(central: CBCentralManager!, didFailToConnectPeripheral peripheral: CBPeripheral!, error: NSError!)
+    func centralManager(_ central: CBCentralManager!, didFailToConnect peripheral: CBPeripheral!, error: Error!)
     {
         print("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
     }
@@ -144,7 +144,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract   サービスが見つかった
     */
-    func peripheral(peripheral: CBPeripheral!, didDiscoverServices error: NSError!) {
+    func peripheral(_ peripheral: CBPeripheral!, didDiscoverServices error: Error!) {
         
         let serviceArray: NSArray = peripheral.services
         
@@ -152,12 +152,12 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
         @comment    ペリフェラルのサービスを列挙する
         */
         for service in serviceArray {
-            print("*[\(peripheral)] service: \(service.debugDescription)")
+            print("*[\(peripheral)] service: \((service as AnyObject).debugDescription)")
             
             /*
             @comment    キャラクタリスティックの検索を開始する
             */
-            peripheral.discoverCharacteristics(nil, forService: service as! CBService)
+            peripheral.discoverCharacteristics(nil, for: service as! CBService)
         }
     }
     
@@ -165,7 +165,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract
     */
-    func peripheral(peripheral: CBPeripheral!, didDiscoverCharacteristicsForService service: CBService!, error: NSError!) {
+    func peripheral(_ peripheral: CBPeripheral!, didDiscoverCharacteristicsFor service: CBService!, error: Error!) {
         
         let characteristicArray: NSArray = service.characteristics
         
@@ -182,7 +182,7 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
     
     //--------------------------------------------
     // MARK: キーダウンイベント
-    override func keyDown(theEvent: NSEvent) {
+    override func keyDown(with theEvent: NSEvent) {
 
         print("===============current state===================")
         /*
@@ -193,13 +193,13 @@ class OSXMTBluetooth3WindowController: NSWindowController, CBCentralManagerDeleg
             switch peripheralObject.state {
                 
                 
-            case CBPeripheralState.Disconnected:
+            case CBPeripheralState.disconnected:
                 print("peripheral[\(peripheralObject.name)]: Disconnected.")
                 
-            case CBPeripheralState.Connecting:
+            case CBPeripheralState.connecting:
                 print("peripheral[\(peripheralObject.name)]: Connecting...")
                 
-            case CBPeripheralState.Connected:
+            case CBPeripheralState.connected:
                 print("peripheral[\(peripheralObject.name)]: Connected.")
                 
             }

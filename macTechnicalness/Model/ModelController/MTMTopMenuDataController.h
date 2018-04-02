@@ -36,7 +36,7 @@
 - (MTMTopMenuEntity*) itemForSection:(NSString*)section index:(NSInteger)indexValue;
 
 /*!
- @abstract  行に相当する項目を返す
+ @abstract  行に相当する項目を返す(macOS用)
  */
 - (MTMTopMenuEntity*) itemForRow:(NSInteger)rowValue;
 

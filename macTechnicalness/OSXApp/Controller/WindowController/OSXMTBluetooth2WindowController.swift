@@ -42,32 +42,32 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract   セントラル・マネージャーの状態が変化した
     */
-    func centralManagerDidUpdateState(central: CBCentralManager!) {
+    func centralManagerDidUpdateState(_ central: CBCentralManager!) {
 
         switch central.state {
             
-        case CBCentralManagerState.Unknown:
+        case CBCentralManagerState.unknown:
             print("***CBCentralManagerState: Unknown")
             
-        case CBCentralManagerState.Resetting:
+        case CBCentralManagerState.resetting:
             print("***CBCentralManagerState: Resetting")
             
-        case CBCentralManagerState.Unsupported:
+        case CBCentralManagerState.unsupported:
             print("***CBCentralManagerState: Unsupported")
             
-        case CBCentralManagerState.Unauthorized:
+        case CBCentralManagerState.unauthorized:
             print("***CBCentralManagerState: Unauthorized")
             
-        case CBCentralManagerState.PoweredOff:
+        case CBCentralManagerState.poweredOff:
             print("***CBCentralManagerState: PoweredOff")
             
-        case CBCentralManagerState.PoweredOn:
+        case CBCentralManagerState.poweredOn:
             print("***CBCentralManagerState: PoweredOn")
 
             /*
             @comment    PoweredOnになってからスキャニングを開始する
             */
-            centralObject.scanForPeripheralsWithServices(nil, options: nil)
+            centralObject.scanForPeripherals(withServices: nil, options: nil)
 
         }
     }
@@ -75,7 +75,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract   スキャン中、ペリフェラルを発見した
     */
-    func centralManager(central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [NSObject : AnyObject]!, RSSI: NSNumber!)
+    func centralManager(_ central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [AnyHashable: Any]!, RSSI: NSNumber!)
     {
 
         /*
@@ -98,14 +98,14 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
         /*
         @comment
         */
-        self.centralObject.connectPeripheral(peripheral, options: nil)
+        self.centralObject.connect(peripheral, options: nil)
         
     }
 
     /*!
     @abstract
     */
-    func centralManager(central: CBCentralManager!, didConnectPeripheral peripheral: CBPeripheral!)
+    func centralManager(_ central: CBCentralManager!, didConnect peripheral: CBPeripheral!)
     {
         print("[\(peripheral.name)]ペリフェラルに接続しました。")
  
@@ -118,7 +118,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     /*!
     @abstract
     */
-    func centralManager(central: CBCentralManager!, didFailToConnectPeripheral peripheral: CBPeripheral!, error: NSError!)
+    func centralManager(_ central: CBCentralManager!, didFailToConnect peripheral: CBPeripheral!, error: Error!)
     {
         print("[\(peripheral.name)]ペリフェラルとの接続に失敗しました。")
     }
@@ -126,7 +126,7 @@ class OSXMTBluetooth2WindowController: NSWindowController, CBCentralManagerDeleg
     //--------------------------------------------
     // MARK: NSWindowDelegate
     
-    func windowWillClose(notification: NSNotification) {
+    func windowWillClose(_ notification: Notification) {
         
         /*
         @comment    スキャンを停止する
