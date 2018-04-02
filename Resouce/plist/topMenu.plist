@@ -64,6 +64,13 @@
 
 				<dict>
 					<key>title</key>
+					<string>下からポップアップ</string>
+					<key>vc</key>
+					<string>Verification20180403ViewController</string>
+				</dict>
+
+				<dict>
+					<key>title</key>
 					<string>複数個のアイコンが並ぶ、高さ可変のコレクションビュー</string>
 					<key>vc</key>
 					<string>iOSMTSample20150720CollectionViewController</string>

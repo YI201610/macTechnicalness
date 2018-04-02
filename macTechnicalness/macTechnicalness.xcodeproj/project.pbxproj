@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390B54702072C5DB009CBD24 /* Verification20180403ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */; };
 		740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
@@ -413,6 +414,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Verification20180403ViewController.storyboard; path = Storyboard/Verification20180403ViewController.storyboard; sourceTree = "<group>"; };
 		74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapSceneSampleInterfaceController.h; sourceTree = "<group>"; };
 		74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMapSceneSampleInterfaceController.m; sourceTree = "<group>"; };
 		740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewController.h; path = Controller/ViewController/iOSMTTopViewController.h; sourceTree = "<group>"; };
@@ -1652,6 +1654,7 @@
 				EC26278D1B50BFC800CBF14F /* iOSMTContainerSample2ViewController.storyboard */,
 				748018AD1B6105C90054C88D /* iOSMTCoreData1ViewController.storyboard */,
 				EC121EAD1B6481C600D88490 /* iOSMTCoreData2ViewController.storyboard */,
+				390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */,
 			);
 			name = storyboard;
 			sourceTree = "<group>";
@@ -2312,6 +2315,7 @@
 				7434E2341B2C7E6900FD42A5 /* iOSMTBlueTooth1ViewController.xib in Resources */,
 				744A9E741AE3F68800329C51 /* Smoke.sks in Resources */,
 				ECA1FB501AFF005400704134 /* BasicsMultiAction.sks in Resources */,
+				390B54702072C5DB009CBD24 /* Verification20180403ViewController.storyboard in Resources */,
 				7437A9021A5639AB0097D921 /* iOSMTAutoLayoutInconsistentRuleViewController.xib in Resources */,
 				ECEE15A51ABD8B6E0098C118 /* iOSMTCollectionView1CollectionViewCell.xib in Resources */,
 				EC4552841AE5544F0033F9F1 /* SpriteKitTemplateScene.sks in Resources */,
