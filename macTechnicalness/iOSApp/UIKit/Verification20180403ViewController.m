@@ -29,7 +29,7 @@
         __tmpView.frame = frame;
     } completion:^(BOOL finished){
         
-        [UIView animateWithDuration:0.25 delay:3
+        [UIView animateWithDuration:0.25 delay:2
                             options:UIViewAnimationOptionCurveEaseInOut
                          animations:^(void){
             CGRect frame = __tmpView.frame;
