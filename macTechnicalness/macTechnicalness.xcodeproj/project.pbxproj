@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		390B54702072C5DB009CBD24 /* Verification20180403ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */; };
+		390B54742072C825009CBD24 /* Verification20180403ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B54732072C825009CBD24 /* Verification20180403ViewController.m */; };
 		740EF5711A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF5721A2C8E4900735C4E /* iOSMTTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EF5701A2C8E4900735C4E /* iOSMTTopViewController.m */; };
 		740EF57E1A2DD4A300735C4E /* topMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740EF5791A2DD4A300735C4E /* topMenu.plist */; };
@@ -415,6 +416,8 @@
 
 /* Begin PBXFileReference section */
 		390B546F2072C5DB009CBD24 /* Verification20180403ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Verification20180403ViewController.storyboard; path = Storyboard/Verification20180403ViewController.storyboard; sourceTree = "<group>"; };
+		390B54722072C825009CBD24 /* Verification20180403ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Verification20180403ViewController.h; path = UIKit/Verification20180403ViewController.h; sourceTree = "<group>"; };
+		390B54732072C825009CBD24 /* Verification20180403ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Verification20180403ViewController.m; path = UIKit/Verification20180403ViewController.m; sourceTree = "<group>"; };
 		74007C341AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapSceneSampleInterfaceController.h; sourceTree = "<group>"; };
 		74007C351AF9FEE7003233F8 /* MTMapSceneSampleInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMapSceneSampleInterfaceController.m; sourceTree = "<group>"; };
 		740EF56F1A2C8E4900735C4E /* iOSMTTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSMTTopViewController.h; path = Controller/ViewController/iOSMTTopViewController.h; sourceTree = "<group>"; };
@@ -1565,6 +1568,8 @@
 				EC06B15D1ABD349300034AD7 /* CollectionView1 */,
 				EC33ADEB1AC657FF0068A74C /* CollectionView2 */,
 				EC5D4C041A3DC37F0058C078 /* AutoLayout */,
+				390B54722072C825009CBD24 /* Verification20180403ViewController.h */,
+				390B54732072C825009CBD24 /* Verification20180403ViewController.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -2507,6 +2512,7 @@
 				ECFE82D71B59633200688775 /* iOSMTSample1ContainerViewController.swift in Sources */,
 				744A9EB71AE3FB1A00329C51 /* iOSMTSpriteKitParticleTemplateFireViewController.m in Sources */,
 				ECF63C3B1A9878AC004302B3 /* iOSMTAutoLayoutIB1ViewController.m in Sources */,
+				390B54742072C825009CBD24 /* Verification20180403ViewController.m in Sources */,
 				744A9EAF1AE3FAC700329C51 /* iOSMTSpriteKitParticleTemplateMagicViewController.m in Sources */,
 				744A9EA71AE3FAA900329C51 /* iOSMTSpriteKitParticleTemplateSmokeViewController.m in Sources */,
 				ECEBD1601A94D3F9001AD551 /* iOSMTAutoLayoutVisualFormat2ViewController.m in Sources */,

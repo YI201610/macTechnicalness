@@ -26,14 +26,27 @@
             </objects>
             <point key="canvasLocation" x="-401" y="161"/>
         </scene>
-        <!--View Controller-->
+        <!--Verification20180403 View Controller-->
         <scene sceneID="AKO-me-8Aj">
             <objects>
-                <viewController id="Zmk-lL-jbJ" sceneMemberID="viewController">
+                <viewController id="Zmk-lL-jbJ" customClass="Verification20180403ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kL8-kN-t4Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ps2-hZ-OFN">
+                                <rect key="frame" x="145" y="318" width="84" height="30"/>
+                                <state key="normal" title="show popup"/>
+                                <connections>
+                                    <action selector="didSelectButton:" destination="Zmk-lL-jbJ" eventType="touchUpInside" id="ekd-Qb-hof"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ps2-hZ-OFN" firstAttribute="centerX" secondItem="kL8-kN-t4Z" secondAttribute="centerX" id="Qjy-PX-fSN"/>
+                            <constraint firstItem="ps2-hZ-OFN" firstAttribute="centerY" secondItem="kL8-kN-t4Z" secondAttribute="centerY" id="zSF-5m-51x"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="d18-96-9yF"/>
                     </view>
                     <navigationItem key="navigationItem" id="et6-Vz-ZJ3">
