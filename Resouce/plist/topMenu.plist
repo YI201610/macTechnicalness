@@ -64,6 +64,14 @@
 
 				<dict>
 					<key>title</key>
+					<string>container viewのアニメーション</string>
+					<key>vc</key>
+					<string>Verification20180423ViewController</string>
+				</dict>
+
+
+				<dict>
+					<key>title</key>
 					<string>下からポップアップ</string>
 					<key>vc</key>
 					<string>Verification20180403ViewController</string>
