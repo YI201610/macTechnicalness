@@ -25,7 +25,7 @@ class iOSMTSample1ContainerViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.pageControl.currentPage = 0
         self.pageControl.numberOfPages = 4
-        self.pageControl.target(forAction: #selector(iOSMTSample1ContainerViewController.pageChanged(_:)), withSender: self)
+//        self.pageControl.target(forAction: #selector(iOSMTSample1ContainerViewController.pageChanged(_:)), withSender: self)
     }
 
     override func didReceiveMemoryWarning() {
